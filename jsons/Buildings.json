@@ -24,7 +24,7 @@
 	{
 		"name": "Stele",
         "replaces": "Monument",
-		"uniqueTo": "Ethiopia",
+		"uniqueTo": "Sith Order",
 		"culture": 2,
 		"faith": 2,
 		"cost": 40,
@@ -54,7 +54,7 @@
 	{
 		"name": "Pyramid",
 		"replaces": "Shrine",
-		"uniqueTo": "The Maya",
+		"uniqueTo": "Sith Order",
 		"faith": 2,
 		"science": 2,
 		"cost": 40,
@@ -103,7 +103,7 @@
 	{
 		"name": "Paper Maker",
 		"replaces": "Library",
-		"uniqueTo": "China",
+		"uniqueTo": "InterGalactic Banking Clan",
 		"hurryCostModifier": 25,
 		"gold": 2,
 		"uniques": ["[+1 Science] per [2] population [in this city]"],
@@ -138,7 +138,7 @@
 	{
 		"name": "Floating Gardens",
 		"replaces": "Water Mill",
-		"uniqueTo": "Aztecs",
+		"uniqueTo": "Xim's Empire",
 		"food": 2,
 		"production": 1,
 		"uniques": ["[+2 Food] from [Lakes] tiles [in this city]", "Must be next to [Fresh water]"],
@@ -159,7 +159,7 @@
 		"name": "Walls of Babylon",
 		"replaces": "Walls",
 		"cost": 65,
-		"uniqueTo": "Babylon",
+		"uniqueTo": "Jedi Order",
 		"cityStrength": 6,
 		"cityHealth": 100,
 		"hurryCostModifier": 25,
@@ -195,7 +195,7 @@
 	{
 		"name": "Krepost",
 		"replaces": "Barracks",
-		"uniqueTo": "Russia",
+		"uniqueTo": "Gree Empire",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["[-25]% Culture cost of natural border growth [in this city]","[-25]% Gold cost of acquiring tiles [in this city]",
@@ -301,7 +301,7 @@
 	{
 		"name": "Burial Tomb",
 		"replaces": "Temple",
-		"uniqueTo": "Egypt",
+		"uniqueTo": "Jedi Order",
 		"maintenance": 0,
 		"uniques": ["[+100]% Gold given to enemy if city is captured <in this city>"],
 		"faith": 2,
@@ -313,7 +313,7 @@
 	{
 		"name": "Mud Pyramid Mosque",
 		"replaces": "Temple",
-		"uniqueTo": "Songhai",
+		"uniqueTo": "Alliance to Restore the Republic",
 		"maintenance": 0,
 		"hurryCostModifier": 25,
 		"culture": 2,
@@ -369,7 +369,7 @@
 	{
 		"name": "Bazaar",
 		"replaces": "Market",
-		"uniqueTo": "Arabia",
+		"uniqueTo": "Kolkpravis",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
@@ -515,7 +515,7 @@
 	{
 		"name": "Longhouse",
 		"replaces": "Workshop",
-		"uniqueTo": "Iroquois",
+		"uniqueTo": "Techno Union",
 		"cost": 100,
 		"maintenance": 2,
 		"production": 2,
@@ -556,7 +556,7 @@
 	{
 		"name": "Wat",
 		"replaces": "University",
-		"uniqueTo": "Siam",
+		"uniqueTo": "Spiveralda",
 		"maintenance": 2,
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"science": 33},
@@ -597,7 +597,7 @@
 		"name": "Mughal Fort",
 		"cost": 150,
 		"replaces": "Castle",
-		"uniqueTo": "India",
+		"uniqueTo": "Galactic Empire",
 		"cityStrength": 7,
 		"cityHealth": 25,
 		"culture": 2,
@@ -669,7 +669,7 @@
 	{
 		"name": "Ceilidh Hall",
 		"replaces": "Opera House",
-		"uniqueTo": "Celts",
+		"uniqueTo": "Chiss Ascendancy",
 		"culture": 4,
 		"happiness": 3,
 		"specialistSlots": {"Artist": 1},
@@ -700,7 +700,7 @@
 	{
 		"name": "Satrap's Court",
 		"replaces": "Bank",
-		"uniqueTo": "Persia",
+		"uniqueTo": "Chiss Ascendancy",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"happiness": 2,
@@ -721,7 +721,7 @@
 //	{
 //		"name": "Hanse",
 //		"replaces": "Bank",
-//		"uniqueTo": "Germany",
+//		"uniqueTo": "Commerce Guild",
 //		"gold": 2,
 //		"specialistSlots": {"Merchant": 1},
 //		"hurryCostModifier": 15,
@@ -816,7 +816,7 @@
 	{
 		"name": "Coffee House",
 		"replaces": "Windmill",
-		"uniqueTo": "Austria",
+		"uniqueTo": "Corporate Alliance",
 		"production": 2,
 		"percentStatBonus": {"production": 5},
 		"specialistSlots": {"Engineer": 1},
