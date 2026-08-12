@@ -1,8 +1,4 @@
 [
-
-	// Info according to Civilization Wiki and https://www.civfanatics.com/civ5/info/units/gods-and-kings/
-
-	/* Ancient Era */
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
@@ -408,8 +404,8 @@
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Rifling",
+		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "B1 Battle Droid",
 		"attackSound": "shot"
 	},
 	{
@@ -604,7 +600,7 @@
 		"cost": 350,
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
-		"upgradesTo": "Tank",
+		"upgradesTo": "Armored Assault Tank",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
