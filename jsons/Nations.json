@@ -31,6 +31,7 @@
 		"uniqueName": "New Order",
 	        "uniques": ["Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns","Resting point for Influence with City-States is increased by [10]","[-50]% City-State Influence degradation"],
 
+		"favoredReligion": "New Order",
 		"outerColor": [255,255,255],
 		"innerColor": [0,0,0],
 		"cities": [
@@ -286,6 +287,7 @@
 
 		"uniqueName": "Slave world",
 	        "uniques": ["[+1 Production] from every specialist [in all cities]", "[+1 Science] from every [Strategic resource]"],
+		"favoredReligion": "Dark side of the Force",
 
 		"outerColor": [158,25,25],
 		"innerColor": [0,0,0],
@@ -381,6 +383,7 @@
 		"uniqueName": "There is no death, there is the Force",
 	        "uniques": ["[+1 Faith, +2 Culture] [in all cities] <when not at war>","When defeating a [Land] unit, earn [5] Gold and recruit it <with [20]% chance>"],
 
+		"favoredReligion": "Light side of the Force",
 		"outerColor": [255,255,255],
 		"innerColor": [83,40,20],
 		"cities": [
@@ -491,6 +494,7 @@
 		"uniqueName": "Slave trade",
 	        "uniques": ["[+1 Production] from all [Production] buildings","[+1 Gold] from all [Gold] buildings","When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [67]% chance>"],
 
+		"favoredReligion": "B'omarr Order",
 		"outerColor": [208,177,128],
 		"innerColor": [143,17,29],
 		"cities": [
@@ -688,6 +692,7 @@
 		"afterPeace": "I think I need something more than killing and fighting in my life. I need a purpose or something like that.",
 		"tradeRequest": "Politics is simply the continuation of war by other means.",
 
+		"favoredReligion": "Mandalorian Creed",
 		"outerColor": [165, 38, 10],
 		"innerColor": [237, 127, 16],
 		"cities": [
@@ -774,6 +779,7 @@
 		"uniqueName": "Revenge of the Sith",
 	        "uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>","Earn [50]% of killed [Military] unit's [Strength] as [Faith]"],
 
+		"favoredReligion": "Dark side of the Force",
 		"outerColor": [0,0,0],
 		"innerColor": [158,25,25],
 		"cities": [
@@ -1014,6 +1020,7 @@
 		"uniqueName": "A New Hope",
 	        "uniques": ["[+20]% Strength <when fighting units from a Civilization with more Cities than you>","[+1 Food] from all [Culture] buildings","[+50]% Golden Age length","[-50]% unhappiness from the number of cities",],
 
+		"favoredReligion": "Light side of the Force",
 		"outerColor": [255,255,255],
 		"innerColor": [213,0,0],
 		"cities": [
@@ -1164,6 +1171,7 @@
 		"uniqueName": "Vongforming",
 	        "uniques": ["[+1 Food] from all [Gold] buildings","[+1 Food] from all [Production] buildings","[50]% Strength <vs cities>","City-State territory always counts as friendly territory","Cities are razed [2] times as fast"],
 
+		"favoredReligion": "True Way",
 		"outerColor": [0,0,0],
 		"innerColor": [192,98,98],
 		"cities": [
@@ -1370,6 +1378,7 @@
 		"uniqueName": "Eternal Throne",
 	        "uniques": ["[+1 Culture] from all [Science] buildings","[+1 Happiness] from all [Culture] buildings","[50]% Strength <vs cities>","[-50]% City-State Influence degradation"],
 
+		"favoredReligion": "Six Gods",
 		"outerColor": [255,255,255],
 		"innerColor": [130,93,17],
 		"cities": [
@@ -1638,7 +1647,8 @@
 
 		"uniqueName": "Shipping mediator",
 	        "uniques": ["[+2 Gold] from each Trade Route","[20] Unit Supply","[-50]% City-State Influence degradation","City-State territory always counts as friendly territory","[+30]% Strength <vs [City-states]>"],
-		
+
+		"favoredReligion": "Maradaine and Aven",
 		"outerColor": [255,255,255],
 		"innerColor": [0,0,0],
 		"cities": [
@@ -1700,7 +1710,8 @@
 
 		"uniqueName": "Arms dealer",
 	        "uniques": ["[+1 Gold] from each Trade Route","[20] Unit Supply","Gain [35] Influence with a [Military] gift to a City-State","[+50]% Production when constructing [All] units [in all cities]"],
-		
+
+		"favoredReligion": "Power Mounds of the Elders",
 		"outerColor": [255,193,34],
 		"innerColor": [116,30,3],
 		"cities": [
@@ -2070,7 +2081,8 @@
 
 		"uniqueName": "Theocracy",
 	        "uniques": ["[+1 Faith] from all [Faith] buildings","[+30]% Strength <vs [City-states]>","Cities are razed [2] times as fast","[Great Prophet] is earned [50]% faster"],
-		
+
+		"favoredReligion": "Cult of Death",
 		"outerColor": [237, 0, 0],
 		"innerColor": [255,255,255],
 		"cities": [
@@ -2161,6 +2173,7 @@
 		"afterPeace": "Army or not, you must realize, you are doomed.",
 		"tradeRequest": "You are a bold one.",
 
+		"favoredReligion": "Pantheon of Ancestors",
 		"uniqueName": "Tribal warlord",
 	        "uniques": ["Earn [50]% of killed [Military] unit's [Strength] as [Culture]","[+50]% Unhappiness from [Population] [in all cities]","[+100]% unhappiness from the number of cities","[Great General] is earned [50]% faster","Great General provides double combat bonus"],
 		
@@ -2248,7 +2261,8 @@
 
 		"uniqueName": "Hive mind",
 	        "uniques": ["[+1 Culture] from all [Science] buildings","[+1 Culture] from each Trade Route","[-100]% Unhappiness from [Population] [in all cities]","[-50]% unhappiness from the number of cities","[+1] Sight <for [{Military} {Land}] units>"],
-		
+
+		"favoredReligion": "The Architects",
 		"outerColor": [121, 137, 51],
 		"innerColor": [179, 103, 0],
 		"cities": [
@@ -2309,7 +2323,8 @@
 
 		"uniqueName": "Confederacy",
 	        "uniques": ["[-50]% Gold cost of acquiring tiles [in all cities]","[+1 Gold] from each Trade Route","[-20]% construction time for [All] improvements","[-50]% City-State Influence degradation"],
-		
+
+		"favoredReligion": "The Void",
 		"outerColor": [255,133,1],
 		"innerColor": [255,255,1],
 		"cities": [
@@ -2385,7 +2400,8 @@
 
 		"uniqueName": "Shadow Collective",
 	        "uniques": ["[+1] Sight <for [{Military} {Land}] units>","[+1 Gold] [in all cities]"],
-		
+
+		"favoredReligion": "Dathomirian Sorcery",
 		"outerColor": [0,0,0],
 		"innerColor": [143,112,56],
 		"cities": [
