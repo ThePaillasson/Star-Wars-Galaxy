@@ -599,6 +599,7 @@
 		"cost": 350,
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
+		"upgradesTo": "All Terrain Tactical Enforcer",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -613,6 +614,7 @@
 		"cost": 350,
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
+		"upgradesTo": "All Terrain Tactical Enforcer",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -627,6 +629,7 @@
 		"cost": 350,
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
+		"upgradesTo": "All Terrain Tactical Enforcer",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -716,7 +719,7 @@
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
-		"upgradesTo": "Modern Armor",
+		"upgradesTo": "Multi-Troop Transport",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -730,7 +733,7 @@
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
-		"upgradesTo": "Modern Armor",
+		"upgradesTo": "Multi-Troop Transport",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -744,7 +747,7 @@
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
-		"upgradesTo": "Modern Armor",
+		"upgradesTo": "Multi-Troop Transport",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -758,7 +761,7 @@
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
-		"upgradesTo": "Modern Armor",
+		"upgradesTo": "Multi-Troop Transport",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -934,15 +937,80 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Modern Armor",
+		"name": "All Terrain Tactical Enforcer",
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 100,
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"upgradesTo": "Giant Death Robot",
+		"upgradesTo": "All Terrain Armored Transport",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "OG-9 Homing Spider Droid",
+		"unitType": "Armored",
+		"uniqueTo": "Commerce Guild",
+		"replaces": "All Terrain Tactical Enforcer",
+		"movement": 5,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "All Terrain Armored Transport",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Octuptarra Combat Tri-Droid",
+		"unitType": "Armored",
+		"uniqueTo": "Techno Union",
+		"replaces": "All Terrain Tactical Enforcer",
+		"movement": 5,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"upgradesTo": "All Terrain Armored Transport",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Multi-Troop Transport",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [2] [Infantry] units"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "HAVw A6 Juggernaut",
+		"unitType": "Armored",
+		"uniqueTo": "Galactic Empire",
+		"replaces": "Multi-Troop Transport",
+		"movement": 5,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [2] [Infantry] units"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "LO-KD57 Luxury-class sail barge",
+		"unitType": "Armored",
+		"uniqueTo": "Hutt Cartel",
+		"replaces": "Multi-Troop Transport",
+		"movement": 5,
+		"strength": 100,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [2] [Infantry] units"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -960,14 +1028,14 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "Giant Death Robot",
+		"name": "All Terrain Armored Transport",
 		"unitType": "Armored",
 		"movement": 5,
 		"strength": 150,
 		"cost": 425,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [1] [Infantry] units"],
 		"attackSound": "gdrAttack"
 	},
 	{
