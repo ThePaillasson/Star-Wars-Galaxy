@@ -310,8 +310,21 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Musketman",
+		"name": "Peacekeeping Troop",
 		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Planetary Defense Force",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Sith Trooper",
+		"unitType": "Gunpowder",
+		"replaces": "Peacekeeping Troop",
+		"uniqueTo": "Sith Order",
 		"movement": 2,
 		"strength": 24,
 		"cost": 150,
@@ -516,7 +529,7 @@
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Plastics",
-		"upgradesTo": "Mechanized Infantry",
+		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
@@ -529,7 +542,7 @@
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Plastics",
-		"upgradesTo": "Mechanized Infantry",
+		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
@@ -566,7 +579,7 @@
 		"rangedStrength": 60,
 		"cost": 350,
 		"requiredTech": "Ballistics",
-		"upgradesTo": "Mechanized Infantry",
+		"upgradesTo": "Line Infantry",
 		"attackSound": "machinegun"
 		// Upgrades to Bazooka in BNW
 	},
@@ -612,8 +625,21 @@
 	// Atomic Era
 
 	{
-		"name": "Marine",
+		"name": "Fleet Trooper",
 		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 65,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "Alliance Fleet Trooper",
+		"unitType": "Gunpowder",
+		"replaces": "Fleet Trooper",
+		"uniqueTo": "Alliance to Restore the Republic",
 		"movement": 2,
 		"strength": 65,
 		"cost": 400,
@@ -651,7 +677,7 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "Paratrooper",
+		"name": "Jumptrooper",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 65,
@@ -659,7 +685,6 @@
 		"requiredTech": "Radar",
 		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
-		// upgradesTo "XCOM Squad", "No Movement Cost to Pillage" in BNW
 	},
 	{
 		"name": "Tank",
@@ -754,10 +779,36 @@
 		"attackSound": "nuke"
 	},
 	{
-		// "Hovering unit" unique gives ability to get into impassable tiles - and only that (no vision bonus or flying over ocean)
-		// Unit embarks like any other ground unit and has penalty for attacking over river or from embarked state
-		"name": "Helicopter Gunship",
+		"name": "Low Altitude Assault Transport",
 		"unitType": "Helicopter",
+		"movement": 6,
+		"strength": 60,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+{
+		"name": "HMP Droid Gunship",
+		"unitType": "Helicopter",
+	    "replaces": "Low Altitude Assault Transport",
+		"uniqueTo": "Confederacy of Independent Systems",
+		"movement": 6,
+		"strength": 60,
+		"cost": 425,
+		"requiredTech": "Computers",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "UT-60D U-wing Troop Transport",
+		"unitType": "Helicopter",
+	    "replaces": "Low Altitude Assault Transport",
+		"uniqueTo": "Alliance to Restore the Republic",
 		"movement": 6,
 		"strength": 60,
 		"cost": 425,
@@ -782,8 +833,20 @@
 		"attackSound": "torpedo"
 	},
 	{
-		"name": "Mechanized Infantry",
+		"name": "Line Infantry",
 		"unitType": "Gunpowder",
+		"movement": 3,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Stormtrooper",
+		"unitType": "Gunpowder",
+		"replaces": "Line Infantry",
+		"uniqueTo": "Galactic Empire",
 		"movement": 3,
 		"strength": 90,
 		"cost": 375,
