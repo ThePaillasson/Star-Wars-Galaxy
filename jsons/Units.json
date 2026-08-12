@@ -417,7 +417,7 @@
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combustion",
 		"requiredResource": "Horses",
-		"upgradesTo": "Landship",
+		"upgradesTo": "Armored Assault Tank",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "cavalry"
 	},
@@ -577,7 +577,6 @@
 		"requiredTech": "Ballistics",
 		"upgradesTo": "Line Infantry",
 		"attackSound": "machinegun"
-		// Upgrades to Bazooka in BNW
 	},
 	{
 		"name": "Anti-Aircraft Gun",
@@ -593,14 +592,41 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Landship",
+		"name": "All Terrain Reconnaissance Transport",
 		"unitType": "Armored",
 		"movement": 4,
 		"strength": 60,
 		"cost": 350,
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
-		"upgradesTo": "Armored Assault Tank",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "DSD1 Dwarf Spider Droid",
+		"unitType": "Armored",
+		"replaces": "All Terrain Reconnaissance Transport",
+		"uniqueTo": "Commerce Guild",
+		"movement": 4,
+		"strength": 60,
+		"cost": 350,
+		"requiredTech": "Combustion",
+		"requiredResource": "Oil",
+		"obsoleteTech": "Combined Arms",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "LM-432 Crab Droid",
+		"unitType": "Armored",
+		"replaces": "All Terrain Reconnaissance Transport",
+		"uniqueTo": "Techno Union",
+		"movement": 4,
+		"strength": 60,
+		"cost": 350,
+		"requiredTech": "Combustion",
+		"requiredResource": "Oil",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -727,46 +753,6 @@
 		"unitType": "Armored",
 		"replaces": "Armored Assault Tank",
 		"uniqueTo": "InterGalactic Banking Clan",
-		"movement": 5,
-		"strength": 70,
-		"cost": 375,
-		"requiredTech": "Combined Arms",
-		"requiredResource": "Oil",
-		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-	{
-		"name": "All Terrain Reconnaissance Transport",
-		"unitType": "Armored",
-		"movement": 5,
-		"strength": 70,
-		"cost": 375,
-		"requiredTech": "Combined Arms",
-		"requiredResource": "Oil",
-		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-	{
-		"name": "DSD1 Dwarf Spider Droid",
-		"unitType": "Armored",
-		"replaces": "All Terrain Reconnaissance Transport",
-		"uniqueTo": "Commerce Guild",
-		"movement": 5,
-		"strength": 70,
-		"cost": 375,
-		"requiredTech": "Combined Arms",
-		"requiredResource": "Oil",
-		"upgradesTo": "Modern Armor",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-	{
-		"name": "LM-432 Crab Droid",
-		"unitType": "Armored",
-		"replaces": "All Terrain Reconnaissance Transport",
-		"uniqueTo": "Techno Union",
 		"movement": 5,
 		"strength": 70,
 		"cost": 375,
