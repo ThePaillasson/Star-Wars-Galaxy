@@ -405,7 +405,7 @@
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"upgradesTo": "Line Infantry",
-		"obsoleteTech": "Replaceable Parts",
+		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
 	{
@@ -418,7 +418,7 @@
 		"cost": 225,
 		"requiredTech": "Rifling",
 		"upgradesTo": "Line Infantry",
-		"obsoleteTech": "Replaceable Parts",
+		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
 	{
@@ -428,7 +428,7 @@
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Military Science",
-		"obsoleteTech": "Combustion",
+		"obsoleteTech": "Combined Arms",
 		"requiredResource": "Horses",
 		"upgradesTo": "Armored Assault Tank",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
@@ -648,7 +648,7 @@
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
 		"upgradesTo": "All Terrain Scout Transport",
-		"obsoleteTech": "Combined Arms",
+		"obsoleteTech": "Nuclear Fusion",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -663,7 +663,7 @@
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
 		"upgradesTo": "All Terrain Scout Transport",
-		"obsoleteTech": "Combined Arms",
+		"obsoleteTech": "Nuclear Fusion",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -678,7 +678,7 @@
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
 		"upgradesTo": "All Terrain Scout Transport",
-		"obsoleteTech": "Combined Arms",
+		"obsoleteTech": "Nuclear Fusion",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -802,8 +802,6 @@
 	{
 		"name": "Unstable Terrain Artillery Transport",
 		"unitType": "Armored",
-		"replaces": "Armored Assault Tank",
-		"uniqueTo": "Galactic Empire",
 		"movement": 5,
 		"strength": 70,
 		"rangedStrength": 70,
