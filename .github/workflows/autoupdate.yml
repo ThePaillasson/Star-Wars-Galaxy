@@ -24,16 +24,33 @@ jobs:
 
       - name: Download Unciv
         run: |
-          unciv_url=$(curl -s https://api.github.com/repos/yairm210/Unciv/releases/latest \
-            | grep -o 'http[^"]*Unciv.jar' \
+          unciv_url=$(curl -sL https://api.github.com/repos/yairm210/Unciv/releases/latest \
+            | grep -o 'https://[^"]*Unciv.jar' \
             | head -1)
 
           echo "Downloading: $unciv_url"
           wget -q -O Unciv.jar "$unciv_url"
 
+      - name: Delete old atlases
+        run: |
+          rm -f game.png game.atlas
+          rm -f Tileset.png Tileset.atlas
+          rm -f Constructions.png Constructions.atlas
+          rm -f UnitPromotionIcons.png UnitPromotionIcons.atlas
+
       - name: Generate texture atlases
         run: |
           java -jar Unciv.jar mod-ci
+
+      - name: Check generated atlases
+        run: |
+          echo "Checking Stormtrooper..."
+          grep -q "TileSets/FantasyHex/Units/Stormtrooper" Tileset.atlas
+
+          echo "Checking Galactic Empire..."
+          grep -q "NationsIcons/Galactic Empire" game.atlas
+
+          echo "All custom graphics found in atlases!"
 
       - name: Remove Unciv
         run: rm -f Unciv.jar
@@ -48,6 +65,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No atlas changes."
           else
-            git commit -m "Generate Unciv texture atlas"
+            git commit -m "Regenerate Unciv texture atlases"
             git push
           fi
