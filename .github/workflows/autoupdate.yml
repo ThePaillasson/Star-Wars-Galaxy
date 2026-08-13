@@ -36,6 +36,7 @@ jobs:
           rm -f game.png game.atlas
           rm -f game*.png game*.atlas
           rm -f Tileset.png Tileset.atlas
+          rm -f Tilesets.png Tilesets.atlas
           rm -f Constructions.png Constructions.atlas
           rm -f UnitPromotionIcons.png UnitPromotionIcons.atlas
 
