@@ -550,12 +550,26 @@
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Plastics",
+		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
+	{
+		"name": "IG-series Assassin Droid",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Special Force",
+		"obsoleteTech": "Pharmaceuticals",
 		"attackSound": "shot"
 	},
 	{
 		"name": "BX Droid Commando",
 		"unitType": "Gunpowder",
+		"replaces": "IG-series Assassin Droid",
+		"uniqueTo": "Confederacy of Independent Systems",
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
@@ -567,7 +581,7 @@
 	{
 		"name": "Clone Commando",
 		"unitType": "Gunpowder",
-		"replaces": "BX Droid Commando",
+		"replaces": "IG-series Assassin Droid",
 		"uniqueTo": "Galactic Empire",
 		"movement": 2,
 		"strength": 70,
@@ -580,7 +594,7 @@
 	{
 		"name": "Gossam Commando",
 		"unitType": "Gunpowder",
-		"replaces": "BX Droid Commando",
+		"replaces": "IG-series Assassin Droid",
 		"uniqueTo": "Commerce Guild",
 		"movement": 2,
 		"strength": 70,
