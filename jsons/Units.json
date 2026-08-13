@@ -409,6 +409,19 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Neimodian Gunner",
+		"unitType": "Gunpowder",
+		"replaces": "Planetary Defense Force",
+		"uniqueTo": "Trade Federation of Planets",
+		"movement": 2,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Rifling",
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Replaceable Parts",
+		"attackSound": "shot"
+	},
+	{
 		"name": "Cavalry",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -525,12 +538,11 @@
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Plastics",
-		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
 	{
-		"name": "Clone Commando",
+		"name": "Advanced Recon Commando",
 		"unitType": "Gunpowder",
 		"replaces": "B2 Super Battle Droid",
 		"uniqueTo": "Galactic Empire",
@@ -538,8 +550,44 @@
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Plastics",
-		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
+	{
+		"name": "BX Droid Commando",
+		"unitType": "Gunpowder",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Special Force",
+		"obsoleteTech": "Pharmaceuticals",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Clone Commando",
+		"unitType": "Gunpowder",
+		"replaces": "BX Droid Commando",
+		"uniqueTo": "Galactic Empire",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Special Force",
+		"obsoleteTech": "Pharmaceuticals",
+		"attackSound": "shot"
+	},
+	{
+		"name": "Gossam Commando",
+		"unitType": "Gunpowder",
+		"replaces": "BX Droid Commando",
+		"uniqueTo": "Commerce Guilde",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Special Force",
+		"obsoleteTech": "Pharmaceuticals",
 		"attackSound": "shot"
 	},
 	{
@@ -650,7 +698,7 @@
 	// Atomic Era
 
 	{
-		"name": "Fleet Trooper",
+		"name": "Special Force",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 65,
@@ -661,10 +709,10 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Alliance Fleet Trooper",
+		"name": "Death Trooper",
 		"unitType": "Gunpowder",
-		"replaces": "Fleet Trooper",
-		"uniqueTo": "Alliance to Restore the Republic",
+		"replaces": "Special Force",
+		"uniqueTo": "Galactic Empire",
 		"movement": 2,
 		"strength": 65,
 		"cost": 400,
