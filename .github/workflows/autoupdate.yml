@@ -2,7 +2,7 @@ name: Generate Unciv Atlas
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -13,29 +13,32 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Télécharger le mod
+      - name: Checkout
         uses: actions/checkout@v4
 
-      - name: Installer Java
+      - name: Setup Java
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: 17
 
-      - name: Télécharger Unciv
+      - name: Download Unciv
         run: |
-          unciv_url=$(curl -s https://api.github.com/repos/yairm210/Unciv/releases/latest | grep -o "http.*Unciv.jar" | head -1)
+          unciv_url=$(curl -s https://api.github.com/repos/yairm210/Unciv/releases/latest \
+            | grep -o 'http[^"]*Unciv.jar' \
+            | head -1)
+
+          echo "Downloading: $unciv_url"
           wget -q -O Unciv.jar "$unciv_url"
 
-      - name: Générer les atlas
+      - name: Generate texture atlases
         run: |
           java -jar Unciv.jar mod-ci
 
-      - name: Supprimer Unciv
-        run: |
-          rm Unciv.jar
+      - name: Remove Unciv
+        run: rm -f Unciv.jar
 
-      - name: Enregistrer les atlas
+      - name: Commit generated atlases
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -43,7 +46,7 @@ jobs:
           git add -A
 
           if git diff --cached --quiet; then
-            echo "Aucune modification à enregistrer."
+            echo "No atlas changes."
           else
             git commit -m "Generate Unciv texture atlas"
             git push
