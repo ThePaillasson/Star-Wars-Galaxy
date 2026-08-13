@@ -389,196 +389,196 @@ ImprovementIcons/Trading post
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Alliance to Restore the Republic
+NationIcons/Alliance to Restore the Republic
   rotate: false
   xy: 4, 1358
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Aqualish Spiverelda
+NationIcons/Aqualish Spiverelda
   rotate: false
   xy: 667, 1933
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Black Sun
+NationIcons/Black Sun
   rotate: false
   xy: 4, 1697
   size: 150, 150
   orig: 150, 150
   offset: 0, 0
   index: -1
-NationsIcons/Chiss Ascendancy
+NationIcons/Chiss Ascendancy
   rotate: false
   xy: 1207, 1933
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Commerce Guild
+NationIcons/Commerce Guild
   rotate: false
   xy: 1639, 1933
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Confederacy of Independent Systems
+NationIcons/Confederacy of Independent Systems
   rotate: false
   xy: 4, 170
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Corellian Confederation
+NationIcons/Corellian Confederation
   rotate: false
   xy: 1855, 1933
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Corporate Alliance
+NationIcons/Corporate Alliance
   rotate: false
   xy: 190, 1795
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Corporate Sector Authority
+NationIcons/Corporate Sector Authority
   rotate: false
   xy: 162, 1687
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Crimson Dawn
+NationIcons/Crimson Dawn
   rotate: false
   xy: 270, 1687
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Duskhan League
+NationIcons/Duskhan League
   rotate: false
   xy: 514, 1825
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Eternal Empire of Zakuul
+NationIcons/Eternal Empire of Zakuul
   rotate: false
   xy: 838, 1825
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Galactic Empire
+NationIcons/Galactic Empire
   rotate: false
   xy: 1918, 1825
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Hapes Consortium
+NationIcons/Hapes Consortium
   rotate: false
   xy: 112, 1142
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Hutt Cartel
+NationIcons/Hutt Cartel
   rotate: false
   xy: 112, 494
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Infinite Empire
+NationIcons/Infinite Empire
   rotate: false
   xy: 112, 278
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/InterGalactic Banking Clan
+NationIcons/InterGalactic Banking Clan
   rotate: false
   xy: 112, 170
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Jedi Order
+NationIcons/Jedi Order
   rotate: false
   xy: 328, 1471
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Kolkpravis Clan
+NationIcons/Kolkpravis Clan
   rotate: false
   xy: 220, 1147
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Mandalorians
+NationIcons/Mandalorians
   rotate: false
   xy: 328, 1039
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Pyke Syndicate
+NationIcons/Pyke Syndicate
   rotate: false
   xy: 730, 1717
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Sith Order
+NationIcons/Sith Order
   rotate: false
   xy: 436, 715
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Techno Union
+NationIcons/Techno Union
   rotate: false
   xy: 436, 67
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Trade Federation of Planets
+NationIcons/Trade Federation of Planets
   rotate: false
   xy: 1702, 1609
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Xim's Empire
+NationIcons/Xim's Empire
   rotate: false
   xy: 918, 1609
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Yuuzhan Vong Empire
+NationIcons/Yuuzhan Vong Empire
   rotate: false
   xy: 1026, 1609
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Zann Consortium
+NationIcons/Zann Consortium
   rotate: false
   xy: 1134, 1609
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-NationsIcons/Zygerrian Slave Empire
+NationIcons/Zygerrian Slave Empire
   rotate: false
   xy: 1350, 1609
   size: 100, 100
@@ -1173,6 +1173,27 @@ ResourceIcons/Cattle
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Circle
+  rotate: false
+  xy: 4, 1855
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Circle
+  rotate: false
+  xy: 4, 1855
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+StatIcons/Circle
+  rotate: false
+  xy: 4, 1855
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
 ResourceIcons/Citrus
   rotate: false
   xy: 4, 494
@@ -1402,27 +1423,6 @@ StatIcons/Acquire
   xy: 451, 1933
   size: 100, 100
   orig: 100, 100
-  offset: 0, 0
-  index: -1
-StatIcons/Circle
-  rotate: false
-  xy: 4, 1855
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Circle
-  rotate: false
-  xy: 4, 1855
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
-ResourceIcons/Circle
-  rotate: false
-  xy: 4, 1855
-  size: 178, 178
-  orig: 178, 178
   offset: 0, 0
   index: -1
 StatIcons/CityConnection
