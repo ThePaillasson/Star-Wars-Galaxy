@@ -154,7 +154,7 @@
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "Special Force",
+        "startingMilitaryUnit": "Line Infantry",
         "startingGold": 400,
         "startingCulture": 600,
         "settlerPopulation": 5,
