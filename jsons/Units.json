@@ -581,7 +581,7 @@
 		"name": "Gossam Commando",
 		"unitType": "Gunpowder",
 		"replaces": "BX Droid Commando",
-		"uniqueTo": "Commerce Guilde",
+		"uniqueTo": "Commerce Guild",
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
@@ -647,7 +647,7 @@
 		"cost": 350,
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
-		"upgradesTo": "All Terrain Tactical Enforcer",
+		"upgradesTo": "All Terrain Scout Transport",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -662,7 +662,7 @@
 		"cost": 350,
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
-		"upgradesTo": "All Terrain Tactical Enforcer",
+		"upgradesTo": "All Terrain Scout Transport",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -677,7 +677,7 @@
 		"cost": 350,
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
-		"upgradesTo": "All Terrain Tactical Enforcer",
+		"upgradesTo": "All Terrain Scout Transport",
 		"obsoleteTech": "Combined Arms",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -767,7 +767,7 @@
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
-		"upgradesTo": "Multi-Troop Transport",
+		"upgradesTo": "Unstable Terrain Artillery Transport",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -781,7 +781,7 @@
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
-		"upgradesTo": "Multi-Troop Transport",
+		"upgradesTo": "Unstable Terrain Artillery Transport",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -795,6 +795,22 @@
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
+		"upgradesTo": "Unstable Terrain Artillery Transport",
+		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Unstable Terrain Artillery Transport",
+		"unitType": "Armored",
+		"replaces": "Armored Assault Tank",
+		"uniqueTo": "Galactic Empire",
+		"movement": 5,
+		"strength": 70,
+		"rangedStrength": 70,
+		"range": 2,
+		"cost": 375,
+		"requiredTech": "Combined Arms",
+		"requiredResource": "Oil",
 		"upgradesTo": "Multi-Troop Transport",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -802,10 +818,12 @@
 	{
 		"name": "IG-227 Hailfire-class Droid Tank",
 		"unitType": "Armored",
-		"replaces": "Armored Assault Tank",
+		"replaces": "Unstable Terrain Artillery Transport",
 		"uniqueTo": "InterGalactic Banking Clan",
 		"movement": 5,
 		"strength": 70,
+		"rangedStrength": 70,
+		"range": 2,
 		"cost": 375,
 		"requiredTech": "Combined Arms",
 		"requiredResource": "Oil",
@@ -970,6 +988,18 @@
 		"attackSound": "tankshot"
 	},
 	{
+		"name": "CSA Trooper",
+		"unitType": "Gunpowder",
+		"replaces": "Line Infantry",
+		"uniqueTo": "Corporate Sector Authority",
+		"movement": 3,
+		"strength": 90,
+		"cost": 375,
+		"requiredTech": "Mobile Tactics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
 		"name": "Missile Cruiser",
 		"unitType": "Ranged Water",
 		"movement": 7,
@@ -985,6 +1015,49 @@
 		"attackSound": "shipguns"
 	},
 	{
+		"name": "All Terrain Attack Pod",
+		"unitType": "Armored",
+		"movement": 5,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 2,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "OG-9 Homing Spider Droid",
+		"unitType": "Armored",
+		"uniqueTo": "Commerce Guild",
+		"replaces": "All Terrain Attack Pod",
+		"movement": 5,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 2,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
+		"name": "Octuptarra Combat Tri-Droid",
+		"unitType": "Armored",
+		"uniqueTo": "Techno Union",
+		"replaces": "All Terrain Attack Pod",
+		"movement": 5,
+		"strength": 100,
+		"rangedStrength": 100,
+		"range": 2,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
+		"attackSound": "tankshot"
+	},
+	{
 		"name": "All Terrain Tactical Enforcer",
 		"unitType": "Armored",
 		"movement": 5,
@@ -997,23 +1070,9 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "OG-9 Homing Spider Droid",
+		"name": "Super-Tank Prototype",
 		"unitType": "Armored",
-		"uniqueTo": "Commerce Guild",
-		"replaces": "All Terrain Tactical Enforcer",
-		"movement": 5,
-		"strength": 100,
-		"cost": 425,
-		"requiredTech": "Lasers",
-		"requiredResource": "Aluminum",
-		"upgradesTo": "All Terrain Armored Transport",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-	{
-		"name": "Octuptarra Combat Tri-Droid",
-		"unitType": "Armored",
-		"uniqueTo": "Techno Union",
+		"uniqueTo": "Confederacy of Independent Systems",
 		"replaces": "All Terrain Tactical Enforcer",
 		"movement": 5,
 		"strength": 100,
@@ -1076,9 +1135,20 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "All Terrain Armored Transport",
+		"name": "All Terrain Scout Transport",
 		"unitType": "Armored",
 		"movement": 5,
+		"strength": 70,
+		"cost": 250,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [1] [Gunpowder] units"],
+		"attackSound": "gdrAttack"
+	},
+	{
+		"name": "All Terrain Armored Transport",
+		"unitType": "Armored",
+		"movement": 3,
 		"strength": 150,
 		"cost": 425,
 		"requiredTech": "Nuclear Fusion",
