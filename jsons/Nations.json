@@ -2191,7 +2191,7 @@
 		"spyNames": ["Xivhkalrainik", "Qynem Lij Sunnar", "Xim'tahal", "Kassor Quade", "Nyranos", "Jai Quallo", "Dumas Mar'Ti", "Ronderu lij Kummar", "Bentilais san Sk'ar"]
 	},
 	{
-		"name": "Aqualish Spiverelda",
+		"name": "Spiverelda",
 		"leaderName": "Admiral Trench",
 		"adjective": ["Aqualish"],
 		"startBias": ["Coast"],
@@ -3746,7 +3746,7 @@
 	},
 
 	{
-		"name": "Spiverelda",
+		"name": "Andoan Government",
 		"adjective": ["Aqualish"],
 		"cityStateType": "Militaristic",
 		"startBias": ["Coast"],
