@@ -641,6 +641,27 @@ ResourceIcons/Cattle
   orig: 100, 100
   offset: 0, 0
   index: -1
+ResourceIcons/Circle
+  rotate: false
+  xy: 4, 1847
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Circle
+  rotate: false
+  xy: 4, 1847
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+StatIcons/Circle
+  rotate: false
+  xy: 4, 1847
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
 ResourceIcons/Citrus
   rotate: false
   xy: 1380, 1817
@@ -870,27 +891,6 @@ StatIcons/Acquire
   xy: 840, 1925
   size: 100, 100
   orig: 100, 100
-  offset: 0, 0
-  index: -1
-StatIcons/Circle
-  rotate: false
-  xy: 4, 1847
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
-ImprovementIcons/Circle
-  rotate: false
-  xy: 4, 1847
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
-ResourceIcons/Circle
-  rotate: false
-  xy: 4, 1847
-  size: 178, 178
-  orig: 178, 178
   offset: 0, 0
   index: -1
 StatIcons/CityConnection
