@@ -330,6 +330,19 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Skytrooper",
+		"unitType": "Gunpowder",
+		"replaces": "Peacekeeper",
+		"uniqueTo": "Eternal Empire",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Gunpowder",
+		"upgradesTo": "Planetary Defense Force",
+		"obsoleteTech": "Rifling",
+		"attackSound": "shot"
+	},
+	{
 		"name": "Privateer",
 		"unitType": "Melee Water",
 		"movement": 5,
