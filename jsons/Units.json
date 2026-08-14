@@ -503,18 +503,31 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Clone Trooper",
-		"unitType": "Gunpowder",
-		"replaces": "B1 Battle Droid",
-		"movement": 2,
-		"strength": 50,
-		"cost": 320,
-		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "B2 Super Battle Droid",
-		"obsoleteTech": "Mobile Tactics",
-		"uniques": ["Only available <for [Comment [Clone Trooper access]] Civilizations>"],
-		"attackSound": "shot"
-	},
+    "name": "Clone Trooper Jedi",
+    "unitType": "Gunpowder",
+    "replaces": "B1 Battle Droid",
+    "uniqueTo": "Jedi Order",
+    "movement": 2,
+    "strength": 50,
+    "cost": 320,
+    "requiredTech": "Replaceable Parts",
+    "upgradesTo": "Advanced Recon Commando",
+    "obsoleteTech": "Mobile Tactics",
+    "attackSound": "shot"
+},
+{
+    "name": "Clone Trooper Imperial",
+    "unitType": "Gunpowder",
+    "replaces": "B1 Battle Droid",
+    "uniqueTo": "Galactic Empire",
+    "movement": 2,
+    "strength": 50,
+    "cost": 320,
+    "requiredTech": "Replaceable Parts",
+    "upgradesTo": "Advanced Recon Commando",
+    "obsoleteTech": "Mobile Tactics",
+    "attackSound": "shot"
+},
 	{
 		"name": "Triplane",
 		"unitType": "Fighter",
