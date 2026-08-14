@@ -935,13 +935,6 @@ UnitIcons/Atomic Bomb
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/B1 Battle Droid
-  rotate: false
-  xy: 1732, 324
-  size: 99, 99
-  orig: 99, 99
-  offset: 0, 0
-  index: -1
 UnitIcons/B17
   rotate: false
   xy: 968, 1942
