@@ -526,6 +526,7 @@
     "requiredTech": "Replaceable Parts",
     "upgradesTo": "Advanced Recon Commando",
     "obsoleteTech": "Mobile Tactics",
+	"uniques": ["Will not be displayed in Civilopedia"],
     "attackSound": "shot"
 },
 	{
