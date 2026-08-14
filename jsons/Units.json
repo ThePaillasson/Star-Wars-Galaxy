@@ -1031,7 +1031,7 @@
 	{
 		"name": "Death Trooper",
 		"unitType": "Gunpowder",
-		"replaces": "Line Infantry",
+		"replaces": "Special Force",
 		"uniqueTo": "Galactic Empire",
 		"movement": 3,
 		"strength": 90,
