@@ -1159,7 +1159,7 @@ UnitIcons/Crossbowman
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Death_Trooper
+UnitIcons/Death Trooper
   rotate: false
   xy: 1084, 108
   size: 99, 99
