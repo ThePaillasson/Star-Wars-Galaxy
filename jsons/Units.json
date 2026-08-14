@@ -1029,7 +1029,7 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Deathtrooper",
+		"name": "Death Trooper",
 		"unitType": "Gunpowder",
 		"replaces": "Line Infantry",
 		"uniqueTo": "Galactic Empire",
