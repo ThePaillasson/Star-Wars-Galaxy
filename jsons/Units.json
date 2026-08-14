@@ -505,11 +505,12 @@
 	{
 		"name": "Clone Trooper",
 		"unitType": "Gunpowder",
+		"replaces": "B1 Battle Droid",
 		"movement": 2,
 		"strength": 50,
 		"cost": 320,
 		"requiredTech": "Replaceable Parts",
-		"upgradesTo": "Advanced Recon Commando",
+		"upgradesTo": "B2 Super Battle Droid",
 		"obsoleteTech": "Mobile Tactics",
 		"uniques": ["Only available <for [Comment [Clone Trooper access]] Civilizations>"],
 		"attackSound": "shot"
