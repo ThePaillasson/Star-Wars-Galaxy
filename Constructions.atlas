@@ -1159,13 +1159,6 @@ UnitIcons/Crossbowman
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Death Trooper
-  rotate: false
-  xy: 1084, 108
-  size: 99, 99
-  orig: 99, 99
-  offset: 0, 0
-  index: -1
 UnitIcons/Destroyer
   rotate: false
   xy: 536, 1835
