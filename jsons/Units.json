@@ -47,8 +47,8 @@
 	{
 		"name": "Wookiee Warrior",
 		"unitType": "Sword",
-		"uniqueTo": "Barbarians",
-		"replaces": "Wookiee council",
+		"uniqueTo": "Wookiee council",
+		"replaces": "Warrior",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
