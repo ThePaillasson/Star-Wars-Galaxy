@@ -590,7 +590,7 @@
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Special Force",
-		"obsoleteTech": "Pharmaceuticals",
+		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
 	{
@@ -603,7 +603,7 @@
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Special Force",
-		"obsoleteTech": "Pharmaceuticals",
+		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
 	{
@@ -616,7 +616,7 @@
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Special Force",
-		"obsoleteTech": "Pharmaceuticals",
+		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
 	{
@@ -629,7 +629,7 @@
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Special Force",
-		"obsoleteTech": "Pharmaceuticals",
+		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
 	{
