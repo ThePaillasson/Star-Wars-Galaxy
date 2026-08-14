@@ -29,7 +29,7 @@
 		"tradeRequest": "And if I ever need your services again, I will not hesitate to clone you.",
 
 		"uniqueName": "New Order",
-	        "uniques": ["Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns","Resting point for Influence with City-States is increased by [10]","[-50]% City-State Influence degradation"],
+	        "uniques": ["Comment [Clone Trooper access]","Can spend Gold to annex or puppet a City-State that has been your Ally for [10] turns","Resting point for Influence with City-States is increased by [10]","[-50]% City-State Influence degradation"],
 
 		"favoredReligion": "New Order",
 		"outerColor": [255,255,255],
@@ -381,7 +381,7 @@
 		"tradeRequest": "Your path you must decide.",
 
 		"uniqueName": "There is no death, there is the Force",
-	        "uniques": ["[+1 Faith, +2 Culture] [in all cities] <when not at war>","When defeating a [Land] unit, earn [5] Gold and recruit it <with [20]% chance>"],
+	        "uniques": ["Comment [Clone Trooper access]","[+1 Faith, +2 Culture] [in all cities] <when not at war>","When defeating a [Land] unit, earn [5] Gold and recruit it <with [20]% chance>"],
 
 		"favoredReligion": "Light side of the Force",
 		"outerColor": [255,255,255],
