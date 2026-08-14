@@ -183,7 +183,7 @@
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "Special Force",
+        "startingMilitaryUnit": "All Terrain Reconnaissance Transport",
         "startingGold": 400,
         "startingCulture": 600,
         "settlerPopulation": 5,
