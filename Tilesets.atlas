@@ -3686,6 +3686,13 @@ TileSets/FantasyHex/Units/Clone Commando
   orig: 95, 81
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Clone Trooper
+  rotate: false
+  xy: 107, 1785
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/Clone Trooper Jedi
   rotate: false
   xy: 107, 1785
