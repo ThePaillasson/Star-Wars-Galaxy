@@ -6,49 +6,49 @@ filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Alhambra
   rotate: false
-  xy: 347, 1943
+  xy: 4, 1441
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Amphitheater
   rotate: false
-  xy: 4, 1441
+  xy: 455, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Angkor Wat
   rotate: false
-  xy: 455, 1943
+  xy: 4, 1333
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Apollo Program
   rotate: false
-  xy: 4, 1225
+  xy: 671, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Aqueduct
   rotate: false
-  xy: 671, 1943
+  xy: 4, 1117
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Armory
   rotate: false
-  xy: 779, 1943
+  xy: 4, 1009
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Arsenal
   rotate: false
-  xy: 4, 1009
+  xy: 887, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -886,56 +886,56 @@ BuildingIcons/Workshop
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/African Forest Elephant
+UnitIcons/Advanced Recon Commando
   rotate: false
   xy: 4, 1549
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Anti-Aircraft Gun
+UnitIcons/African Forest Elephant
   rotate: false
-  xy: 4, 1333
+  xy: 347, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Anti-Tank Gun
+UnitIcons/Anti-Aircraft Gun
   rotate: false
   xy: 563, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Anti-Tank Gun
+  rotate: false
+  xy: 4, 1225
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Archer
   rotate: false
-  xy: 4, 1117
+  xy: 779, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Artillery
   rotate: false
-  xy: 887, 1943
+  xy: 4, 901
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Atlatlist
   rotate: false
-  xy: 4, 901
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Atomic Bomb
-  rotate: false
   xy: 995, 1943
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Avanced Recon Commando
+UnitIcons/Atomic Bomb
   rotate: false
   xy: 4, 793
   size: 100, 100
