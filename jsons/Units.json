@@ -340,6 +340,7 @@
 		"requiredTech": "Gunpowder",
 		"upgradesTo": "Planetary Defense Force",
 		"obsoleteTech": "Rifling",
+		"uniques": ["May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
 	{
