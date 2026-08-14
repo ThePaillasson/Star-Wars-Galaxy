@@ -740,7 +740,7 @@
 	// Atomic Era
 
 	{
-		"name": "Special Force",
+		"name": "Line Infantry",
 		"unitType": "Gunpowder",
 		"movement": 2,
 		"strength": 65,
@@ -751,10 +751,23 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Death Trooper",
+		"name": "Stormtrooper",
 		"unitType": "Gunpowder",
-		"replaces": "Special Force",
+		"replaces": "Line Infantry",
 		"uniqueTo": "Galactic Empire",
+		"movement": 2,
+		"strength": 65,
+		"cost": 400,
+		"requiredTech": "Pharmaceuticals",
+		"promotions": ["Amphibious"],
+		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
+		"attackSound": "shot"
+	},
+	{
+		"name": "CSA Trooper",
+		"unitType": "Gunpowder",
+		"replaces": "Line Infantry",
+		"uniqueTo": "Corporate Sector Authority",
 		"movement": 2,
 		"strength": 65,
 		"cost": 400,
@@ -1006,7 +1019,7 @@
 		"attackSound": "torpedo"
 	},
 	{
-		"name": "Line Infantry",
+		"name": "Special Force",
 		"unitType": "Gunpowder",
 		"movement": 3,
 		"strength": 90,
@@ -1016,22 +1029,10 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Stormtrooper",
+		"name": "Deathtrooper",
 		"unitType": "Gunpowder",
 		"replaces": "Line Infantry",
 		"uniqueTo": "Galactic Empire",
-		"movement": 3,
-		"strength": 90,
-		"cost": 375,
-		"requiredTech": "Mobile Tactics",
-		"uniques": ["Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-	{
-		"name": "CSA Trooper",
-		"unitType": "Gunpowder",
-		"replaces": "Line Infantry",
-		"uniqueTo": "Corporate Sector Authority",
 		"movement": 3,
 		"strength": 90,
 		"cost": 375,
