@@ -893,6 +893,13 @@ UnitIcons/Advanced Recon Commando
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Advanced Recon Commando Jedi
+  rotate: false
+  xy: 4, 1548
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/African Forest Elephant
   rotate: false
   xy: 347, 1942
