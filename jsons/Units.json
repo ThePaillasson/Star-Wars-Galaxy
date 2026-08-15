@@ -609,7 +609,7 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "TIE/sa Tactical Bomber",
+		"upgradesTo": "Tiesa Tactical Bomber",
 		"obsoleteTech": "Radar",
 		"attackSound": "bombing"
 	},
@@ -625,7 +625,7 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "TIE/sa Tactical Bomber",
+		"upgradesTo": "Tiesa Tactical Bomber",
 		"obsoleteTech": "Radar",
 		"attackSound": "bombing"
 	},
@@ -919,7 +919,7 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"upgradesTo": "Tie/ln Fighter",
+		"upgradesTo": "Tiesa Fighter",
 		"attackSound": "bombing"
 	},
 	{
@@ -934,7 +934,7 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"upgradesTo": "Tie/ln Fighter",
+		"upgradesTo": "Tiesa Fighter",
 		"attackSound": "bombing"
 	},
 	{
@@ -1295,7 +1295,7 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Tie/ln Fighter",
+		"name": "Tiesa Fighter",
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 75,
@@ -1312,7 +1312,7 @@
 		"name": "T-65B X-wing Starfighter",
 		"unitType": "Fighter",
 		"uniqueTo": "Alliance to Restore the Republic",
-		"replaces": "Tie/ln Fighter",
+		"replaces": "Tiesa Fighter",
 		"movement": 1,
 		"strength": 75,
 		"rangedStrength": 75,
@@ -1339,7 +1339,7 @@
 		"attackSound": "jetgun"
 	},
 	{
-		"name": "TIE/IN Interceptor",
+		"name": "Tiesa Interceptor",
 		"unitType": "Fighter",
 		"uniqueTo": "Galactic Empire",
 		"replaces": "RZ-1 A-wing Interceptor",
@@ -1377,7 +1377,7 @@
 		"attackSound": "gdrAttack"
 	},
 	{
-		"name": "TIE/sa Tactical Bomber",
+		"name": "Tiesa Tactical Bomber",
 		"unitType": "Bomber",
 		"movement": 2,
 		"strength": 85,
@@ -1393,7 +1393,7 @@
 		"name": "BTL-A4 Y-wing assault",
 		"unitType": "Bomber",
 		"uniqueTo": "Alliance to Restore the Republic",
-		"replaces": "TIE/sa Tactical Bomber",
+		"replaces": "Tiesa Tactical Bomber",
 		"movement": 2,
 		"strength": 85,
 		"rangedStrength": 85,
@@ -1418,7 +1418,7 @@
 		"attackSound": "bombing"
 	},
 	{
-		"name": "A/SF-01 B-wing Assault Starfighter",
+		"name": "ASF-01 B-wing Assault Starfighter",
 		"unitType": "Bomber",
 		"uniqueTo": "Alliance to Restore the Republic",
 		"replaces": "TIE Advanced x1",
