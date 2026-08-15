@@ -610,7 +610,7 @@
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
 		"upgradesTo": "TIEsa Tactical Bomber",
-		"obsoleteTech": "Radar",
+		"obsoleteTech": "Stealth",
 		"attackSound": "bombing"
 	},
 	{
@@ -626,7 +626,7 @@
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
 		"upgradesTo": "TIEsa Tactical Bomber",
-		"obsoleteTech": "Radar",
+		"obsoleteTech": "Stealth",
 		"attackSound": "bombing"
 	},
 	{
