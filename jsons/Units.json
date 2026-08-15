@@ -919,7 +919,7 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"upgradesTo": "Tie/LN Fighter",
+		"upgradesTo": "Tie/ln Fighter",
 		"attackSound": "bombing"
 	},
 	{
@@ -934,7 +934,7 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"upgradesTo": "Tie/LN Fighter",
+		"upgradesTo": "Tie/ln Fighter",
 		"attackSound": "bombing"
 	},
 	{
@@ -1295,7 +1295,7 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Tie/LN Fighter",
+		"name": "Tie/ln Fighter",
 		"unitType": "Fighter",
 		"movement": 1,
 		"strength": 75,
@@ -1312,7 +1312,7 @@
 		"name": "T-65B X-wing Starfighter",
 		"unitType": "Fighter",
 		"uniqueTo": "Alliance to Restore the Republic",
-		"replaces": "Tie Fighter",
+		"replaces": "Tie/ln Fighter",
 		"movement": 1,
 		"strength": 75,
 		"rangedStrength": 75,
