@@ -540,7 +540,7 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "Aggressive ReConnaissance-170 starfighter",
+		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
 		"obsoleteTech": "Radar",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
@@ -558,7 +558,7 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "Aggressive ReConnaissance-170 starfighter",
+		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
 		"obsoleteTech": "Radar",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","Will not be displayed in Civilopedia"],
 		"attackSound": "machinegun"
@@ -576,7 +576,7 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "Aggressive ReConnaissance-170 starfighter",
+		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
 		"obsoleteTech": "Radar",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
@@ -594,7 +594,7 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "Aggressive ReConnaissance-170 starfighter",
+		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
 		"obsoleteTech": "Radar",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
@@ -871,7 +871,7 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"upgradesTo": "Jet Fighter",
+		"upgradesTo": "RZ-1 A-wing Interceptor",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
@@ -888,7 +888,7 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"upgradesTo": "Jet Fighter",
+		"upgradesTo": "RZ-1 A-wing Interceptor",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
@@ -905,7 +905,7 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"upgradesTo": "Jet Fighter",
+		"upgradesTo": "RZ-1 A-wing Interceptor",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
 		"attackSound": "machinegun"
 	},
@@ -925,7 +925,7 @@
 	{
 		"name": "Belbullab-22 Heavy Starfighter",
 		"unitType": "Bomber",
-		"replaces": "Aggressive ReConnaissance-170 starfighter",
+		"replaces": "Aggressive ReConnaissance-170 Starfighter",
 		"uniqueTo": "Techno Union",
 		"movement": 1,
 		"strength": 65,
