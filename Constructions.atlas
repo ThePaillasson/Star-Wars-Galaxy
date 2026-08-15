@@ -907,7 +907,7 @@ UnitIcons/African Forest Elephant
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/All Terrain Armored Transport icon
+UnitIcons/All Terrain Armored Transport
   rotate: false
   xy: 455, 1942
   size: 100, 100
