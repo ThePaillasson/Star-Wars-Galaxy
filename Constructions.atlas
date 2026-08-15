@@ -755,112 +755,112 @@ BuildingIcons/Sydney Opera House
   index: -1
 BuildingIcons/Taj Mahal
   rotate: false
-  xy: 1516, 1188
+  xy: 1732, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Temple
   rotate: false
-  xy: 1624, 1296
+  xy: 1516, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Temple of Artemis
   rotate: false
-  xy: 1732, 1404
+  xy: 1624, 1189
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Terracotta Army
   rotate: false
-  xy: 1624, 1188
+  xy: 1624, 1081
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Great Library
   rotate: false
-  xy: 1732, 1296
+  xy: 1516, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Great Lighthouse
   rotate: false
-  xy: 1516, 972
+  xy: 1624, 973
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Louvre
   rotate: false
-  xy: 1624, 1080
+  xy: 1516, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Oracle
   rotate: false
-  xy: 1732, 1188
+  xy: 1624, 865
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Pyramids
   rotate: false
-  xy: 1516, 864
+  xy: 1516, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Theatre
   rotate: false
-  xy: 1624, 972
+  xy: 1624, 757
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/United Nations
   rotate: false
-  xy: 1732, 972
+  xy: 1624, 541
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/University
   rotate: false
-  xy: 1516, 648
+  xy: 1516, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Utopia Project
   rotate: false
-  xy: 1732, 864
+  xy: 1516, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Walls
   rotate: false
-  xy: 1624, 648
+  xy: 1624, 217
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Walls of Babylon
   rotate: false
-  xy: 1732, 756
+  xy: 1840, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Wat
   rotate: false
-  xy: 1516, 324
+  xy: 1940, 1836
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -874,14 +874,14 @@ BuildingIcons/Water Mill
   index: -1
 BuildingIcons/Windmill
   rotate: false
-  xy: 1624, 432
+  xy: 1624, 109
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Workshop
   rotate: false
-  xy: 1624, 324
+  xy: 1732, 973
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1721,7 +1721,7 @@ UnitIcons/Naresuan's Elephant
   index: -1
 UnitIcons/Neimodian Gunner
   rotate: false
-  xy: 1967, 1984
+  xy: 1948, 1660
   size: 60, 60
   orig: 60, 60
   offset: 0, 0
@@ -1999,37 +1999,51 @@ UnitIcons/TIE Advanced x1
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/TIEsa Tactical Bomber
+UnitIcons/TIEin Interceptor
   rotate: false
   xy: 1516, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/TL-B Y-wing Fighter-Bomber
+UnitIcons/TIEln Fighter
   rotate: false
-  xy: 1624, 1404
-  size: 100, 100
-  orig: 100, 100
+  xy: 1624, 1405
+  size: 100, 99
+  orig: 100, 99
   offset: 0, 0
   index: -1
-UnitIcons/TX-130 Saber-class Fighter Tank
+UnitIcons/TIEsa Tactical Bomber
   rotate: false
   xy: 1732, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/TL-B Y-wing Fighter-Bomber
+  rotate: false
+  xy: 1516, 1188
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/TX-130 Saber-class Fighter Tank
+  rotate: false
+  xy: 1624, 1297
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Tercio
   rotate: false
-  xy: 1516, 1080
+  xy: 1516, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Trebuchet
   rotate: false
-  xy: 1732, 1080
+  xy: 1516, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -2043,77 +2057,84 @@ UnitIcons/Trireme
   index: -1
 UnitIcons/Turtle Ship
   rotate: false
-  xy: 1516, 756
+  xy: 1624, 649
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/UT-60D U-wing Troop Transport
   rotate: false
-  xy: 1624, 864
+  xy: 1516, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unstable Terrain Artillery Transport
   rotate: false
-  xy: 1624, 756
+  xy: 1624, 433
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Vulture-class Droid Starfighter CIS
+  rotate: false
+  xy: 1624, 325
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Vulture-class Droid Starfighter Trade Federation
   rotate: false
-  xy: 1516, 540
+  xy: 1624, 325
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/War Chariot
   rotate: false
-  xy: 1516, 432
+  xy: 1840, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/War Elephant
   rotate: false
-  xy: 1624, 540
+  xy: 1840, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Warrior
   rotate: false
-  xy: 1732, 648
+  xy: 1918, 1728
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Work Boats
   rotate: false
-  xy: 1732, 540
+  xy: 1732, 1189
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Worker
   rotate: false
-  xy: 1516, 216
+  xy: 1732, 1081
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Z-95 Headhunter
   rotate: false
-  xy: 1732, 432
+  xy: 1732, 865
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Zero
   rotate: false
-  xy: 1624, 216
+  xy: 1732, 757
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
