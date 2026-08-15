@@ -3448,6 +3448,13 @@ TileSets/FantasyHex/Units/Advanced Recon Commando
   orig: 95, 81
   offset: 0, 0
   index: -1
+TileSets/FantasyHex/Units/Advanced Recon Commando Jedi
+  rotate: false
+  xy: 4, 1954
+  size: 95, 81
+  orig: 95, 81
+  offset: 0, 0
+  index: -1
 TileSets/FantasyHex/Units/African Forest Elephant
   rotate: false
   xy: 4, 1182
