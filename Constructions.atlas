@@ -1705,7 +1705,7 @@ UnitIcons/OG-9 Homing Spider Droid
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Octuptarra Combat Tri-Droid icon
+UnitIcons/Octuptarra Combat Tri-Droid
   rotate: false
   xy: 1624, 1618
   size: 100, 100
