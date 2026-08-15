@@ -570,6 +570,19 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Advanced Recon Commando Jedi",
+		"unitType": "Gunpowder",
+		"replaces": "B2 Super Battle Droid",
+		"uniqueTo": "Jedi Order",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Line Infantry",
+		"obsoleteTech": "Mobile Tactics",
+		"attackSound": "shot"
+	},
+	{
 		"name": "Advanced Recon Commando",
 		"unitType": "Gunpowder",
 		"replaces": "B2 Super Battle Droid",
@@ -580,6 +593,7 @@
 		"requiredTech": "Plastics",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Will not be displayed in Civilopedia"],
 		"attackSound": "shot"
 	},
 	{
