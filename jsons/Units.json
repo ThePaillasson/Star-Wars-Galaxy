@@ -991,7 +991,7 @@
 		"attackSound": "machinegun"
 	},
 {
-		"name": "HMP Droid Gunship",
+		"name": "Heavy Missile Platform Droid Gunship",
 		"unitType": "Helicopter",
 	    "replaces": "Low Altitude Assault Transport",
 		"uniqueTo": "Confederacy of Independent Systems",
