@@ -919,7 +919,7 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"upgradesTo": "Stealth Bomber",
+		"upgradesTo": "Tie/LN Fighter",
 		"attackSound": "bombing"
 	},
 	{
@@ -934,7 +934,7 @@
 		"cost": 375,
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
-		"upgradesTo": "Stealth Bomber",
+		"upgradesTo": "Tie/LN Fighter",
 		"attackSound": "bombing"
 	},
 	{
