@@ -609,7 +609,7 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "Bomber",
+		"upgradesTo": "TIE/sa Tactical Bomber",
 		"obsoleteTech": "Radar",
 		"attackSound": "bombing"
 	},
@@ -625,7 +625,7 @@
 		"cost": 325,
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
-		"upgradesTo": "Bomber",
+		"upgradesTo": "TIE/sa Tactical Bomber",
 		"obsoleteTech": "Radar",
 		"attackSound": "bombing"
 	},
