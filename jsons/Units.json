@@ -1163,7 +1163,7 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "LO-KD57 Luxury-class sail barge",
+		"name": "LO-KD57 Luxury-class Sail Barge",
 		"unitType": "Armored",
 		"uniqueTo": "Hutt Cartel",
 		"replaces": "Multi-Troop Transport",
