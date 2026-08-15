@@ -356,322 +356,322 @@ BuildingIcons/Hydro Plant
   index: -1
 BuildingIcons/Ironworks
   rotate: false
-  xy: 544, 1080
+  xy: 976, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Kremlin
   rotate: false
-  xy: 760, 1188
+  xy: 652, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Krepost
   rotate: false
-  xy: 868, 1296
+  xy: 760, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Leaning Tower of Pisa
   rotate: false
-  xy: 652, 972
+  xy: 544, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Library
   rotate: false
-  xy: 868, 1188
+  xy: 760, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Lighthouse
   rotate: false
-  xy: 976, 1296
+  xy: 868, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Longhouse
   rotate: false
-  xy: 1300, 1620
+  xy: 1192, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Machu Picchu
   rotate: false
-  xy: 868, 1080
+  xy: 760, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Manhattan Project
   rotate: false
-  xy: 1084, 1296
+  xy: 976, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Market
   rotate: false
-  xy: 652, 756
+  xy: 544, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mausoleum of Halicarnassus
   rotate: false
-  xy: 760, 864
+  xy: 652, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Medical Lab
   rotate: false
-  xy: 868, 972
+  xy: 760, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Military Academy
   rotate: false
-  xy: 1084, 1188
+  xy: 976, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Military Base
   rotate: false
-  xy: 1192, 1296
+  xy: 1084, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mint
   rotate: false
-  xy: 1300, 1404
+  xy: 1192, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Monastery
   rotate: false
-  xy: 976, 972
+  xy: 868, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Monument
   rotate: false
-  xy: 1084, 1080
+  xy: 976, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mosque
   rotate: false
-  xy: 1192, 1188
+  xy: 1084, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mud Pyramid Mosque
   rotate: false
-  xy: 1300, 1296
+  xy: 1192, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Mughal Fort
   rotate: false
-  xy: 544, 432
+  xy: 1300, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Museum
   rotate: false
-  xy: 760, 648
+  xy: 652, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/National College
   rotate: false
-  xy: 1084, 972
+  xy: 976, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/National Epic
   rotate: false
-  xy: 1192, 1080
+  xy: 1084, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/National Intelligence Agency
   rotate: false
-  xy: 1300, 1188
+  xy: 1192, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/National Treasury
   rotate: false
-  xy: 544, 324
+  xy: 1300, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Neuschwanstein
   rotate: false
-  xy: 652, 432
+  xy: 544, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Notre Dame
   rotate: false
-  xy: 868, 648
+  xy: 760, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Nuclear Plant
   rotate: false
-  xy: 1084, 864
+  xy: 976, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Observatory
   rotate: false
-  xy: 544, 216
+  xy: 1300, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Opera House
   rotate: false
-  xy: 760, 432
+  xy: 652, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Oxford University
   rotate: false
-  xy: 868, 540
+  xy: 760, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Pagoda
   rotate: false
-  xy: 976, 648
+  xy: 868, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Palace
   rotate: false
-  xy: 1084, 756
+  xy: 976, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Paper Maker
   rotate: false
-  xy: 1192, 864
+  xy: 1084, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Pentagon
   rotate: false
-  xy: 652, 216
+  xy: 544, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Petra
   rotate: false
-  xy: 868, 432
+  xy: 760, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Police Station
   rotate: false
-  xy: 1300, 864
+  xy: 1192, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Porcelain Tower
   rotate: false
-  xy: 652, 108
+  xy: 1300, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Public School
   rotate: false
-  xy: 868, 324
+  xy: 760, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Pyramid
   rotate: false
-  xy: 976, 432
+  xy: 868, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Recycling Center
   rotate: false
-  xy: 1300, 756
+  xy: 1192, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Research Lab
   rotate: false
-  xy: 760, 108
+  xy: 1300, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Satrap's Court
   rotate: false
-  xy: 1084, 324
+  xy: 976, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Seaport
   rotate: false
-  xy: 976, 108
+  xy: 1300, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Shrine
   rotate: false
-  xy: 1300, 432
+  xy: 1192, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Sistine Chapel
   rotate: false
-  xy: 1192, 216
+  xy: 1084, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -748,119 +748,119 @@ BuildingIcons/Stonehenge
   index: -1
 BuildingIcons/Sydney Opera House
   rotate: false
-  xy: 1624, 1620
+  xy: 1516, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Taj Mahal
   rotate: false
-  xy: 1732, 1512
+  xy: 1516, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Temple
   rotate: false
-  xy: 1516, 1188
+  xy: 1624, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Temple of Artemis
   rotate: false
-  xy: 1624, 1296
+  xy: 1732, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Terracotta Army
   rotate: false
-  xy: 1516, 1080
+  xy: 1624, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Great Library
   rotate: false
-  xy: 1624, 1188
+  xy: 1732, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Great Lighthouse
   rotate: false
-  xy: 1732, 1296
+  xy: 1516, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Louvre
   rotate: false
-  xy: 1516, 972
+  xy: 1624, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Oracle
   rotate: false
-  xy: 1624, 1080
+  xy: 1732, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Pyramids
   rotate: false
-  xy: 1732, 1188
+  xy: 1516, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Theatre
   rotate: false
-  xy: 1516, 864
+  xy: 1624, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/United Nations
   rotate: false
-  xy: 1624, 864
+  xy: 1516, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/University
   rotate: false
-  xy: 1732, 972
+  xy: 1624, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Utopia Project
   rotate: false
-  xy: 1624, 756
+  xy: 1516, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Walls
   rotate: false
-  xy: 1516, 540
+  xy: 1732, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Walls of Babylon
   rotate: false
-  xy: 1624, 648
+  xy: 1516, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Wat
   rotate: false
-  xy: 1732, 648
+  xy: 1624, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -874,14 +874,14 @@ BuildingIcons/Water Mill
   index: -1
 BuildingIcons/Windmill
   rotate: false
-  xy: 1516, 324
+  xy: 1732, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Workshop
   rotate: false
-  xy: 1516, 216
+  xy: 1732, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1497,224 +1497,224 @@ UnitIcons/IG-series Assassin Droid
   index: -1
 UnitIcons/Infantry
   rotate: false
-  xy: 760, 1404
+  xy: 652, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Inquisitor
   rotate: false
-  xy: 868, 1512
+  xy: 760, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ironclad
   rotate: false
-  xy: 976, 1620
+  xy: 868, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Jaguar
   rotate: false
-  xy: 652, 1188
+  xy: 544, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Janissary
   rotate: false
-  xy: 760, 1296
+  xy: 652, 1188
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Jet Fighter
   rotate: false
-  xy: 868, 1404
+  xy: 760, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Jumptrooper
   rotate: false
-  xy: 976, 1512
+  xy: 868, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Keshik
   rotate: false
-  xy: 1084, 1620
+  xy: 976, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Khan
   rotate: false
-  xy: 544, 972
+  xy: 1084, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Knight
   rotate: false
-  xy: 652, 1080
+  xy: 544, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/LM-432 Crab Droid
   rotate: false
-  xy: 976, 1404
+  xy: 868, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/LO-KD57 Luxury-class Sail Barge
   rotate: false
-  xy: 1084, 1512
+  xy: 976, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Lancer
   rotate: false
-  xy: 1192, 1620
+  xy: 1084, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Landsknecht
   rotate: false
-  xy: 544, 864
+  xy: 1192, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Legion
   rotate: false
-  xy: 760, 1080
+  xy: 652, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Line Infantry
   rotate: false
-  xy: 1084, 1404
+  xy: 976, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Longbowman
   rotate: false
-  xy: 1192, 1512
+  xy: 1084, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Longswordsman
   rotate: false
-  xy: 544, 756
+  xy: 1300, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Low Altitude Assault Transport
   rotate: false
-  xy: 652, 864
+  xy: 544, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Machine Gun
   rotate: false
-  xy: 760, 972
+  xy: 652, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mandekalu Cavalry
   rotate: false
-  xy: 976, 1188
+  xy: 868, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Maori Warrior
   rotate: false
-  xy: 1192, 1404
+  xy: 1084, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Marauder
   rotate: false
-  xy: 1300, 1512
+  xy: 1192, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Marine
   rotate: false
-  xy: 544, 648
+  xy: 1300, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mehal Sefari
   rotate: false
-  xy: 976, 1080
+  xy: 868, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Minuteman
   rotate: false
-  xy: 544, 540
+  xy: 1300, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Missile Cruiser
   rotate: false
-  xy: 652, 648
+  xy: 544, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Missionary
   rotate: false
-  xy: 760, 756
+  xy: 652, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Mobile SAM
   rotate: false
-  xy: 868, 864
+  xy: 760, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Multi-Troop Transport
   rotate: false
-  xy: 652, 540
+  xy: 544, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/NR-N99 Persuader-class Droid Enforcer
   rotate: false
-  xy: 868, 756
+  xy: 760, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Naresuan's Elephant
   rotate: false
-  xy: 976, 864
+  xy: 868, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1728,210 +1728,210 @@ UnitIcons/Neimodian Gunner
   index: -1
 UnitIcons/Norwegian Ski Infantry
   rotate: false
-  xy: 760, 540
+  xy: 652, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Nuclear Missile
   rotate: false
-  xy: 976, 756
+  xy: 868, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Nuclear Submarine
   rotate: false
-  xy: 1192, 972
+  xy: 1084, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/OG-9 Homing Spider Droid
   rotate: false
-  xy: 1300, 1080
+  xy: 1192, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Octuptarra Combat Tri-Droid
   rotate: false
-  xy: 652, 324
+  xy: 544, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Paratrooper
   rotate: false
-  xy: 1300, 972
+  xy: 1192, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Peacekeeper
   rotate: false
-  xy: 544, 108
+  xy: 1300, 972
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Persian Immortal
   rotate: false
-  xy: 760, 324
+  xy: 652, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pictish Warrior
   rotate: false
-  xy: 976, 540
+  xy: 868, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pikeman
   rotate: false
-  xy: 1084, 648
+  xy: 976, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Planetary Defense Force
   rotate: false
-  xy: 1192, 756
+  xy: 1084, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Privateer
   rotate: false
-  xy: 760, 216
+  xy: 652, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Quinquereme
   rotate: false
-  xy: 1084, 540
+  xy: 976, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/RZ-1 A-wing Interceptor
   rotate: false
-  xy: 1192, 648
+  xy: 1084, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Rifleman
   rotate: false
-  xy: 868, 216
+  xy: 760, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Rocket Artillery
   rotate: false
-  xy: 976, 324
+  xy: 868, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/SS Booster
   rotate: false
-  xy: 1084, 432
+  xy: 976, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/SS Cockpit
   rotate: false
-  xy: 1192, 540
+  xy: 1084, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/SS Engine
   rotate: false
-  xy: 1300, 648
+  xy: 1192, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/SS Stasis Chamber
   rotate: false
-  xy: 868, 108
+  xy: 1300, 648
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Samurai
   rotate: false
-  xy: 976, 216
+  xy: 868, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Scout
   rotate: false
-  xy: 1192, 432
+  xy: 1084, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sea Beggar
   rotate: false
-  xy: 1300, 540
+  xy: 1192, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Settler
   rotate: false
-  xy: 1084, 216
+  xy: 976, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Ship of the Line
   rotate: false
-  xy: 1192, 324
+  xy: 1084, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sipahi
   rotate: false
-  xy: 1084, 108
+  xy: 1300, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Sith Trooper
   rotate: false
-  xy: 1300, 329
+  xy: 1192, 221
   size: 100, 95
   orig: 100, 95
   offset: 0, 0
   index: -1
 UnitIcons/Skirmisher
   rotate: false
-  xy: 1192, 108
+  xy: 1300, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Skytrooper
   rotate: false
-  xy: 1300, 221
+  xy: 1192, 113
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Slinger
   rotate: false
-  xy: 1300, 113
+  xy: 1300, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1966,161 +1966,161 @@ UnitIcons/Stormtrooper
   index: -1
 UnitIcons/Submarine
   rotate: false
-  xy: 1408, 108
+  xy: 1516, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Super-Tank Prototype
   rotate: false
-  xy: 1516, 1620
+  xy: 1516, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Swordsman
   rotate: false
-  xy: 1516, 1512
+  xy: 1624, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/T-65B X-wing Starfighter
   rotate: false
-  xy: 1516, 1404
+  xy: 1624, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/TIE Advanced x1
   rotate: false
-  xy: 1624, 1512
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/TIE/IN Interceptor
-  rotate: false
-  xy: 652, 1296
+  xy: 1732, 1620
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/TIEsa Tactical Bomber
   rotate: false
-  xy: 1732, 1620
+  xy: 1516, 1296
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/TL-B Y-wing Fighter-Bomber
   rotate: false
-  xy: 1516, 1296
+  xy: 1624, 1404
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/TX-130 Saber-class Fighter Tank
   rotate: false
-  xy: 1624, 1404
+  xy: 1732, 1512
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tercio
   rotate: false
-  xy: 1732, 1404
+  xy: 1516, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Trebuchet
-  rotate: false
-  xy: 1624, 972
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Trireme
-  rotate: false
-  xy: 1300, 4
-  size: 100, 101
-  orig: 100, 101
-  offset: 0, 0
-  index: -1
-UnitIcons/Turtle Ship
+UnitIcons/TieIN Interceptor
   rotate: false
   xy: 1732, 1080
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/UT-60D U-wing Troop Transport
+UnitIcons/Trebuchet
   rotate: false
   xy: 1516, 756
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Unstable Terrain Artillery Transport
+UnitIcons/Trireme
   rotate: false
-  xy: 1516, 648
+  xy: 1192, 4
+  size: 100, 101
+  orig: 100, 101
+  offset: 0, 0
+  index: -1
+UnitIcons/Turtle Ship
+  rotate: false
+  xy: 1624, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Vulture-class Droid Starfighter Trade Federation
+UnitIcons/UT-60D U-wing Troop Transport
+  rotate: false
+  xy: 1732, 972
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Unstable Terrain Artillery Transport
   rotate: false
   xy: 1732, 864
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Vulture-class Droid Starfighter Trade Federation
+  rotate: false
+  xy: 1624, 648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/War Chariot
-  rotate: false
-  xy: 1732, 756
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/War Elephant
-  rotate: false
-  xy: 1516, 432
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
-UnitIcons/Warrior
   rotate: false
   xy: 1624, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/War Elephant
+  rotate: false
+  xy: 1732, 648
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Warrior
+  rotate: false
+  xy: 1516, 324
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Work Boats
   rotate: false
-  xy: 1624, 432
+  xy: 1516, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Worker
   rotate: false
-  xy: 1732, 540
+  xy: 1624, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Z-95 Headhunter
   rotate: false
-  xy: 1624, 324
+  xy: 1624, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Zero
   rotate: false
-  xy: 1732, 432
+  xy: 1732, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
