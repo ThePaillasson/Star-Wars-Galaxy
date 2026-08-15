@@ -1635,7 +1635,7 @@ UnitIcons/Mohawk Warrior
   orig: 100, 100
   offset: 0, 0
   index: -1
-UnitIcons/Multi-Troop Transport icon
+UnitIcons/Multi-Troop Transport
   rotate: false
   xy: 652, 754
   size: 100, 100
