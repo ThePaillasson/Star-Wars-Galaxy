@@ -771,7 +771,7 @@
 		"uniques": ["Can carry [2] [Aircraft] units"]
 	},
 	{
-		"name": "Subjugator-class heavy cruiser",
+		"name": "Subjugator-class Heavy Cruiser",
 		"unitType": "Aircraft Carrier",
 		"replaces": "Lucrehulk-class Battleship",
 		"uniqueTo": "Confederacy of Independent Systems",
