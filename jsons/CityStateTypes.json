@@ -20,17 +20,10 @@
         "color": [56, 255, 112]
     },
     {
-    "name": "Maritime",
-    "friendBonusUniques": ["[+2 Food] [in capital]"],
-    "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
-    "uniques": ["Start bias [Coast]"],
-    "color": [56, 255, 112]
-    },
-    {
         "name": "Industrial",
         "friendBonusUniques": ["[+2 Production] [in capital]"],
         "allyBonusUniques": ["[+2 Production] [in capital]", "[+1 Production] [in all cities]"],
-        "color": [56, 255, 112]
+        "color": [176, 101, 0]
     },
     {
         "name": "Mercantile",
@@ -79,7 +72,7 @@
             "[+12 Science] <starting from the [Medieval era]> <before the [Industrial era]>",
             "[+26 Science] <starting from the [Industrial era]>"
         ],
-        "color": [255, 255, 255]
+        "color": [135, 206, 235]
     },
     {
         "name": "Tourist",
@@ -91,6 +84,6 @@
             "[+2 Happiness] <before the [Medieval era]>",
             "[+3 Happiness] <starting from the [Medieval era]>"
         ],
-        "color": [255, 255, 255]
+        "color": [238, 232, 170]
     },
 ]
