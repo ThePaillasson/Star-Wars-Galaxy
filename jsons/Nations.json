@@ -1431,7 +1431,7 @@
 		"tradeRequest": "There's a degree of risk involved. But risk has always been an inescapable part of warfare. In this case, the potential benefits far outweigh the potential dangers.",
 
                 "uniqueName": "Expansionary Defense Force",
-	        "uniques": ["Great General provides double combat bonus", "[Great General] is earned [50]% faster","[+2] Movement <for [Water] units>"],
+	        "uniques": ["Great Admiral provides double combat bonus", "[Great Admiral] is earned [50]% faster","[+2] Movement <for [Water] units>"],
 		
 		"outerColor": [255,255,255],
 		"innerColor": [55,72,110],
@@ -2222,7 +2222,7 @@
 		"tradeRequest": "You are a bold one.",
 
 		"uniqueName": "Total annihilation",
-	        "uniques": ["[Great General] is earned [50]% faster","Great General provides double combat bonus","[+2] Movement <for [Water] units>"],
+	        "uniques": ["[Great Admiral] is earned [50]% faster","Great Admiral provides double combat bonus","[+2] Movement <for [Water] units>"],
 		
 		"outerColor": [150,176,173],
 		"innerColor": [243,253,252],
