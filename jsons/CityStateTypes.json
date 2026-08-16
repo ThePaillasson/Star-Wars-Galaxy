@@ -14,7 +14,7 @@
         "color": [139, 96, 255]
     },
     {
-        "name": "Maritime",
+        "name": "Agricultural",
         "friendBonusUniques": ["[+2 Food] [in capital]"],
         "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
         "uniques": ["Start bias [Coast]"],
@@ -22,13 +22,15 @@
     },
     {
         "name": "Mercantile",
-        "friendBonusUniques": [
-            "[+2 Happiness] <before the [Medieval era]>",
-            "[+3 Happiness] <starting from the [Medieval era]>"
+        "friendBonusUniques":  [
+            "[+3 Gold] <before the [Medieval era]>",
+            "[+6 Gold] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+13 Gold] <starting from the [Industrial era]>"
         ],
-        "allyBonusUniques": [
-            "[+2 Happiness] <before the [Medieval era]>",
-            "[+3 Happiness] <starting from the [Medieval era]>",
+        "allyBonusUniques":  [
+            "[+6 Gold] <before the [Medieval era]>",
+            "[+12 Gold] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Gold] <starting from the [Industrial era]>",
             "Provides a unique luxury"
         ],
         "color": [255, 216, 0]
@@ -52,5 +54,31 @@
             "[+26 Faith] <starting from the [Industrial era]>"
         ],
         "color": [255, 255, 255]
-    }
+    },
+    {
+        "name": "Scientific",
+        "friendBonusUniques":  [
+            "[+3 Science] <before the [Medieval era]>",
+            "[+6 Science] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+13 Science] <starting from the [Industrial era]>"
+        ],
+        "allyBonusUniques":  [
+            "[+6 Science] <before the [Medieval era]>",
+            "[+12 Science] <starting from the [Medieval era]> <before the [Industrial era]>",
+            "[+26 Science] <starting from the [Industrial era]>"
+        ],
+        "color": [255, 255, 255]
+    },
+    {
+        "name": "Tourist",
+        "friendBonusUniques": [
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+3 Happiness] <starting from the [Medieval era]>"
+        ],
+        "allyBonusUniques": [
+            "[+2 Happiness] <before the [Medieval era]>",
+            "[+3 Happiness] <starting from the [Medieval era]>",
+        ],
+        "color": [255, 255, 255]
+    },
 ]
