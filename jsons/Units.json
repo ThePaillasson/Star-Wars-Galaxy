@@ -350,7 +350,6 @@
 		"strength": 25,
 		"cost": 150,
 		"requiredTech": "Navigation",
-		"upgradesTo": "Destroyer",
 		"promotions": ["Coastal Raider I", "[Privateer] ability"],
 		"attackSound": "cannon"
 	},
@@ -364,7 +363,7 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
-		"upgradesTo": "Battleship",
+		"upgradesTo": "CR90 corvette",
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
@@ -491,8 +490,6 @@
 		"cost": 250,
 		"requiredTech": "Steam Power",
 		"requiredResource": "Coal",
-		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
 		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
@@ -506,8 +503,6 @@
 		"cost": 250,
 		"requiredTech": "Steam Power",
 		"requiredResource": "Coal",
-		"upgradesTo": "Destroyer",
-		"obsoleteTech": "Combustion",
 		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
@@ -826,6 +821,8 @@
 		"cost": 375,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
+		"upgradesTo": "Imperial-class Star Destroyer",
+		"obsoleteTech": "Robotics",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
@@ -842,6 +839,8 @@
 		"cost": 375,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
+		"upgradesTo": "Imperial-class Star Destroyer",
+		"obsoleteTech": "Robotics",
 		"uniques": ["Never appears as a Barbarian unit", "Will not be displayed in Civilopedia"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
@@ -858,6 +857,8 @@
 		"cost": 375,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
+		"upgradesTo": "Imperial-class Star Destroyer",
+		"obsoleteTech": "Robotics",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
@@ -874,6 +875,8 @@
 		"cost": 375,
 		"requiredResource": "Oil",
 		"requiredTech": "Electronics",
+		"upgradesTo": "Imperial-class Star Destroyer",
+		"obsoleteTech": "Robotics",
 		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
@@ -947,7 +950,7 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Destroyer",
+		"name": "EF76 Nebulon-B Escort Frigate",
 		"unitType": "Melee Water",
 		"movement": 6,
 		"strength": 55,
@@ -1327,7 +1330,7 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Missile Cruiser",
+		"name": "Imperial-class Star Destroyer",
 		"unitType": "Ranged Water",
 		"movement": 7,
 		"strength": 80,
@@ -1337,7 +1340,39 @@
 		"cost": 425,
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
-			"Can carry [3] [Missile] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+			"Can carry [3] [Air] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "MC80A Home One Type Heavy Star Cruiser",
+		"unitType": "Ranged Water",
+		"uniqueTo": "Alliance to Restore the Republic",
+		"replaces": "Imperial-class Star Destroyer",
+		"movement": 7,
+		"strength": 80,
+		"rangedStrength": 100,
+		"range": 3,
+		"interceptRange": 2,
+		"cost": 425,
+		"requiredTech": "Robotics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [3] [Air] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Executor-class Star Dreadnought",
+		"unitType": "Ranged Water",
+		"movement": 7,
+		"strength": 80,
+		"rangedStrength": 100,
+		"range": 3,
+		"interceptRange": 2,
+		"cost": 425,
+		"requiredTech": "Robotics",
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
+			"Can carry [3] [Air] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
