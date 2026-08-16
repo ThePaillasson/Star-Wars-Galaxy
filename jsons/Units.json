@@ -299,7 +299,7 @@
 		"strength": 20,
 		"cost": 120,
 		"requiredTech": "Astronomy",
-		"upgradesTo": "Ironclad",
+		"upgradesTo": "CR90 Corvette",
 		"obsoleteTech": "Combustion",
 		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
 		"hurryCostModifier": 30,
