@@ -363,7 +363,7 @@
 		"requiredResource": "Iron",
 		"requiredTech": "Navigation",
 		"obsoleteTech": "Electronics",
-		"upgradesTo": "CR90 corvette",
+		"upgradesTo": "CR90 Corvette",
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
@@ -448,7 +448,7 @@
 		"attackSound": "cavalry"
 	},
 	{
-		"name": "CR90 corvette",
+		"name": "CR90 Corvette",
 		"unitType": "Melee Water",
 		"movement": 3,
 		"strength": 45,
@@ -461,7 +461,7 @@
 	{
 		"name": "Consular-class Cruiser",
 		"unitType": "Melee Water",
-		"replaces": "CR90 corvette",
+		"replaces": "CR90 Corvette",
 		"uniqueTo": "Jedi Order",
 		"movement": 3,
 		"strength": 45,
