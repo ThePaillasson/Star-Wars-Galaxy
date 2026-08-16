@@ -472,7 +472,7 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Gozanti-class cruiser",
+		"name": "Gozanti-class Cruiser",
 		"unitType": "Melee Water",
 		"movement": 3,
 		"strength": 45,
