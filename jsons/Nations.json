@@ -2,8 +2,6 @@
 	{
 		"name": "Spectator",
 		"outerColor": [255,255,255]
-        "innerColor": [255,255,255]
-	},
 	{
 		"name": "Galactic Empire",
 		"leaderName": "Emperor Palpatine",
@@ -2426,7 +2424,7 @@
 	{
 		"name": "400100500260026",
 		"adjective": ["G0-T0"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Scientific",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2439,7 +2437,7 @@
 	{
 		"name": "Altirian Republic",
 		"adjective": ["Altiri"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Scientific",
 		"startBias": ["Grassland"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2453,7 +2451,7 @@
 	{
 		"name": "Confederation of the Clans",
 		"adjective": ["Drall"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Scientific",
 		"startBias": ["Forest"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2467,7 +2465,7 @@
 	{
 		"name": "Gree Enclave",
 		"adjective": ["Gree"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Scientific",
 		"startBias": ["Plains"],
 
 		"declaringWar": "Green perpendicular.",
@@ -2481,7 +2479,7 @@
 	{
 		"name": "Kaminoan Ruling Council",
 		"adjective": ["Kaminoan"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Scientific",
 		"startBias": ["Coast"],
 
 		"declaringWar": "I have no feelings for your people. Of course, we Kaminoans have few feelings for anything. It is not in our nature.",
@@ -2495,7 +2493,7 @@
 	{
 		"name": "Kwa holdings",
 		"adjective": ["Kwa"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Scientific",
 		"startBias": ["Desert"],
 
 		"declaringWar": "You are a pestilence upon the galaxy that, to our shame, we, the Kwa, unleashed.",
@@ -2509,7 +2507,7 @@
 	{
 		"name": "Sharu civilization",
 		"adjective": ["Sharu"],
-		"cityStateType": "Cultured",
+		"cityStateType": "Scientific",
 		"startBias": ["Tundra"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2523,7 +2521,7 @@
 	{
 		"name": "Assembly",
 		"adjective": ["Pijali"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2536,7 +2534,7 @@
 	{
 		"name": "Balmorran Puppet Government",
 		"adjective": ["Balmorran"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Hill"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2550,7 +2548,7 @@
 	{
 		"name": "Congress of Caliphs",
 		"adjective": ["Swokes Swokes"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2564,7 +2562,7 @@
 	{
 		"name": "Corellian Republic",
 		"adjective": ["Corellian"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Forest"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2578,7 +2576,7 @@
 	{
 		"name": "Council of Eckless",
 		"adjective": ["Eckless"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Forest"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2592,7 +2590,7 @@
 	{
 		"name": "Czerka Arms",
 		"adjective": ["Czerka Arms"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2605,7 +2603,7 @@
 	{
 		"name": "Gatressa Mining Conglomerate",
 		"adjective": ["Gatressa"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2618,7 +2616,7 @@
 	{
 		"name": "Iego council",
 		"adjective": ["Iego"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Hill"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2632,7 +2630,7 @@
 	{
 		"name": "Royal Family of Kessel",
 		"adjective": ["Kesselian"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Desert"],
 
 		"declaringWar": "Have you heard of the spice mines of Kessel? Slaves sent there last a few months. Maybe a year.",
@@ -2646,7 +2644,7 @@
 	{
 		"name": "Alzarian Monarchy",
 		"adjective": ["Alzarian"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Plains"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2660,7 +2658,7 @@
 	{
 		"name": "Cyphar Government",
 		"adjective": ["Cyphari"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Plains"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2674,7 +2672,7 @@
 	{
 		"name": "Glee Anselm Council of Elders",
 		"adjective": ["Elder"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Coast"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2688,7 +2686,7 @@
 	{
 		"name": "Gungan Society",
 		"adjective": ["Gungan"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Marsh"],
 
 		"declaringWar": "Yousa leave uss-ens no choice. War it must besa.",
@@ -2703,7 +2701,7 @@
 		"name": "Icarii",
 		"adjective": ["Icarii"],
 		"startBias": ["Jungle"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2716,7 +2714,7 @@
 	{
 		"name": "Killik Colony",
 		"adjective": ["Killik"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 
 		"declaringWar": "*incomprehensible*",
 		"attacked": "*incomprehensible*",
@@ -2729,7 +2727,7 @@
 	{
 		"name": "Yinchorri Council of Elders",
 		"adjective": ["Yinchorri"],
-		"cityStateType": "Maritime",
+		"cityStateType": "Agricultural",
 		"startBias": ["Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -4030,7 +4028,7 @@
 	{
 		"name": "Alvorine Authority",
 		"adjective": ["Alvorine"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Tourist",
 		"startBias": ["Jungle"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -4044,7 +4042,7 @@
 	{
 		"name": "Canto Bight legislative body",
 		"adjective": ["Cantonican"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Tourist",
 		"startBias": ["Coast"],
 		
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -4058,7 +4056,7 @@
 	{
 		"name": "Centrality",
 		"adjective": ["Centrality"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Tourist",
 		
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -4071,7 +4069,7 @@
 	{
 		"name": "Cloud City",
 		"adjective": ["Bespinite"],
-		"cityStateType": "Mercantile",
+		"cityStateType": "Tourist",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -4084,7 +4082,7 @@
 	{
 		"name": "Haxion Brood",
 		"adjective": ["Haxion"],
-		"cityStateType": "Militaristic",
+		"cityStateType": "Tourist",
 
 		"declaringWar": "Tonight we celebrate those fallen challengers of the past. And the great sacrifice they've made to make us all... rich!",
 		"attacked": "The Haxion Brood is gunning for ya.",
