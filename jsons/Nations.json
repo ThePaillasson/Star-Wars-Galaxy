@@ -2521,7 +2521,7 @@
 	{
 		"name": "Assembly",
 		"adjective": ["Pijali"],
-		"cityStateType": "Agricultural",
+		"cityStateType": "Industrial",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2534,7 +2534,7 @@
 	{
 		"name": "Balmorran Puppet Government",
 		"adjective": ["Balmorran"],
-		"cityStateType": "Agricultural",
+		"cityStateType": "Industrial",
 		"startBias": ["Hill"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2548,7 +2548,7 @@
 	{
 		"name": "Congress of Caliphs",
 		"adjective": ["Swokes Swokes"],
-		"cityStateType": "Agricultural",
+		"cityStateType": "Industrial",
 		"startBias": ["Desert"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2562,7 +2562,7 @@
 	{
 		"name": "Corellian Republic",
 		"adjective": ["Corellian"],
-		"cityStateType": "Agricultural",
+		"cityStateType": "Industrial",
 		"startBias": ["Forest"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2576,7 +2576,7 @@
 	{
 		"name": "Council of Eckless",
 		"adjective": ["Eckless"],
-		"cityStateType": "Agricultural",
+		"cityStateType": "Industrial",
 		"startBias": ["Forest"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2590,7 +2590,7 @@
 	{
 		"name": "Czerka Arms",
 		"adjective": ["Czerka Arms"],
-		"cityStateType": "Agricultural",
+		"cityStateType": "Industrial",
 
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2603,7 +2603,7 @@
 	{
 		"name": "Gatressa Mining Conglomerate",
 		"adjective": ["Gatressa"],
-		"cityStateType": "Agricultural",
+		"cityStateType": "Industrial",
 		
 		"declaringWar": "You leave us no choice. War it must be.",
 		"attacked": "Very well, this shall not be forgotten.",
@@ -2616,7 +2616,7 @@
 	{
 		"name": "Iego council",
 		"adjective": ["Iego"],
-		"cityStateType": "Agricultural",
+		"cityStateType": "Industrial",
 		"startBias": ["Hill"],
 
 		"declaringWar": "You leave us no choice. War it must be.",
@@ -2630,7 +2630,7 @@
 	{
 		"name": "Royal Family of Kessel",
 		"adjective": ["Kesselian"],
-		"cityStateType": "Agricultural",
+		"cityStateType": "Industrial",
 		"startBias": ["Desert"],
 
 		"declaringWar": "Have you heard of the spice mines of Kessel? Slaves sent there last a few months. Maybe a year.",
@@ -2639,6 +2639,19 @@
 		"outerColor": [0,0,0],
 		"innerColor": [239, 210, 66],
 		"cities": ["Kessel"]
+	},
+	{
+		"name": "Stalgasin Hive",
+		"adjective": ["Geonosian"],
+		"cityStateType": "Industrial",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [255,255,224],
+		"innerColor": [255, 165, 0],
+		"cities": ["Geonosian"]
 	},
 
 	{
