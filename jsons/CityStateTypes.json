@@ -20,6 +20,13 @@
         "color": [56, 255, 112]
     },
     {
+    "name": "Maritime",
+    "friendBonusUniques": ["[+2 Food] [in capital]"],
+    "allyBonusUniques": ["[+2 Food] [in capital]", "[+1 Food] [in all cities]"],
+    "uniques": ["Start bias [Coast]"],
+    "color": [56, 255, 112]
+    },
+    {
         "name": "Industrial",
         "friendBonusUniques": ["[+2 Production] [in capital]"],
         "allyBonusUniques": ["[+2 Production] [in capital]", "[+1 Production] [in all cities]"],
