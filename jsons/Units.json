@@ -99,8 +99,8 @@
 		"cost": 45,
 		"requiredTech": "Sailing",
 		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
-		"upgradesTo": "CR90 Corvette",
-		"obsoleteTech": "Astronomy",
+		"upgradesTo": "Frigate",
+		"obsoleteTech": "Navigation",
 		"attackSound": "nonmetalhit"
 	},
 	{
