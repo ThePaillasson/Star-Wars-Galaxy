@@ -344,7 +344,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Droch-class Boarding Ship",
+		"name": "Trident-class Assault Ship",
 		"unitType": "Melee Water",
 		"movement": 5,
 		"strength": 25,
