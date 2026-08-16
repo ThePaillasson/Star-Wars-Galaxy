@@ -1745,7 +1745,7 @@
 		"uniqueTo": "Mandalorians",
 		"replaces": "Great General",
 		"uniques": [
-            "[+15]% Strength bonus for [{Military} {Land}] units within [2] tiles",
+            "[+30]% Strength bonus for [{Military} {Land}] units within [3] tiles",
             "Can instantly construct a [Citadel] improvement <by consuming this unit>",
 			"Can be earned through combat <for [Land] units>",
             "Is part of Great Person group [General]",
