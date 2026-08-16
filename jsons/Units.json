@@ -344,7 +344,7 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Privateer",
+		"name": "Droch-class Boarding Ship",
 		"unitType": "Melee Water",
 		"movement": 5,
 		"strength": 25,
@@ -449,8 +449,58 @@
 		"attackSound": "cavalry"
 	},
 	{
-		"name": "Ironclad",
+		"name": "CR90 corvette",
 		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 45,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Consular-class Cruiser",
+		"unitType": "Melee Water",
+		"replaces": "CR90 corvette",
+		"uniqueTo": "Jedi Order",
+		"movement": 3,
+		"strength": 45,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Gozanti-class cruiser",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 45,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Pelta-class Frigate",
+		"unitType": "Melee Water",
+		"movement": 3,
+		"strength": 45,
+		"cost": 250,
+		"requiredTech": "Steam Power",
+		"requiredResource": "Coal",
+		"upgradesTo": "Destroyer",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Arquitens-class Light Cruiser",
+		"unitType": "Melee Water",
+		"replaces": "Pelta-class Frigate",
+		"uniqueTo": "Galactic Empire",
 		"movement": 3,
 		"strength": 45,
 		"cost": 250,
@@ -717,16 +767,27 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Carrier",
+		"name": "Lucrehulk-class Battleship",
 		"unitType": "Aircraft Carrier",
 		"movement": 5,
 		"strength": 40,
 		"cost": 375,
 		"requiredTech": "Electronics",
-		"uniques": ["Cannot attack", "Can carry [2] [Aircraft] units"]
+		"uniques": ["Can carry [2] [Aircraft] units"]
 	},
 	{
-		"name": "Battleship",
+		"name": "Subjugator-class heavy cruiser",
+		"unitType": "Aircraft Carrier",
+		"replaces": "Lucrehulk-class Battleship",
+		"uniqueTo": "Confederacy of Independent Systems",
+		"movement": 5,
+		"strength": 40,
+		"cost": 375,
+		"requiredTech": "Electronics",
+		"uniques": ["Can carry [2] [Aircraft] units"]
+	},
+	{
+		"name": "Acclamator-class Transgalactic Military Assault Ship",
 		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 55,
@@ -738,7 +799,84 @@
 		"uniques": ["Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
-		// Does not actually upgrade to Missile Cruisers
+	},
+	{
+		"name": "Dual Hemisphere-Omni Support Vessel",
+		"unitType": "Ranged Water",
+		"replaces": "Acclamator-class Transgalactic Military Assault Ship",
+		"uniqueTo": "Confederacy of Independent Systems"
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Venator-class Star Destroyer",
+		"unitType": "Ranged Water",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Providence-class Dreadnought",
+		"unitType": "Ranged Water",
+		"replaces": "Venator-class Star Destroyer",
+		"uniqueTo": "Confederacy of Independent Systems",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit", "Will not be displayed in Civilopedia"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Providence-class Trade Federation Dreadnought",
+		"unitType": "Ranged Water",
+		"replaces": "Venator-class Star Destroyer",
+		"uniqueTo": "Trade Federation",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
+	},
+	{
+		"name": "Munificent-class Star Frigate",
+		"unitType": "Ranged Water",
+		"replaces": "Venator-class Star Destroyer",
+		"uniqueTo": "InterGalactic Banking Clan",
+		"movement": 5,
+		"strength": 55,
+		"rangedStrength": 55,
+		"range": 3,
+		"cost": 375,
+		"requiredResource": "Oil",
+		"requiredTech": "Electronics",
+		"uniques": ["Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "shipguns"
 	},
 	{
 		"name": "Machine Gun",
@@ -880,6 +1018,23 @@
 		"unitType": "Fighter",
 		"replaces": "Alpha-3 Nimbus-class V-wing Starfighter",
 		"uniqueTo": "Confederacy of Independent Systems",
+		"movement": 1,
+		"strength": 45,
+		"rangedStrength": 45,
+		"range": 8,
+		"interceptRange": 8,
+		"cost": 375,
+		"requiredTech": "Radar",
+		"requiredResource": "Oil",
+		"upgradesTo": "RZ-1 A-wing Interceptor",
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Mankvim-814 Light Interceptor",
+		"unitType": "Fighter",
+		"replaces": "Alpha-3 Nimbus-class V-wing Starfighter",
+		"uniqueTo": "Techno Union",
 		"movement": 1,
 		"strength": 45,
 		"rangedStrength": 45,
@@ -1042,8 +1197,6 @@
 		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
 			"Blast radius [2]"],
 		"attackSound": "nuke"
-		// Plane rather than a missile - can be based in city or Carrier only.
-		// Can be intercepted, but must die for it not to take effect.
 	},
 	{
 		"name": "Rocket Artillery",
