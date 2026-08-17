@@ -1,7 +1,15 @@
 [
     {
         "name": "General",
-        "unitNames": ["Ahuitzotl", "Akbar", "Albrecht von Wallenstein", "Arminius", "Belisarius", "Bernard Montgomery", "Cao Cao", "Chandragupta Maurya", "Charles Martel", "El Cid", "Epaminondas", "Erwin Rommel", "Eugene of Savoy", "Francisco Pizarro", "Gaius Marius", "George Patton", "Georgy Zhukov", "Geronimo", "Hamilcar Barca", "Hannibal Barca", "Heinz Guderian", "Hernan Cortez", "Ivan the Terrible", "Jeanne d'Arc", "Johann Tserclaes", "Khaled ibn al-Walid", "Leonidas", "Lysander", "Maurice of Nassau", "Oliver Cromwell", "Pompey", "Pyrrhus", "Robert E. Lee", "Sargon", "Scipio Africanus", "Sitting Bull", "Spartacus", "Subutai", "Sun Tzu", "Timur", "Vercingetorix", "William the Conqueror", "Winfield Scott", "Zhuge Liang"]
+        "unitNames": ["Jeanne d'Arc", "Johann Tserclaes", "Khaled ibn al-Walid", "Leonidas", "Lysander", "Maurice of Nassau", "Oliver Cromwell", "Pompey", "Pyrrhus", "Robert E. Lee", "Sargon", "Scipio Africanus", "Sitting Bull", "Spartacus", "Subutai", "Sun Tzu", "Timur", "Vercingetorix", "William the Conqueror", "Winfield Scott", "Zhuge Liang"]
+    },
+        {
+        "name": "Jedi General",
+        "unitNames": ["Adi Gallia", "Agen Kolar", "Anakin Skywalker", "Aayla Secura", "Barriss Offee", "Coleman Kcaj", "Eeth Koth", "Even Piell", "Lord Hoth", "Ima-Gun Di", "Jaro Tapal", "K'Kruhk", "Kazdan Paratus", "Kento Marek", "Ki-Adi-Mundi", "Kit Fisto", "Luke Skywalker", "Luminara Unduli", "Mace Windu", "Malak", "Meetra Surik", "Nahdar Vebb", "Obi-Wan Kenobi", "Oppo Rancisis", "Plo Koon", "Pong Krell", "Quinlan Vos", "Rahm Kota", "Revan", "Saesee Tiin", "Shaak Ti", "Stass Allie", "Tsui Choi", "Yoda",]
+    },
+        {
+        "name": "Mand'alor",
+        "unitNames": ["Batu", "Berke", "Genghis", "Guyuk", "Hulegu", "Kublai", "Mongke", "Mongke Temur", "Ogedei", "Temur Khagan"]
     },
     {
         "name": "Admiral",
@@ -22,10 +30,6 @@
     {
         "name": "Scientist",
         "unitNames": ["Al-Khwarizmi", "Al-Razi", "Abu al-Qasim al-Zahrawi", "Alhazen", "Aristotle", "Aryabhata", "Francis Bacon", "Tycho Brahe", "Niels Bohr", "Nicolaus Copernicus", "Marie Curie", "John Dalton", "Charles Darwin", "René Descartes", "Albert Einstein", "Euclid", "Leonard Euler", "Michael Faraday", "Enrico Fermi", "Richard Feynman", "Rosalind Franklin", "Galileo Galilei", "Carl Friedrich Gauss", "Werner Heisenberg", "Alexander von Humboldt", "Hypatia", "Johannes Kepler", "Andrey Kolmogorov", "Antoine Laurent Lavoisier", "Mary Leakey", "Antony van Leeuwenhoek", "Gottfried Leibniz", "Carl Linnaeus", "Mikhail Lomonosov", "James Clerk Maxwell", "Gregor Mendel", "Dmitri Mendeleev", "Merit-Ptah", "Nasir al-Din al-Tusi", "Nabu-rimanni", "John von Neumann", "Isaac Newton", "Louis Pasteur", "Plato", "Ptolemy", "Ernest Rutherford", "Andrey Sakharov", "Claude Shannon", "Shen Kuo", "Socrates", "Alan Turing", "Xi Ling Shi", "Zu Chongzhi"]
-    },
-    {
-        "name": "Khan",
-        "unitNames": ["Batu", "Berke", "Genghis", "Guyuk", "Hulegu", "Kublai", "Mongke", "Mongke Temur", "Ogedei", "Temur Khagan"]
     },
     {
         "name": "Prophet",
