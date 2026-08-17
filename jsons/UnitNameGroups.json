@@ -9,7 +9,7 @@
     },
         {
         "name": "Mand'alor",
-        "unitNames": ["Batu", "Berke", "Genghis", "Guyuk", "Hulegu", "Kublai", "Mongke", "Mongke Temur", "Ogedei", "Temur Khagan"]
+        "unitNames": ["Mandalore the First", "Mandalore the Great", "Mandalore the Conqueror", "Mandalore the Indomitable", "Mandalore the Ultimate", "Canderous Ordo the Preserver", "Mandalore the Lesser", "Artus Lok the Vindicated", "Shae Vizla the Avenger", "Tarre Vizsla", "Aga Awaud the Uniter", "Jaster Mereel", "Jango Fett", "Pre Vizsla", "Spar the Resurrector", "Bo-Katan Kryze", "Fenn Shysa", "Boba Fett", "Chernan Ordo", "Yaga Auchs"]
     },
     {
         "name": "Admiral",
