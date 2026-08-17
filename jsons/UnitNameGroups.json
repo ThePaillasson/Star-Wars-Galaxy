@@ -25,11 +25,11 @@
     },
     { 
         "name": "Engineer",
-        "unitNames": ["Archimedes", "Alexander Graham Bell", "Isambard Kingdom Brunel", "Karl Benz", "Henry Bessemer", "Bi Sheng", "Cai Lun", "Charles Augustin de Coulomb", "Louis Daguerre", "Gottlieb Daimler", "Charles Stark Draper", "George Eastman", "Thomas Edison", "Alexandre Gustave Eiffel", "Henry Ford", "Benjamin Franklin", "Robert Goddard", "George Washington Goethals", "Heron", "Imhotep", "Joseph Marie Jacquard", "Ferdinand de Lesseps", "Guglielmo Marconi", "William Morton", "Nikolaus August Otto", "Blaise Pascal", "Norbert Rillieux", "John Roebling", "Wilhelm Schickard", "Mimar Sinan", "Nain Singh", "Nikola Tesla", "James Watt", "Frank Lloyd Wright", "Orville Wright", "Wilbur Wright", "Zhang Heng"]
+        "unitNames": ["Bao-Dur", "Gizor Dellso", "Hugo Eckener", "Orson Callan Krennic", "Peli Motto", "Phoebos", "Shil Tervo", "Tora", "Walex Blissex", ]
     },
     {
         "name": "Scientist",
-        "unitNames": ["Al-Khwarizmi", "Al-Razi", "Abu al-Qasim al-Zahrawi", "Alhazen", "Aristotle", "Aryabhata", "Francis Bacon", "Tycho Brahe", "Niels Bohr", "Nicolaus Copernicus", "Marie Curie", "John Dalton", "Charles Darwin", "René Descartes", "Albert Einstein", "Euclid", "Leonard Euler", "Michael Faraday", "Enrico Fermi", "Richard Feynman", "Rosalind Franklin", "Galileo Galilei", "Carl Friedrich Gauss", "Werner Heisenberg", "Alexander von Humboldt", "Hypatia", "Johannes Kepler", "Andrey Kolmogorov", "Antoine Laurent Lavoisier", "Mary Leakey", "Antony van Leeuwenhoek", "Gottfried Leibniz", "Carl Linnaeus", "Mikhail Lomonosov", "James Clerk Maxwell", "Gregor Mendel", "Dmitri Mendeleev", "Merit-Ptah", "Nasir al-Din al-Tusi", "Nabu-rimanni", "John von Neumann", "Isaac Newton", "Louis Pasteur", "Plato", "Ptolemy", "Ernest Rutherford", "Andrey Sakharov", "Claude Shannon", "Shen Kuo", "Socrates", "Alan Turing", "Xi Ling Shi", "Zu Chongzhi"]
+        "unitNames": ["Cronal", "Cylo", "Danni Quee", "Galen Walton Erso", "Graf Zapalo", "Juvard Illip Oggurobb", "Ko Sai", "Nala Se", "Nuvo Vindi", "Rorax Falken", "Royce Hemlock", "Silas Tagge", "Zeta Magnus", ]
     },
     {
         "name": "Prophet",
