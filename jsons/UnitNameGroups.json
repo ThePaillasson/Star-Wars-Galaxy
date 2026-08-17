@@ -25,11 +25,11 @@
     },
     { 
         "name": "Engineer",
-        "unitNames": ["Bao-Dur", "Gizor Dellso", "Hugo Eckener", "Orson Callan Krennic", "Peli Motto", "Phoebos", "Shil Tervo", "Tora", "Walex Blissex", ]
+        "unitNames": ["Bao-Dur", "Gizor Dellso", "Hugo Eckener", "Orson Callan Krennic", "Peli Motto", "Phoebos", "Shil Tervo", "Tora", "Walex Blissex"]
     },
     {
         "name": "Scientist",
-        "unitNames": ["Cronal", "Cylo", "Danni Quee", "Galen Walton Erso", "Graf Zapalo", "Juvard Illip Oggurobb", "Ko Sai", "Nala Se", "Nuvo Vindi", "Rorax Falken", "Royce Hemlock", "Silas Tagge", "Zeta Magnus", ]
+        "unitNames": ["Cronal", "Cylo", "Danni Quee", "Galen Walton Erso", "Graf Zapalo", "Juvard Illip Oggurobb", "Ko Sai", "Nala Se", "Nuvo Vindi", "Rorax Falken", "Royce Hemlock", "Silas Tagge", "Zeta Magnus"]
     },
     {
         "name": "Prophet",
