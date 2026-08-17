@@ -29,10 +29,14 @@
     },
     {
         "name": "Scientist",
-        "unitNames": ["Atha Prime", "Cronal", "Cylo", "Danni Quee", "Galen Walton Erso", "Graf Zapalo", "Juvard Illip Oggurobb", "Ko Sai", "Nala Se", "Nuvo Vindi", "Rorax Falken", "Royce Hemlock", "Silas Tagge", "Zeta Magnus"]
+        "unitNames": ["Atha Prime", "Cylo", "Danni Quee", "Galen Walton Erso", "Graf Zapalo", "Juvard Illip Oggurobb", "Ko Sai", "Nala Se", "Nuvo Vindi", "Rorax Falken", "Royce Hemlock", "Silas Tagge", "Zeta Magnus"]
     },
     {
         "name": "Prophet",
-        "unitNames": [] // The original has no Great Prophet names, but we leave it here to enable mod support
+        "unitNames": ["Chodo Habat", "Contispex", "Cronal", "Elecia Zeveron", "Ephant Mon", "Kadann", "Karnak Tetsu", "Lor San Tekka", "Maxiron Agolerga", "Paladius", "Peteen", "Sachar Rold", "Umbral"]
+    },
+    {
+        "name": "Grand Master",
+        "unitNames": ["Awdrysta Pina", "Biel Ductavis", "Nomi Sunrider", "Zym", "Satele Shan", "Fae Coven", "Yoda", "Mace Windu", "Xo Lahru", "Pra-Tre Veter", "Ry Ki-Sakka", "Luke Skywalker", "Kenth Hamner", "Saba Sebatyne"]
     }
 ]
