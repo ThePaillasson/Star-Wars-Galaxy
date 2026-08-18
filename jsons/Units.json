@@ -532,6 +532,21 @@
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
 	},
+	{
+		"name": "Artillery",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 21,
+		"rangedStrength": 28,
+		"range": 3,
+		"cost": 320,
+		"requiredTech": "Dynamite",
+		"upgradesTo": "Rocket Artillery",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
 
 	// Modern era
 
@@ -1157,36 +1172,6 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Unstable Terrain Artillery Transport",
-		"unitType": "Armored",
-		"movement": 5,
-		"strength": 70,
-		"rangedStrength": 70,
-		"range": 2,
-		"cost": 375,
-		"requiredTech": "Combined Arms",
-		"requiredResource": "Oil",
-		"upgradesTo": "Multi-Troop Transport",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-	{
-		"name": "IG-227 Hailfire-class Droid Tank",
-		"unitType": "Armored",
-		"replaces": "Unstable Terrain Artillery Transport",
-		"uniqueTo": "InterGalactic Banking Clan",
-		"movement": 5,
-		"strength": 70,
-		"rangedStrength": 70,
-		"range": 2,
-		"cost": 375,
-		"requiredTech": "Combined Arms",
-		"requiredResource": "Oil",
-		"upgradesTo": "Multi-Troop Transport",
-		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
-		"attackSound": "tankshot"
-	},
-	{
 		"name": "Anti-Tank Gun",
 		"unitType": "Gunpowder",
 		"movement": 2,
@@ -1213,8 +1198,25 @@
 		"attackSound": "nuke"
 	},
 	{
-		"name": "Rocket Artillery",
+		"name": "Unstable Terrain Artillery Transport",
 		"unitType": "Siege",
+		"movement": 2,
+		"strength": 45,
+		"rangedStrength": 60,
+		"range": 3,
+		"cost": 425,
+		"requiredTech": "Rocketry",
+		"requiredResource": "Aluminum",
+		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
+			"[-1] Sight", "Never appears as a Barbarian unit"],
+		"promotions": ["Indirect Fire"],
+		"attackSound": "artillery"
+	},
+	{
+		"name": "IG-227 Hailfire-class Droid Tank",
+		"unitType": "Siege",
+		"replaces": "Unstable Terrain Artillery Transport",
+		"uniqueTo": "InterGalactic Banking Clan",
 		"movement": 2,
 		"strength": 45,
 		"rangedStrength": 60,
