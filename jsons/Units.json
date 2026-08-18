@@ -260,7 +260,7 @@
 		"rangedStrength": 18,
 		"cost": 120,
 		"requiredTech": "Machinery",
-		"upgradesTo": "Gatling Gun",
+		"upgradesTo": "Rocket Launcher",
 		"obsoleteTech": "Industrialization",
 		"attackSound": "crossbow"
 	},
@@ -398,7 +398,7 @@
 	// Industrial Era
 
 	{
-		"name": "Gatling Gun",
+		"name": "Heavy Repeating Blaster",
 		"unitType": "Ranged Gunpowder",
 		"range": 1,
 		"movement": 2,
@@ -406,7 +406,18 @@
 		"rangedStrength": 30,
 		"cost": 225,
 		"requiredTech": "Industrialization",
-		"upgradesTo": "Machine Gun",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Rocket Launcher",
+		"unitType": "Ranged Gunpowder",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Industrialization",
+		"upgradesTo": "Smart Rocket",
 		"obsoleteTech": "Ballistics",
 		"attackSound": "machinegun"
 	},
@@ -882,7 +893,7 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Machine Gun",
+		"name": "Smart Rocket",
 		"unitType": "Ranged Gunpowder",
 		"range": 1,
 		"movement": 2,
