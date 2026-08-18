@@ -21,7 +21,11 @@
     },
     {
         "name": "Merchant",
-        "unitNames": ["Aretas III", "Andrew Carnegie", "Coco Chanel", "Marcus Licinius Crassus", "Enrico Dandolo", "Anthony van Diemen", "Jakob Fugger", "Harkuf", "Edward Harriman", "Milton S. Hershey", "Ibn Battuta", "Steve Jobs", "John Maynard Keynes", "Sir James Lancaster", "Sir Alexander Mackenzie", "Giovanni de Medici", "John Stuart Mill", "Henri Nestlé", "Marco Polo", "John D. Rockefeller", "Sir Thomas Roe", "Shah Jahan", "Adam Smith", "Levi Strauss", "Raja Todar Mal", "Thomas Twining", "Cornelius Vanderbilt", "Richard Whittington", "Wang Anshi", "Zhang Qian"]
+        "unitNames": ["Aucta Curvak", "Dok-Ondar", "Doma Dendra", "Droogan", "Elis Helrot", "Gragra", "Jek Tono Porkins", "Jira", "Kleya Marki", "Luthen Rael", "Watto", "Yarna d'al' Gargan", "Yoffar"]
+    },
+    {
+        "name": "Banker",
+        "unitNames": ["Anolo", "Clu Lesser", "Exum Jermit", "Hego Damask", "Lo Vapeet", "Mak Plain", "Nix Card", "Pors Tonith", "Reep Tonith", "San Hill",]
     },
     { 
         "name": "Engineer",
@@ -29,7 +33,7 @@
     },
     {
         "name": "Scientist",
-        "unitNames": ["Atha Prime", "Cylo", "Danni Quee", "Galen Walton Erso", "Graf Zapalo", "Juvard Illip Oggurobb", "Ko Sai", "Nala Se", "Nuvo Vindi", "Rorax Falken", "Royce Hemlock", "Silas Tagge", "Zeta Magnus"]
+        "unitNames": ["Atha Prime", "Cylo", "Danni Quee", "Ebenn Q3 Baobab", "Galen Walton Erso", "Graf Zapalo", "Juvard Illip Oggurobb", "Ko Sai", "Nala Se", "Nuvo Vindi", "Rorax Falken", "Royce Hemlock", "Silas Tagge", "Zeta Magnus"]
     },
     {
         "name": "Prophet",
