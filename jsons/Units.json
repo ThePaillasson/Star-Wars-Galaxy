@@ -25,19 +25,19 @@
 		"cost": 25,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Archer] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": ["May upgrade to [Slugthrower] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Warrior",
+		"name": "Ancient Warrior",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
+		"upgradesTo": "War-Robot",
 		"uniques": ["May upgrade to [Force Warrior] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
@@ -53,11 +53,11 @@
 		"strength": 8,
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Swordsman",
+		"upgradesTo": "War-Robot",
 		"attackSound": "nonmetalhit"
 	},
 	{
-		"name": "Archer",
+		"name": "Slugthrower",
 		"unitType": "Archery",
 		"movement": 2,
 		"strength": 5,
@@ -72,7 +72,7 @@
 		"name": "Skirmisher",
 		"unitType": "Archery",
 		"uniqueTo": "Barbarians",
-		"replaces": "Archer",
+		"replaces": "Slugthrower",
 		"movement": 2,
 		"strength": 4,
 		"rangedStrength": 7,
@@ -114,7 +114,6 @@
 		"upgradesTo": "Trireme",
 		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
-		//Barbarian unique naval unit, weaker and slower than Trireme.
 	},
 	{
 		"name": "Chariot Archer",
@@ -200,13 +199,28 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Swordsman",
+		"name": "Beam Warrior",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
 		"requiredTech": "Iron Working",
-		"upgradesTo": "Longswordsman",
+		"upgradesTo": "Blaster Trooper",
+		"obsoleteTech": "Steel",
+		"requiredResource": "Iron",
+		"hurryCostModifier": 20,
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "War-Robot",
+		"unitType": "Sword",
+		"replaces": "Slave Warrior",
+		"uniqueTo": "Galactic Empire",
+		"movement": 2,
+		"strength": 14,
+		"cost": 75,
+		"requiredTech": "Iron Working",
+		"upgradesTo": "Blaster Trooper",
 		"obsoleteTech": "Steel",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
@@ -278,8 +292,36 @@
 		"attackSound": "throw"
 	},
 	{
-		"name": "Longswordsman",
+		"name": "Blaster Trooper",
 		"unitType": "Sword",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Peacekeeper",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Republic Trooper",
+		"unitType": "Sword",
+		"replaces": "Blaster Trooper",
+		"uniqueTo": "Galactic Empire",
+		"movement": 2,
+		"strength": 21,
+		"cost": 120,
+		"requiredTech": "Steel",
+		"upgradesTo": "Peacekeeper",
+		"obsoleteTech": "Gunpowder",
+		"requiredResource": "Iron",
+		"attackSound": "metalhit"
+	},
+	{
+		"name": "Sith Legionnaire",
+		"unitType": "Sword",
+		"replaces": "Blaster Trooper",
+		"uniqueTo": "Sith Order",
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
