@@ -38,7 +38,7 @@
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Metal Casting",
 		"upgradesTo": "Swordsman",
-		"uniques": ["May upgrade to [Spearman] through ruins-like effects"],
+		"uniques": ["May upgrade to [Force Warrior] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
 			{"text": "This is your basic, club-swinging fighter."}
@@ -222,7 +222,7 @@
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Jedi Champion",
+		"upgradesTo": "Jedi Knight",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
 	},
