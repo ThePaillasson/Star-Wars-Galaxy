@@ -37,7 +37,7 @@
 		"cost": 40,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "War-Robot",
+		"upgradesTo": "Beam Warrior",
 		"uniques": ["May upgrade to [Force Warrior] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
         "civilopediaText": [
@@ -53,7 +53,7 @@
 		"strength": 8,
 		"cost": 20,
 		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "War-Robot",
+		"upgradesTo": "Beam Warrior",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -215,7 +215,7 @@
 		"name": "War-Robot",
 		"unitType": "Sword",
 		"replaces": "Slave Warrior",
-		"uniqueTo": "Galactic Empire",
+		"uniqueTo": "Xim's Empire",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
