@@ -518,7 +518,7 @@
 		"attackSound": "shipguns"
 	},
 	{
-		"name": "Artillery",
+		"name": "Self-Propelled Heavy Artillery",
 		"unitType": "Siege",
 		"movement": 2,
 		"strength": 21,
@@ -526,22 +526,7 @@
 		"range": 3,
 		"cost": 320,
 		"requiredTech": "Dynamite",
-		"upgradesTo": "Rocket Artillery",
-		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
-			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
-		"promotions": ["Indirect Fire"],
-		"attackSound": "artillery"
-	},
-	{
-		"name": "Artillery",
-		"unitType": "Siege",
-		"movement": 2,
-		"strength": 21,
-		"rangedStrength": 28,
-		"range": 3,
-		"cost": 320,
-		"requiredTech": "Dynamite",
-		"upgradesTo": "Rocket Artillery",
+		"upgradesTo": "Unstable Terrain Artillery Transport",
 		"uniques": ["[+200]% Strength <vs cities> <when attacking>","No defensive terrain bonus",
 			"Must set up to ranged attack","[-1] Sight", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
@@ -920,19 +905,6 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Anti-Aircraft Gun",
-		"unitType": "Gunpowder",
-		"movement": 2,
-		"interceptRange": 2,
-		"strength": 50,
-		"cost": 375,
-		"requiredTech": "Ballistics",
-		"upgradesTo": "Mobile SAM",
-		"obsoleteTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>", "[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "machinegun"
-	},
-	{
 		"name": "All Terrain Reconnaissance Transport",
 		"unitType": "Armored",
 		"movement": 4,
@@ -1172,8 +1144,21 @@
 		"attackSound": "tankshot"
 	},
 	{
-		"name": "Anti-Tank Gun",
-		"unitType": "Gunpowder",
+		"name": "AV-7 Anti-vehicle Artillery Cannon",
+		"unitType": "Siege",
+		"movement": 2,
+		"strength": 50,
+		"cost": 300,
+		"requiredTech": "Combined Arms",
+		"upgradesTo": "Low Altitude Assault Transport",
+		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "J-1 Semi-Autonomous Proton Cannon",
+		"unitType": "Siege",
+		"replaces": "AV-7 Anti-vehicle Artillery Cannon",
+		"uniqueTo": "Techno Union",
 		"movement": 2,
 		"strength": 50,
 		"cost": 300,
@@ -1228,18 +1213,6 @@
 			"[-1] Sight", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "artillery"
-	},
-	{
-		"name": "Mobile SAM",
-		"unitType": "Gunpowder",
-		"movement": 3,
-		"interceptRange": 2,
-		"strength": 65,
-		"cost": 425,
-		"requiredTech": "Rocketry",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Air] units>",
-			"[+150]% Strength <vs [Helicopter] units>", "Never appears as a Barbarian unit"],
-		"attackSound": "missile"
 	},
 	{
 		"name": "Guided Missile",
