@@ -3082,6 +3082,20 @@
 		"innerColor": [255,215,0],
 		"cities": ["Kerkoidia"]
 	},
+
+    {
+		"name": "Spice Runners of Kijimi",
+		"adjective": ["Spice Runner"],
+		"cityStateType": "Mercantile",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "It serves the Spice Runner to foment chaos. The uncertainty helps us.",
+		"attacked": "This isn't a meeting to form alliances, is it? It's a trap. And you're the ones pulling the trigger.",
+		"defeated": "You are proving to be more powerful than we thought.",
+		"outerColor": [29,97,140],
+		"innerColor": [229,183,102],
+		"cities": ["Kijimi"]
+	},
 	
 	{
 		"name": "Toydarian Monarchy",
@@ -3150,6 +3164,20 @@
 		"outerColor": [35,50,68],
 		"innerColor": [105,99,94],
 		"cities": ["Alderaan"]
+	},
+
+    {
+		"name": "Ashiga Clan",
+		"adjective": ["Ashiga"],
+		"cityStateType": "Cultured",
+		"startBias": ["Tundra"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [255, 255, 255],
+		"innerColor": [0,0,0],
+		"cities": ["Kijimi"]
 	},
 	
 	{
@@ -3289,6 +3317,19 @@
 	},
 
 	{
+		"name": "Plazir-15's Government",
+		"adjective": ["Plazir-15"],
+		"cityStateType": "Cultured",
+		
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [73,33,44],
+		"innerColor": [182,136,96],
+		"cities": ["Plazir-15"]
+	},
+
+	{
 		"name": "Wookiee council",
 		"adjective": ["Wookiee"],
 		"cityStateType": "Cultured",
@@ -3329,6 +3370,20 @@
 		"outerColor": [0,0,0],
 		"innerColor": [255,255,255],
 		"cities": ["Anarris"]
+	},
+
+	{
+		"name": "Andoan Government",
+		"adjective": ["Aqualish"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "My personal strategy for victory is through total annihilation.",
+		"attacked": "Turn back now. Retreat while you can, for I am your doom.",
+		"defeated": "Your nobility--",
+		"outerColor": [113,116,138],
+		"innerColor": [121,59,27],
+		"cities": ["Ando"]
 	},
 
 	{
@@ -3763,20 +3818,6 @@
 	},
 
 	{
-		"name": "Andoan Government",
-		"adjective": ["Aqualish"],
-		"cityStateType": "Militaristic",
-		"startBias": ["Coast"],
-		
-		"declaringWar": "My personal strategy for victory is through total annihilation.",
-		"attacked": "Turn back now. Retreat while you can, for I am your doom.",
-		"defeated": "Your nobility--",
-		"outerColor": [113,116,138],
-		"innerColor": [121,59,27],
-		"cities": ["Ando"]
-	},
-
-	{
 		"name": "Tapani Empire",
 		"adjective": ["Tapani"],
 		"cityStateType": "Militaristic",
@@ -3846,6 +3887,20 @@
 	},
 
 	{
+		"name": "Warbird Gang",
+		"adjective": ["Warbird"],
+		"cityStateType": "Militaristic",
+		"startBias": ["Coast"],
+		
+		"declaringWar": "Engage the power generators, and go for their fuel reserves.",
+		"attacked": "We lackeys only take orders from one tyrant, Captain Kragan!",
+		"defeated": "Warbirds, retreat! We've done enough damage for the day.",
+		"outerColor": [255, 255, 255],
+		"innerColor": [215, 166, 47],
+		"cities": ["Castilon"]
+	},
+
+	{
 		"name": "White Maw",
 		"adjective": ["White Maw"],
 		"startBias": ["Tundra"],
@@ -3859,7 +3914,7 @@
 		"cities": ["Coldstone Canyon"]
 	},
 	
-        {
+    {
 		"name": "Ancient Order of Pessimists",
 		"adjective": ["Pessimist"],
 		"cityStateType": "Religious",
@@ -3915,6 +3970,21 @@
 	},
 
 	{
+		"name": "Church of the Force",
+		"adjective": ["Adept of the Force"],
+		"cityStateType": "Religious",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "Without the Jedi, there can be no balance in the Force.",
+		"outerColor": [216,219,198],
+		"innerColor": [143,112,56],
+		"cities": ["Jedha"]
+	},
+
+
+	{
 		"name": "Domains of Triton",
 		"adjective": ["Tritonite"],
 		"cityStateType": "Religious",
@@ -3926,6 +3996,20 @@
 		"outerColor": [118, 111, 100],
 		"innerColor": [0,0,0],
 		"cities": ["Triton"]
+	},
+	
+	{
+		"name": "Guardians of the Whills",
+		"adjective": ["Guardian of the Whills"],
+		"cityStateType": "Religious",
+		"startBias": ["Desert"],
+
+		"declaringWar": "You leave us no choice. War it must be.",
+		"attacked": "Very well, this shall not be forgotten.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [24, 22, 23],
+		"innerColor": [114,38,41],
+		"cities": ["Jedha"]
 	},
 
 	{
@@ -4054,7 +4138,7 @@
 	},
 	
 	{
-		"name": "Canto Bight legislative body",
+		"name": "Canto Bight Legislative Body",
 		"adjective": ["Cantonican"],
 		"cityStateType": "Tourist",
 		"startBias": ["Coast"],
