@@ -131,28 +131,28 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Spearman",
+		"name": "Je'daii Warrior",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "Protosaber",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Marauder",
+		"name": "Force Hound",
 		"unitType": "Sword",
-		"replaces": "Spearman",
-		"uniqueTo": "Barbarians",
+		"replaces": "Je'daii Warrior",
+		"uniqueTo": "Infinite Empire",
 		"movement": 2,
-		"strength": 10,
+		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Bronze Working",
 		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Pikeman",
+		"upgradesTo": "Protosaber",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
@@ -215,14 +215,14 @@
 
 	// Medieval Era
 	{
-		"name": "Pikeman",
+		"name": "Protosaber",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
 		"requiredTech": "Civil Service",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Lancer",
+		"upgradesTo": "Jedi Champion",
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
 	},
@@ -366,6 +366,34 @@
 		"upgradesTo": "CR90 Corvette",
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
+	},
+	{
+		"name": "Jedi Knight",
+		"unitType": "Sword",
+		"movement": 2,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Formation I"],
+		"upgradesTo": "AV-7 Anti-vehicle Artillery Cannon",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Sith Warrior",
+		"unitType": "Sword",
+		"replaces": "Jedi Champion",
+		"uniqueTo": "Sith Order",
+		"movement": 2,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Formation I"],
+		"upgradesTo": "AV-7 Anti-vehicle Artillery Cannon",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
 	},
 	{
 		"name": "Lancer",
