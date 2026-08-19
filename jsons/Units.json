@@ -131,7 +131,7 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Je'daii Warrior",
+		"name": "Force Warrior",
 		"unitType": "Sword",
 		"movement": 2,
 		"strength": 11,
@@ -145,7 +145,7 @@
 	{
 		"name": "Force Hound",
 		"unitType": "Sword",
-		"replaces": "Je'daii Warrior",
+		"replaces": "Force Warrior",
 		"uniqueTo": "Infinite Empire",
 		"movement": 2,
 		"strength": 11,
@@ -376,14 +376,13 @@
 		"requiredTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
 		"promotions": ["Formation I"],
-		"upgradesTo": "AV-7 Anti-vehicle Artillery Cannon",
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
 	{
 		"name": "Sith Warrior",
 		"unitType": "Sword",
-		"replaces": "Jedi Champion",
+		"replaces": "Jedi Knight",
 		"uniqueTo": "Sith Order",
 		"movement": 2,
 		"strength": 25,
@@ -391,7 +390,20 @@
 		"requiredTech": "Metallurgy",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
 		"promotions": ["Formation I"],
-		"upgradesTo": "AV-7 Anti-vehicle Artillery Cannon",
+		"obsoleteTech": "Combined Arms",
+		"attackSound": "horse"
+	},
+	{
+		"name": "Knight of Zakuul",
+		"unitType": "Sword",
+		"replaces": "Jedi Knight",
+		"uniqueTo": "Eternal Empire",
+		"movement": 2,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Metallurgy",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Formation I"],
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
