@@ -45,6 +45,23 @@
 		]
 	},
 	{
+		"name": "Rakatan Warrior",
+		"unitType": "Sword",
+		"uniqueTo": "Infinite Empire",
+		"replaces": "Ancient Warrior",
+		"movement": 2,
+		"strength": 8,
+		"cost": 40,
+		"requiredTech": "Agriculture",
+		"obsoleteTech": "Metal Casting",
+		"upgradesTo": "Beam Warrior",
+		"uniques": ["May upgrade to [Force Warrior] through ruins-like effects"],
+		"attackSound": "nonmetalhit",
+        "civilopediaText": [
+			{"text": "This is your basic, club-swinging fighter."}
+		]
+	},
+	{
 		"name": "Slugthrower",
 		"unitType": "Archery",
 		"movement": 2,
