@@ -457,7 +457,7 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Lancer",
+		"name": "Seraph-class Urban Landspeeder",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 25,
@@ -466,8 +466,6 @@
 		"requiredResource": "Horses",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
 		"promotions": ["Formation I"],
-		"upgradesTo": "AV-7 Anti-vehicle Artillery Cannon",
-		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
 	{
