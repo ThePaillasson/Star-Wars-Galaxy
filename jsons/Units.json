@@ -97,7 +97,7 @@
             "Uncapturable", "Automation is a primary action"]
 	},
 	{
-		"name": "Trireme",
+		"name": "Ancient Warship",
 		"unitType": "Melee Water",
 		"movement": 4,
 		"strength": 10,
@@ -106,18 +106,6 @@
 		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Frigate",
 		"obsoleteTech": "Navigation",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Galley",
-		"unitType": "Melee Water",
-		"uniqueTo": "Barbarians",
-		"movement": 3,
-		"strength": 7,
-		"cost": 40,
-		"uniques": ["Cannot enter ocean tiles"],
-		"upgradesTo": "Trireme",
-		"obsoleteTech": "Astronomy",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -246,7 +234,7 @@
 		"attackSound": "metalhit"
 	},
 	{
-		"name": "Galleass",
+		"name": "Battlecruiser",
 		"unitType": "Ranged Water",
 		"movement": 3,
 		"strength": 16,
@@ -254,7 +242,7 @@
 		"cost": 100,
 		"requiredTech": "Compass",
 		"obsoleteTech": "Navigation",
-		"upgradesTo": "Frigate",
+		"upgradesTo": "Battleship",
 		"uniques": ["Cannot enter ocean tiles"],
 		"attackSound": "arrow"
 	},
@@ -401,7 +389,7 @@
 		"attackSound": "cannon"
 	},
 	{
-		"name": "Frigate",
+		"name": "Battleship",
 		"unitType": "Ranged Water",
 		"movement": 5,
 		"strength": 25,
@@ -623,14 +611,13 @@
 	// Modern era
 
 	{
-		"name": "Submarine",
+		"name": "Stealth Ship",
 		"unitType": "Submarine",
 		"movement": 5,
 		"strength": 35,
 		"rangedStrength": 60,
 		"cost": 325,
 		"requiredTech": "Refrigeration",
-		"upgradesTo": "Nuclear Submarine",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
 	},
@@ -1368,18 +1355,6 @@
 	},
 
 	// Information Era
-	{
-		"name": "Nuclear Submarine",
-		"unitType": "Submarine",
-		"movement": 6,
-		"strength": 50,
-		"range": 3,
-		"rangedStrength": 85,
-		"cost": 425,
-		"requiredTech": "Telecommunications",
-		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "[+1] Sight", "Can carry [2] [Missile] units", "Never appears as a Barbarian unit"],
-		"attackSound": "torpedo"
-	},
 	{
 		"name": "Special Force",
 		"unitType": "Gunpowder",
