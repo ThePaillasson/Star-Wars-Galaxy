@@ -3303,140 +3303,140 @@ TileSets/FantasyHex/Tiles/Trading postT-Industrial era
   index: -1
 TileSets/FantasyHex/Tiles/Truffles
   rotate: false
-  xy: 1434, 829
+  xy: 1002, 654
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Truffles+Camp
   rotate: false
-  xy: 1506, 829
+  xy: 1434, 829
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Truffles+Camp-Industrial era
   rotate: false
-  xy: 1578, 779
+  xy: 1506, 829
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Truffles+CampT
   rotate: false
-  xy: 1650, 746
+  xy: 1578, 779
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Truffles+CampT-Industrial era
   rotate: false
-  xy: 1722, 746
+  xy: 1650, 746
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra
   rotate: false
-  xy: 1794, 719
+  xy: 1722, 746
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill
   rotate: false
-  xy: 1218, 855
+  xy: 1146, 854
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Fallout
   rotate: false
-  xy: 1362, 813
+  xy: 1290, 847
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill+Fallout2
   rotate: false
-  xy: 1074, 829
+  xy: 1362, 813
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra+Hill2
   rotate: false
-  xy: 1290, 847
+  xy: 1218, 855
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra2
   rotate: false
-  xy: 1866, 711
+  xy: 1794, 719
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Tundra3
   rotate: false
-  xy: 1146, 854
+  xy: 1866, 711
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Uluru
   rotate: false
-  xy: 1146, 790
+  xy: 1074, 765
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Uranium
   rotate: false
-  xy: 1218, 791
+  xy: 1146, 790
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Whales
   rotate: false
-  xy: 1146, 726
+  xy: 1074, 701
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Whales+Fishing Boats
   rotate: false
-  xy: 1218, 727
+  xy: 1146, 726
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Whales+Fishing Boats-Industrial era
   rotate: false
-  xy: 1290, 715
+  xy: 1218, 723
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wheat
   rotate: false
-  xy: 1362, 749
+  xy: 1290, 713
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wine
   rotate: false
-  xy: 1434, 765
+  xy: 1362, 749
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Tiles/Wine+Plantation
   rotate: false
-  xy: 1506, 765
+  xy: 1434, 765
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -4687,16 +4687,9 @@ TileSets/FantasyHex/Units/Trident-class Assault Ship
   orig: 95, 83
   offset: 0, 0
   index: -1
-TileSets/FantasyHex/Units/Trireme
-  rotate: false
-  xy: 1002, 654
-  size: 64, 56
-  orig: 64, 56
-  offset: 0, 0
-  index: -1
 TileSets/FantasyHex/Units/Turtle Ship
   rotate: false
-  xy: 1074, 765
+  xy: 1074, 829
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
@@ -4724,14 +4717,14 @@ TileSets/FantasyHex/Units/Venator-class Star Destroyer
   index: -1
 TileSets/FantasyHex/Units/War Chariot
   rotate: false
-  xy: 1290, 779
+  xy: 1218, 787
   size: 64, 60
   orig: 64, 60
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/War Elephant
   rotate: false
-  xy: 1074, 695
+  xy: 1290, 777
   size: 64, 62
   orig: 64, 62
   offset: 0, 0
@@ -4745,28 +4738,28 @@ TileSets/FantasyHex/Units/War-Robot
   index: -1
 TileSets/FantasyHex/Units/Winged Hussar
   rotate: false
-  xy: 1074, 619
+  xy: 1506, 753
   size: 64, 68
   orig: 64, 68
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats
   rotate: false
-  xy: 1146, 662
+  xy: 1074, 637
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Work Boats-Modern era
   rotate: false
-  xy: 1218, 663
+  xy: 1146, 662
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
   index: -1
 TileSets/FantasyHex/Units/Worker-Modern era
   rotate: false
-  xy: 1290, 651
+  xy: 1218, 659
   size: 64, 56
   orig: 64, 56
   offset: 0, 0
