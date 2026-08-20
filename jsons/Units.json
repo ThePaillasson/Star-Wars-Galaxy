@@ -117,7 +117,7 @@
 		"cost": 56,
 		"requiredTech": "The Wheel",
 		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
+		"upgradesTo": "74-Z Speeder Bike",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
 		"attackSound": "arrow"
@@ -158,7 +158,7 @@
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
-		"upgradesTo": "Knight",
+		"upgradesTo": "74-Z Speeder Bike",
 		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"hurryCostModifier": 20,
@@ -247,15 +247,14 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Knight",
+		"name": "74-Z Speeder Bike",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
 		"requiredTech": "Chivalry",
 		"obsoleteTech": "Military Science",
-		"upgradesTo": "Cavalry",
-		"requiredResource": "Horses",
+		"upgradesTo": "Single Trooper Aerial Platform",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "horse"
 	},
@@ -536,14 +535,27 @@
 		"attackSound": "shot"
 	},
 	{
-		"name": "Cavalry",
+		"name": "Single Trooper Aerial Platform",
 		"unitType": "Mounted",
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
 		"requiredTech": "Military Science",
 		"obsoleteTech": "Combined Arms",
-		"requiredResource": "Horses",
+		"upgradesTo": "Armored Assault Tank",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "cavalry"
+	},
+	{
+		"name": "Biker Advanced Recon Commando Speeder",
+		"unitType": "Mounted",
+		"replaces": "Single Trooper Aerial Platform",
+		"uniqueTo": "Galactic Empire",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Armored Assault Tank",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "cavalry"
