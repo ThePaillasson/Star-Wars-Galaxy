@@ -45,18 +45,6 @@
 		]
 	},
 	{
-		"name": "Brute",
-		"unitType": "Sword",
-		"uniqueTo": "Barbarians",
-		"replaces": "Warrior",
-		"movement": 2,
-		"strength": 8,
-		"cost": 20,
-		"obsoleteTech": "Metal Casting",
-		"upgradesTo": "Beam Warrior",
-		"attackSound": "nonmetalhit"
-	},
-	{
 		"name": "Slugthrower",
 		"unitType": "Archery",
 		"movement": 2,
@@ -214,7 +202,7 @@
 	{
 		"name": "War-Robot",
 		"unitType": "Sword",
-		"replaces": "Slave Warrior",
+		"replaces": "Beam Warrior",
 		"uniqueTo": "Xim's Empire",
 		"movement": 2,
 		"strength": 14,
