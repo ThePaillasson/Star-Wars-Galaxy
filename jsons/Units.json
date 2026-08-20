@@ -328,8 +328,23 @@
 	// Rennaisance Era
 
 	{
-		"name": "Caravel",
+		"name": "Hammerhead-class Cruiser",
 		"unitType": "Melee Water",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Astronomy",
+		"upgradesTo": "CR90 Corvette",
+		"obsoleteTech": "Combustion",
+		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
+		"hurryCostModifier": 30,
+		"attackSound": "cannon"
+	},
+	{
+		"name": "Interdictor-class Cruiser",
+		"unitType": "Melee Water",
+		"replaces": "Peacekeeper",
+		"uniqueTo": "Sith Order",
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
