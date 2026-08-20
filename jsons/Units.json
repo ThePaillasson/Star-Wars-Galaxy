@@ -343,7 +343,7 @@
 	{
 		"name": "Interdictor-class Cruiser",
 		"unitType": "Melee Water",
-		"replaces": "Peacekeeper",
+		"replaces": "Hammerhead-class Cruiser",
 		"uniqueTo": "Sith Order",
 		"movement": 4,
 		"strength": 20,
