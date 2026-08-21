@@ -1,7 +1,7 @@
 [
     {
         "name": "Tradition",
-        "era": "Ancient era",
+        "era": "Pre-Republic era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -72,7 +72,7 @@
     },
     {
         "name": "Liberty",
-        "era": "Ancient era",
+        "era": "Pre-Republic era",
         "priorities": {
             "Neutral": 10,
             "Cultural": 10,
@@ -143,7 +143,7 @@
     },
     {
         "name": "Honor",
-        "era": "Ancient era",
+        "era": "Pre-Republic era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -216,7 +216,7 @@
     },
     {
         "name": "Piety",
-        "era": "Classical era",
+        "era": "Expansion Period",
         "priorities": {
             "Neutral": 0,
             "Cultural": 0,
@@ -282,7 +282,7 @@
     },
     {
         "name": "Patronage",
-        "era": "Medieval era",
+        "era": "Ductavis Era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -351,7 +351,7 @@
     },
     {
         "name": "Commerce",
-        "era": "Medieval era",
+        "era": "Ductavis Era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -422,7 +422,7 @@
     },
     {
         "name": "Rationalism",
-        "era": "Renaissance era",
+        "era": "Manderon Period",
         "priorities": {
             "Neutral": 10,
             "Cultural": 10,
@@ -490,7 +490,7 @@
     },
     {
         "name": "Freedom",
-        "era": "Industrial era",
+        "era": "Sith Wars era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 10,
@@ -553,7 +553,7 @@
     },
     {
         "name": "Autocracy",
-        "era": "Industrial era",
+        "era": "Sith Wars era",
         "priorities": {
             "Neutral": 5,
             "Cultural": 5,
@@ -623,7 +623,7 @@
     },
     {
         "name": "Order",
-        "era": "Industrial era",
+        "era": "Sith Wars era",
         "priorities": {
             "Neutral": 10,
             "Cultural": 5,
