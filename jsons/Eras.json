@@ -1,6 +1,6 @@
 [
     {
-        "name": "Ancient era",
+        "name": "Pre-Republic era",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
@@ -14,7 +14,7 @@
         "iconRGB": [255, 87, 35]
     },
     {
-        "name": "Classical era",
+        "name": "Expansion Period",
         "researchAgreementCost": 150,
         "startingSettlerCount": 1,
         "startingWorkerCount": 0,
@@ -30,7 +30,7 @@
         "iconRGB": [233, 31, 99]
     },
     {
-        "name": "Medieval era",
+        "name": "Ductavis Era",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
@@ -48,7 +48,7 @@
         "iconRGB": [157, 39, 176]
     },
     {
-        "name": "Renaissance era",
+        "name": "Manderon Period",
         "researchAgreementCost": 250,
         "startingSettlerCount": 2,
         "startingWorkerCount": 1,
@@ -68,7 +68,7 @@
         "iconRGB": [104, 58, 183]
     },
     {
-        "name": "Industrial era",
+        "name": "Sith Wars era",
         "researchAgreementCost": 300,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
@@ -93,12 +93,12 @@
         ]
     },
     {
-        "name": "Modern era",
+        "name": "Great Peace Period",
         "researchAgreementCost": 350,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "Bantha Rider",
+        "startingMilitaryUnit": "Planetary Defense Force",
         "startingGold": 200,
         "startingCulture": 500,
         "settlerPopulation": 3,
@@ -119,12 +119,12 @@
         ]
     },
     {
-        "name": "Atomic era",
+        "name": "Clone Wars era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
         "startingWorkerCount": 2,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "74-Z Speeder Bike",
+        "startingMilitaryUnit": "B1 Battle Droid",
         "startingGold": 200,
         "startingCulture": 500,
         "settlerPopulation": 4,
@@ -146,12 +146,12 @@
         ]
     },
     {
-        "name": "Information era",
+        "name": "Imperial era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "Seraph-class Urban Landspeeder",
+        "startingMilitaryUnit": "Line Infantry",
         "startingGold": 400,
         "startingCulture": 600,
         "settlerPopulation": 5,
@@ -175,12 +175,12 @@
         ]
     },
     {   
-        "name": "Future era",
+        "name": "Post-Imperial era",
         "researchAgreementCost": 400,
         "startingSettlerCount": 3,
         "startingWorkerCount": 3,
         "startingMilitaryUnitCount": 5,
-        "startingMilitaryUnit": "Single Trooper Aerial Platform",
+        "startingMilitaryUnit": "Special Force",
         "startingGold": 400,
         "startingCulture": 600,
         "settlerPopulation": 5,
