@@ -68,20 +68,6 @@
 		"attackSound": "arrow"
 	},
 	{
-		"name": "Skirmisher",
-		"unitType": "Ranged Infantry",
-		"uniqueTo": "Barbarians",
-		"replaces": "Slugthrower",
-		"movement": 2,
-		"strength": 4,
-		"rangedStrength": 7,
-		"cost": 40,
-		"requiredTech": "Archery",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
-		"attackSound": "arrow"
-	},
-	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
@@ -101,20 +87,6 @@
 		"upgradesTo": "Hammerhead-class Cruiser",
 		"obsoleteTech": "Navigation",
 		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Chariot Archer",
-		"unitType": "Ranged Infantry",
-		"movement": 4,
-		"strength": 6,
-		"rangedStrength": 10,
-		"cost": 56,
-		"requiredTech": "The Wheel",
-		"requiredResource": "Horses",
-		"upgradesTo": "74-Z Speeder Bike",
-		"obsoleteTech": "Chivalry",
-		"uniques": ["No defensive terrain bonus", "Rough terrain penalty", "Never appears as a Barbarian unit"],
-		"attackSound": "arrow"
 	},
 	{
 		"name": "Force Warrior",
@@ -222,7 +194,7 @@
 		"attackSound": "throw"
 	},
 	{
-		"name": "Composite Bowman",
+		"name": "Sniper Agent",
 		"unitType": "Ranged Infantry",
 		"movement": 2,
 		"strength": 7,
@@ -230,7 +202,7 @@
 		"cost": 75,
 		"requiredTech": "Construction",
 		"obsoleteTech": "Machinery",
-		"upgradesTo": "Crossbowman",
+		"upgradesTo": "Marksman",
 		"attackSound": "arrow"
 	},
 	{
@@ -301,8 +273,22 @@
 		"attackSound": "horse"
 	},
 	{
-		"name": "Crossbowman",
+		"name": "Marksman",
 		"unitType": "Ranged Infantry",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Machinery",
+		"upgradesTo": "Rocket Launcher",
+		"obsoleteTech": "Industrialization",
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Scout Trooper",
+		"unitType": "Ranged Infantry",
+		"replaces": "Blaster Trooper",
+		"uniqueTo": "Galactic Empire",
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 18,
