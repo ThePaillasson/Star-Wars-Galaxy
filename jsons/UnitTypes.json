@@ -4,6 +4,10 @@
         "movementType": "Land"
     },
     {
+        "name": "Scout",
+        "movementType": "Land"
+    },
+    {
         "name": "Infantry",
         "movementType": "Land"
     },
@@ -12,11 +16,11 @@
         "movementType": "Land"
     },
     {
-        "name": "Archery",
+        "name": "Ranged Infantry",
         "movementType": "Land"
     },
     {
-        "name": "Scout",
+        "name": "Stealth Infantry",
         "movementType": "Land"
     },
     {
@@ -32,11 +36,19 @@
         "movementType": "Land"
     },
     {
+        "name": "Medium vehicle",
+        "movementType": "Land"
+    },
+    {
         "name": "Heavy vehicle",
         "movementType": "Land"
     },
     {
         "name": "Artillery",
+        "movementType": "Land",
+    },
+    {
+        "name": "Mobile Artillery",
         "movementType": "Land",
     },
     {
@@ -49,7 +61,7 @@
         "uniques": ["Can pass through impassable tiles"]
     },
     {
-        "name": "Long-range starship",
+        "name": "Long-range Starship",
         "movementType": "Water"
         "uniques": ["Can pass through impassable tiles"]
     },
