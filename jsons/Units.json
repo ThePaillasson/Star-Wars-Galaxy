@@ -31,7 +31,7 @@
 	},
 	{
 		"name": "Ancient Warrior",
-		"unitType": "Sword",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 8,
 		"cost": 40,
@@ -46,7 +46,7 @@
 	},
 	{
 		"name": "Rakatan Warrior",
-		"unitType": "Sword",
+		"unitType": "Infantry",
 		"uniqueTo": "Infinite Empire",
 		"replaces": "Ancient Warrior",
 		"movement": 2,
@@ -124,7 +124,7 @@
 	},
 	{
 		"name": "Force Warrior",
-		"unitType": "Sword",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
@@ -136,7 +136,7 @@
 	},
 	{
 		"name": "Force Hound",
-		"unitType": "Sword",
+		"unitType": "Infantry",
 		"replaces": "Force Warrior",
 		"uniqueTo": "Infinite Empire",
 		"movement": 2,
@@ -241,7 +241,7 @@
 	},
 	{
 		"name": "Beam Warrior",
-		"unitType": "Sword",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
@@ -254,7 +254,7 @@
 	},
 	{
 		"name": "War-Robot",
-		"unitType": "Sword",
+		"unitType": "Infantry",
 		"replaces": "Beam Warrior",
 		"uniqueTo": "Xim's Empire",
 		"movement": 2,
@@ -271,7 +271,7 @@
 	// Medieval Era
 	{
 		"name": "Protosaber",
-		"unitType": "Sword",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
@@ -333,7 +333,7 @@
 	},
 	{
 		"name": "Blaster Trooper",
-		"unitType": "Sword",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
@@ -345,7 +345,7 @@
 	},
 	{
 		"name": "Republic Trooper",
-		"unitType": "Sword",
+		"unitType": "Infantry",
 		"replaces": "Blaster Trooper",
 		"uniqueTo": "Galactic Empire",
 		"movement": 2,
@@ -359,7 +359,7 @@
 	},
 	{
 		"name": "Sith Legionnaire",
-		"unitType": "Sword",
+		"unitType": "Infantry",
 		"replaces": "Blaster Trooper",
 		"uniqueTo": "Sith Order",
 		"movement": 2,
@@ -404,7 +404,7 @@
 	},
 	{
 		"name": "Peacekeeper",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 24,
 		"cost": 150,
@@ -415,7 +415,7 @@
 	},
 	{
 		"name": "Sith Trooper",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "Peacekeeper",
 		"uniqueTo": "Sith Order",
 		"movement": 2,
@@ -428,7 +428,7 @@
 	},
 	{
 		"name": "Skytrooper",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "Peacekeeper",
 		"uniqueTo": "Eternal Empire",
 		"movement": 2,
@@ -466,7 +466,7 @@
 	},
 	{
 		"name": "Jedi Knight",
-		"unitType": "Sword",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 25,
 		"cost": 185,
@@ -478,7 +478,7 @@
 	},
 	{
 		"name": "Sith Warrior",
-		"unitType": "Sword",
+		"unitType": "Infantry",
 		"replaces": "Jedi Knight",
 		"uniqueTo": "Sith Order",
 		"movement": 2,
@@ -492,7 +492,7 @@
 	},
 	{
 		"name": "Knight of Zakuul",
-		"unitType": "Sword",
+		"unitType": "Infantry",
 		"replaces": "Jedi Knight",
 		"uniqueTo": "Eternal Empire",
 		"movement": 2,
@@ -534,7 +534,7 @@
 
 	{
 		"name": "Heavy Repeating Blaster",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged Infantry",
 		"range": 1,
 		"movement": 2,
 		"strength": 30,
@@ -545,7 +545,7 @@
 	},
 	{
 		"name": "Rocket Launcher",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged Infantry",
 		"range": 1,
 		"movement": 2,
 		"strength": 30,
@@ -558,7 +558,7 @@
 	},
 	{
 		"name": "Planetary Defense Force",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
@@ -569,7 +569,7 @@
 	},
 	{
 		"name": "Neimodian Gunner",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "Planetary Defense Force",
 		"uniqueTo": "Trade Federation of Planets",
 		"movement": 2,
@@ -710,7 +710,7 @@
 	},
 	{
 		"name": "B1 Battle Droid",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 50,
 		"cost": 320,
@@ -721,7 +721,7 @@
 	},
 	{
     "name": "Clone Trooper Jedi",
-    "unitType": "Gunpowder",
+    "unitType": "Infantry",
     "replaces": "B1 Battle Droid",
     "uniqueTo": "Jedi Order",
     "movement": 2,
@@ -734,7 +734,7 @@
 },
 {
     "name": "Clone Trooper Imperial",
-    "unitType": "Gunpowder",
+    "unitType": "Infantry",
     "replaces": "B1 Battle Droid",
     "uniqueTo": "Galactic Empire",
     "movement": 2,
@@ -848,7 +848,7 @@
 	},
 	{
 		"name": "B2 Super Battle Droid",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
@@ -858,7 +858,7 @@
 	},
 	{
 		"name": "Advanced Recon Commando Jedi",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "B2 Super Battle Droid",
 		"uniqueTo": "Jedi Order",
 		"movement": 2,
@@ -871,7 +871,7 @@
 	},
 	{
 		"name": "Advanced Recon Commando",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "B2 Super Battle Droid",
 		"uniqueTo": "Galactic Empire",
 		"movement": 2,
@@ -885,7 +885,7 @@
 	},
 	{
 		"name": "IG-series Assassin Droid",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
@@ -896,7 +896,7 @@
 	},
 	{
 		"name": "BX Droid Commando",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "IG-series Assassin Droid",
 		"uniqueTo": "Confederacy of Independent Systems",
 		"movement": 2,
@@ -909,7 +909,7 @@
 	},
 	{
 		"name": "Clone Commando",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "IG-series Assassin Droid",
 		"uniqueTo": "Galactic Empire",
 		"movement": 2,
@@ -922,7 +922,7 @@
 	},
 	{
 		"name": "Gossam Commando",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "IG-series Assassin Droid",
 		"uniqueTo": "Commerce Guild",
 		"movement": 2,
@@ -1055,7 +1055,7 @@
 	},
 	{
 		"name": "Smart Rocket",
-		"unitType": "Ranged Gunpowder",
+		"unitType": "Ranged Infantry",
 		"range": 1,
 		"movement": 2,
 		"strength": 60,
@@ -1125,7 +1125,7 @@
 
 	{
 		"name": "Line Infantry",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 65,
 		"cost": 400,
@@ -1136,7 +1136,7 @@
 	},
 	{
 		"name": "Stormtrooper",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "Line Infantry",
 		"uniqueTo": "Galactic Empire",
 		"movement": 2,
@@ -1149,7 +1149,7 @@
 	},
 	{
 		"name": "CSA Trooper",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "Line Infantry",
 		"uniqueTo": "Corporate Sector Authority",
 		"movement": 2,
@@ -1256,7 +1256,7 @@
 	},
 	{
 		"name": "Jumptrooper",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 65,
 		"cost": 375,
@@ -1444,7 +1444,7 @@
 	// Information Era
 	{
 		"name": "Special Force",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"movement": 3,
 		"strength": 90,
 		"cost": 375,
@@ -1454,7 +1454,7 @@
 	},
 	{
 		"name": "Death Trooper",
-		"unitType": "Gunpowder",
+		"unitType": "Infantry",
 		"replaces": "Special Force",
 		"uniqueTo": "Galactic Empire",
 		"movement": 3,
