@@ -1236,6 +1236,13 @@ UnitIcons/Clone Commando
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Clone Commando Jedi
+  rotate: false
+  xy: 752, 1835
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
 UnitIcons/Clone Trooper Imperial
   rotate: false
   xy: 860, 1835
