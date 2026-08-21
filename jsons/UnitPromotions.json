@@ -71,7 +71,7 @@
 		"name": "Extended Range",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Ranged Infantry","Artillery","Mobile Artillery","Long-rang Starship"],
+		"unitTypes": ["Ranged Infantry","Artillery","Mobile Artillery","Long-range Starship"],
         "column": 3,
         "row": 3
 	},
@@ -79,7 +79,7 @@
 		"name": "Indirect Fire",
 		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Ranged Infantry","Artillery","Mobile Artillery","Long-rang Starship"],
+		"unitTypes": ["Ranged Infantry","Artillery","Mobile Artillery","Long-range Starship"],
         "column": 3,
         "row": 4
 	},
@@ -255,11 +255,11 @@
 	},
 
 
-	// Short-rang Starship
+	// Short-range Starship
 	{
 		"name": "Boarding Party I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Short-rang Starship"],
+		"unitTypes": ["Short-range Starship"],
         "column": 11,
         "row": 1
 	},
@@ -267,7 +267,7 @@
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Short-rang Starship"],
+		"unitTypes": ["Short-range Starship"],
         "column": 11,
         "row": 2
 	},
@@ -275,7 +275,7 @@
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Short-rang Starship"],
+		"unitTypes": ["Short-range Starship"],
         "column": 11,
         "row": 3
 	},
@@ -283,7 +283,7 @@
 	{
 		"name": "Coastal Raider I",
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Short-rang Starship"],
+		"unitTypes": ["Short-range Starship"],
         "column": 12,
         "row": 1
 	},
@@ -291,7 +291,7 @@
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Short-rang Starship"],
+		"unitTypes": ["Short-range Starship"],
         "column": 12,
         "row": 2
 	},
@@ -299,23 +299,23 @@
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Short-rang Starship"],
+		"unitTypes": ["Short-range Starship"],
         "column": 12,
         "row": 3
 	},
 	{
 		"name": "Landing Party",
 		"uniques": ["Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Short-rang Starship"],
+		"unitTypes": ["Short-range Starship"],
         "column": 12,
         "row": 5
 	},
 
-	// Long-rang Starship
+	// Long-range Starship
 	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Long-rang Starship"],
+		"unitTypes": ["Long-range Starship"],
         "column": 13,
         "row": 1
 	},
@@ -323,7 +323,7 @@
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Long-rang Starship"],
+		"unitTypes": ["Long-range Starship"],
         "column": 13,
         "row": 2
 	},
@@ -331,7 +331,7 @@
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Long-rang Starship"],
+		"unitTypes": ["Long-range Starship"],
         "column": 13,
         "row": 3
 	},
@@ -414,7 +414,7 @@
 		"name" : "Supply",
 		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
 		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
-		"unitTypes": ["Short-rang Starship", "Long-rang Starship"],
+		"unitTypes": ["Short-range Starship", "Long-range Starship"],
         "column": 16,
         "row": 4
 	},
