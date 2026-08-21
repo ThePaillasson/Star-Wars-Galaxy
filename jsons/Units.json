@@ -1642,7 +1642,7 @@
 	},
 	{
 		"name": "RZ-1 A-wing Interceptor",
-		"unitType": "Starfighter",
+		"unitType": "Star Interceptor",
 		"movement": 1,
 		"strength": 75,
 		"rangedStrength": 75,
@@ -1656,7 +1656,7 @@
 	},
 	{
 		"name": "TIEin Interceptor",
-		"unitType": "Starfighter",
+		"unitType": "Star Interceptor",
 		"uniqueTo": "Galactic Empire",
 		"replaces": "RZ-1 A-wing Interceptor",
 		"movement": 1,
