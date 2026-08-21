@@ -3,7 +3,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": ["[This Unit] heals [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Ranged Gunpowder","Armored","Melee Water","Ranged Water","Submarine"],
+		"unitTypes": ["Scout","Infantry","Force user","Ranged Infantry","Stealth Infantry","Mounted","Speeder","Light vehicle","Medium vehicle","Heavy vehicle","Artillery","Mobile Artillery","Short-range Starship","Long-range Starship","Stealth Ship","Battle Station"],
 		"innerColor": [195,53,43],
 		"outerColor": [253,236,234],
         "row": 0,
@@ -14,7 +14,7 @@
 	{
 		"name": "Accuracy I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Ranged Infantry","Artillery","Mobile Artillery"],
         "column": 1,
         "row": 1
     },
@@ -22,7 +22,7 @@
 		"name": "Accuracy II",
 		"prerequisites": ["Accuracy I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Ranged Infantry","Artillery","Mobile Artillery"],
         "column": 1,
         "row": 2
     },
@@ -30,7 +30,7 @@
 		"name": "Accuracy III",
 		"prerequisites": ["Accuracy II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Ranged Infantry","Artillery","Mobile Artillery"],
         "column": 1,
         "row": 3
     },
@@ -38,7 +38,7 @@
 	{
 		"name": "Barrage I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Ranged Infantry","Artillery","Mobile Artillery"],
         "column": 2,
         "row": 1
 	},
@@ -46,7 +46,7 @@
 		"name": "Barrage II",
 		"prerequisites": ["Barrage I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Ranged Infantry","Artillery","Mobile Artillery"],
         "column": 2,
         "row": 2
 	},
@@ -54,7 +54,7 @@
 		"name": "Barrage III",
 		"prerequisites": ["Barrage II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles> <when attacking>"],
-		"unitTypes": ["Siege","Archery","Ranged Gunpowder"],
+		"unitTypes": ["Ranged Infantry","Artillery","Mobile Artillery"],
         "column": 2,
         "row": 3
 	},
@@ -63,7 +63,7 @@
 		"name": "Volley",
 		"prerequisites": ["Accuracy I","Barrage I"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Siege"],
+		"unitTypes": ["Artillery","Mobile Artillery"],
         "column": 3,
         "row": 1
 	},
@@ -71,7 +71,7 @@
 		"name": "Extended Range",
 		"prerequisites": ["Accuracy III","Barrage III","Targeting II","Bombardment II", "Wolfpack II"],
 		"uniques": ["[+1] Range"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water","Submarine"],
+		"unitTypes": ["Ranged Infantry","Artillery","Mobile Artillery","Long-rang Starship"],
         "column": 3,
         "row": 3
 	},
@@ -79,7 +79,7 @@
 		"name": "Indirect Fire",
 		"prerequisites": ["Accuracy III", "Barrage III", "Bombardment II", "Targeting II"],
 		"uniques": ["Ranged attacks may be performed over obstacles"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Ranged Water"],
+		"unitTypes": ["Ranged Infantry","Artillery","Mobile Artillery","Long-rang Starship"],
         "column": 3,
         "row": 4
 	},
@@ -88,7 +88,7 @@
 	{
 		"name": "Shock I",
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry","Mounted","Speeder","Light vehicle","Medium vehicle","Heavy vehicle"],
         "column": 4,
         "row": 1
 	},
@@ -96,7 +96,7 @@
 		"name": "Shock II",
 		"prerequisites": ["Shock I"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry","Mounted","Speeder","Light vehicle","Medium vehicle","Heavy vehicle"],
         "column": 4,
         "row": 2
 	},
@@ -104,7 +104,7 @@
 		"name": "Shock III",
 		"prerequisites": ["Shock II"],
 		"uniques": ["[+15]% Strength <when fighting in [Open terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry","Mounted","Speeder","Light vehicle","Medium vehicle","Heavy vehicle"],
         "column": 4,
         "row": 3
 	},
@@ -112,7 +112,7 @@
 	{
 		"name": "Drill I",
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry","Mounted","Speeder","Light vehicle","Medium vehicle","Heavy vehicle"],
         "column": 5,
         "row": 1
 	},
@@ -120,7 +120,7 @@
 		"name": "Drill II",
 		"prerequisites": ["Drill I"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry","Mounted","Speeder","Light vehicle","Medium vehicle","Heavy vehicle"],
         "column": 5,
         "row": 2
 	},
@@ -128,7 +128,7 @@
 		"name": "Drill III",
 		"prerequisites": ["Drill II"],
 		"uniques": ["[+15]% Strength <when fighting in [Rough terrain] tiles>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry","Mounted","Speeder","Light vehicle","Medium vehicle","Heavy vehicle"],
         "column": 5,
         "row": 3
 	},
@@ -136,23 +136,23 @@
 		"name": "Charge",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+33]% Strength <vs [Wounded] units>", "[+200]% weight to this choice for AI decisions"],
-		"unitTypes": ["Mounted","Armored"],
+		"unitTypes": ["Mounted","Speeder","Light vehicle","Medium vehicle","Heavy vehicle"],
         "column": 6,
         "row": 2
 	},
 	{
-		"name": "Besiege", // Not called "Siege" in order to not conflict with siege type units for translations
+		"name": "Besiege",
 		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+50]% Strength <vs cities>"],
-		"unitTypes": ["Sword","Gunpowder"],
+		"unitTypes": ["Infantry","Force user"],
         "column": 6,
         "row": 3
 	},
 	{
 		"name": "Formation I",
-		"prerequisites": ["Shock II","Drill II"], // G&K also has Accuracy II & Barrage II as possible prerequisites for this, but I couldn't find a source for the unittypes
+		"prerequisites": ["Shock II","Drill II"],
 		"uniques": ["[+33]% Strength <vs [Mounted] units>", "[-50]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Mounted"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry","Mounted"],
         "column": 7,
         "row": 2
 	},
@@ -160,7 +160,7 @@
 		"name": "Formation II",
 		"prerequisites": ["Formation I"],
 		"uniques": ["[+33]% Strength <vs [Mounted] units>"],
-		"unitTypes": ["Sword","Gunpowder","Mounted"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry","Mounted"],
         "column": 7,
         "row": 3
 	},
@@ -169,7 +169,7 @@
 		"name": "Blitz",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["[1] additional attacks per turn"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Armored"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry","Mounted","Speeder","Light vehicle","Medium vehicle","Heavy vehicle"],
         "column": 6,
         "row": 4
 	},
@@ -177,7 +177,7 @@
 		"name": "Woodsman",
 		"prerequisites": ["Shock III","Drill III"],
 		"uniques": ["Double movement in [Forest]","Double movement in [Jungle]"],
-		"unitTypes": ["Sword","Gunpowder"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry"],
         "column": 6,
         "row": 5
 	},
@@ -185,7 +185,7 @@
 		"name": "Amphibious",
 		"prerequisites": ["Shock I", "Drill I"],
 		"uniques": ["Eliminates combat penalty for attacking over a river", "Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Sword","Gunpowder"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry"],
         "column": 6,
         "row": 1
 	},
@@ -193,15 +193,15 @@
 		"name": "Medic",
 		"prerequisites": ["Shock I", "Drill I", "Scouting II", "Survivalism II"],
 		"uniques": ["All adjacent units heal [+5] HP when healing", "[-50]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"],
-        "column": 10, // after scout base
+		"unitTypes": ["Scout","Infantry","Force user","Stealth Infantry","Mounted"],
+        "column": 10,
         "row": 1
 	},
 	{
 		"name": "Medic II",
 		"prerequisites": ["Medic"],
 		"uniques": ["[+5] HP when healing <in [Foreign Land] tiles>", "All adjacent units heal [+5] HP when healing"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Scout"],
+		"unitTypes": ["Scout","Infantry","Force user","Stealth Infantry","Mounted"],
         "column": 10,
         "row": 2
 	},
@@ -255,11 +255,11 @@
 	},
 
 
-	// Water melee
+	// Short-rang Starship
 	{
 		"name": "Boarding Party I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Short-rang Starship"],
         "column": 11,
         "row": 1
 	},
@@ -267,7 +267,7 @@
 		"name": "Boarding Party II",
 		"prerequisites": ["Boarding Party I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Short-rang Starship"],
         "column": 11,
         "row": 2
 	},
@@ -275,7 +275,7 @@
 		"name": "Boarding Party III",
 		"prerequisites": ["Boarding Party II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Short-rang Starship"],
         "column": 11,
         "row": 3
 	},
@@ -283,7 +283,7 @@
 	{
 		"name": "Coastal Raider I",
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Short-rang Starship"],
         "column": 12,
         "row": 1
 	},
@@ -291,7 +291,7 @@
 		"name": "Coastal Raider II",
 		"prerequisites": ["Coastal Raider I"],
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Short-rang Starship"],
         "column": 12,
         "row": 2
 	},
@@ -299,23 +299,23 @@
 		"name": "Coastal Raider III",
 		"prerequisites": ["Coastal Raider II"],
 		"uniques": ["[+20]% Strength <vs cities>", "Earn [33]% of the damage done to [City] units as [Gold]"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Short-rang Starship"],
         "column": 12,
         "row": 3
 	},
 	{
 		"name": "Landing Party",
 		"uniques": ["Eliminates combat penalty for attacking across a coast"],
-		"unitTypes": ["Melee Water"],
+		"unitTypes": ["Short-rang Starship"],
         "column": 12,
         "row": 5
 	},
 
-	// Water Ranged
+	// Long-rang Starship
 	{
 		"name": "Targeting I",
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"],
+		"unitTypes": ["Long-rang Starship"],
         "column": 13,
         "row": 1
 	},
@@ -323,7 +323,7 @@
 		"name": "Targeting II",
 		"prerequisites": ["Targeting I"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"],
+		"unitTypes": ["Long-rang Starship"],
         "column": 13,
         "row": 2
 	},
@@ -331,16 +331,16 @@
 		"name": "Targeting III",
 		"prerequisites": ["Targeting II"],
 		"uniques": ["[+15]% Strength <vs [Water] units>"],
-		"unitTypes": ["Ranged Water"],
+		"unitTypes": ["Long-rang Starship"],
         "column": 13,
         "row": 3
 	},
 
-	// Submarine
+	// Stealth Ship
 	{
 		"name": "Wolfpack I",
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine"],
+		"unitTypes": ["Stealth Ship"],
         "column": 14,
         "row": 1
 	},
@@ -348,7 +348,7 @@
 		"name": "Wolfpack II",
 		"prerequisites": ["Wolfpack I"],
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine"],
+		"unitTypes": ["Stealth Ship"],
         "column": 14,
         "row": 2
 	},
@@ -356,16 +356,16 @@
 		"name": "Wolfpack III",
 		"prerequisites": ["Wolfpack II"],
 		"uniques": ["[+25]% Strength <when attacking>"],
-		"unitTypes": ["Submarine"],
+		"unitTypes": ["Stealth Ship"],
         "column": 14,
         "row": 3
 	},
 
-	// Aircraft Carrier
+	// Battle Station
 	{
 		"name": "Armor Plating I",
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Aircraft Carrier"],
+		"unitTypes": ["Battle Station"],
         "column": 15,
         "row": 1
 	},
@@ -373,7 +373,7 @@
 		"name": "Armor Plating II",
 		"prerequisites": ["Armor Plating I"],
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Aircraft Carrier"],
+		"unitTypes": ["Battle Station"],
         "column": 15,
         "row": 2
 	},
@@ -381,14 +381,14 @@
 		"name": "Armor Plating III",
 		"prerequisites": ["Armor Plating II"],
 		"uniques": ["[+25]% Strength <when defending>"],
-		"unitTypes": ["Aircraft Carrier"],
+		"unitTypes": ["Battle Station"],
         "column": 15,
         "row": 3
 	},
 	{
 		"name": "Flight Deck I",
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Aircraft Carrier"],
+		"unitTypes": ["Battle Station"],
         "column": 16,
         "row": 1
 	},
@@ -396,7 +396,7 @@
 		"name": "Flight Deck II",
 		"prerequisites": ["Flight Deck I"],
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Aircraft Carrier"],
+		"unitTypes": ["Battle Station"],
         "column": 16,
         "row": 2
 	},
@@ -404,7 +404,7 @@
 		"name": "Flight Deck III",
 		"prerequisites": ["Flight Deck II"],
 		"uniques": ["Can carry [1] extra [Aircraft] units"],
-		"unitTypes": ["Aircraft Carrier"],
+		"unitTypes": ["Battle Station"],
         "column": 16,
         "row": 3
 	},
