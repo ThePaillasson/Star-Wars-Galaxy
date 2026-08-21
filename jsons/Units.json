@@ -559,6 +559,20 @@
 		"attackSound": "cavalry"
 	},
 	{
+		"name": "Undicur-class Jumpspeeder",
+		"unitType": "Mounted",
+		"replaces": "Single Trooper Aerial Platform",
+		"uniqueTo": "Jedi Order",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Combined Arms",
+		"upgradesTo": "Armored Assault Tank",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "cavalry"
+	},
+	{
 		"name": "CR90 Corvette",
 		"unitType": "Melee Water",
 		"movement": 3,
