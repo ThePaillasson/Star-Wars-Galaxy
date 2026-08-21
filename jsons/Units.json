@@ -753,7 +753,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -771,7 +771,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>","Will not be displayed in Civilopedia"],
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>","Will not be displayed in Civilopedia"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -789,7 +789,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -807,7 +807,7 @@
 		"requiredResource": "Oil",
 		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
 		"obsoleteTech": "Radar",
-		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1125,7 +1125,7 @@
 		"cost": 375,
 		"requiredTech": "Combustion",
 		"uniques": ["Can see invisible [Submarine] units", "[40]% chance to intercept air attacks",
-			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Submarine] units>"],
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Stealth Ship] units>"],
 		"attackSound": "shipguns"
 	},
 
@@ -1180,7 +1180,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "RZ-1 A-wing Interceptor",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1197,7 +1197,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "RZ-1 A-wing Interceptor",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1214,7 +1214,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "RZ-1 A-wing Interceptor",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1231,7 +1231,7 @@
 		"requiredTech": "Radar",
 		"requiredResource": "Oil",
 		"upgradesTo": "RZ-1 A-wing Interceptor",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1320,7 +1320,7 @@
 		"cost": 300,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Low Altitude Assault Transport",
-		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [Heavy vehicle] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1333,7 +1333,7 @@
 		"cost": 300,
 		"requiredTech": "Combined Arms",
 		"upgradesTo": "Low Altitude Assault Transport",
-		"uniques": ["[+100]% Strength <vs [Armored] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[+100]% Strength <vs [Heavy vehicle] units>", "Never appears as a Barbarian unit"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1401,7 +1401,7 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+		"uniques": ["[+100]% Strength <vs [Heavy vehicle] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Can carry [1] [Gunpowder] units"],
 		"attackSound": "machinegun"
 	},
@@ -1415,7 +1415,7 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+		"uniques": ["[+100]% Strength <vs [Heavy vehicle] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Can carry [1] [Gunpowder] units"],
 		"attackSound": "machinegun"
 	},
@@ -1429,7 +1429,7 @@
 		"cost": 425,
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[+100]% Strength <vs [Armored] units>", "No defensive terrain bonus", "Can move after attacking",
+		"uniques": ["[+100]% Strength <vs [Heavy vehicle] units>", "No defensive terrain bonus", "Can move after attacking",
 			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Can carry [1] [Gunpowder] units"],
 		"attackSound": "machinegun"
 	},
@@ -1468,7 +1468,7 @@
 		"cost": 425,
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
-			"Can carry [3] [Air] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+			"Can carry [3] [Air] units", "[+100]% Strength <vs [Stealth Ship] units>", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -1485,7 +1485,7 @@
 		"cost": 425,
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
-			"Can carry [3] [Air] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+			"Can carry [3] [Air] units", "[+100]% Strength <vs [Stealth Ship] units>", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -1500,7 +1500,7 @@
 		"cost": 425,
 		"requiredTech": "Robotics",
 		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Submarine] units",
-			"Can carry [3] [Air] units", "[+100]% Strength <vs [Submarine] units>", "Never appears as a Barbarian unit"],
+			"Can carry [3] [Air] units", "[+100]% Strength <vs [Stealth Ship] units>", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -1621,7 +1621,7 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -1637,7 +1637,7 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -1651,7 +1651,7 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "jetgun"
 	},
 	{
@@ -1667,7 +1667,7 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Bomber] units>", "[+150]% Strength <vs [Helicopter] units>"],
+		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "jetgun"
 	},
 	{
