@@ -2,14 +2,14 @@
     {
         "name": "Cultured",
         "friendBonusUniques": [
-            "[+3 Culture] <before the [Medieval era]>",
-            "[+6 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Culture] <starting from the [Industrial era]>"
+            "[+3 Culture] <before the [Ductavis Era]>",
+            "[+6 Culture] <starting from the [Ductavis Era]> <before the [Sith Wars era]>",
+            "[+13 Culture] <starting from the [Sith Wars era]>"
         ],
         "allyBonusUniques": [
-            "[+6 Culture] <before the [Medieval era]>",
-            "[+12 Culture] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Culture] <starting from the [Industrial era]>"
+            "[+6 Culture] <before the [Ductavis Era]>",
+            "[+12 Culture] <starting from the [Ductavis Era]> <before the [Sith Wars era]>",
+            "[+26 Culture] <starting from the [Sith Wars era]>"
         ],
         "color": [139, 96, 255]
     },
@@ -28,14 +28,14 @@
     {
         "name": "Mercantile",
         "friendBonusUniques":  [
-            "[+3 Gold] <before the [Medieval era]>",
-            "[+6 Gold] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Gold] <starting from the [Industrial era]>"
+            "[+3 Gold] <before the [Ductavis Era]>",
+            "[+6 Gold] <starting from the [Ductavis Era]> <before the [Sith Wars era]>",
+            "[+13 Gold] <starting from the [Sith Wars era]>"
         ],
         "allyBonusUniques":  [
-            "[+6 Gold] <before the [Medieval era]>",
-            "[+12 Gold] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Gold] <starting from the [Industrial era]>",
+            "[+6 Gold] <before the [Ductavis Era]>",
+            "[+12 Gold] <starting from the [Ductavis Era]> <before the [Sith Wars era]>",
+            "[+26 Gold] <starting from the [Sith Wars era]>",
             "Provides a unique luxury"
         ],
         "color": [255, 216, 0]
@@ -49,40 +49,40 @@
     {
         "name": "Religious",
         "friendBonusUniques":  [
-            "[+3 Faith] <before the [Medieval era]>",
-            "[+6 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Faith] <starting from the [Industrial era]>"
+            "[+3 Faith] <before the [Ductavis Era]>",
+            "[+6 Faith] <starting from the [Ductavis Era]> <before the [Sith Wars era]>",
+            "[+13 Faith] <starting from the [Sith Wars era]>"
         ],
         "allyBonusUniques":  [
-            "[+6 Faith] <before the [Medieval era]>",
-            "[+12 Faith] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Faith] <starting from the [Industrial era]>"
+            "[+6 Faith] <before the [Ductavis Era]>",
+            "[+12 Faith] <starting from the [Ductavis Era]> <before the [Sith Wars era]>",
+            "[+26 Faith] <starting from the [Sith Wars era]>"
         ],
         "color": [255, 255, 255]
     },
     {
         "name": "Scientific",
         "friendBonusUniques":  [
-            "[+3 Science] <before the [Medieval era]>",
-            "[+6 Science] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+13 Science] <starting from the [Industrial era]>"
+            "[+3 Science] <before the [Ductavis Era]>",
+            "[+6 Science] <starting from the [Ductavis Era]> <before the [Sith Wars era]>",
+            "[+13 Science] <starting from the [Sith Wars era]>"
         ],
         "allyBonusUniques":  [
-            "[+6 Science] <before the [Medieval era]>",
-            "[+12 Science] <starting from the [Medieval era]> <before the [Industrial era]>",
-            "[+26 Science] <starting from the [Industrial era]>"
+            "[+6 Science] <before the [Ductavis Era]>",
+            "[+12 Science] <starting from the [Ductavis Era]> <before the [Sith Wars era]>",
+            "[+26 Science] <starting from the [Sith Wars era]>"
         ],
         "color": [135, 206, 235]
     },
     {
         "name": "Tourist",
         "friendBonusUniques": [
-            "[+2 Happiness] <before the [Medieval era]>",
-            "[+3 Happiness] <starting from the [Medieval era]>"
+            "[+2 Happiness] <before the [Ductavis Era]>",
+            "[+3 Happiness] <starting from the [Ductavis Era]>"
         ],
         "allyBonusUniques": [
-            "[+2 Happiness] <before the [Medieval era]>",
-            "[+3 Happiness] <starting from the [Medieval era]>"
+            "[+2 Happiness] <before the [Ductavis Era]>",
+            "[+3 Happiness] <starting from the [Ductavis Era]>"
         ],
         "color": [238, 232, 170]
     },
