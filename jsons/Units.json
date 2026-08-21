@@ -64,7 +64,7 @@
 		"cost": 40,
 		"requiredTech": "Archery",
 		"obsoleteTech": "Construction",
-		"upgradesTo": "Composite Bowman",
+		"upgradesTo": "Sniper Agent",
 		"attackSound": "arrow"
 	},
 	{
