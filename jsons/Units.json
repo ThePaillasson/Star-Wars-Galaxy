@@ -40,9 +40,6 @@
 		"upgradesTo": "Beam Warrior",
 		"uniques": ["May upgrade to [Force Warrior] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
-        "civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
-		]
 	},
 	{
 		"name": "Rakatan Warrior",
@@ -57,9 +54,6 @@
 		"upgradesTo": "Beam Warrior",
 		"uniques": ["May upgrade to [Force Warrior] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
-        "civilopediaText": [
-			{"text": "This is your basic, club-swinging fighter."}
-		]
 	},
 	{
 		"name": "Slugthrower",
@@ -885,7 +879,7 @@
 	},
 	{
 		"name": "IG-series Assassin Droid",
-		"unitType": "Infantry",
+		"unitType": "Stealth Infantry",
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
@@ -896,7 +890,7 @@
 	},
 	{
 		"name": "BX Droid Commando",
-		"unitType": "Infantry",
+		"unitType": "Stealth Infantry",
 		"replaces": "IG-series Assassin Droid",
 		"uniqueTo": "Confederacy of Independent Systems",
 		"movement": 2,
@@ -909,7 +903,7 @@
 	},
 	{
 		"name": "Clone Commando",
-		"unitType": "Infantry",
+		"unitType": "Stealth Infantry",
 		"replaces": "IG-series Assassin Droid",
 		"uniqueTo": "Galactic Empire",
 		"movement": 2,
@@ -921,8 +915,22 @@
 		"attackSound": "shot"
 	},
 	{
+		"name": "Clone Commando Jedi",
+		"unitType": "Stealth Infantry",
+		"replaces": "IG-series Assassin Droid",
+		"uniqueTo": "Galactic Empire",
+		"movement": 2,
+		"strength": 70,
+		"cost": 375,
+		"requiredTech": "Plastics",
+		"upgradesTo": "Special Force",
+		"obsoleteTech": "Mobile Tactics",
+		"uniques": ["Will not be displayed in Civilopedia"],
+		"attackSound": "shot"
+	},
+	{
 		"name": "Gossam Commando",
-		"unitType": "Infantry",
+		"unitType": "Stealth Infantry",
 		"replaces": "IG-series Assassin Droid",
 		"uniqueTo": "Commerce Guild",
 		"movement": 2,
@@ -1266,7 +1274,7 @@
 	},
 	{
 		"name": "Armored Assault Tank",
-		"unitType": "Heavy vehicle",
+		"unitType": "Medium vehicle",
 		"movement": 5,
 		"strength": 70,
 		"cost": 375,
@@ -1278,7 +1286,7 @@
 	},
 	{
 		"name": "TX-130 Saber-class Fighter Tank",
-		"unitType": "Heavy vehicle",
+		"unitType": "Medium vehicle",
 		"replaces": "Armored Assault Tank",
 		"uniqueTo": "Galactic Empire",
 		"movement": 5,
@@ -1292,7 +1300,7 @@
 	},
 	{
 		"name": "NR-N99 Persuader-class Droid Enforcer",
-		"unitType": "Heavy vehicle",
+		"unitType": "Medium vehicle",
 		"replaces": "Armored Assault Tank",
 		"uniqueTo": "Corporate Alliance",
 		"movement": 5,
@@ -1330,7 +1338,7 @@
 	},
 	{
 		"name": "Unstable Terrain Artillery Transport",
-		"unitType": "Artillery",
+		"unitType": "Mobile Artillery",
 		"movement": 2,
 		"strength": 45,
 		"rangedStrength": 60,
@@ -1345,7 +1353,7 @@
 	},
 	{
 		"name": "IG-227 Hailfire-class Droid Tank",
-		"unitType": "Artillery",
+		"unitType": "Mobile Artillery",
 		"replaces": "Unstable Terrain Artillery Transport",
 		"uniqueTo": "InterGalactic Banking Clan",
 		"movement": 2,
@@ -1429,7 +1437,7 @@
 	// Information Era
 	{
 		"name": "Special Force",
-		"unitType": "Infantry",
+		"unitType": "Stealth Infantry",
 		"movement": 3,
 		"strength": 90,
 		"cost": 375,
@@ -1439,7 +1447,7 @@
 	},
 	{
 		"name": "Death Trooper",
-		"unitType": "Infantry",
+		"unitType": "Stealth Infantry",
 		"replaces": "Special Force",
 		"uniqueTo": "Galactic Empire",
 		"movement": 3,
@@ -1664,7 +1672,7 @@
 	},
 	{
 		"name": "All Terrain Scout Transport",
-		"unitType": "Heavy vehicle",
+		"unitType": "Medium vehicle",
 		"movement": 5,
 		"strength": 70,
 		"cost": 250,
