@@ -172,27 +172,6 @@ ImprovementIcons/Cancel improvement order
   orig: 100, 100
   offset: 0, 0
   index: -1
-ImprovementIcons/Circle
-  rotate: false
-  xy: 1852, 1854
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
-ResourceIcons/Circle
-  rotate: false
-  xy: 1852, 1854
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
-StatIcons/Circle
-  rotate: false
-  xy: 1852, 1854
-  size: 178, 178
-  orig: 178, 178
-  offset: 0, 0
-  index: -1
 ImprovementIcons/Citadel
   rotate: false
   xy: 1564, 876
@@ -1640,6 +1619,27 @@ StatIcons/Acquire
   xy: 1852, 1096
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+StatIcons/Circle
+  rotate: false
+  xy: 1852, 1854
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ImprovementIcons/Circle
+  rotate: false
+  xy: 1852, 1854
+  size: 178, 178
+  orig: 178, 178
+  offset: 0, 0
+  index: -1
+ResourceIcons/Circle
+  rotate: false
+  xy: 1852, 1854
+  size: 178, 178
+  orig: 178, 178
   offset: 0, 0
   index: -1
 StatIcons/CityConnection
