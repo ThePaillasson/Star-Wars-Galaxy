@@ -886,6 +886,13 @@ BuildingIcons/Workshop
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/74-Z Speeder Bike
+  rotate: false
+  xy: 1840, 532
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
 UnitIcons/ASF-01 B-wing Assault Starfighter
   rotate: false
   xy: 4, 1516
@@ -1108,6 +1115,13 @@ UnitIcons/Berserker
   xy: 112, 436
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Biker Advanced Recon Commando Speeder
+  rotate: false
+  xy: 1840, 444
+  size: 80, 80
+  orig: 80, 80
   offset: 0, 0
   index: -1
 UnitIcons/Blaster Trooper
@@ -1957,6 +1971,13 @@ UnitIcons/Self-Propelled Heavy Artillery
   orig: 100, 100
   offset: 0, 0
   index: -1
+UnitIcons/Seraph-class Urban Landspeeder
+  rotate: false
+  xy: 1840, 356
+  size: 80, 80
+  orig: 80, 80
+  offset: 0, 0
+  index: -1
 UnitIcons/Settler
   rotate: false
   xy: 1624, 1154
@@ -1969,6 +1990,13 @@ UnitIcons/Ship of the Line
   xy: 1084, 506
   size: 100, 100
   orig: 100, 100
+  offset: 0, 0
+  index: -1
+UnitIcons/Single Trooper Aerial Platform
+  rotate: false
+  xy: 1840, 268
+  size: 80, 80
+  orig: 80, 80
   offset: 0, 0
   index: -1
 UnitIcons/Sipahi
