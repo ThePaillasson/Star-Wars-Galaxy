@@ -63,7 +63,7 @@
 	},
 	{
 		"name": "Slugthrower",
-		"unitType": "Archery",
+		"unitType": "Ranged Infantry",
 		"movement": 2,
 		"strength": 5,
 		"rangedStrength": 7,
@@ -75,7 +75,7 @@
 	},
 	{
 		"name": "Skirmisher",
-		"unitType": "Archery",
+		"unitType": "Ranged Infantry",
 		"uniqueTo": "Barbarians",
 		"replaces": "Slugthrower",
 		"movement": 2,
@@ -98,7 +98,7 @@
 	},
 	{
 		"name": "Ancient Warship",
-		"unitType": "Melee Water",
+		"unitType": "Short-range Starship",
 		"movement": 4,
 		"strength": 10,
 		"cost": 45,
@@ -110,7 +110,7 @@
 	},
 	{
 		"name": "Chariot Archer",
-		"unitType": "Archery",
+		"unitType": "Ranged Infantry",
 		"movement": 4,
 		"strength": 6,
 		"rangedStrength": 10,
@@ -124,7 +124,7 @@
 	},
 	{
 		"name": "Force Warrior",
-		"unitType": "Infantry",
+		"unitType": "Force user",
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
@@ -136,7 +136,7 @@
 	},
 	{
 		"name": "Force Hound",
-		"unitType": "Infantry",
+		"unitType": "Force user",
 		"replaces": "Force Warrior",
 		"uniqueTo": "Infinite Empire",
 		"movement": 2,
@@ -214,7 +214,7 @@
 	},
 	{
 		"name": "Catapult",
-		"unitType": "Siege",
+		"unitType": "Artillery",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 8,
@@ -229,7 +229,7 @@
 	},
 	{
 		"name": "Composite Bowman",
-		"unitType": "Archery",
+		"unitType": "Ranged Infantry",
 		"movement": 2,
 		"strength": 7,
 		"rangedStrength": 11,
@@ -271,7 +271,7 @@
 	// Medieval Era
 	{
 		"name": "Protosaber",
-		"unitType": "Infantry",
+		"unitType": "Force user",
 		"movement": 2,
 		"strength": 16,
 		"cost": 90,
@@ -283,7 +283,7 @@
 	},
 	{
 		"name": "Battlecruiser",
-		"unitType": "Ranged Water",
+		"unitType": "Long-range Starship",
 		"movement": 3,
 		"strength": 16,
 		"rangedStrength": 17,
@@ -296,7 +296,7 @@
 	},
 	{
 		"name": "74-Z Speeder Bike",
-		"unitType": "Mounted",
+		"unitType": "Speeder",
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
@@ -308,7 +308,7 @@
 	},
 	{
 		"name": "Crossbowman",
-		"unitType": "Archery",
+		"unitType": "Ranged Infantry",
 		"movement": 2,
 		"strength": 13,
 		"rangedStrength": 18,
@@ -320,7 +320,7 @@
 	},
 	{
 		"name": "Trebuchet",
-		"unitType": "Siege",
+		"unitType": "Artillery",
 		"movement": 2,
 		"strength": 12,
 		"rangedStrength": 14,
@@ -376,7 +376,7 @@
 
 	{
 		"name": "Hammerhead-class Cruiser",
-		"unitType": "Melee Water",
+		"unitType": "Short-range Starship",
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
@@ -389,7 +389,7 @@
 	},
 	{
 		"name": "Interdictor-class Cruiser",
-		"unitType": "Melee Water",
+		"unitType": "Short-range Starship",
 		"replaces": "Hammerhead-class Cruiser",
 		"uniqueTo": "Sith Order",
 		"movement": 4,
@@ -442,7 +442,7 @@
 	},
 	{
 		"name": "Trident-class Assault Ship",
-		"unitType": "Melee Water",
+		"unitType": "Short-range Starship",
 		"movement": 5,
 		"strength": 25,
 		"cost": 150,
@@ -452,7 +452,7 @@
 	},
 	{
 		"name": "Battleship",
-		"unitType": "Ranged Water",
+		"unitType": "Long-range Starship",
 		"movement": 5,
 		"strength": 25,
 		"rangedStrength": 28,
@@ -466,7 +466,7 @@
 	},
 	{
 		"name": "Jedi Knight",
-		"unitType": "Infantry",
+		"unitType": "Force user",
 		"movement": 2,
 		"strength": 25,
 		"cost": 185,
@@ -478,7 +478,7 @@
 	},
 	{
 		"name": "Sith Warrior",
-		"unitType": "Infantry",
+		"unitType": "Force user",
 		"replaces": "Jedi Knight",
 		"uniqueTo": "Sith Order",
 		"movement": 2,
@@ -492,7 +492,7 @@
 	},
 	{
 		"name": "Knight of Zakuul",
-		"unitType": "Infantry",
+		"unitType": "Force user",
 		"replaces": "Jedi Knight",
 		"uniqueTo": "Eternal Empire",
 		"movement": 2,
@@ -506,7 +506,7 @@
 	},
 	{
 		"name": "Seraph-class Urban Landspeeder",
-		"unitType": "Mounted",
+		"unitType": "Speeder",
 		"movement": 4,
 		"strength": 25,
 		"cost": 185,
@@ -518,7 +518,7 @@
 	},
 	{
 		"name": "Cannon",
-		"unitType": "Siege",
+		"unitType": "Artillery",
 		"movement": 2,
 		"strength": 14,
 		"rangedStrength": 20,
@@ -582,7 +582,7 @@
 	},
 	{
 		"name": "Single Trooper Aerial Platform",
-		"unitType": "Mounted",
+		"unitType": "Speeder",
 		"movement": 4,
 		"strength": 34,
 		"cost": 225,
@@ -594,7 +594,7 @@
 	},
 	{
 		"name": "Biker Advanced Recon Commando Speeder",
-		"unitType": "Mounted",
+		"unitType": "Speeder",
 		"replaces": "Single Trooper Aerial Platform",
 		"uniqueTo": "Galactic Empire",
 		"movement": 4,
@@ -608,7 +608,7 @@
 	},
 	{
 		"name": "Undicur-class Jumpspeeder",
-		"unitType": "Mounted",
+		"unitType": "Speeder",
 		"replaces": "Single Trooper Aerial Platform",
 		"uniqueTo": "Jedi Order",
 		"movement": 4,
@@ -622,7 +622,7 @@
 	},
 	{
 		"name": "CR90 Corvette",
-		"unitType": "Melee Water",
+		"unitType": "Short-range Starship",
 		"movement": 3,
 		"strength": 45,
 		"cost": 250,
@@ -633,7 +633,7 @@
 	},
 	{
 		"name": "Consular-class Cruiser",
-		"unitType": "Melee Water",
+		"unitType": "Short-range Starship",
 		"replaces": "CR90 Corvette",
 		"uniqueTo": "Jedi Order",
 		"movement": 3,
@@ -646,7 +646,7 @@
 	},
 	{
 		"name": "Gozanti-class Cruiser",
-		"unitType": "Melee Water",
+		"unitType": "Short-range Starship",
 		"movement": 3,
 		"strength": 45,
 		"cost": 250,
@@ -657,7 +657,7 @@
 	},
 	{
 		"name": "Pelta-class Frigate",
-		"unitType": "Melee Water",
+		"unitType": "Short-range Starship",
 		"movement": 3,
 		"strength": 45,
 		"cost": 250,
@@ -668,7 +668,7 @@
 	},
 	{
 		"name": "Arquitens-class Light Cruiser",
-		"unitType": "Melee Water",
+		"unitType": "Short-range Starship",
 		"replaces": "Pelta-class Frigate",
 		"uniqueTo": "Galactic Empire",
 		"movement": 3,
@@ -681,7 +681,7 @@
 	},
 	{
 		"name": "Self-Propelled Heavy Artillery",
-		"unitType": "Siege",
+		"unitType": "Artillery",
 		"movement": 2,
 		"strength": 21,
 		"rangedStrength": 28,
@@ -699,7 +699,7 @@
 
 	{
 		"name": "Stealth Ship",
-		"unitType": "Submarine",
+		"unitType": "Stealth Ship",
 		"movement": 5,
 		"strength": 35,
 		"rangedStrength": 60,
@@ -748,7 +748,7 @@
     },
 	{
 		"name": "Z-95 Headhunter",
-		"unitType": "Fighter",
+		"unitType": "Starfighter",
 		"movement": 1,
 		"strength": 35,
 		"rangedStrength": 35,
@@ -764,7 +764,7 @@
 	},
 	{
 		"name": "Vulture-class Droid Starfighter Trade Federation",
-		"unitType": "Fighter",
+		"unitType": "Starfighter",
 		"replaces": "Z-95 Headhunter",
 		"uniqueTo": "Trade Federation of Planets",
 		"movement": 1,
@@ -782,7 +782,7 @@
 	},
 	{
 		"name": "Vulture-class Droid Starfighter CIS",
-		"unitType": "Fighter",
+		"unitType": "Starfighter",
 		"replaces": "Z-95 Headhunter",
 		"uniqueTo": "Confederacy of Independent Systems",
 		"movement": 1,
@@ -800,7 +800,7 @@
 	},
 	{
 		"name": "Delta-7 Aethersprite-class Jedi Starfighter",
-		"unitType": "Fighter",
+		"unitType": "Starfighter",
 		"replaces": "Z-95 Headhunter",
 		"uniqueTo": "Jedi Order",
 		"movement": 1,
@@ -818,7 +818,7 @@
 	},
 	{
 		"name": "TL-B Y-wing Fighter-Bomber",
-		"unitType": "Bomber",
+		"unitType": "Starbomber",
 		"movement": 1,
 		"strength": 50,
 		"rangedStrength": 50,
@@ -832,7 +832,7 @@
 	},
 	{
 		"name": "Hyena-class Droid Bomber",
-		"unitType": "Bomber",
+		"unitType": "Starbomber",
 		"replaces": "TL-B Y-wing Fighter-Bomber",
 		"uniqueTo": "Confederacy of Independent Systems",
 		"movement": 1,
@@ -935,7 +935,7 @@
 	},
 	{
 		"name": "Lucrehulk-class Battleship",
-		"unitType": "Aircraft Carrier",
+		"unitType": "Battle Station",
 		"movement": 5,
 		"strength": 40,
 		"cost": 375,
@@ -944,7 +944,7 @@
 	},
 	{
 		"name": "Subjugator-class Heavy Cruiser",
-		"unitType": "Aircraft Carrier",
+		"unitType": "Battle Station",
 		"replaces": "Lucrehulk-class Battleship",
 		"uniqueTo": "Confederacy of Independent Systems",
 		"movement": 5,
@@ -955,7 +955,7 @@
 	},
 	{
 		"name": "Acclamator-class Transgalactic Military Assault Ship",
-		"unitType": "Ranged Water",
+		"unitType": "Long-range Starship",
 		"movement": 5,
 		"strength": 55,
 		"rangedStrength": 55,
@@ -969,7 +969,7 @@
 	},
 	{
 		"name": "Dual Hemisphere-Omni Support Vessel",
-		"unitType": "Ranged Water",
+		"unitType": "Long-range Starship",
 		"replaces": "Acclamator-class Transgalactic Military Assault Ship",
 		"uniqueTo": "Confederacy of Independent Systems"
 		"movement": 5,
@@ -985,7 +985,7 @@
 	},
 	{
 		"name": "Venator-class Star Destroyer",
-		"unitType": "Ranged Water",
+		"unitType": "Long-range Starship",
 		"movement": 5,
 		"strength": 55,
 		"rangedStrength": 55,
@@ -1001,7 +1001,7 @@
 	},
 	{
 		"name": "Providence-class Dreadnought",
-		"unitType": "Ranged Water",
+		"unitType": "Long-range Starship",
 		"replaces": "Venator-class Star Destroyer",
 		"uniqueTo": "Confederacy of Independent Systems",
 		"movement": 5,
@@ -1019,7 +1019,7 @@
 	},
 	{
 		"name": "Providence-class Trade Federation Dreadnought",
-		"unitType": "Ranged Water",
+		"unitType": "Long-range Starship",
 		"replaces": "Venator-class Star Destroyer",
 		"uniqueTo": "Trade Federation",
 		"movement": 5,
@@ -1037,7 +1037,7 @@
 	},
 	{
 		"name": "Munificent-class Star Frigate",
-		"unitType": "Ranged Water",
+		"unitType": "Long-range Starship",
 		"replaces": "Venator-class Star Destroyer",
 		"uniqueTo": "InterGalactic Banking Clan",
 		"movement": 5,
@@ -1067,7 +1067,7 @@
 	},
 	{
 		"name": "All Terrain Reconnaissance Transport",
-		"unitType": "Armored",
+		"unitType": "Light vehicle",
 		"movement": 4,
 		"strength": 60,
 		"cost": 350,
@@ -1080,7 +1080,7 @@
 	},
 	{
 		"name": "DSD1 Dwarf Spider Droid",
-		"unitType": "Armored",
+		"unitType": "Light vehicle",
 		"replaces": "All Terrain Reconnaissance Transport",
 		"uniqueTo": "Commerce Guild",
 		"movement": 4,
@@ -1095,7 +1095,7 @@
 	},
 	{
 		"name": "LM-432 Crab Droid",
-		"unitType": "Armored",
+		"unitType": "Light vehicle",
 		"replaces": "All Terrain Reconnaissance Transport",
 		"uniqueTo": "Techno Union",
 		"movement": 4,
@@ -1110,7 +1110,7 @@
 	},
 	{
 		"name": "EF76 Nebulon-B Escort Frigate",
-		"unitType": "Melee Water",
+		"unitType": "Short-range Starship",
 		"movement": 6,
 		"strength": 55,
 		"interceptRange": 2,
@@ -1162,7 +1162,7 @@
 	},
 	{
 		"name": "Alpha-3 Nimbus-class V-wing Starfighter",
-		"unitType": "Fighter",
+		"unitType": "Star Interceptor",
 		"movement": 1,
 		"strength": 45,
 		"rangedStrength": 45,
@@ -1177,7 +1177,7 @@
 	},
 	{
 		"name": "Droid Tri-Fighter",
-		"unitType": "Fighter",
+		"unitType": "Star Interceptor",
 		"replaces": "Alpha-3 Nimbus-class V-wing Starfighter",
 		"uniqueTo": "Confederacy of Independent Systems",
 		"movement": 1,
@@ -1194,7 +1194,7 @@
 	},
 	{
 		"name": "Mankvim-814 Light Interceptor",
-		"unitType": "Fighter",
+		"unitType": "Star Interceptor",
 		"replaces": "Alpha-3 Nimbus-class V-wing Starfighter",
 		"uniqueTo": "Techno Union",
 		"movement": 1,
@@ -1211,7 +1211,7 @@
 	},
 	{
 		"name": "Eta-2 Actis Jedi Interceptor",
-		"unitType": "Fighter",
+		"unitType": "Star Interceptor",
 		"replaces": "Alpha-3 Nimbus-class V-wing Starfighter",
 		"uniqueTo": "Jedi Order",
 		"movement": 1,
@@ -1228,7 +1228,7 @@
 	},
 	{
 		"name": "Aggressive ReConnaissance-170 Starfighter",
-		"unitType": "Bomber",
+		"unitType": "Heavy Starfighter",
 		"movement": 1,
 		"strength": 65,
 		"rangedStrength": 65,
@@ -1241,7 +1241,7 @@
 	},
 	{
 		"name": "Belbullab-22 Heavy Starfighter",
-		"unitType": "Bomber",
+		"unitType": "Heavy Starfighter",
 		"replaces": "Aggressive ReConnaissance-170 Starfighter",
 		"uniqueTo": "Techno Union",
 		"movement": 1,
@@ -1266,7 +1266,7 @@
 	},
 	{
 		"name": "Armored Assault Tank",
-		"unitType": "Armored",
+		"unitType": "Heavy vehicle",
 		"movement": 5,
 		"strength": 70,
 		"cost": 375,
@@ -1278,7 +1278,7 @@
 	},
 	{
 		"name": "TX-130 Saber-class Fighter Tank",
-		"unitType": "Armored",
+		"unitType": "Heavy vehicle",
 		"replaces": "Armored Assault Tank",
 		"uniqueTo": "Galactic Empire",
 		"movement": 5,
@@ -1292,7 +1292,7 @@
 	},
 	{
 		"name": "NR-N99 Persuader-class Droid Enforcer",
-		"unitType": "Armored",
+		"unitType": "Heavy vehicle",
 		"replaces": "Armored Assault Tank",
 		"uniqueTo": "Corporate Alliance",
 		"movement": 5,
@@ -1306,7 +1306,7 @@
 	},
 	{
 		"name": "AV-7 Anti-vehicle Artillery Cannon",
-		"unitType": "Siege",
+		"unitType": "Artillery",
 		"movement": 2,
 		"strength": 50,
 		"cost": 300,
@@ -1317,7 +1317,7 @@
 	},
 	{
 		"name": "J-1 Semi-Autonomous Proton Cannon",
-		"unitType": "Siege",
+		"unitType": "Artillery",
 		"replaces": "AV-7 Anti-vehicle Artillery Cannon",
 		"uniqueTo": "Techno Union",
 		"movement": 2,
@@ -1329,23 +1329,8 @@
 		"attackSound": "machinegun"
 	},
 	{
-		"name": "Atomic Bomb",
-		"unitType": "Atomic Bomber",
-		"movement": 1,
-		"strength": 150,
-		"rangedStrength": 150,
-		"range": 10,
-		"cost": 600,
-		"requiredTech": "Nuclear Fission",
-		"requiredResource": "Uranium",
-		"promotions" : ["Evasion"],
-		"uniques": ["Nuclear weapon of Strength [1]", "Only available <if [Manhattan Project] is constructed>", "Self-destructs when attacking",
-			"Blast radius [2]"],
-		"attackSound": "nuke"
-	},
-	{
 		"name": "Unstable Terrain Artillery Transport",
-		"unitType": "Siege",
+		"unitType": "Artillery",
 		"movement": 2,
 		"strength": 45,
 		"rangedStrength": 60,
@@ -1360,7 +1345,7 @@
 	},
 	{
 		"name": "IG-227 Hailfire-class Droid Tank",
-		"unitType": "Siege",
+		"unitType": "Artillery",
 		"replaces": "Unstable Terrain Artillery Transport",
 		"uniqueTo": "InterGalactic Banking Clan",
 		"movement": 2,
@@ -1402,7 +1387,7 @@
 	},
 	{
 		"name": "Low Altitude Assault Transport",
-		"unitType": "Helicopter",
+		"unitType": "Gunship",
 		"movement": 6,
 		"strength": 60,
 		"cost": 425,
@@ -1414,7 +1399,7 @@
 	},
 {
 		"name": "Heavy Missile Platform Droid Gunship",
-		"unitType": "Helicopter",
+		"unitType": "Gunship",
 	    "replaces": "Low Altitude Assault Transport",
 		"uniqueTo": "Confederacy of Independent Systems",
 		"movement": 6,
@@ -1428,7 +1413,7 @@
 	},
 	{
 		"name": "UT-60D U-wing Troop Transport",
-		"unitType": "Helicopter",
+		"unitType": "Gunship",
 	    "replaces": "Low Altitude Assault Transport",
 		"uniqueTo": "Alliance to Restore the Republic",
 		"movement": 6,
@@ -1466,7 +1451,7 @@
 	},
 	{
 		"name": "Imperial-class Star Destroyer",
-		"unitType": "Ranged Water",
+		"unitType": "Long-range Starship",
 		"movement": 7,
 		"strength": 80,
 		"rangedStrength": 100,
@@ -1481,7 +1466,7 @@
 	},
 	{
 		"name": "MC80A Home One Type Heavy Star Cruiser",
-		"unitType": "Ranged Water",
+		"unitType": "Long-range Starship",
 		"uniqueTo": "Alliance to Restore the Republic",
 		"replaces": "Imperial-class Star Destroyer",
 		"movement": 7,
@@ -1498,7 +1483,7 @@
 	},
 	{
 		"name": "Executor-class Star Dreadnought",
-		"unitType": "Ranged Water",
+		"unitType": "Long-range Starship",
 		"movement": 7,
 		"strength": 80,
 		"rangedStrength": 100,
@@ -1513,7 +1498,7 @@
 	},
 	{
 		"name": "All Terrain Attack Pod",
-		"unitType": "Armored",
+		"unitType": "Heavy vehicle",
 		"movement": 5,
 		"strength": 100,
 		"rangedStrength": 100,
@@ -1526,7 +1511,7 @@
 	},
 	{
 		"name": "OG-9 Homing Spider Droid",
-		"unitType": "Armored",
+		"unitType": "Heavy vehicle",
 		"uniqueTo": "Commerce Guild",
 		"replaces": "All Terrain Attack Pod",
 		"movement": 5,
@@ -1541,7 +1526,7 @@
 	},
 	{
 		"name": "Octuptarra Combat Tri-Droid",
-		"unitType": "Armored",
+		"unitType": "Heavy vehicle",
 		"uniqueTo": "Techno Union",
 		"replaces": "All Terrain Attack Pod",
 		"movement": 5,
@@ -1556,7 +1541,7 @@
 	},
 	{
 		"name": "All Terrain Tactical Enforcer",
-		"unitType": "Armored",
+		"unitType": "Heavy vehicle",
 		"movement": 5,
 		"strength": 100,
 		"cost": 425,
@@ -1568,7 +1553,7 @@
 	},
 	{
 		"name": "Super-Tank Prototype",
-		"unitType": "Armored",
+		"unitType": "Heavy vehicle",
 		"uniqueTo": "Confederacy of Independent Systems",
 		"replaces": "All Terrain Tactical Enforcer",
 		"movement": 5,
@@ -1582,7 +1567,7 @@
 	},
 	{
 		"name": "Multi-Troop Transport",
-		"unitType": "Armored",
+		"unitType": "Heavy vehicle",
 		"movement": 5,
 		"strength": 100,
 		"cost": 425,
@@ -1593,7 +1578,7 @@
 	},
 	{
 		"name": "HAVw A6 Juggernaut",
-		"unitType": "Armored",
+		"unitType": "Heavy vehicle",
 		"uniqueTo": "Galactic Empire",
 		"replaces": "Multi-Troop Transport",
 		"movement": 5,
@@ -1606,7 +1591,7 @@
 	},
 	{
 		"name": "LO-KD57 Luxury-class Sail Barge",
-		"unitType": "Armored",
+		"unitType": "Heavy vehicle",
 		"uniqueTo": "Hutt Cartel",
 		"replaces": "Multi-Troop Transport",
 		"movement": 5,
@@ -1619,7 +1604,7 @@
 	},
 	{
 		"name": "TIEln Fighter",
-		"unitType": "Fighter",
+		"unitType": "Starfighter",
 		"movement": 1,
 		"strength": 75,
 		"rangedStrength": 75,
@@ -1633,7 +1618,7 @@
 	},
 	{
 		"name": "T-65B X-wing Starfighter",
-		"unitType": "Fighter",
+		"unitType": "Starfighter",
 		"uniqueTo": "Alliance to Restore the Republic",
 		"replaces": "TIEln Fighter",
 		"movement": 1,
@@ -1649,7 +1634,7 @@
 	},
 	{
 		"name": "RZ-1 A-wing Interceptor",
-		"unitType": "Fighter",
+		"unitType": "Starfighter",
 		"movement": 1,
 		"strength": 75,
 		"rangedStrength": 75,
@@ -1663,7 +1648,7 @@
 	},
 	{
 		"name": "TIEin Interceptor",
-		"unitType": "Fighter",
+		"unitType": "Starfighter",
 		"uniqueTo": "Galactic Empire",
 		"replaces": "RZ-1 A-wing Interceptor",
 		"movement": 1,
@@ -1679,7 +1664,7 @@
 	},
 	{
 		"name": "All Terrain Scout Transport",
-		"unitType": "Armored",
+		"unitType": "Heavy vehicle",
 		"movement": 5,
 		"strength": 70,
 		"cost": 250,
@@ -1690,7 +1675,7 @@
 	},
 	{
 		"name": "All Terrain Armored Transport",
-		"unitType": "Armored",
+		"unitType": "Heavy vehicle",
 		"movement": 3,
 		"strength": 150,
 		"cost": 425,
@@ -1701,7 +1686,7 @@
 	},
 	{
 		"name": "TIEsa Tactical Bomber",
-		"unitType": "Bomber",
+		"unitType": "Starbomber",
 		"movement": 2,
 		"strength": 85,
 		"rangedStrength": 85,
@@ -1714,7 +1699,7 @@
 	},
 	{
 		"name": "BTL-A4 Y-wing assault",
-		"unitType": "Bomber",
+		"unitType": "Starbomber",
 		"uniqueTo": "Alliance to Restore the Republic",
 		"replaces": "TIEsa Tactical Bomber",
 		"movement": 2,
@@ -1729,7 +1714,7 @@
 	},
 	{
 		"name": "TIE Advanced x1",
-		"unitType": "Bomber",
+		"unitType": "Heavy Starfighter",
 		"movement": 2,
 		"strength": 85,
 		"rangedStrength": 85,
@@ -1742,7 +1727,7 @@
 	},
 	{
 		"name": "ASF-01 B-wing Assault Starfighter",
-		"unitType": "Bomber",
+		"unitType": "Heavy Starfighter",
 		"uniqueTo": "Alliance to Restore the Republic",
 		"replaces": "TIE Advanced x1",
 		"movement": 2,
