@@ -414,16 +414,16 @@
 		"name" : "Supply",
 		"prerequisites": ["Bombardment III", "Targeting III", "Boarding Party III", "Coastal Raider III"],
 		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
-		"unitTypes": ["Melee Water", "Ranged Water"],
+		"unitTypes": ["Short-rang Starship", "Long-rang Starship"],
         "column": 16,
         "row": 4
 	},
 
-	// Bomber
+	// Starbomber
 	{
 		"name": "Siege I",
 		"uniques": ["[+33]% Strength <vs cities>", "[-100]% weight to this choice for AI decisions"],
-		"unitTypes": ["Bomber"],
+		"unitTypes": ["Starbomber"],
         "column": 17,
         "row": 1
 	},
@@ -431,7 +431,7 @@
 		"name": "Siege II",
 		"prerequisites": ["Siege I"],
 		"uniques": ["[+33]% Strength <vs cities>"],
-		"unitTypes": ["Bomber"],
+		"unitTypes": ["Starbomber"],
         "column": 17,
         "row": 2
 	},
@@ -439,7 +439,7 @@
 		"name": "Siege III",
 		"prerequisites": ["Siege II"],
 		"uniques": ["[+34]% Strength <vs cities>"],
-		"unitTypes": ["Bomber"],
+		"unitTypes": ["Starbomber"],
         "column": 17,
         "row": 3
 	},
@@ -447,7 +447,7 @@
 		"name": "Evasion",
 		"prerequisites": ["Siege II", "Bombardment II"],
 		"uniques": ["Damage taken from interception reduced by [50]%", "[+200]% weight to this choice for AI decisions"],
-		"unitTypes": ["Bomber"],
+		"unitTypes": ["Starbomber"],
         "column": 17,
         "row": 4
 	},
@@ -456,7 +456,7 @@
 	{
 		"name": "Interception I",
 		"uniques": ["[+33]% Damage when intercepting"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Starfighter","Heavy Starfighter","Star Interceptor"],
         "column": 18,
         "row": 1
 	},
@@ -464,7 +464,7 @@
 		"name": "Interception II",
 		"prerequisites": ["Interception I"],
 		"uniques": ["[+33]% Damage when intercepting"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Starfighter","Heavy Starfighter","Star Interceptor"],
         "column": 18,
         "row": 2
 	},
@@ -472,14 +472,14 @@
 		"name": "Interception III",
 		"prerequisites": ["Interception II"],
 		"uniques": ["[+34]% Damage when intercepting"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Starfighter","Heavy Starfighter","Star Interceptor"],
         "column": 18,
         "row": 3
 	},
 	{
 		"name": "Dogfighting I",
 		"uniques": ["[+33]% Strength when performing Air Sweep"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Starfighter","Heavy Starfighter","Star Interceptor"],
         "column": 19,
         "row": 1
 	},
@@ -487,7 +487,7 @@
 		"name": "Dogfighting II",
 		"prerequisites": ["Dogfighting I"],
 		"uniques": ["[+33]% Strength when performing Air Sweep"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Starfighter","Heavy Starfighter","Star Interceptor"],
         "column": 19,
         "row": 2
 	},
@@ -495,7 +495,7 @@
 		"name": "Dogfighting III",
 		"prerequisites": ["Dogfighting II"],
 		"uniques": ["[+34]% Strength when performing Air Sweep"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Starfighter","Heavy Starfighter","Star Interceptor"],
         "column": 19,
         "row": 3
 	},
@@ -503,7 +503,7 @@
 		"name": "Air Targeting I",
 		"prerequisites": ["Interception I","Siege I","Bombardment I","Dogfighting I"],
 		"uniques": ["[+33]% Strength <vs [Water] units>", "[-100]% weight to this choice for AI decisions"],
-		"unitTypes": ["Fighter","Bomber"],
+		"unitTypes": ["Starfighter","Heavy Starfighter","Starbomber"],
         "column": 20,
         "row": 1
 	},
@@ -511,7 +511,7 @@
 		"name": "Air Targeting II",
 		"prerequisites": ["Air Targeting I"],
 		"uniques": ["[+33]% Strength <vs [Water] units>"],
-		"unitTypes": ["Fighter","Bomber"],
+		"unitTypes": ["Starfighter","Heavy Starfighter","Starbomber"],
         "column": 20,
         "row": 2
 	},
@@ -520,7 +520,7 @@
 		"name": "Sortie",
 		"prerequisites": ["Interception II", "Dogfighting II"],
 		"uniques": ["[1] extra interceptions may be made per turn", "[-100]% weight to this choice for AI decisions"],
-		"unitTypes": ["Fighter"],
+		"unitTypes": ["Starfighter","Heavy Starfighter","Star Interceptor"],
         "column": 21,
         "row": 2
 	},
@@ -529,7 +529,7 @@
 		"name": "Operational Range",
 		"prerequisites": ["Interception I", "Dogfighting I", "Siege I", "Bombardment I"],
 		"uniques": ["[+2] Range", "[-90]% weight to this choice for AI decisions"],
-		"unitTypes": ["Fighter","Bomber"],
+		"unitTypes": ["Starfighter","Heavy Starfighter","Star Interceptor","Starbomber"],
         "column": 21,
         "row": 1
 	},
@@ -537,16 +537,16 @@
 		"name": "Air Repair",
 		"prerequisites": ["Interception II", "Dogfighting II", "Siege II", "Bombardment II", "Mobility II", "Anti-Armor II"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Fighter", "Bomber", "Helicopter"],
+		"unitTypes": ["Starfighter","Heavy Starfighter","Star Interceptor","Starbomber", "Gunship"],
         "column": 21,
         "row": 3
 	},
 
-	// Helicopter
+	// Gunship
 	{
 		"name": "Mobility I",
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Gunship"],
         "column": 22,
         "row": 1
 	},
@@ -554,22 +554,22 @@
 		"name": "Mobility II",
 		"prerequisites": ["Mobility I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Helicopter"],
+		"unitTypes": ["Gunship"],
         "column": 22,
         "row": 2
 	},
 	{
 		"name": "Anti-Armor I",
-		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter"],
+		"uniques": ["[+25]% Strength <vs [Heavy vehicle] units>"],
+		"unitTypes": ["Gunship"],
         "column": 23,
         "row": 1
 	},
 	{
 		"name": "Anti-Armor II",
 		"prerequisites": ["Anti-Armor I"],
-		"uniques": ["[+25]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Helicopter"],
+		"uniques": ["[+25]% Strength <vs [Heavy vehicle] units>"],
+		"unitTypes": ["Gunship"],
         "column": 23,
         "row": 2
 	},
@@ -578,7 +578,7 @@
 	{
 		"name": "Cover I",
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>", "[-100]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Infantry","Force user","Ranged Infantry","Stealth Infantry","Artillery","Mobile Artillery"],
         "column": 24,
         "row": 1
 	},
@@ -586,7 +586,7 @@
 		"name": "Cover II",
 		"prerequisites": ["Cover I"],
 		"uniques": ["[+33]% Strength <vs [Ranged] units> <when defending>"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege"],
+		"unitTypes": ["Infantry","Force user","Ranged Infantry","Stealth Infantry","Artillery","Mobile Artillery"],
         "column": 24,
         "row": 2
 	},
@@ -595,7 +595,7 @@
 		"name": "March",
 		"prerequisites": ["Accuracy II","Barrage II","Shock III","Drill III"],
 		"uniques": ["Unit will heal every turn, even if it performs an action"],
-		"unitTypes": ["Sword","Gunpowder","Archery","Ranged Gunpowder","Siege","Mounted"],
+		"unitTypes": ["Infantry","Force user","Ranged Infantry","Stealth Infantry","Artillery","Mobile Artillery","Mounted"],
         "column": 10,
         "row": 3
 	},
@@ -604,7 +604,7 @@
 		"prerequisites": ["Shock II","Drill II","Targeting I",
 			"Bombardment I","Boarding Party I", "Coastal Raider I", "Wolfpack I"],
 		"uniques": ["[+1] Movement"],
-		"unitTypes": ["Mounted","Melee Water","Ranged Water","Armored","Submarine"],
+		"unitTypes": ["Mounted","Speeder","Light vehicle","Medium vehicle","Heavy vehicle","Mobile Artillery","Short-range Starship","Long-range Starship","Stealth Ship"],
         "column": 24,
         "row": 3
 	},
@@ -612,7 +612,7 @@
 		"name": "Sentry",
 		"prerequisites": ["Accuracy I","Barrage I","Shock II","Drill II","Bombardment I","Targeting I","Boarding Party I","Coastal Raider I"],
 		"uniques": ["[+1] Sight"],
-		"unitTypes": ["Sword","Gunpowder","Mounted","Ranged Water","Armored","Melee Water"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry","Mounted","Speeder","Light vehicle","Medium vehicle","Heavy vehicle","Short-range Starship","Long-range Starship"],
         "column": 24,
         "row": 4
 	},
@@ -621,23 +621,23 @@
 		"prerequisites": ["Accuracy III","Barrage III","Targeting III", "Wolfpack III",
 			"Bombardment III", "Coastal Raider III","Boarding Party III","Siege III", "Mobility II", "Anti-Armor II"],
 		"uniques": ["[1] additional attacks per turn", "Can move after attacking"],
-		"unitTypes": ["Archery","Ranged Gunpowder","Siege","Melee Water","Ranged Water","Submarine","Fighter","Bomber","Helicopter"],
+		"unitTypes": ["Ranged Infantry","Artillery","Mobile Artillery","Short-range Starship","Long-range Starship","Stealth Ship","Starfighter","Heavy Starfighter","Star Interceptor","Starbomber","Gunship"],
         "column": 24,
         "row": 5
 	},
 
 	{
 		"name": "Ambush I",
-		"uniques": ["[+33]% Strength <vs [Armored] units>", "[-100]% weight to this choice for AI decisions"],
-		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
+		"uniques": ["[+33]% Strength <vs [Heavy vehicle] units>", "[-100]% weight to this choice for AI decisions"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry","Starfighter","Heavy Starfighter","Star Interceptor","Starbomber"],
         "column": 25,
         "row": 1
 	},
 	{
 		"name": "Ambush II",
 		"prerequisites": ["Ambush I"],
-		"uniques": ["[+33]% Strength <vs [Armored] units>"],
-		"unitTypes": ["Sword","Gunpowder","Fighter","Bomber"],
+		"uniques": ["[+33]% Strength <vs [Heavy vehicle] units>"],
+		"unitTypes": ["Infantry","Force user","Stealth Infantry","Starfighter","Heavy Starfighter","Star Interceptor","Starbomber"],
         "column": 25,
         "row": 2
 	},
@@ -647,7 +647,7 @@
 	{
 		"name": "Bombardment I",
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water","Fighter","Bomber"],
+		"unitTypes": ["Long-range Starship","Starfighter","Heavy Starfighter","Star Interceptor","Starbomber"],
         "column": 26,
         "row": 1
 	},
@@ -655,7 +655,7 @@
 		"name": "Bombardment II",
 		"prerequisites": ["Bombardment I"],
 		"uniques": ["[+33]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water","Fighter","Bomber"],
+		"unitTypes": ["Long-range Starship","Starfighter","Heavy Starfighter","Star Interceptor","Starbomber"],
         "column": 26,
         "row": 2
 	},
@@ -663,7 +663,7 @@
 		"name": "Bombardment III",
 		"prerequisites": ["Bombardment II"],
 		"uniques": ["[+34]% Strength <vs [Land] units>"],
-		"unitTypes": ["Ranged Water","Fighter","Bomber"],
+		"unitTypes": ["Long-range Starship","Starfighter","Heavy Starfighter","Star Interceptor","Starbomber"],
         "column": 26,
         "row": 3
 	},
@@ -674,7 +674,7 @@
 		"uniques": ["[+15]% Strength"]
 	},
 	{
-		"name": "Great Generals I", // only for Companion Cavalry, Keshik and their subsequent upgrades
+		"name": "Great Generals I", // only for Keshik and subsequent upgrades
 		"uniques": ["[Great General] is earned [50]% faster"]
 	},
 	{
