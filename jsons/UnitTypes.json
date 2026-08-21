@@ -4,11 +4,7 @@
         "movementType": "Land"
     },
     {
-        "name": "Sword",
-        "movementType": "Land"
-    },
-    {
-        "name": "Gunpowder",
+        "name": "Infantry",
         "movementType": "Land"
     },
     {
@@ -16,7 +12,7 @@
         "movementType": "Land"
     },
     {
-        "name": "Ranged Gunpowder",
+        "name": "Ranged Infantry",
         "movementType": "Land"
     },
     {
