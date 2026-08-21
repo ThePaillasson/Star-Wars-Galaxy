@@ -96,11 +96,6 @@
         "uniques": ["Aircraft"]
     },
     {
-        "name": "Missile",
-        "movementType": "Air",
-        "uniques": ["Self-destructs when attacking", "Cannot be intercepted"]
-    },
-    {
         "name": "Gunship",
         "movementType": "Land",
         "uniques": ["Can pass through impassable tiles"]
