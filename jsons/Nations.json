@@ -2450,6 +2450,20 @@
 	},
 
 	{
+		"name": "Columi Civilization",
+		"adjective": ["Columi"],
+		"cityStateType": "Scientific",
+		"startBias": ["Forest"],
+
+		"declaringWar": "The Columi may be smart, but they don't have your best interest in mind.",
+		"attacked": "The trouble with Columi is that they're always three steps ahead.",
+		"defeated": "We never fully trusted you from the start.",
+		"outerColor": [255, 255, 255],
+		"innerColor": [0, 0, 0],
+		"cities": ["Columus"]
+	},
+	
+	{
 		"name": "Confederation of the Clans",
 		"adjective": ["Drall"],
 		"cityStateType": "Scientific",
