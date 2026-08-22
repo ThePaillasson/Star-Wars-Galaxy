@@ -16,16 +16,17 @@
         "peaceDealDuration": 10,
         "dealDuration": 25,
         "startYear": -36000,
+        "startYear": -36000,
         "turns": [
-        {"yearsPerTurn": 333.3333333333, "untilTurn": 33},
-        {"yearsPerTurn": 141.4141414141, "untilTurn": 132},
-        {"yearsPerTurn": 121.2121212121, "untilTurn": 165},
-        {"yearsPerTurn": 90.9090909091, "untilTurn": 198},
-        {"yearsPerTurn": 45.4545454545, "untilTurn": 264},
-        {"yearsPerTurn": 19.36, "untilTurn": 314},
-        {"yearsPerTurn": 2.1666666667, "untilTurn": 320},
-        {"yearsPerTurn": 3.4285714286, "untilTurn": 327},
-        {"yearsPerTurn": 1, "untilTurn": 330}
+            {"yearsPerTurn": 333.3333333333, "untilTurn": 33},
+            {"yearsPerTurn": 141.4141414141, "untilTurn": 132},
+            {"yearsPerTurn": 121.2121212121, "untilTurn": 165},
+            {"yearsPerTurn": 90.9090909091, "untilTurn": 198},
+            {"yearsPerTurn": 45.4545454545, "untilTurn": 264},
+            {"yearsPerTurn": 19.7413793103, "untilTurn": 314},
+            {"yearsPerTurn": 2.125, "untilTurn": 320},
+            {"yearsPerTurn": 3.4285714286, "untilTurn": 327},
+            {"yearsPerTurn": 1, "untilTurn": 330}
     ]
     },
     {
