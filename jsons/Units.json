@@ -115,7 +115,7 @@
 		"attackSound": "metalhit"
 	},
 
-	/* Classical Era */
+	/* Expansion Period */
 	{
 		"name": "Bantha Rider",
 		"unitType": "Mounted",
@@ -234,7 +234,7 @@
 		"attackSound": "metalhit"
 	},
 
-	// Medieval Era
+	/* Ductatvis Era */
 	{
 		"name": "Protosaber",
 		"unitType": "Force user",
@@ -352,7 +352,7 @@
 		"attackSound": "metalhit"
 	},
 
-	// Rennaisance Era
+	// Manderon Period
 
 	{
 		"name": "Hammerhead-class Cruiser",
@@ -510,7 +510,7 @@
 		"attackSound": "cannon"
 	},
 
-	// Industrial Era
+	// Sith Wars era
 
 	{
 		"name": "Heavy Repeating Blaster",
@@ -675,7 +675,7 @@
 		"attackSound": "artillery"
 	},
 
-	// Modern era
+	// Great Peace Period
 
 	{
 		"name": "Stealth Ship",
@@ -1115,7 +1115,7 @@
 		"attackSound": "shipguns"
 	},
 
-	// Atomic Era
+	// Clone Wars era
 
 	{
 		"name": "Line Infantry",
@@ -1395,7 +1395,7 @@
 		"attackSound": "machinegun"
 	},
 
-	// Information Era
+	// Imperial era
 	{
 		"name": "Special Force",
 		"unitType": "Stealth Infantry",
@@ -1892,7 +1892,6 @@
 		"requiredTech": "Advanced Ballistics",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
-		// costs 1500 in BNW
 	},
 	{
 		"name": "SS Cockpit",
@@ -1902,7 +1901,6 @@
 		"requiredTech": "Satellites",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
-		// costs 1500 in BNW
 	},
 	{
 		"name": "SS Engine",
@@ -1912,7 +1910,6 @@
 		"requiredTech": "Particle Physics",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
-		// costs 1500 in BNW
 	},
 	{
 		"name": "SS Stasis Chamber",
@@ -1921,7 +1918,6 @@
 		"cost": 750,
 		"requiredTech": "Nanotechnology",
 		"requiredResource": "Aluminum",
-		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
-		// costs 1500 in BNW
+		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization", "Only available <when [Scientific] Victory is enabled>"]	
 	}
 ]
