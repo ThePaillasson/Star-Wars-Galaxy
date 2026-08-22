@@ -25,7 +25,8 @@
             {"yearsPerTurn": 45.4545454545, "untilTurn": 264},
             {"yearsPerTurn": 19.7551020408, "untilTurn": 313},
             {"yearsPerTurn": 1.8571428571, "untilTurn": 320},
-            {"yearsPerTurn": 3.4285714286, "untilTurn": 327},
+            {"yearsPerTurn": 4, "untilTurn": 326},
+            {"yearsPerTurn": 1, "untilTurn": 327},
             {"yearsPerTurn": 1, "untilTurn": 330}
     ]
     },
