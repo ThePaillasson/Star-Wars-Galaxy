@@ -2561,6 +2561,20 @@
 	},
 
 	{
+		"name": "Consolidated Holdings of Preox-Morlana Corporation",
+		"adjective": ["Pre-Mor"],
+		"cityStateType": "Industrial",
+		"startBias": ["Coast"],
+
+		"declaringWar": "I've been saying all along we need a stronger hand with these affiliated planets. There's fomenting out there, sir. Pockets of fomenting. Corporate Tactical Forces are the Empire's first line of defense, and the best way to keep the blade sharp is to use it.",
+		"attacked": "I could remind you that there is a territorial forum which is held once a month and where you are free to file official complaints.",
+		"defeated": "Take solace in this. You will not be replaced. You've rung the final bell on Corporative independence.",
+		"outerColor": [65,102,112],
+		"innerColor": [178,107,75],
+		"cities": ["Morlana One"]
+	},
+
+	{
 		"name": "Corellian Republic",
 		"adjective": ["Corellian"],
 		"cityStateType": "Industrial",
