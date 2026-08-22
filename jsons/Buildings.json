@@ -1,5 +1,5 @@
 [
-	// Ancient Era
+	// Pre-Republic era
 
 	// Always available
 	{
@@ -148,7 +148,7 @@
 		// "Requires [Honor]" in BNW
 	},
 
-	// Classical Era
+	// Expansion Period
 
 	// Column 3
 	{
@@ -334,7 +334,7 @@
 		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
 	},
 
-	// Medieval Era
+	// Ductavis Era
 
 	// Column 5
 	{
@@ -507,7 +507,7 @@
 		"requiredTech": "Steel"
 	},
 
-	// Renaissance Era
+	// Manderon Period
 
 	// Column 7
 	{
@@ -659,7 +659,7 @@
 		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
 	},
 
-	// Industrial Era
+	// Sith Wars era
 
 	// Column 9
 	{
@@ -766,7 +766,7 @@
         "requiredTech": "Electricity"
     },
 
-	// Modern Era
+	// Great Peace Period
 
 	// Column 11
 	{
@@ -859,7 +859,7 @@
 		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
 	},
 
-	// Atomic Era
+	// Clone Wars era
 
 	// Column 13
 	{
@@ -940,7 +940,7 @@
         "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin"
     },
 
-	// Information Era
+	// Imperial era
 
 	// Column 15
 	{
