@@ -1,5 +1,7 @@
 //Pre-Republic era
 
+//Column 1
+
 [
 	{
 		"name": "Worker",
@@ -57,6 +59,19 @@
 		"uniques": ["May upgrade to [Force Warrior] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
 	},
+	//Column 2	
+	{
+		"name": "Force Warrior",
+		"unitType": "Force user",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Study of the Force",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Protosaber",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
 	{
 		"name": "Force Hound",
 		"unitType": "Force user",
@@ -71,6 +86,28 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
+	//Column 3
+	{
+		"name": "Work Boats",
+		"unitType": "Civilian Water",
+		"movement": 4,
+		"cost": 30,
+		"requiredTech": "Force-drive",
+		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
+            "Uncapturable", "Automation is a primary action"]
+	},
+	{
+		"name": "Ancient Warship",
+		"unitType": "Short-range Starship",
+		"movement": 4,
+		"strength": 10,
+		"cost": 45,
+		"requiredTech": "Force-drive",
+		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
+		"upgradesTo": "Hammerhead-class Cruiser",
+		"obsoleteTech": "Navigation",
+		"attackSound": "nonmetalhit"
+	},
 	{
 		"name": "Slugthrower",
 		"unitType": "Ranged Infantry",
@@ -82,39 +119,6 @@
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Sniper Agent",
 		"attackSound": "arrow"
-	},
-	{
-		"name": "Work Boats",
-		"unitType": "Civilian Water",
-		"movement": 4,
-		"cost": 30,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
-            "Uncapturable", "Automation is a primary action"]
-	},
-	{
-		"name": "Ancient Warship",
-		"unitType": "Short-range Starship",
-		"movement": 4,
-		"strength": 10,
-		"cost": 45,
-		"requiredTech": "Sailing",
-		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
-		"upgradesTo": "Hammerhead-class Cruiser",
-		"obsoleteTech": "Navigation",
-		"attackSound": "nonmetalhit"
-	},
-	{
-		"name": "Force Warrior",
-		"unitType": "Force user",
-		"movement": 2,
-		"strength": 11,
-		"cost": 56,
-		"requiredTech": "Study of the Force",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Protosaber",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"attackSound": "metalhit"
 	},
 
 	/* Expansion Period */
