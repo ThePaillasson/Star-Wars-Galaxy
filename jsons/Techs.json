@@ -65,16 +65,9 @@
 				"quote": "Xesh was taken to his masters' machines—encased in a tomblike shell where he screamed in fear. Around him, he sensed his brood mates, shrieking in the darkness. He learned anger and hate. Later, he understood that this bleak anger—this dark hatred—was the Force and the power that fed his masters' ships."
 			},
 			{
-				"name": "Calendar",
-				"row": 2,
-				"prerequisites": ["Ceramic"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
-			},
-			{
-				"name": "Writing",
+				"name": "Holobook",
 				"row": 3,
-				"prerequisites": ["Ceramic"],
+				"prerequisites": ["Study of the Force"],
                 "uniques": ["Enables establishment of embassies <Civilopedia link [Tutorials/Embassies]>"],
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
@@ -123,6 +116,13 @@
 				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
 			},
 			{
+				"name": "Calendar",
+				"row": 2,
+				"prerequisites": ["Ceramic"],
+                "uniques": ["[+100]% weight to this choice for AI decisions"],
+				"quote": "'Born some nineteen years ago by the Galactic Standard Calendar.' - Grand Moff Birra Seah, in her report on Rebel agent Luke Skywalker"
+			},
+			{
 				"name": "Horseback Riding",
 				"row": 5,
 				"prerequisites": ["Animal Husbandry","Gunpowder"],
@@ -154,13 +154,13 @@
 			{
 				"name": "Philosophy",
 				"row": 2,
-				"prerequisites": ["Writing","Calendar"],
+				"prerequisites": ["Holobook","Calendar"],
 				"quote": "'There is only one good, knowledge, and one evil, ignorance.' - Socrates"
 			},
 			{
 				"name": "Drama and Poetry",
 				"row": 3,
-				"prerequisites": ["Writing"],
+				"prerequisites": ["Holobook"],
 				"quote": "'What is drama but life with the dull bits cut out.' - Alfred Hitchcock"
 			},
 			{
