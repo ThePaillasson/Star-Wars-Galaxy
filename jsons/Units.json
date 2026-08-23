@@ -27,7 +27,7 @@
 		"cost": 25,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Gunpowder] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": ["May upgrade to [Slugthrower] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
