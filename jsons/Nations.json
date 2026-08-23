@@ -1382,7 +1382,7 @@
 		"uniqueName": "Eternal Throne",
 	        "uniques": ["[+1 Culture] from all [Science] buildings","[+1 Happiness] from all [Culture] buildings","[50]% Strength <vs cities>","[-50]% City-State Influence degradation"],
 
-		"favoredReligion": "Six Gods",
+		"favoredReligion": "Six Old Gods",
 		"outerColor": [255,255,255],
 		"innerColor": [130,93,17],
 		"cities": [
