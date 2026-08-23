@@ -1652,7 +1652,6 @@
 		"uniqueName": "Shipping mediator",
 	        "uniques": ["[+2 Gold] from each Trade Route","[20] Unit Supply","[-50]% City-State Influence degradation","City-State territory always counts as friendly territory","[+30]% Strength <vs [City-states]>"],
 
-		"favoredReligion": "Maradaine and Aven",
 		"outerColor": [255,255,255],
 		"innerColor": [0,0,0],
 		"cities": [
@@ -1715,7 +1714,6 @@
 		"uniqueName": "Arms dealer",
 	        "uniques": ["[+1 Gold] from each Trade Route","[20] Unit Supply","Gain [35] Influence with a [Military] gift to a City-State","[+50]% Production when constructing [All] units [in all cities]"],
 
-		"favoredReligion": "Power Mounds of the Elders",
 		"outerColor": [255,193,34],
 		"innerColor": [116,30,3],
 		"cities": [
