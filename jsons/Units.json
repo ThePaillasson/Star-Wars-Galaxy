@@ -27,7 +27,7 @@
 		"cost": 25,
 		"requiredTech": "Agriculture",
 		"obsoleteTech": "Scientific Theory",
-		"uniques": ["May upgrade to [Slugthrower] through ruins-like effects", "Never appears as a Barbarian unit"],
+		"uniques": ["May upgrade to [Gunpowder] through ruins-like effects", "Never appears as a Barbarian unit"],
 		"promotions": ["Ignore terrain cost"],
 		"attackSound": "nonmetalhit"
 	},
@@ -321,7 +321,7 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Peacekeeper",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Blaster",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
@@ -335,7 +335,7 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Peacekeeper",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Blaster",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
@@ -349,7 +349,7 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Peacekeeper",
-		"obsoleteTech": "Gunpowder",
+		"obsoleteTech": "Blaster",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
@@ -390,7 +390,7 @@
 		"movement": 2,
 		"strength": 24,
 		"cost": 150,
-		"requiredTech": "Gunpowder",
+		"requiredTech": "Blaster",
 		"upgradesTo": "Planetary Defense Force",
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot"
@@ -403,7 +403,7 @@
 		"movement": 2,
 		"strength": 24,
 		"cost": 150,
-		"requiredTech": "Gunpowder",
+		"requiredTech": "Blaster",
 		"upgradesTo": "Planetary Defense Force",
 		"obsoleteTech": "Rifling",
 		"attackSound": "shot"
@@ -416,7 +416,7 @@
 		"movement": 2,
 		"strength": 24,
 		"cost": 150,
-		"requiredTech": "Gunpowder",
+		"requiredTech": "Blaster",
 		"upgradesTo": "Planetary Defense Force",
 		"obsoleteTech": "Rifling",
 		"uniques": ["May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
@@ -1365,7 +1365,7 @@
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+100]% Strength <vs [Heavy vehicle] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Can carry [1] [Gunpowder] units"],
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Can carry [1] [Infantry] units"],
 		"attackSound": "machinegun"
 	},
 {
@@ -1379,7 +1379,7 @@
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+100]% Strength <vs [Heavy vehicle] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Can carry [1] [Gunpowder] units"],
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Can carry [1] [Infantry] units"],
 		"attackSound": "machinegun"
 	},
 	{
@@ -1393,7 +1393,7 @@
 		"requiredTech": "Computers",
 		"requiredResource": "Aluminum",
 		"uniques": ["[+100]% Strength <vs [Heavy vehicle] units>", "No defensive terrain bonus", "Can move after attacking",
-			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Can carry [1] [Gunpowder] units"],
+			"All tiles cost 1 movement", "Ignores Zone of Control", "Unable to capture cities", "Never appears as a Barbarian unit", "Can carry [1] [Infantry] units"],
 		"attackSound": "machinegun"
 	},
 
@@ -1544,7 +1544,7 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [2] [Gunpowder] units"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [2] [Infantry] units"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1557,7 +1557,7 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [2] [Gunpowder] units"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [2] [Infantry] units"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1570,7 +1570,7 @@
 		"cost": 425,
 		"requiredTech": "Lasers",
 		"requiredResource": "Aluminum",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [2] [Gunpowder] units"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [2] [Infantry] units"],
 		"attackSound": "tankshot"
 	},
 	{
@@ -1641,7 +1641,7 @@
 		"cost": 250,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [1] [Gunpowder] units"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [1] [Infantry] units"],
 		"attackSound": "gdrAttack"
 	},
 	{
@@ -1652,7 +1652,7 @@
 		"cost": 425,
 		"requiredTech": "Nuclear Fusion",
 		"requiredResource": "Uranium",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [1] [Gunpowder] units"],
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [1] [Infantry] units"],
 		"attackSound": "gdrAttack"
 	},
 	{
