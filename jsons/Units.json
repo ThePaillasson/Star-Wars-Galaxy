@@ -752,7 +752,7 @@
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
 		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
-		"obsoleteTech": "Radar",
+		"obsoleteTech": "Computers",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "machinegun"
 	},
@@ -770,7 +770,7 @@
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
 		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
-		"obsoleteTech": "Radar",
+		"obsoleteTech": "Computers",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>","Will not be displayed in Civilopedia"],
 		"attackSound": "machinegun"
 	},
@@ -788,7 +788,7 @@
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
 		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
-		"obsoleteTech": "Radar",
+		"obsoleteTech": "Computers",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "machinegun"
 	},
@@ -806,7 +806,7 @@
 		"requiredTech": "Flight",
 		"requiredResource": "Oil",
 		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
-		"obsoleteTech": "Radar",
+		"obsoleteTech": "Computers",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "machinegun"
 	},
@@ -885,7 +885,7 @@
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Plastics",
-		"upgradesTo": "Special Force",
+		"upgradesTo": "Particle Physics",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
@@ -899,7 +899,7 @@
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Special Force",
-		"obsoleteTech": "Mobile Tactics",
+		"obsoleteTech": "Particle Physics",
 		"attackSound": "shot"
 	},
 	{
@@ -912,7 +912,7 @@
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Special Force",
-		"obsoleteTech": "Mobile Tactics",
+		"obsoleteTech": "Particle Physics",
 		"attackSound": "shot"
 	},
 	{
@@ -925,7 +925,7 @@
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Special Force",
-		"obsoleteTech": "Mobile Tactics",
+		"obsoleteTech": "Particle Physics",
 		"uniques": ["Will not be displayed in Civilopedia"],
 		"attackSound": "shot"
 	},
@@ -939,7 +939,7 @@
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Special Force",
-		"obsoleteTech": "Mobile Tactics",
+		"obsoleteTech": "Particle Physics",
 		"attackSound": "shot"
 	},
 	{
@@ -1083,7 +1083,7 @@
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
 		"upgradesTo": "All Terrain Scout Transport",
-		"obsoleteTech": "Nuclear Fusion",
+		"obsoleteTech": "Satellites",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -1098,7 +1098,7 @@
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
 		"upgradesTo": "All Terrain Scout Transport",
-		"obsoleteTech": "Nuclear Fusion",
+		"obsoleteTech": "Satellites",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -1113,7 +1113,7 @@
 		"requiredTech": "Combustion",
 		"requiredResource": "Oil",
 		"upgradesTo": "All Terrain Scout Transport",
-		"obsoleteTech": "Nuclear Fusion",
+		"obsoleteTech": "Satellites",
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
@@ -1626,7 +1626,7 @@
 		"movement": 5,
 		"strength": 70,
 		"cost": 250,
-		"requiredTech": "Satelittes",
+		"requiredTech": "Satellites",
 		"requiredResource": "Uranium",
 		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [1] [Infantry] units"],
 		"attackSound": "gdrAttack"
