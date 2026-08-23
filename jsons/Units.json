@@ -545,7 +545,7 @@
 		"cost": 225,
 		"requiredTech": "Industrialization",
 		"upgradesTo": "Smart Rocket",
-		"obsoleteTech": "Ballistics",
+		"obsoleteTech": "Satellites",
 		"attackSound": "machinegun"
 	},
 	{
