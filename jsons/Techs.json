@@ -22,31 +22,30 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Pottery",
+				"name": "Study of the Force",
 				"row": 2,
 				"prerequisites": ["Agriculture"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Shall the clay say to him that fashioneth it, what makest thou?' - Jagraan"
-			},
-			{
-				"name": "Hunting",
-				"row": 5,
-				"prerequisites": ["Agriculture"],
-				"quote": "'True hunting is in the eye. Stare at prey. Make the prey cower. Know you can eat it alive. Victory without weapons… but only if you are stronger, yes?' - Bible Deuteronomy 25:4"
+				"quote": "'Well, the Force is what gives a Jedi his power. It's an energy field created by all living things. It surrounds us and penetrates us; it binds the galaxy together.' - Obi-Wan Kenobi"
 			},
 			{
 				"name": "Mining",
-				"row": 7,
+				"row": 5,
 				"prerequisites": ["Agriculture"],
                 "uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'Mining colonies are the worst.''Yeah, well, the worst is where the money is.' - Lando Calrissian and Tobias Beckett"
 			},
 			{
-				"name": "Study of the Force",
+				"name": "Hunting",
+				"row": 7,
+				"prerequisites": ["Agriculture"],
+				"quote": "'True hunting is in the eye. Stare at prey. Make the prey cower. Know you can eat it alive. Victory without weapons… but only if you are stronger, yes?' - Jagraan"
+			},
+			{
+				"name": "Ceramic",
 				"row": 9,
 				"prerequisites": ["Agriculture"],
-                "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Well, the Force is what gives a Jedi his power. It's an energy field created by all living things. It surrounds us and penetrates us; it binds the galaxy together.' - Obi-Wan Kenobi"
+                "uniques": ["[+100]% weight to this choice for AI decisions"]
 			}
 
 		]
@@ -59,23 +58,23 @@
 		"wonderCost": 185,
 		"techs": [
 			{
-				"name": "Sailing",
+				"name": "Force-drive",
 				"row": 1,
-				"prerequisites": ["Pottery"],
+				"prerequisites": ["Study of the Force","Mining"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'He who commands the sea has command of everything.' - Themistocles"
+				"quote": "Xesh was taken to his masters' machines—encased in a tomblike shell where he screamed in fear. Around him, he sensed his brood mates, shrieking in the darkness. He learned anger and hate. Later, he understood that this bleak anger—this dark hatred—was the Force and the power that fed his masters' ships."
 			},
 			{
 				"name": "Calendar",
 				"row": 2,
-				"prerequisites": ["Pottery"],
+				"prerequisites": ["Ceramic"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'So teach us to number our days, so that we may apply our hearts unto wisdom.' - Bible Psalms 90:12"
 			},
 			{
 				"name": "Writing",
 				"row": 3,
-				"prerequisites": ["Pottery"],
+				"prerequisites": ["Ceramic"],
                 "uniques": ["Enables establishment of embassies <Civilopedia link [Tutorials/Embassies]>"],
 				"quote": "'He who destroys a good book kills reason itself.' - John Milton"
 			},
@@ -89,7 +88,7 @@
 			{
 				"name": "Gunpowder",
 				"row": 7,
-				"prerequisites": ["Hunting", "Mining"],
+				"prerequisites": ["Hunting", "Mining","Ceramic"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Slugthrowers. I hate 'em. But they're easy to maintain. Day or two in the jungle and your blaster'll never fire again. A good slug rifle, keep 'em wiped and oiled, they last forever. The guerrillas have pretty good luck with them, even though they take a lot of practice—slugs are ballistic, y'know? You have to plot the trajectory in your head. Shee, gimme a blaster anytime.' - Phloremirlla Tenk"
 			},
