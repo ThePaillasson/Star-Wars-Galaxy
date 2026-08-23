@@ -1180,7 +1180,7 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
-		"requiredTech": "Nuclera Fission",
+		"requiredTech": "Nuclear Fission",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
@@ -1192,7 +1192,7 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
-		"requiredTech": "Nuclera Fission",
+		"requiredTech": "Nuclear Fission",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
@@ -1205,7 +1205,7 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
-		"requiredTech": "Nuclera Fission",
+		"requiredTech": "Nuclear Fission",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"uniques": ["Will not be displayed in Civilopedia"],
@@ -1217,7 +1217,7 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
-		"requiredTech": "Nuclera Fission",
+		"requiredTech": "Nuclear Fission",
 		"upgradesTo": "Special Force",
 		"obsoleteTech": "Particle Physics",
 		"attackSound": "shot"
@@ -1230,7 +1230,7 @@
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
-		"requiredTech": "Nuclera Fission",
+		"requiredTech": "Nuclear Fission",
 		"upgradesTo": "Special Force",
 		"obsoleteTech": "Particle Physics",
 		"attackSound": "shot"
