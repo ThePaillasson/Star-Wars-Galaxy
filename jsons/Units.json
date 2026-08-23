@@ -59,7 +59,7 @@
 		"uniques": ["May upgrade to [Force Warrior] through ruins-like effects"],
 		"attackSound": "nonmetalhit",
 	},
-	//Column 2	
+	//Column 1	
 	{
 		"name": "Force Warrior",
 		"unitType": "Force user",
@@ -86,16 +86,16 @@
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
 	},
-	//Column 3
 	{
 		"name": "Work Boats",
 		"unitType": "Civilian Water",
 		"movement": 4,
 		"cost": 30,
-		"requiredTech": "Force-drive",
+		"requiredTech": "Ceramic",
 		"uniques": ["Cannot enter ocean tiles <before discovering [Astronomy]>", "May create improvements on water resources",
             "Uncapturable", "Automation is a primary action"]
 	},
+	//Column 2
 	{
 		"name": "Ancient Warship",
 		"unitType": "Short-range Starship",
@@ -121,7 +121,8 @@
 		"attackSound": "arrow"
 	},
 
-	/* Expansion Period */
+	// Expansion Period
+	//Column 3
 	{
 		"name": "Bantha Rider",
 		"unitType": "Mounted",
@@ -211,6 +212,7 @@
 		"upgradesTo": "Marksman",
 		"attackSound": "arrow"
 	},
+	//Column 4
 	{
 		"name": "Beam Warrior",
 		"unitType": "Infantry",
@@ -240,7 +242,8 @@
 		"attackSound": "metalhit"
 	},
 
-	/* Ductatvis Era */
+	//Ductatvis Era
+	//Column 5
 	{
 		"name": "Protosaber",
 		"unitType": "Force user",
@@ -253,6 +256,7 @@
 		"obsoleteTech": "Metallurgy",
 		"attackSound": "metalhit"
 	},
+	//Column 6
 	{
 		"name": "Battlecruiser",
 		"unitType": "Long-range Starship",
@@ -359,7 +363,7 @@
 	},
 
 	// Manderon Period
-
+	//Column 7
 	{
 		"name": "Hammerhead-class Cruiser",
 		"unitType": "Short-range Starship",
@@ -426,6 +430,7 @@
 		"uniques": ["May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
+	//Column 8
 	{
 		"name": "Trident-class Assault Ship",
 		"unitType": "Short-range Starship",
@@ -517,6 +522,7 @@
 	},
 
 	// Sith Wars era
+	//Column 9
 
 	{
 		"name": "Heavy Repeating Blaster",
@@ -606,6 +612,7 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
 		"attackSound": "cavalry"
 	},
+	//Column 10
 	{
 		"name": "CR90 Corvette",
 		"unitType": "Short-range Starship",
@@ -665,6 +672,7 @@
 		"uniques": ["[+33]% Strength <vs cities>","Double movement in [Coast]", "Never appears as a Barbarian unit"],
 		"attackSound": "shipguns"
 	},
+	//Column 14
 	{
 		"name": "Self-Propelled Heavy Artillery",
 		"unitType": "Artillery",
@@ -682,7 +690,7 @@
 	},
 
 	// Great Peace Period
-
+	//Column 11
 	{
 		"name": "Stealth Ship",
 		"unitType": "Stealth Ship",
@@ -832,6 +840,7 @@
 		"obsoleteTech": "Stealth",
 		"attackSound": "bombing"
 	},
+	//Column 12
 	{
 		"name": "B2 Super Battle Droid",
 		"unitType": "Infantry",
@@ -1122,6 +1131,7 @@
 	},
 
 	// Clone Wars era
+	//Column 13
 
 	{
 		"name": "Line Infantry",
@@ -1402,6 +1412,7 @@
 	},
 
 	// Imperial era
+	//Column 15
 	{
 		"name": "Special Force",
 		"unitType": "Stealth Infantry",
@@ -1608,6 +1619,57 @@
 		"attackSound": "jetgun"
 	},
 	{
+		"name": "TIEsa Tactical Bomber",
+		"unitType": "Starbomber",
+		"movement": 2,
+		"strength": 85,
+		"rangedStrength": 85,
+		"range": 20,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Damage taken from interception reduced by [100]%", "[+4] Sight", "Can see over obstacles"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "BTL-A4 Y-wing Assault Bomber",
+		"unitType": "Starbomber",
+		"uniqueTo": "Alliance to Restore the Republic",
+		"replaces": "TIEsa Tactical Bomber",
+		"movement": 2,
+		"strength": 85,
+		"rangedStrength": 85,
+		"range": 20,
+		"cost": 425,
+		"requiredTech": "Lasers",
+		"requiredResource": "Aluminum",
+		"uniques": ["Damage taken from interception reduced by [100]%", "[+4] Sight", "Can see over obstacles"],
+		"attackSound": "bombing"
+	},
+	{
+		"name": "All Terrain Scout Transport",
+		"unitType": "Medium vehicle",
+		"movement": 5,
+		"strength": 70,
+		"cost": 250,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [1] [Infantry] units"],
+		"attackSound": "gdrAttack"
+	},
+	//Column 16
+	{
+		"name": "All Terrain Armored Transport",
+		"unitType": "Heavy vehicle",
+		"movement": 3,
+		"strength": 150,
+		"cost": 425,
+		"requiredTech": "Nuclear Fusion",
+		"requiredResource": "Uranium",
+		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [1] [Infantry] units"],
+		"attackSound": "gdrAttack"
+	},
+	{
 		"name": "RZ-1 A-wing Interceptor",
 		"unitType": "Star Interceptor",
 		"movement": 1,
@@ -1636,56 +1698,6 @@
 		"requiredResource": "Aluminum",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "jetgun"
-	},
-	{
-		"name": "All Terrain Scout Transport",
-		"unitType": "Medium vehicle",
-		"movement": 5,
-		"strength": 70,
-		"cost": 250,
-		"requiredTech": "Nuclear Fusion",
-		"requiredResource": "Uranium",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [1] [Infantry] units"],
-		"attackSound": "gdrAttack"
-	},
-	{
-		"name": "All Terrain Armored Transport",
-		"unitType": "Heavy vehicle",
-		"movement": 3,
-		"strength": 150,
-		"cost": 425,
-		"requiredTech": "Nuclear Fusion",
-		"requiredResource": "Uranium",
-		"uniques": ["Can move after attacking", "No defensive terrain bonus", "Never appears as a Barbarian unit", "Can carry [1] [Infantry] units"],
-		"attackSound": "gdrAttack"
-	},
-	{
-		"name": "TIEsa Tactical Bomber",
-		"unitType": "Starbomber",
-		"movement": 2,
-		"strength": 85,
-		"rangedStrength": 85,
-		"range": 20,
-		"cost": 425,
-		"requiredTech": "Stealth",
-		"requiredResource": "Aluminum",
-		"uniques": ["Damage taken from interception reduced by [100]%", "[+4] Sight", "Can see over obstacles"],
-		"attackSound": "bombing"
-	},
-	{
-		"name": "BTL-A4 Y-wing assault",
-		"unitType": "Starbomber",
-		"uniqueTo": "Alliance to Restore the Republic",
-		"replaces": "TIEsa Tactical Bomber",
-		"movement": 2,
-		"strength": 85,
-		"rangedStrength": 85,
-		"range": 20,
-		"cost": 425,
-		"requiredTech": "Stealth",
-		"requiredResource": "Aluminum",
-		"uniques": ["Damage taken from interception reduced by [100]%", "[+4] Sight", "Can see over obstacles"],
-		"attackSound": "bombing"
 	},
 	{
 		"name": "TIE Advanced x1",
