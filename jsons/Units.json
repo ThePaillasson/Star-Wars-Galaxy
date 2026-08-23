@@ -1,3 +1,5 @@
+//Pre-Republic era
+
 [
 	{
 		"name": "Worker",
@@ -62,7 +64,7 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "Archery",
+		"requiredTech": "Mining",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Sniper Agent",
 		"attackSound": "arrow"
@@ -94,7 +96,7 @@
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
+		"requiredTech": "Study of the Force",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Protosaber",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
@@ -108,7 +110,7 @@
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
-		"requiredTech": "Bronze Working",
+		"requiredTech": "Study of the Force",
 		"obsoleteTech": "Civil Service",
 		"upgradesTo": "Protosaber",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
