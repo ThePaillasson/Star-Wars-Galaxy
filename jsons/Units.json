@@ -58,6 +58,20 @@
 		"attackSound": "nonmetalhit",
 	},
 	{
+		"name": "Force Hound",
+		"unitType": "Force user",
+		"replaces": "Force Warrior",
+		"uniqueTo": "Infinite Empire",
+		"movement": 2,
+		"strength": 11,
+		"cost": 56,
+		"requiredTech": "Study of the Force",
+		"obsoleteTech": "Civil Service",
+		"upgradesTo": "Protosaber",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"attackSound": "metalhit"
+	},
+	{
 		"name": "Slugthrower",
 		"unitType": "Ranged Infantry",
 		"movement": 2,
@@ -93,20 +107,6 @@
 	{
 		"name": "Force Warrior",
 		"unitType": "Force user",
-		"movement": 2,
-		"strength": 11,
-		"cost": 56,
-		"requiredTech": "Study of the Force",
-		"obsoleteTech": "Civil Service",
-		"upgradesTo": "Protosaber",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"attackSound": "metalhit"
-	},
-	{
-		"name": "Force Hound",
-		"unitType": "Force user",
-		"replaces": "Force Warrior",
-		"uniqueTo": "Infinite Empire",
 		"movement": 2,
 		"strength": 11,
 		"cost": 56,
