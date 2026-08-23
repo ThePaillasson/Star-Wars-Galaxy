@@ -49,23 +49,6 @@
 	},
 	// Column 2
 	{
-		"name": "Library",
-		"hurryCostModifier": 25,
-		"maintenance": 1,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Holobook"
-	},
-	{
-		"name": "The Great Library",
-		"science": 3,
-		"culture": 1,
-		"greatPersonPoints": {"Great Scientist": 1},
-		"isWonder": true,
-		"requiredTech": "Holobook",
-		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
-		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
-	},
-	{
 		"name": "Water Mill",
 		"maintenance": 2,
 		"food": 2,
@@ -170,6 +153,23 @@
 		"greatPersonPoints": {"Great Engineer": 1},
 		"requiredTech": "Calendar",
 		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+	},
+	{
+		"name": "Library",
+		"hurryCostModifier": 25,
+		"maintenance": 1,
+		"uniques": ["[+1 Science] per [2] population [in this city]"],
+		"requiredTech": "Holobook"
+	},
+	{
+		"name": "The Great Library",
+		"science": 3,
+		"culture": 1,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"requiredTech": "Holobook",
+		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
+		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
 	},
 	{
 		"name": "Stable",
