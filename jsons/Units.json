@@ -64,7 +64,7 @@
 		"strength": 5,
 		"rangedStrength": 7,
 		"cost": 40,
-		"requiredTech": "Mining",
+		"requiredTech": "Gunpowder",
 		"obsoleteTech": "Construction",
 		"upgradesTo": "Sniper Agent",
 		"attackSound": "arrow"
