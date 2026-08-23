@@ -1617,7 +1617,6 @@
 		"rangedStrength": 60,
 		"cost": 350,
 		"requiredTech": "Satellites",
-		"upgradesTo": "Line Infantry",
 		"attackSound": "machinegun"
 	},
 	{
