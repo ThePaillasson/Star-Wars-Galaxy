@@ -87,11 +87,11 @@
 				"quote": "'Even brute beasts and wandering birds do not fall into the same traps or nets twice.' - Saint Jerome"
 			},
 			{
-				"name": "The Wheel",
+				"name": "Gunpowder",
 				"row": 7,
-				"prerequisites": ["Animal Husbandry", "Archery"],
+				"prerequisites": ["Animal Husbandry", "Mining"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Wisdom and virtue are like the two wheels of a cart.' - Japanese proverb"
+				"quote": "'Slugthrowers. I hate 'em. But they're easy to maintain. Day or two in the jungle and your blaster'll never fire again. A good slug rifle, keep 'em wiped and oiled, they last forever. The guerrillas have pretty good luck with them, even though they take a lot of practice—slugs are ballistic, y'know? You have to plot the trajectory in your head. Shee, gimme a blaster anytime.' - Phloremirlla Tenk"
 			},
 			{
 				"name": "Masonry",
@@ -126,20 +126,20 @@
 			{
 				"name": "Horseback Riding",
 				"row": 5,
-				"prerequisites": ["Trapping","The Wheel"],
+				"prerequisites": ["Animal Husbandry","Gunpowder"],
                 "uniques": ["[+50]% weight to this choice for AI decisions"],
 				"quote": "'A Horse! A Horse! My kingdom for a horse!' - Shakespeare (Richard III)"
 			},
 			{
 				"name": "Mathematics",
 				"row": 7,
-				"prerequisites": ["The Wheel"],
+				"prerequisites": ["Gunpowder"],
 				"quote": "'Mathematics is the gate and key to the sciences.' - Roger Bacon"
 			},
 			{
 				"name": "Construction",
 				"row": 9,
-				"prerequisites": ["Masonry","The Wheel"],
+				"prerequisites": ["Masonry","Gunpowder"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Three things are to be looked to in a building: that it stands on the right spot; that it be securely founded; that it be successfully executed.' - Johann Wolfgang von Goethe"
 			}
@@ -314,7 +314,7 @@
 				"quote": "'It is a newspaper's duty to print the news and raise hell.' - The Chicago Times"
 			},
 			{
-				"name": "Gunpowder",
+				"name": "Blaster",
 				"row": 10,
 				"prerequisites": ["Physics","Steel"],
                 "uniques": ["[-50]% weight to this choice for AI decisions"],
