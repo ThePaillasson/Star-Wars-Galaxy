@@ -372,7 +372,7 @@
 		"rangedStrength": 11,
 		"cost": 75,
 		"requiredTech": "Spying",
-		"obsoleteTech": "Particle Physics",
+		"obsoleteTech": "Cybernetic Enhancement",
 		"upgradesTo": "Marksman",
 		"attackSound": "arrow"
 	},
@@ -385,7 +385,7 @@
 		"cost": 150,
 		"requiredTech": "Personal shielding",
 		"upgradesTo": "Planetary Defense Force",
-		"obsoleteTech": "Replaceable Parts",
+		"obsoleteTech": "Decentralized Law Enforcement",
 		"attackSound": "shot"
 	},
 	{
@@ -398,7 +398,7 @@
 		"cost": 150,
 		"requiredTech": "Personal shielding",
 		"upgradesTo": "Planetary Defense Force",
-		"obsoleteTech": "Replaceable Parts",
+		"obsoleteTech": "Decentralized Law Enforcement",
 		"attackSound": "shot"
 	},
 	{
@@ -411,7 +411,7 @@
 		"cost": 150,
 		"requiredTech": "Personal shielding",
 		"upgradesTo": "Planetary Defense Force",
-		"obsoleteTech": "Replaceable Parts",
+		"obsoleteTech": "Decentralized Law Enforcement",
 		"uniques": ["May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
@@ -435,9 +435,9 @@
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
-		"requiredTech": "Replaceable Parts",
+		"requiredTech": "Decentralized Law Enforcement",
 		"upgradesTo": "Line Infantry",
-		"obsoleteTech": "Mobile Tactics",
+		"obsoleteTech": "Mass Propaganda",
 		"attackSound": "shot"
 	},
 	{
@@ -448,9 +448,9 @@
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
-		"requiredTech": "Replaceable Parts",
+		"requiredTech": "Decentralized Law Enforcement",
 		"upgradesTo": "Line Infantry",
-		"obsoleteTech": "Mobile Tactics",
+		"obsoleteTech": "Mass Propaganda",
 		"attackSound": "shot"
 	},
 	{
@@ -731,9 +731,9 @@
 		"movement": 2,
 		"strength": 50,
 		"cost": 320,
-		"requiredTech": "Pharmaceuticals",
+		"requiredTech": "Standardization",
 		"upgradesTo": "B2 Super Battle Droid",
-		"obsoleteTech": "Mobile Tactics",
+		"obsoleteTech": "Mass Propaganda",
 		"attackSound": "shot"
 	},
 	{
@@ -744,9 +744,9 @@
     "movement": 2,
     "strength": 50,
     "cost": 320,
-    "requiredTech": "Pharmaceuticals",
+    "requiredTech": "Standardization",
     "upgradesTo": "Advanced Recon Commando",
-    "obsoleteTech": "Mobile Tactics",
+    "obsoleteTech": "Mass Propaganda",
     "attackSound": "shot"
 },
 {
@@ -757,9 +757,9 @@
     "movement": 2,
     "strength": 50,
     "cost": 320,
-    "requiredTech": "Pharmaceuticals",
+    "requiredTech": "Standardization",
     "upgradesTo": "Advanced Recon Commando",
-    "obsoleteTech": "Mobile Tactics",
+    "obsoleteTech": "Mass Propaganda",
 	"uniques": ["Will not be displayed in Civilopedia"],
     "attackSound": "shot"
     },
@@ -771,7 +771,7 @@
 		"strength": 30,
 		"rangedStrength": 30,
 		"cost": 225,
-		"requiredTech": "Atomic Theory",
+		"requiredTech": "Heavy Weaponry",
 		"attackSound": "machinegun"
 	},
 	{
@@ -782,7 +782,7 @@
 		"strength": 30,
 		"rangedStrength": 30,
 		"cost": 225,
-		"requiredTech": "Atomic Theory",
+		"requiredTech": "Heavy Weaponry",
 		"upgradesTo": "Smart Rocket",
 		"obsoleteTech": "Satellites",
 		"attackSound": "machinegun"
@@ -1098,7 +1098,7 @@
 		"strength": 70,
 		"cost": 375,
 		"requiredTech": "Nuclear Fission",
-		"obsoleteTech": "Mobile Tactics",
+		"obsoleteTech": "Mass Propaganda",
 		"attackSound": "shot"
 	},
 	{
@@ -1111,7 +1111,7 @@
 		"cost": 375,
 		"requiredTech": "Nuclear Fission",
 		"upgradesTo": "Line Infantry",
-		"obsoleteTech": "Mobile Tactics",
+		"obsoleteTech": "Mass Propaganda",
 		"attackSound": "shot"
 	},
 	{
@@ -1124,7 +1124,7 @@
 		"cost": 375,
 		"requiredTech": "Nuclear Fission",
 		"upgradesTo": "Line Infantry",
-		"obsoleteTech": "Mobile Tactics",
+		"obsoleteTech": "Mass Propaganda",
 		"uniques": ["Will not be displayed in Civilopedia"],
 		"attackSound": "shot"
 	},
@@ -1136,7 +1136,7 @@
 		"cost": 375,
 		"requiredTech": "Nuclear Fission",
 		"upgradesTo": "Special Force",
-		"obsoleteTech": "Particle Physics",
+		"obsoleteTech": "Cybernetic Enhancement",
 		"attackSound": "shot"
 	},
 	{
@@ -1149,7 +1149,7 @@
 		"cost": 375,
 		"requiredTech": "Nuclear Fission",
 		"upgradesTo": "Special Force",
-		"obsoleteTech": "Particle Physics",
+		"obsoleteTech": "Cybernetic Enhancement",
 		"attackSound": "shot"
 	},
 	{
@@ -1162,7 +1162,7 @@
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Special Force",
-		"obsoleteTech": "Particle Physics",
+		"obsoleteTech": "Cybernetic Enhancement",
 		"attackSound": "shot"
 	},
 	{
@@ -1175,7 +1175,7 @@
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Special Force",
-		"obsoleteTech": "Particle Physics",
+		"obsoleteTech": "Cybernetic Enhancement",
 		"uniques": ["Will not be displayed in Civilopedia"],
 		"attackSound": "shot"
 	},
@@ -1189,7 +1189,7 @@
 		"cost": 375,
 		"requiredTech": "Plastics",
 		"upgradesTo": "Special Force",
-		"obsoleteTech": "Particle Physics",
+		"obsoleteTech": "Cybernetic Enhancement",
 		"attackSound": "shot"
 	},
 	{
@@ -1380,7 +1380,7 @@
 		"movement": 2,
 		"strength": 65,
 		"cost": 400,
-		"requiredTech": "Mobile Tactics",
+		"requiredTech": "Mass Propaganda",
 		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
 		"attackSound": "shot"
 	},
@@ -1392,7 +1392,7 @@
 		"movement": 2,
 		"strength": 65,
 		"cost": 400,
-		"requiredTech": "Mobile Tactics",
+		"requiredTech": "Mass Propaganda",
 		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
 		"attackSound": "shot"
 	},
@@ -1404,7 +1404,7 @@
 		"movement": 2,
 		"strength": 65,
 		"cost": 400,
-		"requiredTech": "Mobile Tactics",
+		"requiredTech": "Mass Propaganda",
 		"uniques": ["[+1] Sight <when [Embarked]>", "[+100]% Strength <when defending> <when [Embarked]>"],
 		"attackSound": "shot"
 	},
@@ -1555,7 +1555,7 @@
 		"strength": 13,
 		"rangedStrength": 18,
 		"cost": 120,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Cybernetic Enhancement",
 		"attackSound": "crossbow"
 	},
 	{
@@ -1567,7 +1567,7 @@
 		"strength": 13,
 		"rangedStrength": 18,
 		"cost": 120,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Cybernetic Enhancement",
 		"attackSound": "crossbow"
 	},
 	{
@@ -1576,7 +1576,7 @@
 		"movement": 3,
 		"strength": 90,
 		"cost": 375,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Cybernetic Enhancement",
 		"promotions": ["Amphibious"],
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -1589,7 +1589,7 @@
 		"movement": 3,
 		"strength": 90,
 		"cost": 375,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Cybernetic Enhancement",
 		"promotions": ["Amphibious"],
 		"uniques": ["Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
@@ -1861,7 +1861,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 750,
-		"requiredTech": "Particle Physics",
+		"requiredTech": "Cybernetic Enhancement",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [1] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
 	},
