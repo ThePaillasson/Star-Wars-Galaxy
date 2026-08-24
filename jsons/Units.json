@@ -124,6 +124,19 @@
 	// Expansion Period
 	//Column 3
 	{
+		"name": "Battlecruiser",
+		"unitType": "Long-range Starship",
+		"movement": 3,
+		"strength": 16,
+		"rangedStrength": 17,
+		"cost": 100,
+		"requiredTech": "Optics",
+		"obsoleteTech": "Compass",
+		"upgradesTo": "Battleship",
+		"uniques": ["Cannot enter ocean tiles"],
+		"attackSound": "arrow"
+	},
+	{
 		"name": "Bantha Rider",
 		"unitType": "Mounted",
 		"movement": 4,
@@ -243,17 +256,18 @@
 	},
 	//Column 6
 	{
-		"name": "Battlecruiser",
+		"name": "Battleship",
 		"unitType": "Long-range Starship",
-		"movement": 3,
-		"strength": 16,
-		"rangedStrength": 17,
-		"cost": 100,
+		"movement": 5,
+		"strength": 25,
+		"rangedStrength": 28,
+		"cost": 185,
+		"requiredResource": "Iron",
 		"requiredTech": "Compass",
-		"obsoleteTech": "Navigation",
-		"upgradesTo": "Battleship",
-		"uniques": ["Cannot enter ocean tiles"],
-		"attackSound": "arrow"
+		"obsoleteTech": "Radar",
+		"upgradesTo": "Venator-class Star Destroyer",
+		"hurryCostModifier": 20,
+		"attackSound": "shipCannonVolley"
 	},
 	{
 		"name": "74-Z Speeder Bike",
@@ -301,7 +315,7 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Peacekeeper",
-		"obsoleteTech": "Blaster",
+		"obsoleteTech": "Military Science",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
@@ -315,7 +329,7 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Peacekeeper",
-		"obsoleteTech": "Blaster",
+		"obsoleteTech": "Military Science",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
@@ -329,22 +343,26 @@
 		"cost": 120,
 		"requiredTech": "Steel",
 		"upgradesTo": "Peacekeeper",
-		"obsoleteTech": "Blaster",
+		"obsoleteTech": "Military Science",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
 
 	// Manderon Period
 	//Column 7
+	//Column 8
+
+	// Sith Wars era
+	//Column 9
 	{
 		"name": "Hammerhead-class Cruiser",
 		"unitType": "Short-range Starship",
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "CR90 Corvette",
-		"obsoleteTech": "Combustion",
+		"requiredTech": "Archaeology",
+		"upgradesTo": "Venator-class Star Destroyer",
+		"obsoleteTech": "Radar",
 		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
@@ -357,75 +375,12 @@
 		"movement": 4,
 		"strength": 20,
 		"cost": 120,
-		"requiredTech": "Astronomy",
-		"upgradesTo": "CR90 Corvette",
-		"obsoleteTech": "Combustion",
+		"requiredTech": "Archaeology",
+		"upgradesTo": "Venator-class Star Destroyer",
+		"obsoleteTech": "Radar",
 		"uniques": ["[+1] Sight", "Withdraws before melee combat <with [80]% chance>"],
 		"hurryCostModifier": 30,
 		"attackSound": "cannon"
-	},
-	{
-		"name": "Peacekeeper",
-		"unitType": "Infantry",
-		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Blaster",
-		"upgradesTo": "Planetary Defense Force",
-		"obsoleteTech": "Rifling",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Sith Trooper",
-		"unitType": "Infantry",
-		"replaces": "Peacekeeper",
-		"uniqueTo": "Sith Order",
-		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Blaster",
-		"upgradesTo": "Planetary Defense Force",
-		"obsoleteTech": "Rifling",
-		"attackSound": "shot"
-	},
-	{
-		"name": "Skytrooper",
-		"unitType": "Infantry",
-		"replaces": "Peacekeeper",
-		"uniqueTo": "Eternal Empire",
-		"movement": 2,
-		"strength": 24,
-		"cost": 150,
-		"requiredTech": "Blaster",
-		"upgradesTo": "Planetary Defense Force",
-		"obsoleteTech": "Rifling",
-		"uniques": ["May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
-		"attackSound": "shot"
-	},
-	//Column 8
-	{
-		"name": "Trident-class Assault Ship",
-		"unitType": "Short-range Starship",
-		"movement": 5,
-		"strength": 25,
-		"cost": 150,
-		"requiredTech": "Navigation",
-		"promotions": ["Coastal Raider I", "[Privateer] ability"],
-		"attackSound": "cannon"
-	},
-	{
-		"name": "Battleship",
-		"unitType": "Long-range Starship",
-		"movement": 5,
-		"strength": 25,
-		"rangedStrength": 28,
-		"cost": 185,
-		"requiredResource": "Iron",
-		"requiredTech": "Navigation",
-		"obsoleteTech": "Electronics",
-		"upgradesTo": "CR90 Corvette",
-		"hurryCostModifier": 20,
-		"attackSound": "shipCannonVolley"
 	},
 	{
 		"name": "Jedi Knight",
@@ -433,7 +388,7 @@
 		"movement": 2,
 		"strength": 25,
 		"cost": 185,
-		"requiredTech": "Metallurgy",
+		"requiredTech": "Rifling",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
 		"promotions": ["Formation I"],
 		"obsoleteTech": "Combined Arms",
@@ -447,7 +402,7 @@
 		"movement": 2,
 		"strength": 25,
 		"cost": 185,
-		"requiredTech": "Metallurgy",
+		"requiredTech": "Rifling",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
 		"promotions": ["Formation I"],
 		"obsoleteTech": "Combined Arms",
@@ -461,59 +416,61 @@
 		"movement": 2,
 		"strength": 25,
 		"cost": 185,
-		"requiredTech": "Metallurgy",
+		"requiredTech": "Rifling",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
 		"promotions": ["Formation I"],
 		"obsoleteTech": "Combined Arms",
 		"attackSound": "horse"
 	},
 	{
-		"name": "Seraph-class Urban Landspeeder",
-		"unitType": "Speeder",
-		"movement": 4,
-		"strength": 25,
-		"cost": 185,
-		"requiredTech": "Metallurgy",
-		"requiredResource": "Horses",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
-		"promotions": ["Formation I"],
-		"attackSound": "horse"
-	},
-
-	// Sith Wars era
-	//Column 9
-
-	{
-		"name": "Heavy Repeating Blaster",
-		"unitType": "Ranged Infantry",
-		"range": 1,
+		"name": "Peacekeeper",
+		"unitType": "Infantry",
 		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 30,
-		"cost": 225,
-		"requiredTech": "Industrialization",
-		"attackSound": "machinegun"
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Planetary Defense Force",
+		"obsoleteTech": "Replaceable Part",
+		"attackSound": "shot"
 	},
 	{
-		"name": "Rocket Launcher",
-		"unitType": "Ranged Infantry",
-		"range": 1,
+		"name": "Sith Trooper",
+		"unitType": "Infantry",
+		"replaces": "Peacekeeper",
+		"uniqueTo": "Sith Order",
 		"movement": 2,
-		"strength": 30,
-		"rangedStrength": 30,
-		"cost": 225,
-		"requiredTech": "Industrialization",
-		"upgradesTo": "Smart Rocket",
-		"obsoleteTech": "Satellites",
-		"attackSound": "machinegun"
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Planetary Defense Force",
+		"obsoleteTech": "Replaceable Part",
+		"attackSound": "shot"
 	},
+	{
+		"name": "Skytrooper",
+		"unitType": "Infantry",
+		"replaces": "Peacekeeper",
+		"uniqueTo": "Eternal Empire",
+		"movement": 2,
+		"strength": 24,
+		"cost": 150,
+		"requiredTech": "Military Science",
+		"upgradesTo": "Planetary Defense Force",
+		"obsoleteTech": "Replaceable Part",
+		"uniques": ["May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
+		"attackSound": "shot"
+	},
+	//Column 10
+
+	// Great Peace Period
+	//Column 11
 	{
 		"name": "Planetary Defense Force",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
-		"requiredTech": "Rifling",
+		"requiredTech": "Replaceable Part",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
@@ -526,55 +483,11 @@
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
-		"requiredTech": "Rifling",
+		"requiredTech": "Replaceable Part",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
 	},
-	{
-		"name": "Single Trooper Aerial Platform",
-		"unitType": "Speeder",
-		"movement": 4,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combined Arms",
-		"upgradesTo": "Armored Assault Tank",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"attackSound": "cavalry"
-	},
-	{
-		"name": "Biker Advanced Recon Commando Speeder",
-		"unitType": "Speeder",
-		"replaces": "Single Trooper Aerial Platform",
-		"uniqueTo": "Galactic Empire",
-		"movement": 4,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combined Arms",
-		"upgradesTo": "Armored Assault Tank",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"attackSound": "cavalry"
-	},
-	{
-		"name": "Undicur-class Jumpspeeder",
-		"unitType": "Speeder",
-		"replaces": "Single Trooper Aerial Platform",
-		"uniqueTo": "Jedi Order",
-		"movement": 4,
-		"strength": 34,
-		"cost": 225,
-		"requiredTech": "Military Science",
-		"obsoleteTech": "Combined Arms",
-		"upgradesTo": "Armored Assault Tank",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"attackSound": "cavalry"
-	},
-	//Column 10
-
-	// Great Peace Period
-	//Column 11
 	{
 		"name": "Pelta-class Frigate",
 		"unitType": "Short-range Starship",
@@ -798,6 +711,52 @@
 		"uniques": ["Can move after attacking","No defensive terrain bonus", "Never appears as a Barbarian unit"],
 		"attackSound": "tankshot"
 	},
+	{
+		"name": "Single Trooper Aerial Platform",
+		"unitType": "Speeder",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Combustion",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "cavalry"
+	},
+	{
+		"name": "Biker Advanced Recon Commando Speeder",
+		"unitType": "Speeder",
+		"replaces": "Single Trooper Aerial Platform",
+		"uniqueTo": "Galactic Empire",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Combustion",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "cavalry"
+	},
+	{
+		"name": "Undicur-class Jumpspeeder",
+		"unitType": "Speeder",
+		"replaces": "Single Trooper Aerial Platform",
+		"uniqueTo": "Jedi Order",
+		"movement": 4,
+		"strength": 34,
+		"cost": 225,
+		"requiredTech": "Combustion",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "cavalry"
+	},
+	{
+		"name": "Seraph-class Urban Landspeeder",
+		"unitType": "Speeder",
+		"movement": 4,
+		"strength": 25,
+		"cost": 185,
+		"requiredTech": "Combustion",
+		"requiredResource": "Horses",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>","Never appears as a Barbarian unit"],
+		"promotions": ["Formation I"],
+		"attackSound": "horse"
+	},
 
 	// Clone Wars era
 	//Column 13
@@ -839,6 +798,30 @@
 	"uniques": ["Will not be displayed in Civilopedia"],
     "attackSound": "shot"
     },
+	{
+		"name": "Heavy Repeating Blaster",
+		"unitType": "Ranged Infantry",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Atomic Theory",
+		"attackSound": "machinegun"
+	},
+	{
+		"name": "Rocket Launcher",
+		"unitType": "Ranged Infantry",
+		"range": 1,
+		"movement": 2,
+		"strength": 30,
+		"rangedStrength": 30,
+		"cost": 225,
+		"requiredTech": "Atomic Theory",
+		"upgradesTo": "Smart Rocket",
+		"obsoleteTech": "Satellites",
+		"attackSound": "machinegun"
+	},
 	{
 		"name": "Acclamator-class Transgalactic Military Assault Ship",
 		"unitType": "Long-range Starship",
@@ -1132,6 +1115,16 @@
 		"requiredTech": "Ecology",
 		"uniques": ["[+75]% Strength <when attacking>", "Can only attack [Water] tiles", "Never appears as a Barbarian unit"],
 		"attackSound": "torpedo"
+	},
+	{
+		"name": "Trident-class Assault Ship",
+		"unitType": "Short-range Starship",
+		"movement": 5,
+		"strength": 25,
+		"cost": 150,
+		"requiredTech": "Ecology",
+		"promotions": ["Coastal Raider I", "[Privateer] ability"],
+		"attackSound": "cannon"
 	},
 	{
 		"name": "B2 Super Battle Droid",
