@@ -471,11 +471,11 @@
 				"quote": "'The whole country was tied together by radio. We all experienced the same heroes and comedians and singers. They were giants.' - Woody Allen"
 			},
 			{
-				"name": "Replaceable Parts",
+				"name": "Decentralized Law Enforcement",
 				"row": 4,
 				"prerequisites": ["Electricity","Steam Power"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'Nothing is particularly hard if you divide it into small jobs.' - Henry Ford"
+				"quote": "'There's law, and there's justice, and sometimes they're not the same thing.' - Captain Lon Shevu"
 			},
 			{
 				"name": "Flight",
@@ -502,14 +502,14 @@
 			{
 				"name": "Plastics",
 				"row": 3,
-				"prerequisites": ["Radio","Replaceable Parts"],
+				"prerequisites": ["Radio","Decentralized Law Enforcement"],
                 "uniques": ["[+200]% weight to this choice for AI decisions"],
 				"quote": "'Ben, I want to say one word to you, just one word: plastics.' - Buck Henry and Calder Willingham, The Graduate"
 			},
 			{
 				"name": "Electronics",
 				"row": 5,
-				"prerequisites": ["Replaceable Parts", "Flight"],
+				"prerequisites": ["Decentralized Law Enforcement", "Flight"],
 				"quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
 			},
 			{
@@ -535,17 +535,17 @@
 		"wonderCost": 1250,
 		"techs": [
 			{
-				"name": "Pharmaceuticals",
+				"name": "Standardization",
 				"row": 2,
 				"prerequisites": ["Plastics","Refrigeration"],
-				"quote": "'In nothing do men more nearly approach the gods than in giving health to men.' - Cicero"
+				"quote": "'They are totally obedient, taking any order without question. We modified their genetic structure to make them less independent than the original host.' - Lama Su"
 			},
 			{
-				"name": "Atomic Theory",
+				"name": "Heavy Weaponry",
 				"row": 4,
 				"prerequisites": ["Plastics","Electronics"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
-				"quote": "'The unleashed power of the atom has changed everything save our modes of thinking, and we thus drift toward unparalleled catastrophes.' - Albert Einstein"
+				"quote": "'Keep your heads down or that E-Web will take them off!' - Reyé Hollis"
 			},
 			{
 				"name": "Radar",
@@ -572,13 +572,13 @@
 			{
 				"name": "Ecology",
 				"row": 2,
-				"prerequisites": ["Atomic Theory","Pharmaceuticals"],
+				"prerequisites": ["Heavy Weaponry","Standardization"],
 				"quote": "'Only within the moment of time represented by the present century has one species, man, acquired significant power to alter the nature of his world.' - Rachel Carson"
 			},
 			{
 				"name": "Nuclear Fission",
 				"row": 4,
-				"prerequisites": ["Atomic Theory","Radar"],
+				"prerequisites": ["Heavy Weaponry","Radar"],
 				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
 			},
 			{
@@ -610,10 +610,10 @@
 				"quote": "'The more we elaborate our means of communication, the less we communicate.' - J.B. Priestly"
 			},
 			{
-				"name": "Mobile Tactics",
+				"name": "Mass Propaganda",
 				"row": 3,
 				"prerequisites": ["Ecology","Nuclear Fission"],
-				"quote": "'All men can see these tactics whereby I conquer, but what none can see is the strategy out of which victory is evolved.' - Sun Tzu"
+				"quote": "'Your weapons in this war are ships, and blasters, and armor. My weapon in this war is words. And even more important than words are images. Pictures depicting an artistic representation of reality. Facts are flexible, and these graphics point to the truth of which you speak even if they do not precisely portray them.' - Ferric Obdur"
 			},
 			{
 				"name": "Advanced Ballistics",
@@ -659,10 +659,10 @@
 				"quote": "'The new electronic interdependence recreates the world in the image of a global village.' - Marshall McLuhan"
 			},
 			{
-				"name": "Particle Physics",
+				"name": "Cybernetic Enhancement",
 				"row": 3,
-				"prerequisites": ["Telecommunications","Mobile Tactics","Advanced Ballistics"],
-				"quote": "'Every particle of matter is attracted by or gravitates to every other particle of matter with a force inversely proportional to the squares of their distances.' - Isaac Newton"
+				"prerequisites": ["Telecommunications","Mass Propaganda","Advanced Ballistics"],
+				"quote": "'It's your tool, just as many other things in your world are your tools. A wheel instead of a leg; a mechno-lens instead of an eye. What does it matter? There is no shame in this. There is nothing inherently good or bad in it, unless you choose to use it as such. And it shall become a part of you. Every creature in this universe alters and evolves from minute to minute. We are not the same as we were only a day ago. We are ever changing, fated forever to exist in a state of decay and creation.' - 2-1B"
 			},
 			{
 				"name": "Nuclear Fusion",
@@ -696,7 +696,7 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Globalization","Particle Physics","Nuclear Fusion","Nanotechnology","Stealth"],
+				"prerequisites": ["Globalization","Cybernetic Enhancement","Nuclear Fusion","Nanotechnology","Stealth"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
