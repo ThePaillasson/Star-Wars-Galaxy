@@ -438,13 +438,13 @@
 				"name": "Steam Power",
 				"row": 6,
 				"uniques": ["[+1] Movement <for [Embarked] units>"],
-				"prerequisites": ["Industrialization","Scientific Theory","Rifling"],
+				"prerequisites": ["Industrialization","Scientific Theory","Lightsaber"],
 				"quote": "'The nations of the West hope that by means of steam communication all the world will become as one family.' - Townsend Harris"
 			},
 			{
 				"name": "Personal shielding",
 				"row": 9,
-				"prerequisites": ["Fertilizer","Military Science"],
+				"prerequisites": ["Fertilizer","Spying"],
 				"quote": "'As soon as men decide that all means are permitted to fight an evil, then their good becomes indistinguishable from the evil that they set out to destroy.' - Christopher Dawson"
 			}
 		]
