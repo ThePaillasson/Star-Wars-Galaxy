@@ -357,7 +357,7 @@
 			{
 				"name": "Chemistry",
 				"row": 10,
-				"prerequisites": ["Gunpowder"],
+				"prerequisites": ["Blaster"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Wherever we look, the work of the chemist has raised the level of our civilization and has increased the productive capacity of the nation.' - Calvin Coolidge"
 			}
