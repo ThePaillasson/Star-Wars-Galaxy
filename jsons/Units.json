@@ -186,8 +186,6 @@
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
-		"upgradesTo": "74-Z Speeder Bike",
-		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
