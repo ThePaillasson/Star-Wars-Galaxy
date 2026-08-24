@@ -260,7 +260,7 @@
 		"cost": 120,
 		"requiredTech": "Blaster",
 		"upgradesTo": "Peacekeeper",
-		"requiredTech": "Personal shielding",
+		"requiredTech": "Blaster",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
@@ -274,7 +274,7 @@
 		"cost": 120,
 		"requiredTech": "Blaster",
 		"upgradesTo": "Peacekeeper",
-		"requiredTech": "Personal shielding",
+		"requiredTech": "Blaster",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
@@ -288,7 +288,7 @@
 		"cost": 120,
 		"requiredTech": "Blaster",
 		"upgradesTo": "Peacekeeper",
-		"requiredTech": "Personal shielding",
+		"requiredTech": "Blaster",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
