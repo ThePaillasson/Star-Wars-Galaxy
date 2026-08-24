@@ -350,7 +350,7 @@
 			{
 				"name": "Metallurgy",
 				"row": 9,
-				"prerequisites": ["Printing Press","Gunpowder"],
+				"prerequisites": ["Printing Press","Blaster"],
                 "uniques": ["[-50]% weight to this choice for AI decisions"],
 				"quote": "'There never was a good knife made of bad steel.' - Benjamin Franklin"
 			},
