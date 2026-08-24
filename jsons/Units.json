@@ -105,7 +105,7 @@
 		"requiredTech": "Force-drive",
 		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Hammerhead-class Cruiser",
-		"obsoleteTech": "Navigation",
+		"obsoleteTech": "Archaelogy",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -198,28 +198,15 @@
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
 	},
-	{
-		"name": "Sniper Agent",
-		"unitType": "Ranged Infantry",
-		"movement": 2,
-		"strength": 7,
-		"rangedStrength": 11,
-		"cost": 75,
-		"requiredTech": "Construction",
-		"obsoleteTech": "Machinery",
-		"upgradesTo": "Marksman",
-		"attackSound": "arrow"
-	},
-	//Column 4
-	{
+{
 		"name": "Beam Warrior",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
-		"requiredTech": "Iron Working",
+		"requiredTech": "Construction",
 		"upgradesTo": "Blaster Trooper",
-		"obsoleteTech": "Steel",
+		"obsoleteTech": "Metallurgy",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
@@ -232,28 +219,17 @@
 		"movement": 2,
 		"strength": 14,
 		"cost": 75,
-		"requiredTech": "Iron Working",
+		"requiredTech": "Construction",
 		"upgradesTo": "Blaster Trooper",
-		"obsoleteTech": "Steel",
+		"obsoleteTech": "Metallurgy",
 		"requiredResource": "Iron",
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
 	},
+	//Column 4
 
 	//Ductatvis Era
 	//Column 5
-	{
-		"name": "Protosaber",
-		"unitType": "Force user",
-		"movement": 2,
-		"strength": 16,
-		"cost": 90,
-		"requiredTech": "Civil Service",
-		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
-		"upgradesTo": "Jedi Knight",
-		"obsoleteTech": "Metallurgy",
-		"attackSound": "metalhit"
-	},
 	//Column 6
 	{
 		"name": "Battleship",
@@ -269,43 +245,20 @@
 		"hurryCostModifier": 20,
 		"attackSound": "shipCannonVolley"
 	},
+
+	// Manderon Period
+	//Column 7
 	{
-		"name": "74-Z Speeder Bike",
-		"unitType": "Speeder",
-		"movement": 4,
-		"strength": 20,
-		"cost": 120,
-		"requiredTech": "Chivalry",
-		"obsoleteTech": "Military Science",
-		"upgradesTo": "Single Trooper Aerial Platform",
-		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
-		"attackSound": "horse"
-	},
-	{
-		"name": "Marksman",
-		"unitType": "Ranged Infantry",
+		"name": "Protosaber",
+		"unitType": "Force user",
 		"movement": 2,
-		"strength": 13,
-		"rangedStrength": 18,
-		"cost": 120,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Rocket Launcher",
-		"obsoleteTech": "Industrialization",
-		"attackSound": "crossbow"
-	},
-	{
-		"name": "Scout Trooper",
-		"unitType": "Ranged Infantry",
-		"replaces": "Marksman",
-		"uniqueTo": "Galactic Empire",
-		"movement": 2,
-		"strength": 13,
-		"rangedStrength": 18,
-		"cost": 120,
-		"requiredTech": "Machinery",
-		"upgradesTo": "Rocket Launcher",
-		"obsoleteTech": "Industrialization",
-		"attackSound": "crossbow"
+		"strength": 16,
+		"cost": 90,
+		"requiredTech": "Blaster",
+		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
+		"upgradesTo": "Jedi Knight",
+		"obsoleteTech": "Rifling",
+		"attackSound": "metalhit"
 	},
 	{
 		"name": "Blaster Trooper",
@@ -313,9 +266,9 @@
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
-		"requiredTech": "Steel",
+		"requiredTech": "Metallurgy",
 		"upgradesTo": "Peacekeeper",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Dynamite",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
@@ -327,9 +280,9 @@
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
-		"requiredTech": "Steel",
+		"requiredTech": "Metallurgy",
 		"upgradesTo": "Peacekeeper",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Dynamite",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
@@ -341,15 +294,12 @@
 		"movement": 2,
 		"strength": 21,
 		"cost": 120,
-		"requiredTech": "Steel",
+		"requiredTech": "Metallurgy",
 		"upgradesTo": "Peacekeeper",
-		"obsoleteTech": "Military Science",
+		"obsoleteTech": "Dynamite",
 		"requiredResource": "Iron",
 		"attackSound": "metalhit"
 	},
-
-	// Manderon Period
-	//Column 7
 	//Column 8
 
 	// Sith Wars era
@@ -423,14 +373,27 @@
 		"attackSound": "horse"
 	},
 	{
+		"name": "Sniper Agent",
+		"unitType": "Ranged Infantry",
+		"movement": 2,
+		"strength": 7,
+		"rangedStrength": 11,
+		"cost": 75,
+		"requiredTech": "Military Science",
+		"obsoleteTech": "Particle Physics",
+		"upgradesTo": "Marksman",
+		"attackSound": "arrow"
+	},
+	//Column 10
+	{
 		"name": "Peacekeeper",
 		"unitType": "Infantry",
 		"movement": 2,
 		"strength": 24,
 		"cost": 150,
-		"requiredTech": "Military Science",
+		"requiredTech": "Dynamite",
 		"upgradesTo": "Planetary Defense Force",
-		"obsoleteTech": "Replaceable Part",
+		"obsoleteTech": "Replaceable Parts",
 		"attackSound": "shot"
 	},
 	{
@@ -441,9 +404,9 @@
 		"movement": 2,
 		"strength": 24,
 		"cost": 150,
-		"requiredTech": "Military Science",
+		"requiredTech": "Dynamite",
 		"upgradesTo": "Planetary Defense Force",
-		"obsoleteTech": "Replaceable Part",
+		"obsoleteTech": "Replaceable Parts",
 		"attackSound": "shot"
 	},
 	{
@@ -454,13 +417,23 @@
 		"movement": 2,
 		"strength": 24,
 		"cost": 150,
-		"requiredTech": "Military Science",
+		"requiredTech": "Dynamite",
 		"upgradesTo": "Planetary Defense Force",
-		"obsoleteTech": "Replaceable Part",
+		"obsoleteTech": "Replaceable Parts",
 		"uniques": ["May Paradrop to [Land] tiles up to [3] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
-	//Column 10
+	{
+		"name": "74-Z Speeder Bike",
+		"unitType": "Speeder",
+		"movement": 4,
+		"strength": 20,
+		"cost": 120,
+		"requiredTech": "Dynamite",
+		"upgradesTo": "Single Trooper Aerial Platform",
+		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>", "Never appears as a Barbarian unit"],
+		"attackSound": "horse"
+	},
 
 	// Great Peace Period
 	//Column 11
@@ -470,7 +443,7 @@
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
-		"requiredTech": "Replaceable Part",
+		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
@@ -483,7 +456,7 @@
 		"movement": 2,
 		"strength": 34,
 		"cost": 225,
-		"requiredTech": "Replaceable Part",
+		"requiredTech": "Replaceable Parts",
 		"upgradesTo": "Line Infantry",
 		"obsoleteTech": "Mobile Tactics",
 		"attackSound": "shot"
@@ -1583,6 +1556,28 @@
 		"attackSound": "gdrAttack"
 	},
 	//Column 16
+	{
+		"name": "Marksman",
+		"unitType": "Ranged Infantry",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Particle Physics",
+		"attackSound": "crossbow"
+	},
+	{
+		"name": "Scout Trooper",
+		"unitType": "Ranged Infantry",
+		"replaces": "Marksman",
+		"uniqueTo": "Galactic Empire",
+		"movement": 2,
+		"strength": 13,
+		"rangedStrength": 18,
+		"cost": 120,
+		"requiredTech": "Particle Physics",
+		"attackSound": "crossbow"
+	},
 	{
 		"name": "Special Force",
 		"unitType": "Stealth Infantry",
