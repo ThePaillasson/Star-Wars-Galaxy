@@ -197,7 +197,7 @@
 		"terrainsCanBeBuiltOn": ["Land"],
 		"science": 8,
 		"uniques": ["Great Improvement", "[+2 Science] <after discovering [Scientific Theory]>",
-            "[+2 Science] <after discovering [Atomic Theory]>", "Removes removable features when built",
+            "[+2 Science] <after discovering [Heavy Weaponry]>", "Removes removable features when built",
             "Will not be replaced by automated units", "Pillaging this improvement yields approximately [+20 Gold]"]
 	},
 	{
