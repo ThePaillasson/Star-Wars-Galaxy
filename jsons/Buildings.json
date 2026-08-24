@@ -815,7 +815,7 @@
 		"cityHealth": 25,
 		"hurryCostModifier": 25,
 		"requiredBuilding": "Arsenal",
-		"requiredTech": "Replaceable Parts",
+		"requiredTech": "Decentralized Law Enforcement",
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
@@ -824,7 +824,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": ["[+1 Production] from every specialist [in all cities]"],
-		"requiredTech": "Replaceable Parts",
+		"requiredTech": "Decentralized Law Enforcement",
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},
 	{
@@ -866,7 +866,7 @@
 		"name": "Medical Lab",
 		"requiredBuilding": "Hospital",
 		"maintenance": 3,
-		"requiredTech": "Pharmaceuticals",
+		"requiredTech": "Standardization",
 		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
 	},
 	{
@@ -874,7 +874,7 @@
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion", "Cannot be hurried"],
-		"requiredTech": "Atomic Theory"
+		"requiredTech": "Heavy Weaponry"
 	},
 	{
 		"name": "Pentagon",
