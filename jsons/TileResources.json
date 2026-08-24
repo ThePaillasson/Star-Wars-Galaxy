@@ -193,7 +193,7 @@
 	{
 		"name": "Uranium",
 		"resourceType": "Strategic",
-		"revealedBy": "Atomic Theory",
+		"revealedBy": "Heavy Weaponry",
 		"terrainsCanBeFoundOn": ["Marsh","Jungle","Forest","Tundra","Snow"],
 		"production": 1,
 		"improvement": "Mine",
