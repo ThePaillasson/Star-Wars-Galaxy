@@ -67,7 +67,7 @@
 		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Study of the Force",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Blaster",
 		"upgradesTo": "Protosaber",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -81,7 +81,7 @@
 		"strength": 11,
 		"cost": 56,
 		"requiredTech": "Study of the Force",
-		"obsoleteTech": "Civil Service",
+		"obsoleteTech": "Blaster",
 		"upgradesTo": "Protosaber",
 		"uniques": ["[+50]% Strength <vs [Mounted] units>"],
 		"attackSound": "metalhit"
@@ -105,7 +105,7 @@
 		"requiredTech": "Force-drive",
 		"uniques": ["Cannot enter ocean tiles", "Never appears as a Barbarian unit"],
 		"upgradesTo": "Hammerhead-class Cruiser",
-		"obsoleteTech": "Archaelogy",
+		"obsoleteTech": "Archaeology",
 		"attackSound": "nonmetalhit"
 	},
 	{
@@ -116,7 +116,7 @@
 		"rangedStrength": 7,
 		"cost": 40,
 		"requiredTech": "Gunpowder",
-		"obsoleteTech": "Construction",
+		"obsoleteTech": "Military Science",
 		"upgradesTo": "Sniper Agent",
 		"attackSound": "arrow"
 	},
@@ -144,8 +144,6 @@
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
-		"upgradesTo": "74-Z Speeder Bike",
-		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -160,8 +158,6 @@
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
-		"upgradesTo": "74-Z Speeder Bike",
-		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
@@ -176,8 +172,6 @@
 		"cost": 75,
 		"requiredTech": "Horseback Riding",
 		"requiredResource": "Horses",
-		"upgradesTo": "74-Z Speeder Bike",
-		"obsoleteTech": "Chivalry",
 		"uniques": ["Can move after attacking","No defensive terrain bonus","[-33]% Strength <vs cities> <when attacking>" ],
 		"hurryCostModifier": 20,
 		"attackSound": "horse"
