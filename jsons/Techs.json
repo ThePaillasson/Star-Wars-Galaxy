@@ -548,16 +548,16 @@
 				"quote": "'Keep your heads down or that E-Web will take them off!' - Reyé Hollis"
 			},
 			{
-				"name": "Embedded Astromech",
+				"name": "Radar",
 				"row": 6,
-				"prerequisites": ["Embedded Astromech","Electronics"],
+				"prerequisites": ["Computers","Electronics"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
 			},
 			{
 				"name": "Combined Arms",
 				"row": 8,
-				"prerequisites": ["Embedded Astromech","Combustion"],
+				"prerequisites": ["Computers","Combustion"],
 				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			}
 		]
@@ -584,14 +584,14 @@
 			{
 				"name": "Rocketry",
 				"row": 6,
-				"prerequisites": ["Embedded Astromech"],
+				"prerequisites": ["Radar"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
 			},
 			{
 				"name": "S-foils",
 				"row": 8,
-				"prerequisites": ["Combined Arms","Embedded Astromech"],
+				"prerequisites": ["Combined Arms","Radar"],
 				"quote": "'Lock S-foils in attack position.' - Garven Dreis"
 			}
 		]
@@ -616,7 +616,7 @@
 				"quote": "'Your weapons in this war are ships, and blasters, and armor. My weapon in this war is words. And even more important than words are images. Pictures depicting an artistic representation of reality. Facts are flexible, and these graphics point to the truth of which you speak even if they do not precisely portray them.' - Ferric Obdur"
 			},
 			{
-				"name": "Embedded Astromech",
+				"name": "Advanced Ballistics",
 				"row": 5,
 				"prerequisites": ["Nuclear Fission","Rocketry"],
 				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
@@ -661,13 +661,13 @@
 			{
 				"name": "Cybernetic Enhancement",
 				"row": 3,
-				"prerequisites": ["Telecommunications","Mass Propaganda","Embedded Astromech"],
+				"prerequisites": ["Telecommunications","Mass Propaganda","Advanced Ballistics"],
 				"quote": "'It's your tool, just as many other things in your world are your tools. A wheel instead of a leg; a mechno-lens instead of an eye. What does it matter? There is no shame in this. There is nothing inherently good or bad in it, unless you choose to use it as such. And it shall become a part of you. Every creature in this universe alters and evolves from minute to minute. We are not the same as we were only a day ago. We are ever changing, fated forever to exist in a state of decay and creation.' - 2-1B"
 			},
 			{
 				"name": "Nuclear Fusion",
 				"row": 6,
-				"prerequisites": ["Embedded Astromech", "Satellites", "Robotics"],
+				"prerequisites": ["Advanced Ballistics", "Satellites", "Robotics"],
                 "uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
 			},
