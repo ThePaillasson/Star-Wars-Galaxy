@@ -513,10 +513,10 @@
 				"quote": "'There's a basic principle about consumer electronics: it gets more powerful all the time and it gets cheaper all the time.' - Trip Hawkins"
 			},
 			{
-				"name": "Ballistics",
+				"name": "Embedded Astromech",
 				"row": 6,
 				"prerequisites": ["Flight"],
-				"quote": "'Men, like bullets, go farthest when they are smoothest.' - Jean Paul"
+				"quote": "'See, astromech droids were designed to repair starships, but they can also act as copilots, slicers, and even adorable travelin' companions. That adaptability is pretty hard to find.' - Strono Tuggs"
 			},
 			{
 				"name": "Combustion",
@@ -550,14 +550,14 @@
 			{
 				"name": "Radar",
 				"row": 6,
-				"prerequisites": ["Ballistics","Electronics"],
+				"prerequisites": ["Embedded Astromech","Electronics"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'Vision is the art of seeing things invisible.' - Jonathan Swift"
 			},
 			{
 				"name": "Combined Arms",
 				"row": 8,
-				"prerequisites": ["Ballistics","Combustion"],
+				"prerequisites": ["Embedded Astromech","Combustion"],
 				"quote": "'The root of the evil is not the construction of new, more dreadful weapons. It is the spirit of conquest.' - Ludwig von Mises"
 			}
 		]
@@ -589,10 +589,10 @@
 				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
 			},
 			{
-				"name": "Computers",
+				"name": "S-foils",
 				"row": 8,
 				"prerequisites": ["Combined Arms","Radar"],
-				"quote": "'Computers are like Old Testament gods: lots of rules and no mercy.' - Joseph Campbell"
+				"quote": "'Lock S-foils in attack position.' - Garven Dreis"
 			}
 		]
 	},
@@ -616,7 +616,7 @@
 				"quote": "'Your weapons in this war are ships, and blasters, and armor. My weapon in this war is words. And even more important than words are images. Pictures depicting an artistic representation of reality. Facts are flexible, and these graphics point to the truth of which you speak even if they do not precisely portray them.' - Ferric Obdur"
 			},
 			{
-				"name": "Advanced Ballistics",
+				"name": "Embedded Astromech",
 				"row": 5,
 				"prerequisites": ["Nuclear Fission","Rocketry"],
 				"quote": "'Our scientific power has outrun our spiritual power, we have guided missiles and misguided men.' – Martin Luther King Jr."
@@ -631,13 +631,13 @@
 			{
 				"name": "Robotics",
 				"row": 7,
-				"prerequisites": ["Rocketry","Computers"],
+				"prerequisites": ["Rocketry","S-foils"],
 				"quote": "'1. A robot may not injure a human being or, through inaction, allow a human being to come to harm. 2. A robot must obey any orders given to it by human beings, except when such orders would conflict with the First Law. 3. A robot must protect its own existence as long as such protection does not conflict with the First or Second Law.' - Isaac Asimov"
 			},
 			{
 				"name": "Lasers",
 				"row": 8,
-				"prerequisites": ["Computers"],
+				"prerequisites": ["S-foils"],
                 "uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The night is far spent, the day is at hand: let us therefore cast off the works of darkness, and let us put on the armor of light.' - The Holy Bible: Romans, 13:12"
 			}
@@ -661,13 +661,13 @@
 			{
 				"name": "Cybernetic Enhancement",
 				"row": 3,
-				"prerequisites": ["Telecommunications","Mass Propaganda","Advanced Ballistics"],
+				"prerequisites": ["Telecommunications","Mass Propaganda","Embedded Astromech"],
 				"quote": "'It's your tool, just as many other things in your world are your tools. A wheel instead of a leg; a mechno-lens instead of an eye. What does it matter? There is no shame in this. There is nothing inherently good or bad in it, unless you choose to use it as such. And it shall become a part of you. Every creature in this universe alters and evolves from minute to minute. We are not the same as we were only a day ago. We are ever changing, fated forever to exist in a state of decay and creation.' - 2-1B"
 			},
 			{
 				"name": "Nuclear Fusion",
 				"row": 6,
-				"prerequisites": ["Advanced Ballistics", "Satellites", "Robotics"],
+				"prerequisites": ["Embedded Astromech", "Satellites", "Robotics"],
                 "uniques": ["[-100]% weight to this choice for AI decisions"],
 				"quote": "'The release of atomic energy has not created a new problem. It has readily made more urgent the necessity of solving an existing one.' - Albert Einstein"
 			},
@@ -678,11 +678,11 @@
 				"quote": "'The impact of nanotechnology is expected to exceed the impact that the electronics revolution has had on our lives.' - Richard Schwartz"
 			},
 			{
-				"name": "Stealth",
+				"name": "Advanced Targeting Computer",
 				"row": 8,
 				"prerequisites": ["Robotics", "Lasers"],
                 "uniques": ["[-100]% weight to this choice for AI decisions"],
-				"quote": "'Be extremely subtle, even to the point of formlessness, be extremely mysterious, even to the point of soundlessness. Thereby you can be the director of the opponent's fate.' - Sun Tzu"
+				"quote": "'Luke, you switched off your targeting computer! What's wrong?' 'Nothing. I'm all right.' - Yavin Base controller and Luke Skywalker"
 			}
 		]
 	},
