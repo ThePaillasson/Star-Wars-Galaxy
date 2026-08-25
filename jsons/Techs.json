@@ -101,12 +101,12 @@
 		"wonderCost": 250,
 		"techs": [
 			{
-				"name": "Optics",
+				"name": "Hyperdrive",
 				"cost": 85,
 				"row": 1,
 				"prerequisites": ["Force-drive"],
 				"uniques": ["Enables embarkation for land units"],
-				"quote": "'He made an instrument to know if the moon shine at full or no.' - Samuel Butler"
+				"quote": "'Traveling through hyperspace ain't like dusting crops, boy! Without precise calculations we could fly right through a star or bounce too close to a supernova, and that'd end your trip real quick, wouldn't it?' - Han Solo"
 			},
 			{
 				"name": "Calendar",
