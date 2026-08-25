@@ -130,7 +130,7 @@
 		"strength": 16,
 		"rangedStrength": 17,
 		"cost": 100,
-		"requiredTech": "Optics",
+		"requiredTech": "Hyperdrive",
 		"obsoleteTech": "Compass",
 		"upgradesTo": "Battleship",
 		"uniques": ["Cannot enter ocean tiles"],
