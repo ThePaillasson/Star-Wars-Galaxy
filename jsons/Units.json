@@ -545,7 +545,7 @@
 		"requiredTech": "Embedded Astromech",
 		"requiredResource": "Oil",
 		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
-		"obsoleteTech": "Computers",
+		"obsoleteTech": "Superiority Fighter",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "machinegun"
 	},
@@ -563,7 +563,7 @@
 		"requiredTech": "Embedded Astromech",
 		"requiredResource": "Oil",
 		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
-		"obsoleteTech": "Computers",
+		"obsoleteTech": "Superiority Fighter",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>","Will not be displayed in Civilopedia"],
 		"attackSound": "machinegun"
 	},
@@ -581,7 +581,7 @@
 		"requiredTech": "Embedded Astromech",
 		"requiredResource": "Oil",
 		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
-		"obsoleteTech": "Computers",
+		"obsoleteTech": "Superiority Fighter",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "machinegun"
 	},
@@ -599,7 +599,7 @@
 		"requiredTech": "Embedded Astromech",
 		"requiredResource": "Oil",
 		"upgradesTo": "Aggressive ReConnaissance-170 Starfighter",
-		"obsoleteTech": "Computers",
+		"obsoleteTech": "Superiority Fighter",
 		"uniques": ["[50]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
 		"attackSound": "machinegun"
 	},
@@ -1071,8 +1071,8 @@
 	},
 	//Column 14
 	{
-		"name": "Advanced Targeting Computer Ship",
-		"unitType": "Advanced Targeting Computer Ship",
+		"name": "Stealth Ship",
+		"unitType": "Stealth Ship",
 		"movement": 5,
 		"strength": 35,
 		"rangedStrength": 60,
@@ -1130,7 +1130,7 @@
 	},
 	{
 		"name": "IG-series Assassin Droid",
-		"unitType": "Advanced Targeting Computer Infantry",
+		"unitType": "Stealth Infantry",
 		"movement": 2,
 		"strength": 70,
 		"cost": 375,
@@ -1141,7 +1141,7 @@
 	},
 	{
 		"name": "BX Droid Commando",
-		"unitType": "Advanced Targeting Computer Infantry",
+		"unitType": "Stealth Infantry",
 		"replaces": "IG-series Assassin Droid",
 		"uniqueTo": "Confederacy of Independent Systems",
 		"movement": 2,
@@ -1154,7 +1154,7 @@
 	},
 	{
 		"name": "Clone Commando",
-		"unitType": "Advanced Targeting Computer Infantry",
+		"unitType": "Stealth Infantry",
 		"replaces": "IG-series Assassin Droid",
 		"uniqueTo": "Galactic Empire",
 		"movement": 2,
@@ -1167,7 +1167,7 @@
 	},
 	{
 		"name": "Clone Commando Jedi",
-		"unitType": "Advanced Targeting Computer Infantry",
+		"unitType": "Stealth Infantry",
 		"replaces": "IG-series Assassin Droid",
 		"uniqueTo": "Galactic Empire",
 		"movement": 2,
@@ -1181,7 +1181,7 @@
 	},
 	{
 		"name": "Gossam Commando",
-		"unitType": "Advanced Targeting Computer Infantry",
+		"unitType": "Stealth Infantry",
 		"replaces": "IG-series Assassin Droid",
 		"uniqueTo": "Commerce Guild",
 		"movement": 2,
@@ -1276,7 +1276,7 @@
 		"range": 8,
 		"interceptRange": 8,
 		"cost": 375,
-		"requiredTech": "Computers",
+		"requiredTech": "S-foils",
 		"requiredResource": "Oil",
 		"upgradesTo": "RZ-1 A-wing Interceptor",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
@@ -1293,7 +1293,7 @@
 		"range": 8,
 		"interceptRange": 8,
 		"cost": 375,
-		"requiredTech": "Computers",
+		"requiredTech": "S-foils",
 		"requiredResource": "Oil",
 		"upgradesTo": "RZ-1 A-wing Interceptor",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
@@ -1310,7 +1310,7 @@
 		"range": 8,
 		"interceptRange": 8,
 		"cost": 375,
-		"requiredTech": "Computers",
+		"requiredTech": "S-foils",
 		"requiredResource": "Oil",
 		"upgradesTo": "RZ-1 A-wing Interceptor",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
@@ -1327,7 +1327,7 @@
 		"range": 8,
 		"interceptRange": 8,
 		"cost": 375,
-		"requiredTech": "Computers",
+		"requiredTech": "S-foils",
 		"requiredResource": "Oil",
 		"upgradesTo": "RZ-1 A-wing Interceptor",
 		"uniques": ["[100]% chance to intercept air attacks", "[+150]% Strength <vs [Starbomber] units>", "[+150]% Strength <vs [Gunship] units>"],
@@ -1341,7 +1341,7 @@
 		"rangedStrength": 65,
 		"range": 10,
 		"cost": 375,
-		"requiredTech": "Computers",
+		"requiredTech": "S-foils",
 		"requiredResource": "Oil",
 		"upgradesTo": "TIEln Fighter",
 		"attackSound": "bombing"
@@ -1356,7 +1356,7 @@
 		"rangedStrength": 65,
 		"range": 10,
 		"cost": 375,
-		"requiredTech": "Computers",
+		"requiredTech": "S-foils",
 		"requiredResource": "Oil",
 		"upgradesTo": "TIEln Fighter",
 		"attackSound": "bombing"
@@ -1367,7 +1367,7 @@
 		"movement": 2,
 		"strength": 65,
 		"cost": 375,
-		"requiredTech": "Computers",
+		"requiredTech": "S-foils",
 		"uniques": ["May Paradrop to [Land] tiles up to [5] tiles away <in [{Friendly} {Land}] tiles>", "Never appears as a Barbarian unit"],
 		"attackSound": "shot"
 	},
@@ -1416,8 +1416,8 @@
 		"interceptRange": 2,
 		"cost": 375,
 		"requiredTech": "Robotics",
-		"uniques": ["Can see invisible [Advanced Targeting Computer Ship] units", "[40]% chance to intercept air attacks",
-			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Advanced Targeting Computer Ship] units>"],
+		"uniques": ["Can see invisible [Stealth Ship] units", "[40]% chance to intercept air attacks",
+			"Withdraws before melee combat <with [80]% chance>", "[+100]% Strength <vs [Stealth Ship] units>"],
 		"attackSound": "shipguns"
 	},
 	{
@@ -1430,8 +1430,8 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Robotics",
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Advanced Targeting Computer Ship] units",
-			"Can carry [3] [Air] units", "[+100]% Strength <vs [Advanced Targeting Computer Ship] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Stealth Ship] units",
+			"Can carry [3] [Air] units", "[+100]% Strength <vs [Stealth Ship] units>", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -1447,8 +1447,8 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Robotics",
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Advanced Targeting Computer Ship] units",
-			"Can carry [3] [Air] units", "[+100]% Strength <vs [Advanced Targeting Computer Ship] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Stealth Ship] units",
+			"Can carry [3] [Air] units", "[+100]% Strength <vs [Stealth Ship] units>", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -1462,8 +1462,8 @@
 		"interceptRange": 2,
 		"cost": 425,
 		"requiredTech": "Nanotechnology",
-		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Advanced Targeting Computer Ship] units",
-			"Can carry [3] [Air] units", "[+100]% Strength <vs [Advanced Targeting Computer Ship] units>", "Never appears as a Barbarian unit"],
+		"uniques": ["[100]% chance to intercept air attacks", "Can see invisible [Stealth Ship] units",
+			"Can carry [3] [Air] units", "[+100]% Strength <vs [Stealth Ship] units>", "Never appears as a Barbarian unit"],
 		"promotions": ["Indirect Fire"],
 		"attackSound": "shipguns"
 	},
@@ -1572,7 +1572,7 @@
 	},
 	{
 		"name": "Special Force",
-		"unitType": "Advanced Targeting Computer Infantry",
+		"unitType": "Stealth Infantry",
 		"movement": 3,
 		"strength": 90,
 		"cost": 375,
@@ -1583,7 +1583,7 @@
 	},
 	{
 		"name": "Death Trooper",
-		"unitType": "Advanced Targeting Computer Infantry",
+		"unitType": "Stealth Infantry",
 		"replaces": "Special Force",
 		"uniqueTo": "Galactic Empire",
 		"movement": 3,
@@ -1843,7 +1843,7 @@
 		"unitType": "Civilian",
 		"movement": 2,
 		"cost": 750,
-		"requiredTech": "Advanced Embedded Astromech",
+		"requiredTech": "Embedded Astromech",
 		"requiredResource": "Aluminum",
 		"uniques": ["Spaceship part", "Cannot be purchased", "Only available <if [Apollo Program] is constructed>", "Uncapturable", "Can be added to [The Spaceship] in the Capital", "Limited to [3] per Civilization", "Only available <when [Scientific] Victory is enabled>"]
 	},
