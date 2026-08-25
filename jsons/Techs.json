@@ -548,7 +548,7 @@
 				"quote": "'Keep your heads down or that E-Web will take them off!' - Reyé Hollis"
 			},
 			{
-				"name": "Radar",
+				"name": "Embedded Astromech",
 				"row": 6,
 				"prerequisites": ["Embedded Astromech","Electronics"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
@@ -578,20 +578,20 @@
 			{
 				"name": "Nuclear Fission",
 				"row": 4,
-				"prerequisites": ["Heavy Weaponry","Radar"],
+				"prerequisites": ["Heavy Weaponry"],
 				"quote": "'I am become Death, the destroyer of worlds.' - J. Robert Oppenheimer"
 			},
 			{
 				"name": "Rocketry",
 				"row": 6,
-				"prerequisites": ["Radar"],
+				"prerequisites": ["Embedded Astromech"],
                 "uniques": ["[+100]% weight to this choice for AI decisions"],
 				"quote": "'A good rule for rocket experimenters to follow is this: always assume that it will explode.' - Astronautics Magazine, 1937"
 			},
 			{
 				"name": "S-foils",
 				"row": 8,
-				"prerequisites": ["Combined Arms","Radar"],
+				"prerequisites": ["Combined Arms","Embedded Astromech"],
 				"quote": "'Lock S-foils in attack position.' - Garven Dreis"
 			}
 		]
@@ -696,7 +696,7 @@
 			{
 				"name": "Future Tech",
 				"row": 5,
-				"prerequisites": ["Globalization","Cybernetic Enhancement","Nuclear Fusion","Nanotechnology","Stealth"],
+				"prerequisites": ["Globalization","Cybernetic Enhancement","Nuclear Fusion","Nanotechnology","Advanced Targeting Computer"],
 				"uniques": ["Can be continually researched"],
 				"quote": "'I think we agree, the past is over.' - George W. Bush",
                 "civilopediaText": [{"text": "Who knows what the future holds?"}]
