@@ -76,13 +76,13 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "The Pyramids",
+		"name": "Dawn Pyramid of Aargau",
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Can build [all] improvements at a [+25]% rate","[2] free [Worker] units appear"],
 		"requiredTech": "Masonry",
-		"quote": "'O, let not the pains of death which come upon thee enter into my body. I am the god Tem, and I am the foremost part of the sky, and the power which protecteth me is that which is with all the gods forever.' - The Book of the Dead, translated by Sir Ernest Alfred Wallis Budge"
+		"quote": "'The Dawn Pyramid of Aargau was a large structure on the planet Aargau that was built by a species called the Sharu. Like other constructions of their civilization, the pyramid was made of indestructible, iridescent plastic."
 	},
 	{
 		"name": "Mausoleum of Halicarnassus",
@@ -115,7 +115,7 @@
 
 	// Column 3
 	{
-		"name": "Lighthouse",
+		"name": "Hyperspace Beacon",
 		"cost": 75,
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -124,13 +124,13 @@
 		"requiredTech": "Hyperdrive"
 	},
 	{
-		"name": "The Great Lighthouse",
+		"name": "Belgoth's Beacon",
 		"cost": 185,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
-			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Lighthouse] [in this city]"],
+			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Hyperspace Beacon] [in this city]"],
 		"requiredTech": "Hyperdrive",
 		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
 	},
@@ -183,13 +183,14 @@
 		"requiredTech": "Horseback Riding"
 	},
 	{
-		"name": "Circus Maximus",
+		"name": "Petranaki Arena",
 		"cost": 125,
 		"happiness": 5,
 		"culture": 1,
 		"isNationalWonder": true,
-		"uniques": ["Only available <if [Colosseum] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"uniques": ["Only available <if [Arena] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Horseback Riding"
+		"quote": "'The felons before you have been convicted of espionage against the Sovereign System of Geonosis. Their sentence of death is to be carried out in this arena immediately!' - Sun Fac"
 	},
 	{
 		"name": "Courthouse",
@@ -210,19 +211,19 @@
 		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
 	},
 	{
-		"name": "Colosseum",
+		"name": "Arena",
 		"maintenance": 1,
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Beam-tube"
 	},
 	{
-		"name": "Terracotta Army",
+		"name": "Brass Soldiers of Axum",
 		"culture": 6,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
 		"requiredTech": "Beam-tube",
-		"quote": "'Regard your soldiers as your children, and they will follow you into the deepest valleys; look on them as your own beloved sons, and they will stand by you even unto death.' - Sun Tzu"
+		"quote": "The Brass Soldiers of Axum were a mysterious collection of thirty-five thousand statues of soldiers. They were cast in solid brass and depicted the soldiers with expressions of pain and terror. According to legend, the statues originated as an actual pre-Republic army that was transmuted into brass via magic."
 	},
 	// Column 4
 	{
@@ -323,7 +324,7 @@
 		"requiredTech": "Iron Working"
 	},
 	{
-		"name": "Colossus",
+		"name": "Statue of Xim",
 		"cost": 185,
 		"culture": 1,
 		"gold": 5,
@@ -331,7 +332,7 @@
 		"isWonder": true,
 		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
 		"requiredTech": "Iron Working",
-		"quote": "'Why man, he doth bestride the narrow world like a colossus, and we petty men walk under his huge legs, and peep about to find ourselves dishonorable graves.' - William Shakespeare, Julius Caesar"
+		"quote": "The Statue of Xim was a large metal and stone sculpture of the tyrant Xim the Despot on the planet of Desevro. It originally stood one hundred meters high and contained treasure chambers that had protective traps to fend off looters. During the end of Xim's reign, it was toppled by a groundquake."
 	},
 
 	// Ductavis Era
