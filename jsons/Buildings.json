@@ -245,13 +245,13 @@
 		"requiredTech": "Philosophy"
 	},
 	{
-		"name": "The Oracle",
+		"name": "Star Forge",
 		"culture": 3,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"uniques": ["Free Social Policy"],
 		"requiredTech": "Philosophy",
-		"quote": "'The ancient Oracle said that I was the wisest of all the Greeks. It is because I alone, of all the Greeks, know that I know nothing' - Socrates"
+		"quote": "'The Star Forge is the glory of the Builders, the apex of their Infinite Empire. It is a machine of invincible might, a tool of unstoppable conquest.' - The Overseer"
 	},
 	{
 		"name": "Amphitheater",
@@ -374,7 +374,7 @@
 			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
-		"quote": "'The most famous of the Jedi temples, located on Coruscant, served as the home of the Jedi High Council and the vast library of data known as the Jedi Archives.' Luke Skywalker"
+		"quote": "'The most famous of the Jedi temples, located on Coruscant, served as the home of the Jedi High Council and the vast library of data known as the Jedi Archives.' - Luke Skywalker"
 	},
 	{
 		"name": "Massassi Temple",
@@ -557,13 +557,13 @@
         "requiredTech": "Banking"
     },
 	{
-		"name": "Forbidden Palace",
+		"name": "Theed Royal Palace",
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[-10]% Unhappiness from [Population] [in all non-occupied cities]"],
 		"requiredTech": "Banking",
-		"quote": "'Most of us can, as we choose, make of this world either a palace or a prison' - John Lubbock"
+		"quote": "'The first time I saw the Capital, I was very young… I'd never seen a waterfall before. I thought they were so beautiful… I never dreamed one day I'd live in the palace.' - Padmé Amidala"
 	},
 	{
 		"name": "Theatre",
@@ -787,14 +787,14 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Eiffel Tower",
+		"name": "Citadel Tower",
 		"culture": 1,
 		"happiness": 5,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
 		"uniques": ["[+1 Happiness] per [2] social policies adopted"],
 		"requiredTech": "Radio",
-		"quote": "'We live only to discover beauty, all else is a form of waiting' - Kahlil Gibran"
+		"quote": "'Main building down there, what is it?' 'That's the Citadel Tower. They keep all the Imperial structural archives up there.' - Cassian Andor and Bodhi Rook"
 	},
     {
         "name": "National Intelligence Agency",
@@ -829,7 +829,7 @@
 		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},
 	{
-		"name": "Neuschwanstein",
+		"name": "Takodana Castle",
 		"happiness": 2,
 		"culture": 4,
 		"gold": 6,
@@ -838,7 +838,7 @@
 		"uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
 			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"],
 		"requiredTech": "Railroads",
-		"quote": "'...the location is one of the most beautiful to be found, holy and unapproachable, a worthy temple for the divine friend who has brought salvation and true blessing to the world.' - King Ludwig II of Bavaria"
+		"quote": "'She's run this watering hole for a thousand years. Maz is a bit of an acquired taste, so let me do the talking. And whatever you do, don't stare.' - Han Solo"
 	},
 	// Column 12
 	{
@@ -878,13 +878,13 @@
 		"requiredTech": "Heavy Weaponry"
 	},
 	{
-		"name": "Pentagon",
+		"name": "Echo Base",
 		"isWonder": true,
 		"culture": 3,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
 		"requiredTech": "Combined Arms",
-		"quote": "'In preparing for battle I have always found that plans are useless, but planning is indispensable.' - Dwight D. Eisenhower"
+		"quote": "'Now let's get you warmer and then to work. It never gets comfortable here, and you don't quite get used to it, but there are ways to make it livable.' - General Philap Bygar"
 	},
 	// Column 14
 	{
@@ -945,12 +945,12 @@
 
 	// Column 15
 	{
-		"name": "CN Tower",
+		"name": "HoloNet News",
 		"isWonder": true,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [Broadcast Tower] [in all cities]"],
 		"requiredTech": "Telecommunications",
-		"quote": "'Nothing travels faster than light with the possible exception of bad news, which obeys its own special rules.' - Douglas Adams"
+		"quote": "'And it is because Republic HoloNet News goes into the homes of families like these that today nearly three hundred and twelve trillion citizens listen to our broadcast.' - Rule Davenbay"
 	},
 	{
 		"name": "Bomb Shelter",
