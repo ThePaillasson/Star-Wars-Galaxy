@@ -788,56 +788,56 @@ BuildingIcons/Temple
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Temple of Artemis
-  rotate: false
-  xy: 1732, 863
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/The Great Library
   rotate: false
-  xy: 1516, 432
+  xy: 1516, 540
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Louvre
   rotate: false
-  xy: 1516, 324
+  xy: 1516, 432
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/The Oracle
   rotate: false
-  xy: 1516, 216
+  xy: 1516, 324
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Theatre
   rotate: false
-  xy: 1516, 108
+  xy: 1516, 216
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/United Nations
   rotate: false
-  xy: 1840, 1187
+  xy: 1840, 1295
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/University
   rotate: false
-  xy: 1840, 1079
+  xy: 1840, 1187
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Utopia Project
+  rotate: false
+  xy: 1840, 971
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Valley of Royalty
   rotate: false
   xy: 1840, 863
   size: 100, 100
@@ -2169,42 +2169,42 @@ UnitIcons/Tauntaun Rider
   index: -1
 UnitIcons/Tercio
   rotate: false
-  xy: 1516, 540
+  xy: 1732, 863
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Trebuchet
   rotate: false
-  xy: 1840, 1619
+  xy: 1516, 108
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Trident-class Assault Ship
   rotate: false
-  xy: 1840, 1511
+  xy: 1840, 1619
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/UT-60D U-wing Troop Transport
   rotate: false
-  xy: 1840, 1403
+  xy: 1840, 1511
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Undicur-class Jumpspeeder
   rotate: false
-  xy: 1840, 1295
+  xy: 1840, 1403
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unstable Terrain Artillery Transport
   rotate: false
-  xy: 1840, 971
+  xy: 1840, 1079
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
