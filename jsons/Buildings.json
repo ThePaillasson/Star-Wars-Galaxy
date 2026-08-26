@@ -531,13 +531,13 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Sistine Chapel",
+		"name": "Fortress Vader",
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
 		"uniques": ["[+25]% [Culture] [in all cities]"],
 		"requiredTech": "Acoustics",
-		"quote": "'I live and love in God's peculiar light.' - Michelangelo Buonarroti"
+		"quote": "'Constructed on top of a Sith cave on Mustafar—the lava-drenched world where Obi-Wan defeated his former apprentice and left him to die—this obsidian stronghold was where my father would go to meditate and heal between battles. The castle's unique shape was based on designs by an ancient Sith Lord, Momin, and was specifically attuned to the dark energies of that world for one purpose: to pierce the veil between life and death.' - Luke Skywalker"
 	},
 	{
 		"name": "Bank",
@@ -574,23 +574,23 @@
 		"requiredTech": "Printing Press"
 	},
 	{
-		"name": "Leaning Tower of Pisa",
+		"name": "Eternal Throne",
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 1},
 		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person"],
 		"requiredTech": "Printing Press",
-		"quote": "'Don't clap too hard - it's a very old building.' - John Osbourne"
+		"quote": "'The Eternal Throne. The new seat of power in the galaxy.' - Valkorion"
 	},
 	{
-		"name": "Himeji Castle",
+		"name": "Daimyo's Palace",
 		"culture": 3,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
 			"Gain a free [Castle] [in this city]"],
 		"requiredTech": "Frozen Beam",
-		"quote": "'Bushido is realized in the presence of death. This means choosing death whenever there is a choice between life and death. There is no other reasoning.' - Yamamoto Tsunetomo"
+		"quote": "'I have never seen a more sinister and depraved crowd. One would think the rest of the galaxy safe, what with every thug, debaucher, and scofflaw having gathered here.' - C3PO"
 	},
 	// Column 8
 	{
@@ -674,13 +674,13 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "The Louvre",
+		"name": "The Archive",
 		"culture": 4,
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
 		"uniques": ["[2] free [Great Artist] units appear"],
 		"requiredTech": "Archaeology",
-		"quote": "'Every genuine work of art has as much reason for being as the earth and the sun' - Ralph Waldo Emerson"
+		"quote": "'There is more knowledge here than anywhere else in the galaxy.' - Jocasta Nu"
 	},
 	{
 		"name": "Public School",
@@ -705,14 +705,14 @@
 		"requiredTech": "Industrialization"
 	},
 	{
-		"name": "Big Ben",
+		"name": "Fortress Inquisitorius",
 		"culture": 1,
 		"gold": 4,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"isWonder": true,
 		"uniques": ["[Gold] cost of purchasing items in cities [-15]%"],
 		"requiredTech": "Industrialization",
-		"quote": "'To achieve great things, two things are needed: a plan, and not quite enough time.' - Leonard Bernstein"
+		"quote": "'There's a fortress. Where they take Jedi. Where the Inquisitors come from. It's a place of torture. It's the place I escaped.' - Cere Junda"
 	},
 	{
 		"name": "Military Academy",
@@ -983,7 +983,7 @@
 	},
 	// Column 16
 	{
-		"name": "United Nations",
+		"name": "Galactic Alliance",
 		"isWonder": true,
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
