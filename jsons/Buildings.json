@@ -304,14 +304,14 @@
 		"requiredTech": "Engineering"
 	},
 	{
-		"name": "Great Wall",
+		"name": "Planetary Shield",
 		"culture": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Personnal shielding]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
 			"Gain a free [Walls] [in this city]"],
 		"requiredTech": "Engineering",
-		"quote": "'The art of war teaches us to rely not on the likelihood of the enemy's not attacking, but rather on the fact that we have made our position unassailable.' - Sun Tzu"
+		"quote": "'There's a planet-wide defensive shield with a single main entry gate.' - Bodhi Rook"
 	},
 	{
 		"name": "Heroic Epic",
@@ -387,7 +387,7 @@
 		"quote": "'These temples were built by the Massassi race thousands of years ago, and they're still standing. Hard to believe.' - Leia Organa"
 	},
 	{
-		"name": "National Treasury",
+		"name": "Main Vault",
 		"cost": 125,
 		"gold": 8,
 		"culture": 1,
@@ -444,15 +444,6 @@
 		"requiredTech": "Education"
 	},
 	{
-		"name": "Oxford University",
-		"cost": 125,
-		"science": 3,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Only available <if [University] is constructed in all [non-[Puppeted]] cities>", "Free Technology", "Cost increases by [30] per owned city"],
-		"requiredTech": "Education"
-	},
-	{
 		"name": "Tract of Makem Te",
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -482,7 +473,7 @@
 		"quote": "The Ark of Baron Auletphant was an interstellar barge. It was golden and was inlaid with rose and azure mytag crystals. Commissioned more than ten thousand years prior to 520 BBY, the Ark of Baron Auletphant traveled for a century between far-flung worlds. There, the vessel collected specimens of aquatic life."
 	},
 	{
-		"name": "Ironworks",
+		"name": "Primary Droid Foundry",
 		"cost": 125,
 		"production": 8,
 		"culture": 1,
@@ -603,15 +594,6 @@
 		"requiredTech": "Navigation"
 	},
 	{
-		"name": "Hermitage",
-		"cost": 125,
-		"percentStatBonus": {"culture": 50},
-		"culture": 5,
-		"isNationalWonder": true,
-		"uniques": ["Only available <if [Opera House] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
-		"requiredTech": "Architecture"
-	},
-	{
 		"name": "Senate Rotunda",
 		"culture": 1,
 		"happiness": 4,
@@ -722,15 +704,6 @@
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Spying"
 	},
-	{
-		"name": "Brandenburg Gate",
-		"culture": 3,
-		"greatPersonPoints": {"Great Scientist": 2},
-		"isWonder": true,
-		"uniques": ["Free [Great General] appears", "New [Military] units start with [15] XP [in this city]"],
-		"requiredTech": "Spying",
-		"quote": "'Pale Death beats equally at the poor man's gate and at the palaces of kings.' - Horace"
-	},
 	// Column 10
 	{
 		"name": "Hospital",
@@ -797,7 +770,7 @@
 		"quote": "'Main building down there, what is it?' 'That's the Citadel Tower. They keep all the Imperial structural archives up there.' - Cassian Andor and Bodhi Rook"
 	},
     {
-        "name": "National Intelligence Agency",
+        "name": "Imperial Security Bureau Central Office",
         "cost": 120,
         "culture": 1,
         "isNationalWonder": true,
@@ -818,15 +791,6 @@
 		"requiredBuilding": "Arsenal",
 		"requiredTech": "Decentralized Law Enforcement",
 		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
-		"name": "Statue of Liberty",
-		"culture": 1,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[+1 Production] from every specialist [in all cities]"],
-		"requiredTech": "Decentralized Law Enforcement",
-		"quote": "'Give me your tired, your poor, your huddled masses yearning to breathe free, the wretched refuse of your teeming shore. Send these, the homeless, tempest-tossed to me, I lift my lamp beside the golden door!' - Emma Lazarus"
 	},
 	{
 		"name": "Takodana Castle",
@@ -850,15 +814,6 @@
 		"maintenance": 3,
 		"requiredTech": "Plastics"
 	},
-	{
-		"name": "Cristo Redentor",
-		"culture": 5,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[-10]% Culture cost of adopting new Policies"],
-		"requiredTech": "Plastics",
-		"quote": "'Come to me, all who labor and are heavy burdened, and I will give you rest.' - New Testament, Matthew 11:28"
-	},
 
 	// Clone Wars era
 
@@ -871,7 +826,7 @@
 		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
 	},
 	{
-		"name": "Manhattan Project",
+		"name": "Tarkin Initiative",
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion", "Cannot be hurried"],
@@ -903,15 +858,6 @@
 		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization"]
 	},
 	{
-		"name": "Sydney Opera House",
-		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 2},
-		"percentStatBonus": {"culture": 50},
-		"uniques": ["Free Social Policy","Must be next to [Coast]"],
-		"requiredTech": "Ecology",
-		"quote": "'Those who lose dreaming are lost.' - Australian Aboriginal saying"
-	},
-	{
 		"name": "Nuclear Plant",
 		"production": 5,
 		"percentStatBonus": {"production": 15},
@@ -922,7 +868,7 @@
 		"uniques": ["Only available <in cities without a [Solar Plant]>"]
 	},
 	{
-		"name": "Apollo Program",
+		"name": "Outbound Flight Project",
 		"cost": 750,
 		"isNationalWonder": true,
 		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion", 
@@ -932,14 +878,6 @@
             { "text": "Once you have completed the Apollo Program, you can start constructing spaceship parts in your cities (with the relevant technologies) to win a Scientific Victory!" }
         ]
 	},
-    {
-        "name": "Great Firewall",
-        "isWonder": true,
-        "uniques": ["Only available <when espionage is enabled>", "[-99]% enemy spy effectiveness [in this city]",
-            "[-25]% enemy spy effectiveness [in all cities]"],
-        "requiredTech": "S-foils",
-        "quote": "'Distrust and caution are the parents of security.' - Benjamin Franklin"
-    },
 
 	// Imperial era
 
