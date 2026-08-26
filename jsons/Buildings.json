@@ -82,7 +82,7 @@
 		"isWonder": true,
 		"uniques": ["Can build [all] improvements at a [+25]% rate","[2] free [Worker] units appear"],
 		"requiredTech": "Masonry",
-		"quote": "'The Dawn Pyramid of Aargau was a large structure on the planet Aargau that was built by a species called the Sharu. Like other constructions of their civilization, the pyramid was made of indestructible, iridescent plastic."
+		"quote": "The Dawn Pyramid of Aargau was a large structure on the planet Aargau that was built by a species called the Sharu. Like other constructions of their civilization, the pyramid was made of indestructible, iridescent plastic."
 	},
 	{
 		"name": "Mausoleum of Halicarnassus",
@@ -132,7 +132,7 @@
 		"uniques": ["Must be next to [Coast]", "[+1] Movement <for [{Military} {Water}] units>",
 			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Hyperspace Beacon] [in this city]"],
 		"requiredTech": "Hyperdrive",
-		"quote": "'They that go down to the sea in ships, that do business in great waters; these see the works of the Lord, and his wonders in the deep.' - The Bible, Psalms 107:23-24"
+		"quote": "Belgoth's Beacon was a hyperspace beacon commissioned by Borte Belgoth in approximately 25,100 BBY. The satellite, one of the original beacons, was placed on the Perlemian Trade Route. Sculpted on the beacon were the faces of a Columi, cacodemon, and a molator from Alderaan. It was destroyed, however, during the Second Alsakan Conflict."
 	},
 	{
 		"name": "Stone Works",
@@ -570,7 +570,7 @@
 		"happiness": 3,
 		"hurryCostModifier": 10,
 		"maintenance": 2,
-		"requiredBuilding": "Colosseum",
+		"requiredBuilding": "Arena",
 		"requiredTech": "Printing Press"
 	},
 	{
