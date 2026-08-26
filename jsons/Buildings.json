@@ -58,14 +58,14 @@
 		"requiredTech": "Gunpowder"
 	},
 	{
-		"name": "Temple of Artemis",
+		"name": "Valley of Royalty",
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
         "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Ranged Infantry] units [in this city]",
             "[+15]% Production when constructing [Ranged Infantry] units [in this city]"],
 		"requiredTech": "Gunpowder",
-		"quote": "'It is not so much for its beauty that the forest makes a claim upon men's hearts, as for that subtle something, that quality of air, that emanation from old trees, that so wonderfully changes and renews a weary spirit.' - Robert Louis Stevenson"
+		"quote": "The Valley of Royalty was an ancient valley on Duro where the Duros buried many of their most celebrated rulers who championed space exploration, including Rana Mas Trehalt. There were many secret catacombs and caves in the Valley, hiding a wealth of both historical information and valuables."
 	},
 	{
 		"name": "Walls",
@@ -102,13 +102,12 @@
 		"requiredTech": "Bronze Working"
 	},
 	{
-		"name": "Statue of Zeus",
+		"name": "Caliginous Automaton of Tomo-Reth",
 		"culture": 1,
 		"isWonder": true,
 		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
 		"requiredTech": "Bronze Working",
-		"quote": "'He spoke, the son of Kronos, and nodded his head with the dark brows, and the immortally anointed hair of the great god swept from his divine head, and all Olympos was shaken' - The Iliad"
-		// "Requires [Honor]" in BNW
+		"quote": "The Caliginous Automaton of Tomo-Reth was a tall droid that, during the Kymoodon Era, sat upon a brick throne at the celestial body Tomo-Reth and breathed fire at visitors. It was destroyed during the Herglic Crush of 14,743 BBY."
 	},
 
 	// Expansion Period
@@ -147,12 +146,12 @@
 		"requiredTech": "Calendar"
 	},
 	{
-		"name": "Stonehenge",
+		"name": "Ice Crypts",
 		"faith": 5,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"requiredTech": "Calendar",
-		"quote": "'Time crumbles things; everything grows old and is forgotten under the power of time' - Aristotle"
+		"quote": "The Ice Crypts were a network of subterranean caves in the glaciers several hundred meters beneath the Hasamadhi warehouse district, near the south pole of Coruscant."
 	},
 	{
 		"name": "Library",
@@ -162,14 +161,14 @@
 		"requiredTech": "Holobook"
 	},
 	{
-		"name": "The Great Library",
+		"name": "Celebratus Archive",
 		"science": 3,
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"requiredTech": "Holobook",
 		"uniques": ["Free Technology", "Gain a free [Library] [in this city]"],
-		"quote": "'Libraries are as the shrine where all the relics of the ancient saints, full of true virtue, and all that without delusion or imposture are preserved and reposed.' - Sir Francis Bacon"
+		"quote": "The Celebratus Archive was a library on the planet Obroa-skai that held complete records from over three hundred thousand different species. The creation of the library, in 16,782 BBY, secured the reputation of the planet as a bastion of research."
 	},
 	{
 		"name": "Stable",
@@ -355,7 +354,7 @@
 		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
 	},
 	{
-		"name": "Great Mosque of Djenne",
+		"name": "Esraza Temple",
 		"culture": 1,
 		"faith": 3,
 		"greatPersonPoints": {"Great Engineer": 1},
@@ -364,7 +363,7 @@
             "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
             "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"],
 		"requiredTech": "Theology",
-		"quote": "'With the magnificence of eternity before us, let time, with all its fluctuations, dwindle into its own littleness.' - Thomas Chalmers"
+		"quote": "The Esraza Temple was located on the celestial body Oligtaz in the Southern Core portion of the Core Worlds. It was known to the wider galaxy by 10,000 BBY. Early explorers described the structure as a reality-warping nexus that granted visitors the abilities of teleportation and farseeing."
 	},
 	{
 		"name": "Grand Temple",
@@ -396,14 +395,14 @@
 		"requiredTech": "Guilds"
 	},
 	{
-		"name": "Machu Picchu",
+		"name": "Crevasse City",
 		"gold": 5,
 		"faith": 2,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["[+25]% [Gold] from Trade Routes", "Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"],
 		"requiredTech": "Guilds",
-		"quote": "'Few romances can ever surpass that of the granite citadel on top of the beetling precipices of Machu Picchu, the crown of Inca Land.' - Hiram Bingham"
+		"quote": "Crevasse City was a city on Alderaan. It was seen as the epitome of Alderaanian culture, noted for its spectacular beauty, as it balanced between nature and urbanization in a beautiful blend."
 	},
 	{
 		"name": "Workshop",
@@ -453,13 +452,13 @@
 		"requiredTech": "Education"
 	},
 	{
-		"name": "Angkor Wat",
+		"name": "Tract of Makem Te",
 		"culture": 1,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
 		"requiredTech": "Education",
-		"quote": "'The temple is like no other building in the world. It has towers and decoration and all the refinements which the human genius can conceive of.' - Antonio da Magdalena"
+		"quote": "The Tract of Makem Te was a large graveyard located on Makem Te that covered much of a continent on the planet. It was originally mistaken for an ice cap."
 	},
 	{
 		"name": "Castle",
@@ -471,7 +470,7 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Alhambra",
+		"name": "The Ark of Baron Auletphant",
 		"culture": 1,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
@@ -479,7 +478,7 @@
 		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
 			"Gain a free [Castle] [in this city]"],
 		"requiredTech": "Chivalry",
-		"quote": "'Justice is an unassailable fortress, built on the brow of a mountain which cannot be overthrown by the violence of torrents, nor demolished by the force of armies.' - Joseph Addison"
+		"quote": "The Ark of Baron Auletphant was an interstellar barge. It was golden and was inlaid with rose and azure mytag crystals. Commissioned more than ten thousand years prior to 520 BBY, the Ark of Baron Auletphant traveled for a century between far-flung worlds. There, the vessel collected specimens of aquatic life."
 	},
 	{
 		"name": "Ironworks",
@@ -622,13 +621,13 @@
 		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
 	},
 	{
-		"name": "Porcelain Tower",
+		"name": "Shawken Spire",
 		"culture": 1,
 		"greatPersonPoints": {"Great Scientist": 2},
 		"isWonder": true,
 		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%"],
 		"requiredTech": "Architecture",
-		"quote": "'Things always seem fairer when we look back at them, and it is out of that inaccessible tower of the past that Longing leans and beckons.' - James Russell Lowell"
+		"quote": "The Shawken Spire was a skyscraper located on the planet Shawken. Construction of the Spire took over nine millennia to complete, by which time the skyscraper had reached a low-orbit altitude. The Spire became a popular Core Worlds tourist attraction before its destruction in 18,780 BBY."
 	},
 	{
 		"name": "Windmill",
