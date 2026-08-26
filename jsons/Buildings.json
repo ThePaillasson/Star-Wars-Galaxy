@@ -85,14 +85,14 @@
 		"quote": "The Dawn Pyramid of Aargau was a large structure on the planet Aargau that was built by a species called the Sharu. Like other constructions of their civilization, the pyramid was made of indestructible, iridescent plastic."
 	},
 	{
-		"name": "Mausoleum of Halicarnassus",
+		"name": "Alsakan Mosaics",
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
 			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
 		"requiredTech": "Masonry",
-		"quote": "'The whole earth is the tomb of heroic men and their story is not given only on stone over their clay but abides everywhere without visible symbol woven into the stuff of other men's lives.' - Pericles"
+		"quote": "The Alsakan Mosaics were a mountain-scale mosaic that was at one point located on the planet Alsakan. Originally sprawlling from the central square of Rucapar, the mosaics were five lanes of tile that reached to five equidistant mountains. Only traces survived the Third Alsakan Conflict."
 	},
 	{
 		"name": "Barracks",
@@ -200,14 +200,14 @@
 		"requiredTech": "Mathematics"
 	},
 	{
-		"name": "Hanging Gardens",
+		"name": "Forbidden Gardens of Nuswatta",
 		"greatPersonPoints": {"Great Artist": 1},
 		"food": 6,
 		"culture": 1,
 		"isWonder": true,
 		"requiredTech": "Mathematics",
 		"uniques": ["Gain a free [Garden] [in this city]"],
-		"quote": "'I think that if ever a mortal heard the word of God it would be in a garden at the cool of the day.' - F. Frankfort Moore"
+		"quote": "The Forbidden Gardens of Nuswatta was a complex of gardens located on the planet of Nuswatta. The Gardens, located in a caldera of an extinct volcano, were originally cultivated as a royal retreat for the court of the Empire of Xim the Despot. All who entered without permission were put to death, and legend had it that the Gardens were cultivated by a cadre of slaves blinded at birth. Traitors, failed Tionese military officers, and defeated enemies were said to have been executed there."
 	},
 	{
 		"name": "Arena",
@@ -288,13 +288,13 @@
 		"requiredTech": "Currency"
 	},
 	{
-		"name": "Petra",
+		"name": "Calius saj Leeloo",
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] [in this city] <after discovering [Archaeology]>"],
 		"requiredTech": "Currency",
-		"quote": "'...who drinks the water I shall give him, says the Lord, will have a spring inside him welling up for eternal life. Let them bring me to your holy mountain in the place where you dwell. Across the desert and through the mountain to the Canyon of the Crescent Moon...' - Indiana Jones"
+		"quote": "'As it happens, Calius is one of the few places in Imperial space where I'm perfectly safe. The Berchestian governor and I have known each other for several years. More to the point, there are certain items important to him which only I can supply.' - Talon Karrde"
 	},
 	{
 		"name": "Aqueduct",
@@ -345,13 +345,13 @@
 		"requiredTech": "Theology"
 	},
 	{
-		"name": "Hagia Sophia",
+		"name": "Space City",
 		"faith": 3,
 		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
 		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Only available <when religion is enabled>"],
 		"requiredTech": "Theology",
-		"quote": "'For it soars to a height to match the sky, and as if surging up from among the other buildings it stands on high and looks down upon the remainder of the city, adorning it, because it is a part of it, but glorying in its own beauty' - Procopius, De Aedificis"
+		"quote": "'According to legend, the Jedi Knights built the space station Nespis 8 as a meeting place for scientists from across the galaxy. The station was devoted to knowledge and learning, and it was considered neutral territory. Even if two planets were involved in a brutal war, their scientists could come to Nespis to do research. As knowledge grew, so did the station, until it was supposed to have grown to the size of a small planet.' - DV-9"
 	},
 	{
 		"name": "Esraza Temple",
@@ -366,7 +366,7 @@
 		"quote": "The Esraza Temple was located on the celestial body Oligtaz in the Southern Core portion of the Core Worlds. It was known to the wider galaxy by 10,000 BBY. Early explorers described the structure as a reality-warping nexus that granted visitors the abilities of teleportation and farseeing."
 	},
 	{
-		"name": "Grand Temple",
+		"name": "Great Temple",
 		"cost": 125,
 		"culture": 1,
 		"faith": 8,
@@ -374,16 +374,17 @@
 			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
 		"requiredTech": "Theology",
 		"isNationalWonder": true
+		"quote": "'The most famous of the Jedi temples, located on Coruscant, served as the home of the Jedi High Council and the vast library of data known as the Jedi Archives.' Luke Skywalker"
 	},
 	{
-		"name": "Chichen Itza",
+		"name": "Massassi Temple",
 		"culture": 1,
 		"happiness": 4,
 		"greatPersonPoints": {"Great Engineer": 1},
 		"isWonder": true,
 		"uniques": ["[+50]% Golden Age length"],
 		"requiredTech": "Civil Service",
-		"quote": "'The katun is established at Chichen Itza. The settlement of the Itza shall take place there. The quetzal shall come, the green bird shall come. Ah Kantenal shall come. It is the word of God. The Itza shall come.' - The Books of Chilam Balam"
+		"quote": "'These temples were built by the Massassi race thousands of years ago, and they're still standing. Hard to believe.' - Leia Organa"
 	},
 	{
 		"name": "National Treasury",
@@ -490,13 +491,13 @@
 		"requiredTech": "Machinery"
 	},
 	{
-		"name": "Notre Dame",
+		"name": "Halls of Knowledge",
 		"faith": 4,
 		"happiness": 10,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
 		"requiredTech": "Physics",
-		"quote": "'Architecture has recorded the great ideas of the human race. Not only every religious symbol, but every human thought has its page in that vast book.' - Victor Hugo"
+		"quote": "The Halls of Knowledge were storehouses of Jedi information on the planet Phateem. It was once the largest repository of Force-imbued items."
 	},
 	{
 		"name": "Armory",
@@ -611,14 +612,14 @@
 		"requiredTech": "Architecture"
 	},
 	{
-		"name": "Taj Mahal",
+		"name": "Senate Rotunda",
 		"culture": 1,
 		"happiness": 4,
 		"greatPersonPoints": {"Great Artist": 2},
 		"isWonder": true,
 		"uniques": ["Empire enters golden age"],
 		"requiredTech": "Architecture",
-		"quote": "'The Taj Mahal rises above the banks of the river like a solitary tear suspended on the cheek of time.' - Rabindranath Tagore"
+		"quote": "'This is where the Senate gathers to discuss many pressing issues and legislation. Where the future of the galaxy is decided. For better or worse.' - Riyo Chuchi"
 	},
 	{
 		"name": "Shawken Spire",
@@ -649,14 +650,14 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Kremlin",
+		"name": "Cathedral of Winds",
 		"culture": 3,
 		"cityStrength": 12,
         "greatPersonPoints": {"Great Scientist": 1},
 		"isWonder": true,
 		"uniques": ["[+25]% City Strength from defensive buildings"],
 		"requiredTech": "Blaster",
-		"quote": "'The Kremlin is constantly changing the rules of the game to suit its purposes. We are not playing chess, we're playing roulette.' - Garry Kasparov"
+		"quote": "'We cannot blame anyone for the Cathedral's destruction. We understand that it was an accident, and we forgive Admiral Ackbar. While the Cathedral is gone, this is not forever. We will rebuild, and this will be our sole purpose until we can once again play our concert in peace.' Krini-shen"
 	},
 
 	// Sith Wars era
