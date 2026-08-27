@@ -227,12 +227,30 @@
 		"requiredTech": "Drama and Poetry"
 	},
 	{
+		"name": "Cathedral of Winds",
+		"culture": 5,
+        "greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"uniques": ["[2] free [Great Artist] units appear"],
+		"requiredTech": "Drama and Poetry",
+		"quote": "'We cannot blame anyone for the Cathedral's destruction. We understand that it was an accident, and we forgive Admiral Ackbar. While the Cathedral is gone, this is not forever. We will rebuild, and this will be our sole purpose until we can once again play our concert in peace.' Krini-shen"
+	},
+	{
 		"name": "Market",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
 		"hurryCostModifier": 25,
 		"percentStatBonus": {"gold": 25},
 		"requiredTech": "Currency"
+	},
+	{
+		"name": "Shawken Spire",
+		"culture": 1,
+		"greatPersonPoints": {"Great Artist": 2},
+		"isWonder": true,
+		"uniques": ["Free [Great Artist] appears"],
+		"requiredTech": "Engineering",
+		"quote": "The Shawken Spire was a skyscraper located on the planet Shawken. Construction of the Spire took over nine millennia to complete, by which time the skyscraper had reached a low-orbit altitude. The Spire became a popular Core Worlds tourist attraction before its destruction in 18,780 BBY."
 	},
 	{
 		"name": "Heroic Epic",
@@ -360,15 +378,6 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Fortress Vader",
-		"culture": 1,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 2},
-		"uniques": ["[+25]% [Culture] [in all cities]"],
-		"requiredTech": "Acoustics",
-		"quote": "'Constructed on top of a Sith cave on Mustafar—the lava-drenched world where Obi-Wan defeated his former apprentice and left him to die—this obsidian stronghold was where my father would go to meditate and heal between battles. The castle's unique shape was based on designs by an ancient Sith Lord, Momin, and was specifically attuned to the dark energies of that world for one purpose: to pierce the veil between life and death.' - Luke Skywalker"
-	},
-	{
 		"name": "Bank",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
@@ -386,34 +395,6 @@
 		"uniques": ["Only available <if [Bank] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Banking"
 	},
-	{
-		"name": "Theed Royal Palace",
-		"culture": 1,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[-10]% Unhappiness from [Population] [in all non-occupied cities]"],
-		"requiredTech": "Banking",
-		"quote": "'The first time I saw the Capital, I was very young… I'd never seen a waterfall before. I thought they were so beautiful… I never dreamed one day I'd live in the palace.' - Padmé Amidala"
-	},
-	{
-		"name": "Eternal Throne",
-		"culture": 1,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
-		"uniques": ["[+25]% Great Person generation [in all cities]", "Free Great Person"],
-		"requiredTech": "Printing Press",
-		"quote": "'The Eternal Throne. The new seat of power in the galaxy.' - Valkorion"
-	},
-	{
-		"name": "Daimyo's Palace",
-		"culture": 3,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 2},
-		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>",
-			"Gain a free [Castle] [in this city]"],
-		"requiredTech": "Frozen Beam",
-		"quote": "'I have never seen a more sinister and depraved crowd. One would think the rest of the galaxy safe, what with every thug, debaucher, and scofflaw having gathered here.' - C3PO"
-	},
 	// Column 8
 	{
 		"name": "Shipyard",
@@ -425,25 +406,6 @@
 		"requiredTech": "Navigation"
 	},
 	{
-		"name": "Senate Rotunda",
-		"culture": 1,
-		"happiness": 4,
-		"greatPersonPoints": {"Great Artist": 2},
-		"isWonder": true,
-		"uniques": ["Empire enters golden age"],
-		"requiredTech": "Architecture",
-		"quote": "'This is where the Senate gathers to discuss many pressing issues and legislation. Where the future of the galaxy is decided. For better or worse.' - Riyo Chuchi"
-	},
-	{
-		"name": "Shawken Spire",
-		"culture": 1,
-		"greatPersonPoints": {"Great Scientist": 2},
-		"isWonder": true,
-		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%"],
-		"requiredTech": "Architecture",
-		"quote": "The Shawken Spire was a skyscraper located on the planet Shawken. Construction of the Spire took over nine millennia to complete, by which time the skyscraper had reached a low-orbit altitude. The Spire became a popular Core Worlds tourist attraction before its destruction in 18,780 BBY."
-	},
-	{
 		"name": "Arsenal",
 		"cost": 300,
 		"cityStrength": 9,
@@ -452,16 +414,6 @@
 		"requiredBuilding": "Castle",
 		"requiredTech": "Blaster",
 		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
-		"name": "Cathedral of Winds",
-		"culture": 3,
-		"cityStrength": 12,
-        "greatPersonPoints": {"Great Scientist": 1},
-		"isWonder": true,
-		"uniques": ["[+25]% City Strength from defensive buildings"],
-		"requiredTech": "Blaster",
-		"quote": "'We cannot blame anyone for the Cathedral's destruction. We understand that it was an accident, and we forgive Admiral Ackbar. While the Cathedral is gone, this is not forever. We will rebuild, and this will be our sole purpose until we can once again play our concert in peace.' Krini-shen"
 	},
 
 	// Sith Wars era
@@ -494,6 +446,15 @@
 		"uniques": ["[2] free [Great Artist] units appear"],
 		"requiredTech": "Archaeology",
 		"quote": "'There is more knowledge here than anywhere else in the galaxy.' - Jocasta Nu"
+	},
+	{
+		"name": "Eternal Throne",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 1},
+		"uniques": ["[+15]% Strength <for [All] units> <when fighting in [Enemy Land] tiles>", "[+25]% Great Person generation [in all cities]"],
+		"requiredTech": "Archaeology",
+		"quote": "'The Eternal Throne. The new seat of power in the galaxy.' - Valkorion"
 	},
 	{
 		"name": "Factory",
@@ -556,6 +517,16 @@
 		"requiredBuilding": "Armory",
 		"uniques": ["New [Military] units start with [15] XP [in this city]", "Destroyed when the city is captured"],
 		"requiredTech": "Spying"
+	},
+	{
+		"name": "Senate Rotunda",
+		"culture": 1,
+		"happiness": 4,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"uniques": ["Empire enters golden age", "Resting point for Influence with City-States is increased by [10]","[-25]% City-State Influence degradation"],
+		"requiredTech": "Fertilizer",
+		"quote": "'This is where the Senate gathers to discuss many pressing issues and legislation. Where the future of the galaxy is decided. For better or worse.' - Riyo Chuchi"
 	},
 	// Column 10
 	{
@@ -652,6 +623,27 @@
 			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"],
 		"requiredTech": "Railroads",
 		"quote": "'She's run this watering hole for a thousand years. Maz is a bit of an acquired taste, so let me do the talking. And whatever you do, don't stare.' - Han Solo"
+	},
+	{
+		"name": "Theed Royal Palace",
+		"culture": 1,
+		"food": 1,
+		"happiness": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Artist": 2},
+		"uniques": ["Must be next to [River]","[-10]% Unhappiness from [Population] [in all non-occupied cities]", "[+1 Culture, +1 Happiness] from [River] tiles"],
+		"requiredTech": "Railroad",
+		"quote": "'The first time I saw the Capital, I was very young… I'd never seen a waterfall before. I thought they were so beautiful… I never dreamed one day I'd live in the palace.' - Padmé Amidala"
+	},
+	{
+		"name": "Daimyo's Palace",
+		"gold": 2,
+		"happiness": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["Must be next to [Desert]","[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>", "Gain a free [Castle] [in this city]"],
+		"requiredTech": "Railroad",
+		"quote": "'I have never seen a more sinister and depraved crowd. One would think the rest of the galaxy safe, what with every thug, debaucher, and scofflaw having gathered here.' - C3PO"
 	},
 	// Column 12
 	{
@@ -752,6 +744,18 @@
 		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [HoloNet Relay] [in all cities]"],
 		"requiredTech": "Telecommunications",
 		"quote": "'And it is because Republic HoloNet News goes into the homes of families like these that today nearly three hundred and twelve trillion citizens listen to our broadcast.' - Rule Davenbay"
+	},
+	{
+		"name": "Fortress Vader",
+		"culture": 1,
+		"science": 1,
+		"faith": 1,
+		"isWonder": true,
+		"cityStrength": 6,
+		"greatPersonPoints": {"Great General": 2},
+		"uniques": ["Gain a free [Temple] [in this city]", "[+15]% [Science] [in this city]", "[+20]% Strength <for [Land] units> <when fighting in [Friendly Land] tiles>"],
+		"requiredTech": "Telecommunications",
+		"quote": "'Constructed on top of a Sith cave on Mustafar—the lava-drenched world where Obi-Wan defeated his former apprentice and left him to die—this obsidian stronghold was where my father would go to meditate and heal between battles. The castle's unique shape was based on designs by an ancient Sith Lord, Momin, and was specifically attuned to the dark energies of that world for one purpose: to pierce the veil between life and death.' - Luke Skywalker"
 	},
 	{
 		"name": "Turbolaser Defense System",
