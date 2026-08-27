@@ -37,26 +37,7 @@
 		"hurryCostModifier": 25,
 		"requiredTech": "Hunting"
 	},
-	{
-		"name": "Granary",
-		"food": 2,
-		"maintenance": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["[+1 Food] from [Deer] tiles [in this city]",
-			"[+1 Food] from [Bananas] tiles [in this city]",
-			"[+1 Food] from [Wheat] tiles [in this city]"],
-		"requiredTech": "Ceramic"
-	},
 	// Column 2
-	{
-		"name": "Water Mill",
-		"maintenance": 2,
-		"food": 2,
-		"production": 1,
-		"hurryCostModifier": 25,
-		"uniques": ["Must be on [River]"],
-		"requiredTech": "Gunpowder"
-	},
 	{
 		"name": "Valley of Royalty",
 		"culture": 1,
@@ -132,18 +113,6 @@
 			"[+1] Sight <for [{Military} {Water}] units>", "Gain a free [Hyperspace Beacon] [in this city]"],
 		"requiredTech": "Hyperdrive",
 		"quote": "Belgoth's Beacon was a hyperspace beacon commissioned by Borte Belgoth in approximately 25,100 BBY. The satellite, one of the original beacons, was placed on the Perlemian Trade Route. Sculpted on the beacon were the faces of a Columi, cacodemon, and a molator from Alderaan. It was destroyed, however, during the Second Alsakan Conflict."
-	},
-	{
-		"name": "Stone Works",
-		"happiness": 1,
-		"production": 1,
-		"requiredNearbyImprovedResources": ["Marble", "Stone"],
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["Must not be on [Plains]",
-			"[+1 Production] from [Stone] tiles [in this city]",
-			"[+1 Production] from [Marble] tiles [in this city]"],
-		"requiredTech": "Calendar"
 	},
 	{
 		"name": "Ice Crypts",
@@ -254,14 +223,16 @@
 		"quote": "'The Star Forge is the glory of the Builders, the apex of their Infinite Empire. It is a machine of invincible might, a tool of unstoppable conquest.' - The Overseer"
 	},
 	{
-		"name": "Amphitheater",
+		"name": "Amphitheater of the Sith Eternal",
 		"culture": 3,
 		"specialistSlots": {"Artist": 1},
 		"requiredBuilding": "Monument",
 		"maintenance": 2,
 		"hurryCostModifier": 25,
+		"isWonder": true,
 		"uniques": ["Destroyed when the city is captured"],
 		"requiredTech": "Drama and Poetry"
+		"quote": "'I never wanted you dead. I wanted you here, Empress Palpatine. You will take the throne. It is your birthright to rule here. It is in your blood, our blood....' - Darth Sidious"
 	},
 	{
 		"name": "National Epic",
@@ -280,14 +251,6 @@
 		"requiredTech": "Currency"
 	},
 	{
-		"name": "Mint",
-		"maintenance": 0,
-		"requiredNearbyImprovedResources": ["Gold Ore", "Silver"],
-		"hurryCostModifier": 25,
-		"uniques": ["[+2 Gold] from [Gold Ore] tiles [in this city]", "[+2 Gold] from [Silver] tiles [in this city]"],
-		"requiredTech": "Currency"
-	},
-	{
 		"name": "Calius saj Leeloo",
 		"culture": 1,
 		"isWonder": true,
@@ -295,13 +258,6 @@
 		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] [in this city] <after discovering [Archaeology]>"],
 		"requiredTech": "Currency",
 		"quote": "'As it happens, Calius is one of the few places in Imperial space where I'm perfectly safe. The Berchestian governor and I have known each other for several years. More to the point, there are certain items important to him which only I can supply.' - Talon Karrde"
-	},
-	{
-		"name": "Aqueduct",
-		"maintenance": 1,
-		"hurryCostModifier": 0,
-		"uniques": ["[40]% Food is carried over after population increases [in this city]"],
-		"requiredTech": "Engineering"
 	},
 	{
 		"name": "Planetary Shield",
@@ -425,7 +381,7 @@
 	},
 	// Column 6
 	{
-		"name": "Harbor",
+		"name": "Spaceport",
 		"cost": 120,
 		"maintenance": 3,
 		"hurryCostModifier": 25,
@@ -831,6 +787,7 @@
 		"isNationalWonder": true,
 		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion", "Cannot be hurried"],
 		"requiredTech": "Heavy Weaponry"
+		"quote": "'My contacts have uncovered a source of Data Fragments abandoned by the Empire's old Advanced Weapons Research division, once directed by Orson Krennic.' - Kada Jahr"
 	},
 	{
 		"name": "Echo Base",
@@ -926,7 +883,7 @@
 		"culture": 1,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Globalization",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Unavailable <when number of [Ambassies] is less than [5]>","Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 
@@ -943,15 +900,6 @@
 	// Religious buildings
 
 	{
-		"name": "Cathedral",
-		"cost": 0,
-		"faith": 1,
-		"culture": 3,
-		"happiness": 1,
-		"specialistSlots": {"Artist": 1},
-		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
-	},
-	{
 		"name": "Monastery",
 		"cost": 0,
 		"culture": 2,
@@ -960,20 +908,4 @@
 			"[+1 Culture, +1 Faith] from [Incense] tiles [in this city]",
 			"Unbuildable", "Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
-	{
-		"name": "Mosque",
-		"cost": 0,
-		"culture": 2,
-		"faith": 3,
-		"happiness": 1,
-		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
-	},
-	{
-		"name": "Pagoda",
-		"cost": 0,
-		"culture": 2,
-		"faith": 2,
-		"happiness": 2,
-		"uniques": ["Unbuildable", "Only available <when religion is enabled>"]
-	}
 ]
