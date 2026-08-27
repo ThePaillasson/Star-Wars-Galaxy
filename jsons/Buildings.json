@@ -255,7 +255,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "Gain a free [Amphitheater] [in this city]", "[+6 Culture] [in this city] <after discovering [Archaeology]>"],
+		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "[+6 Culture] [in this city] <after discovering [Archaeology]>"],
 		"requiredTech": "Currency",
 		"quote": "'As it happens, Calius is one of the few places in Imperial space where I'm perfectly safe. The Berchestian governor and I have known each other for several years. More to the point, there are certain items important to him which only I can supply.' - Talon Karrde"
 	},
@@ -472,7 +472,6 @@
 		"culture": 4,
 		"specialistSlots": {"Artist": 1},
 		"hurryCostModifier": 10,
-		"requiredBuilding": "Amphitheater",
 		"maintenance": 2,
 		"requiredTech": "Acoustics",
 		"uniques": ["Destroyed when the city is captured"]
@@ -495,14 +494,6 @@
 		"requiredBuilding": "Market",
 		"requiredTech": "Banking"
 	},
-    {
-        "name": "Constabulary",
-        "cost": 160,
-        "maintenance": 1,
-        "hurryCostModifier": 10,
-        "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
-        "requiredTech": "Banking"
-    },
 	{
 		"name": "Theed Royal Palace",
 		"culture": 1,
@@ -511,14 +502,6 @@
 		"uniques": ["[-10]% Unhappiness from [Population] [in all non-occupied cities]"],
 		"requiredTech": "Banking",
 		"quote": "'The first time I saw the Capital, I was very young… I'd never seen a waterfall before. I thought they were so beautiful… I never dreamed one day I'd live in the palace.' - Padmé Amidala"
-	},
-	{
-		"name": "Theatre",
-		"happiness": 3,
-		"hurryCostModifier": 10,
-		"maintenance": 2,
-		"requiredBuilding": "Arena",
-		"requiredTech": "Printing Press"
 	},
 	{
 		"name": "Eternal Throne",
@@ -541,7 +524,7 @@
 	},
 	// Column 8
 	{
-		"name": "Seaport",
+		"name": "Shipyard",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
 		"requiredBuilding": "Harbor",
@@ -567,15 +550,6 @@
 		"uniques": ["Free [Great Scientist] appears","Science gained from research agreements [+50]%"],
 		"requiredTech": "Architecture",
 		"quote": "The Shawken Spire was a skyscraper located on the planet Shawken. Construction of the Spire took over nine millennia to complete, by which time the skyscraper had reached a low-orbit altitude. The Spire became a popular Core Worlds tourist attraction before its destruction in 18,780 BBY."
-	},
-	{
-		"name": "Windmill",
-		"production": 2,
-		"specialistSlots": {"Engineer": 1},
-		"hurryCostModifier": 25,
-		"maintenance": 2,
-		"uniques": ["Must not be on [Hill]", "[+10]% Production when constructing [All] buildings [in this city]"],
-		"requiredTech": "Economics"
 	},
 	{
 		"name": "Arsenal",
@@ -621,16 +595,6 @@
 		"quote": "'There is more knowledge here than anywhere else in the galaxy.' - Jocasta Nu"
 	},
 	{
-		"name": "Public School",
-		"science": 3,
-		"specialistSlots": {"Scientist": 1},
-		"requiredBuilding": "University",
-		"maintenance": 3,
-		"hurryCostModifier": 0,
-		"uniques": ["[+1 Science] per [2] population [in this city]"],
-		"requiredTech": "Scientific Theory"
-	},
-	{
 		"name": "Factory",
 		"cost": 360,
 		"production": 4,
@@ -641,6 +605,16 @@
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
 		"requiredTech": "Industrialization"
+	},
+	{
+		"name": "Weapons Factory Alpha",
+		"culture": 1,
+		"gold": 4,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"uniques": ["[Gold] cost of purchasing items in cities [-15]%"],
+		"requiredTech": "Industrialization",
+		"quote": "'This is the largest weapons factory in the galaxy, one that runs nonstop, day and night. All fully automated.' - Aggadeen, the Overseer of Weapons Factory Alpha"
 	},
 	{
 		"name": "Fortress Inquisitorius",
@@ -662,9 +636,8 @@
 	},
 	// Column 10
 	{
-		"name": "Hospital",
+		"name": "Medcenter",
 		"food": 5,
-		"requiredBuilding": "Aqueduct",
 		"maintenance": 2,
 		"hurryCostModifier": 0,
 		"requiredTech": "Biology"
@@ -678,21 +651,12 @@
 		"requiredBuilding": "Bank",
 		"requiredTech": "Electricity"
 	},
-	{
-		"name": "Hydro Plant",
-		"requiredResource": "Aluminum",
-		"hurryCostModifier": 0,
-		"maintenance": 3,
-		"uniques": ["Must be on [River]","[+1 Production] from [River] tiles [in this city]"],
-		"requiredTech": "Electricity"
-	},
     {
         "name": "Police Station",
         "cost": 300,
         "maintenance": 1,
         "hurryCostModifier": 10,
         "uniques": ["Only available <when espionage is enabled>", "[-25]% enemy spy effectiveness [in this city]"],
-        "requiredBuilding": "Constabulary",
         "requiredTech": "Electricity"
     },
 
@@ -700,14 +664,20 @@
 
 	// Column 11
 	{
-		"name": "Stadium",
+		"name": "Podracing Circuit",
 		"happiness": 4,
-		"requiredBuilding": "Theatre",
 		"maintenance": 2,
 		"requiredTech": "Refrigeration"
 	},
 	{
-		"name": "Broadcast Tower",
+		"name": "Boonta Eve Classic",
+		"happiness": 4,
+		"maintenance": 2,
+		"isWonder": true,
+		"requiredTech": "Refrigeration"
+	},
+	{
+		"name": "HoloNet Relay",
 		"culture": 3,
 		"percentStatBonus": {"culture": 33},
 		"requiredBuilding": "Museum",
@@ -762,11 +732,10 @@
 	},
 	// Column 12
 	{
-		"name": "Research Lab",
+		"name": "Laboratory",
 		"science": 4,
 		"percentStatBonus": {"science": 50},
 		"specialistSlots": {"Scientist": 1},
-		"requiredBuilding": "Public School",
 		"maintenance": 3,
 		"requiredTech": "Plastics"
 	},
@@ -857,14 +826,14 @@
 			"Only available <when nuclear weapons are enabled> <hidden from users>"]
 	},
 	{
-		"name": "Hubble Space Telescope",
+		"name": "II-0810 Satellite Station",
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
 		"uniques": ["[2] free [Great Scientist] units appear",
 			"[+25]% Production when constructing [Spaceship part] units [in this city]",
 			"Gain a free [Spaceship Factory] [in this city]"],
 		"requiredTech": "Satellites",
-		"quote": "'The wonder is, not that the field of stars is so vast, but that man has measured it.' - Anatole France"
+		"quote": "'This base's location is well-hidden. These asteroids are natural scanners blockers. And the base itself is highly-defensible.' - ISB Officer"
 	},
 	{
 		"name": "Spaceship Factory",
