@@ -214,15 +214,6 @@
 		"requiredTech": "Currency"
 	},
 	{
-		"name": "Alsakan Mosaics",
-		"culture": 1,
-		"greatPersonPoints": {"Great Artist": 1},
-		"isWonder": true,
-		"uniques": ["[+2 Culture] from [Marble] tiles [in this city]", "[+2 Culture] from [Stone] tiles [in this city]"],
-		"requiredTech": "Engineering",
-		"quote": "The Alsakan Mosaics were a mountain-scale mosaic that was at one point located on the planet Alsakan. Originally sprawlling from the central square of Rucapar, the mosaics were five lanes of tile that reached to five equidistant mountains. Only traces survived the Third Alsakan Conflict."
-	},
-	{
 		"name": "Heroic Epic",
 		"cost": 125,
 		"culture": 1,
