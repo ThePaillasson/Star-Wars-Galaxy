@@ -361,23 +361,23 @@ BuildingIcons/HoloNet News
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Hubble Space Telescope
-  rotate: false
-  xy: 976, 1084
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Hydro Plant
   rotate: false
-  xy: 1408, 1084
+  xy: 1300, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Hyperspace Beacon
   rotate: false
-  xy: 1624, 1084
+  xy: 1516, 1084
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/II-0810 Satellite Station
+  rotate: false
+  xy: 1840, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -1469,35 +1469,35 @@ UnitIcons/Horse Archer
   index: -1
 UnitIcons/Hussar
   rotate: false
-  xy: 1192, 1084
+  xy: 976, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hwach'a
   rotate: false
-  xy: 1300, 1084
+  xy: 1192, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Hyena-class Droid Bomber
   rotate: false
-  xy: 1516, 1084
+  xy: 1408, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/IG-227 Hailfire-class Droid Tank
   rotate: false
-  xy: 1732, 1084
+  xy: 1624, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/IG-series Assassin Droid
   rotate: false
-  xy: 1840, 1084
+  xy: 1732, 1084
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
