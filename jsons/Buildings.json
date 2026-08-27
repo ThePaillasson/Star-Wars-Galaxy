@@ -527,7 +527,7 @@
 		"name": "Shipyard",
 		"hurryCostModifier": 25,
 		"maintenance": 2,
-		"requiredBuilding": "Harbor",
+		"requiredBuilding": "Spaceport",
 		"uniques": ["[+1 Production, +1 Gold] from [Water resource] tiles [in this city]",
 			"Must be next to [Coast]", "[+15]% Production when constructing [Water] units [in this city]"],
 		"requiredTech": "Navigation"
@@ -744,11 +744,29 @@
 
 	// Column 13
 	{
-		"name": "Medical Lab",
-		"requiredBuilding": "Hospital",
+		"name": "Droid Factory",
+		"requiredBuilding": "Factory",
 		"maintenance": 3,
 		"requiredTech": "Standardization",
 		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
+	},
+	{
+		"name": "Cloning Facility",
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Standardization",
+		"uniqueTo": "Galactic Empire",
+		"replaces": "Droid Factory",
+		"uniques": ["[25]% Food is carried over after population increases [in this city]"]
+	},
+	{
+		"name": "Cloning Facility Jedi",
+		"requiredBuilding": "Factory",
+		"maintenance": 3,
+		"requiredTech": "Standardization",
+		"uniqueTo": "Jedi Order",
+		"replaces": "Droid Factory",
+		"uniques": ["[25]% Food is carried over after population increases [in this city]", "Will not be displayed in Civilopedia"]
 	},
 	{
 		"name": "Tarkin Initiative",
@@ -769,22 +787,7 @@
 	},
 	// Column 14
 	{
-		"name": "Solar Plant",
-		"production": 5,
-		"percentStatBonus": {"production": 15},
-		"requiredBuilding": "Factory",
-		"maintenance": 3,
-		"requiredTech": "Ecology",
-		"uniques": ["Must be next to [Desert]", "Only available <in cities without a [Nuclear Plant]>"]
-	},
-	{
-		"name": "Recycling Center",
-		"maintenance": 3,
-		"requiredTech": "Ecology",
-		"uniques": ["Provides [2] [Aluminum]","Limited to [5] per Civilization"]
-	},
-	{
-		"name": "Nuclear Plant",
+		"name": "Power Generator",
 		"production": 5,
 		"percentStatBonus": {"production": 15},
 		"requiredBuilding": "Factory",
@@ -817,7 +820,7 @@
 		"quote": "'And it is because Republic HoloNet News goes into the homes of families like these that today nearly three hundred and twelve trillion citizens listen to our broadcast.' - Rule Davenbay"
 	},
 	{
-		"name": "Bomb Shelter",
+		"name": "Turbolaser Defense System",
 		"cost": 300,
 		"maintenance": 1,
 		"requiredTech": "Telecommunications",
