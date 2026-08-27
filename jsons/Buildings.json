@@ -31,23 +31,31 @@
 		"uniques": ["Only available <when religion is enabled>"]
 	},
 	{
+		"name": "Calius saj Leeloo",
+		"culture": 1,
+		"isWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["Must be next to [Mountain]", "[+1 Food, +1 Production, +1 Gold] from [Mountain] tiles", "[+6 Gold] [in this city] <after discovering [Navigation]>"],
+		"requiredTech": "Mining",
+		"quote": "'As it happens, Calius is one of the few places in Imperial space where I'm perfectly safe. The Berchestian governor and I have known each other for several years. More to the point, there are certain items important to him which only I can supply.' - Talon Karrde"
+	},
+	{
 		"name": "Circus",
 		"requiredNearbyImprovedResources": ["Ivory","Horses"],
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Hunting"
 	},
-	// Column 2
 	{
-		"name": "Valley of Royalty",
-		"culture": 1,
+		"name": "Star Forge",
+		"production": 4,
+		"greatPersonPoints": {"Great General": 1},
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
-        "uniques": ["[+10]% [Food] [in all cities]", "[+15]% Production when constructing [Ranged Infantry] units [in this city]",
-            "[+15]% Production when constructing [Ranged Infantry] units [in this city]"],
-		"requiredTech": "Gunpowder",
-		"quote": "The Valley of Royalty was an ancient valley on Duro where the Duros buried many of their most celebrated rulers who championed space exploration, including Rana Mas Trehalt. There were many secret catacombs and caves in the Valley, hiding a wealth of both historical information and valuables."
+		"uniques": ["[+35]% Production when constructing [Water] units [in this city]", "[+25]% Production when constructing [Air] units [in this city]"],
+		"requiredTech": "Force-drive",
+		"quote": "'The Star Forge is the glory of the Builders, the apex of their Infinite Empire. It is a machine of invincible might, a tool of unstoppable conquest.' - The Overseer"
 	},
+	// Column 2
 	{
 		"name": "Walls",
 		"cityStrength": 5,
@@ -57,23 +65,14 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "Dawn Pyramid of Aargau",
+		"name": "Petranaki Arena",
+		"cost": 125,
+		"happiness": 5,
 		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isWonder": true,
-		"uniques": ["Can build [all] improvements at a [+25]% rate","[2] free [Worker] units appear"],
-		"requiredTech": "Masonry",
-		"quote": "The Dawn Pyramid of Aargau was a large structure on the planet Aargau that was built by a species called the Sharu. Like other constructions of their civilization, the pyramid was made of indestructible, iridescent plastic."
-	},
-	{
-		"name": "Alsakan Mosaics",
-		"culture": 1,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
-		"uniques": ["Gain [100] [Gold] <upon expending a [Great Person] unit> <(modified by game speed)>",
-			"[+2 Gold] from [Marble] tiles [in this city]", "[+2 Gold] from [Stone] tiles [in this city]"],
-		"requiredTech": "Masonry",
-		"quote": "The Alsakan Mosaics were a mountain-scale mosaic that was at one point located on the planet Alsakan. Originally sprawlling from the central square of Rucapar, the mosaics were five lanes of tile that reached to five equidistant mountains. Only traces survived the Third Alsakan Conflict."
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Circus] is constructed in all [non-[Puppeted]] cities>", "Gain a free [Arena] [in this city]", "[+1 Happiness] from [Horses] tiles [in this city]"],
+		"requiredTech": "Masonry"
+		"quote": "'The felons before you have been convicted of espionage against the Sovereign System of Geonosis. Their sentence of death is to be carried out in this arena immediately!' - Sun Fac"
 	},
 	{
 		"name": "Barracks",
@@ -83,12 +82,13 @@
 		"requiredTech": "Bronze Working"
 	},
 	{
-		"name": "Caliginous Automaton of Tomo-Reth",
-		"culture": 1,
+		"name": "Brass Soldiers of Axum",
+		"culture": 6,
 		"isWonder": true,
-		"uniques": ["[+15]% Strength <for [All] units> <vs cities> <when attacking>"],
+		"greatPersonPoints": {"Great General": 1},
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points [in this city]"],
 		"requiredTech": "Bronze Working",
-		"quote": "The Caliginous Automaton of Tomo-Reth was a tall droid that, during the Kymoodon Era, sat upon a brick throne at the celestial body Tomo-Reth and breathed fire at visitors. It was destroyed during the Herglic Crush of 14,743 BBY."
+		"quote": "The Brass Soldiers of Axum were a mysterious collection of thirty-five thousand statues of soldiers. They were cast in solid brass and depicted the soldiers with expressions of pain and terror. According to legend, the statues originated as an actual pre-Republic army that was transmuted into brass via magic."
 	},
 
 	// Expansion Period
@@ -100,7 +100,7 @@
 		"hurryCostModifier": 25,
 		"maintenance": 1,
 		"uniques": ["Must be next to [Coast]", "[+1 Food] from [Ocean] tiles [in this city]",
-			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]" ],
+			"[+1 Food] from [Coast] tiles [in this city]", "[+1 Food] from [Fish] tiles [in this city]"],
 		"requiredTech": "Hyperdrive"
 	},
 	{
@@ -115,12 +115,14 @@
 		"quote": "Belgoth's Beacon was a hyperspace beacon commissioned by Borte Belgoth in approximately 25,100 BBY. The satellite, one of the original beacons, was placed on the Perlemian Trade Route. Sculpted on the beacon were the faces of a Columi, cacodemon, and a molator from Alderaan. It was destroyed, however, during the Second Alsakan Conflict."
 	},
 	{
-		"name": "Ice Crypts",
-		"faith": 5,
+		"name": "Valley of Royalty",
+		"culture": 1,
+		"science": 1,
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"requiredTech": "Calendar",
-		"quote": "The Ice Crypts were a network of subterranean caves in the glaciers several hundred meters beneath the Hasamadhi warehouse district, near the south pole of Coruscant."
+		"greatPersonPoints": {"Great Scientist": 1},
+        "uniques": ["[+10]% [Science] [in all cities]", "[+15]% Production when constructing [Water] units [in this city]"],
+		"requiredTech": "Hyperdrive",
+		"quote": "The Valley of Royalty was an ancient valley on Duro where the Duros buried many of their most celebrated rulers who championed space exploration, including Rana Mas Trehalt. There were many secret catacombs and caves in the Valley, hiding a wealth of both historical information and valuables."
 	},
 	{
 		"name": "Library",
@@ -151,16 +153,6 @@
 		"requiredTech": "Horseback Riding"
 	},
 	{
-		"name": "Petranaki Arena",
-		"cost": 125,
-		"happiness": 5,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Only available <if [Arena] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
-		"requiredTech": "Horseback Riding"
-		"quote": "'The felons before you have been convicted of espionage against the Sovereign System of Geonosis. Their sentence of death is to be carried out in this arena immediately!' - Sun Fac"
-	},
-	{
 		"name": "Courthouse",
 		"maintenance": 4,
 		"hurryCostModifier": 50,
@@ -171,8 +163,8 @@
 	{
 		"name": "Forbidden Gardens of Nuswatta",
 		"greatPersonPoints": {"Great Artist": 1},
-		"food": 6,
-		"culture": 1,
+		"food": 5,
+		"culture": 2,
 		"isWonder": true,
 		"requiredTech": "Mathematics",
 		"uniques": ["Gain a free [Garden] [in this city]"],
@@ -184,14 +176,6 @@
 		"happiness": 2,
 		"hurryCostModifier": 25,
 		"requiredTech": "Beam-tube"
-	},
-	{
-		"name": "Brass Soldiers of Axum",
-		"culture": 6,
-		"isWonder": true,
-		"greatPersonPoints": {"Great Artist": 1},
-		"requiredTech": "Beam-tube",
-		"quote": "The Brass Soldiers of Axum were a mysterious collection of thirty-five thousand statues of soldiers. They were cast in solid brass and depicted the soldiers with expressions of pain and terror. According to legend, the statues originated as an actual pre-Republic army that was transmuted into brass via magic."
 	},
 	// Column 4
 	{
@@ -214,27 +198,6 @@
 		"requiredTech": "Philosophy"
 	},
 	{
-		"name": "Star Forge",
-		"culture": 3,
-		"greatPersonPoints": {"Great Scientist": 1},
-		"isWonder": true,
-		"uniques": ["Free Social Policy"],
-		"requiredTech": "Philosophy",
-		"quote": "'The Star Forge is the glory of the Builders, the apex of their Infinite Empire. It is a machine of invincible might, a tool of unstoppable conquest.' - The Overseer"
-	},
-	{
-		"name": "Amphitheater of the Sith Eternal",
-		"culture": 3,
-		"specialistSlots": {"Artist": 1},
-		"requiredBuilding": "Monument",
-		"maintenance": 2,
-		"hurryCostModifier": 25,
-		"isWonder": true,
-		"uniques": ["Destroyed when the city is captured"],
-		"requiredTech": "Drama and Poetry"
-		"quote": "'I never wanted you dead. I wanted you here, Empress Palpatine. You will take the throne. It is your birthright to rule here. It is in your blood, our blood....' - Darth Sidious"
-	},
-	{
 		"name": "National Epic",
 		"cost": 125,
 		"culture": 1,
@@ -251,23 +214,13 @@
 		"requiredTech": "Currency"
 	},
 	{
-		"name": "Calius saj Leeloo",
+		"name": "Alsakan Mosaics",
 		"culture": 1,
+		"greatPersonPoints": {"Great Artist": 1},
 		"isWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [Desert]", "[+1 Food, +1 Production, +1 Gold] from [Desert] tiles without [Flood plains] [in this city]", "[+6 Culture] [in this city] <after discovering [Archaeology]>"],
-		"requiredTech": "Currency",
-		"quote": "'As it happens, Calius is one of the few places in Imperial space where I'm perfectly safe. The Berchestian governor and I have known each other for several years. More to the point, there are certain items important to him which only I can supply.' - Talon Karrde"
-	},
-	{
-		"name": "Planetary Shield",
-		"culture": 3,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isWonder": true,
-		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory <before discovering [Personnal shielding]> <Suppress warning [*contains a conditional on a unit movement unique*]>",
-			"Gain a free [Walls] [in this city]"],
+		"uniques": ["[+2 Culture] from [Marble] tiles [in this city]", "[+2 Culture] from [Stone] tiles [in this city]"],
 		"requiredTech": "Engineering",
-		"quote": "'There's a planet-wide defensive shield with a single main entry gate.' - Bodhi Rook"
+		"quote": "The Alsakan Mosaics were a mountain-scale mosaic that was at one point located on the planet Alsakan. Originally sprawlling from the central square of Rucapar, the mosaics were five lanes of tile that reached to five equidistant mountains. Only traces survived the Third Alsakan Conflict."
 	},
 	{
 		"name": "Heroic Epic",
@@ -279,15 +232,12 @@
 		"requiredTech": "Iron Working"
 	},
 	{
-		"name": "Statue of Xim",
-		"cost": 185,
+		"name": "Caliginous Automaton of Tomo-Reth",
 		"culture": 1,
-		"gold": 5,
-		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["Must be next to [Coast]", "[+1 Gold] from [Water] tiles [in this city]"],
+		"uniques": ["[+15]% Strength <for [All] units> <when defending>"],
 		"requiredTech": "Iron Working",
-		"quote": "The Statue of Xim was a large metal and stone sculpture of the tyrant Xim the Despot on the planet of Desevro. It originally stood one hundred meters high and contained treasure chambers that had protective traps to fend off looters. During the end of Xim's reign, it was toppled by a groundquake."
+		"quote": "The Caliginous Automaton of Tomo-Reth was a tall droid that, during the Kymoodon Era, sat upon a brick throne at the celestial body Tomo-Reth and breathed fire at visitors. It was destroyed during the Herglic Crush of 14,743 BBY."
 	},
 
 	// Ductavis Era
@@ -576,6 +526,15 @@
 
 	// Column 9
 	{
+		"name": "Planetary Shield",
+		"culture": 3,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"isWonder": true,
+		"uniques": ["[+25]% City Strength from defensive buildings", "Enemy units must spend [1] extra movement points when inside your territory"],
+		"requiredTech": "Archaeology",
+		"quote": "'There's a planet-wide defensive shield with a single main entry gate.' - Bodhi Rook"
+	},
+	{
 		"name": "Museum",
 		"culture": 5,
 		"specialistSlots": {"Artist": 2},
@@ -852,11 +811,24 @@
 	{
 		"name": "Galactic Alliance",
 		"isWonder": true,
-		"culture": 1,
+		"culture": 2,
 		"greatPersonPoints": {"Great Merchant": 2},
 		"requiredTech": "Globalization",
 		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+	},
+	// Column 17
+	{
+		"name": "Amphitheater of the Sith Eternal",
+		"faith": 3,
+		"greatPersonPoints": {"Great Prophet": 3},
+		"requiredBuilding": "Monument",
+		"maintenance": 2,
+		"hurryCostModifier": 25,
+		"isWonder": true,
+		"uniques": ["[+15]% Strength <for [Force User] units>"],
+		"requiredTech": "Future Tech"
+		"quote": "'I never wanted you dead. I wanted you here, Empress Palpatine. You will take the throne. It is your birthright to rule here. It is in your blood, our blood....' - Darth Sidious"
 	},
 
 	// All Eras
