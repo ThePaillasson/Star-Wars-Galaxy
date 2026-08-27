@@ -295,10 +295,11 @@
 	{
 		"name": "Crevasse City",
 		"gold": 5,
-		"faith": 2,
+		"culture": 2,
+		"production": 1,
 		"greatPersonPoints": {"Great Merchant": 1},
 		"isWonder": true,
-		"uniques": ["[+25]% [Gold] from Trade Routes", "Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"],
+		"uniques": ["Must have an owned [Iron] within [2] tiles"],
 		"requiredTech": "Guilds",
 		"quote": "Crevasse City was a city on Alderaan. It was seen as the epitome of Alderaanian culture, noted for its spectacular beauty, as it balanced between nature and urbanization in a beautiful blend."
 	},
