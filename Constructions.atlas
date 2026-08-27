@@ -536,84 +536,84 @@ BuildingIcons/National Epic
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Nuclear Plant
-  rotate: false
-  xy: 868, 614
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Observatory
   rotate: false
-  xy: 1192, 938
+  xy: 1084, 830
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Opera House
   rotate: false
-  xy: 544, 182
+  xy: 1300, 1046
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Outbound Flight Project
   rotate: false
-  xy: 652, 290
+  xy: 544, 182
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Oxford University
   rotate: false
-  xy: 760, 398
+  xy: 652, 290
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Pagoda
   rotate: false
-  xy: 868, 506
+  xy: 760, 398
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Palace
   rotate: false
-  xy: 976, 614
+  xy: 868, 506
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Paper Maker
   rotate: false
-  xy: 1084, 722
+  xy: 976, 614
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Petranaki Arena
   rotate: false
-  xy: 760, 290
+  xy: 652, 182
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Planetary Shield
   rotate: false
-  xy: 976, 506
+  xy: 868, 398
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Podracing Circuit
   rotate: false
-  xy: 1084, 614
+  xy: 976, 506
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Police Station
+  rotate: false
+  xy: 1084, 614
+  size: 100, 100
+  orig: 100, 100
+  offset: 0, 0
+  index: -1
+BuildingIcons/Power Generator
   rotate: false
   xy: 1192, 722
   size: 100, 100
@@ -1770,56 +1770,56 @@ UnitIcons/Nuclear Missile
   index: -1
 UnitIcons/Nuclear Submarine
   rotate: false
-  xy: 976, 722
+  xy: 868, 614
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/OG-9 Homing Spider Droid
   rotate: false
-  xy: 1084, 830
+  xy: 976, 722
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Octuptarra Combat Tri-Droid
   rotate: false
-  xy: 1300, 1046
+  xy: 1192, 938
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Paratrooper
   rotate: false
-  xy: 1192, 830
+  xy: 1084, 722
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Peacekeeper
   rotate: false
-  xy: 1300, 938
+  xy: 1192, 830
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Pelta-class Frigate
   rotate: false
-  xy: 544, 74
+  xy: 1300, 938
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Persian Immortal
   rotate: false
-  xy: 652, 182
+  xy: 544, 74
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Planetary Defense Force
   rotate: false
-  xy: 868, 398
+  xy: 760, 290
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
