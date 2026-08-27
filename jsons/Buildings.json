@@ -125,6 +125,27 @@
 		"quote": "The Valley of Royalty was an ancient valley on Duro where the Duros buried many of their most celebrated rulers who championed space exploration, including Rana Mas Trehalt. There were many secret catacombs and caves in the Valley, hiding a wealth of both historical information and valuables."
 	},
 	{
+		"name": "Space City",
+		"science": 2,
+		"culture": 2,
+		"greatPersonPoints": {"Great Scientist": 1},
+		"isWonder": true,
+		"uniques": ["Gain a free [Spaceport] [in this city]"],
+		"requiredTech": "Hyperdrive",
+		"quote": "'According to legend, the Jedi Knights built the space station Nespis 8 as a meeting place for scientists from across the galaxy. The station was devoted to knowledge and learning, and it was considered neutral territory. Even if two planets were involved in a brutal war, their scientists could come to Nespis to do research. As knowledge grew, so did the station, until it was supposed to have grown to the size of a small planet.' - DV-9"
+	},
+	{
+		"name": "Tract of Makem Te",
+		"culture": 1,
+		"faith": 1,
+		"happiness": 1,
+		"greatPersonPoints": {"Great Artist": 1},
+		"isWonder": true,
+		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
+		"requiredTech": "Calendar",
+		"quote": "The Tract of Makem Te was a large graveyard located on Makem Te that covered much of a continent on the planet. It was originally mistaken for an ice cap."
+	},
+	{
 		"name": "Library",
 		"hurryCostModifier": 25,
 		"maintenance": 1,
@@ -242,57 +263,6 @@
 		"requiredTech": "Theology"
 	},
 	{
-		"name": "Space City",
-		"faith": 3,
-		"greatPersonPoints": {"Great Artist": 1},
-		"isWonder": true,
-		"uniques": ["Gain a free [Temple] [in this city]", "Free [Great Prophet] appears", "Only available <when religion is enabled>"],
-		"requiredTech": "Theology",
-		"quote": "'According to legend, the Jedi Knights built the space station Nespis 8 as a meeting place for scientists from across the galaxy. The station was devoted to knowledge and learning, and it was considered neutral territory. Even if two planets were involved in a brutal war, their scientists could come to Nespis to do research. As knowledge grew, so did the station, until it was supposed to have grown to the size of a small planet.' - DV-9"
-	},
-	{
-		"name": "Esraza Temple",
-		"culture": 1,
-		"faith": 3,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isWonder": true,
-		"uniques": ["Gain a free [Temple] [in this city]", "Only available <when religion is enabled>",
-            "All newly-trained [Missionary] units [in this city] receive the [Devout] promotion",
-            "All newly-trained [Great Prophet] units [in this city] receive the [Devout] promotion"],
-		"requiredTech": "Theology",
-		"quote": "The Esraza Temple was located on the celestial body Oligtaz in the Southern Core portion of the Core Worlds. It was known to the wider galaxy by 10,000 BBY. Early explorers described the structure as a reality-warping nexus that granted visitors the abilities of teleportation and farseeing."
-	},
-	{
-		"name": "Great Temple",
-		"cost": 125,
-		"culture": 1,
-		"faith": 8,
-		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
-			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>", "Can only be built <in [Holy] cities>"],
-		"requiredTech": "Theology",
-		"isNationalWonder": true
-		"quote": "'The most famous of the Jedi temples, located on Coruscant, served as the home of the Jedi High Council and the vast library of data known as the Jedi Archives.' - Luke Skywalker"
-	},
-	{
-		"name": "Massassi Temple",
-		"culture": 1,
-		"happiness": 4,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isWonder": true,
-		"uniques": ["[+50]% Golden Age length"],
-		"requiredTech": "Civil Service",
-		"quote": "'These temples were built by the Massassi race thousands of years ago, and they're still standing. Hard to believe.' - Leia Organa"
-	},
-	{
-		"name": "Main Vault",
-		"cost": 125,
-		"gold": 8,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Only available <if [Market] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
-		"requiredTech": "Guilds"
-	},
-	{
 		"name": "Crevasse City",
 		"gold": 5,
 		"culture": 2,
@@ -342,15 +312,6 @@
 		"requiredTech": "Education"
 	},
 	{
-		"name": "Tract of Makem Te",
-		"culture": 1,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"isWonder": true,
-		"uniques": ["[-25]% Culture cost of natural border growth [in all cities]","[-25]% Gold cost of acquiring tiles [in all cities]"],
-		"requiredTech": "Education",
-		"quote": "The Tract of Makem Te was a large graveyard located on Makem Te that covered much of a continent on the planet. It was originally mistaken for an ice cap."
-	},
-	{
 		"name": "Castle",
 		"cityStrength": 7,
 		"cityHealth": 25,
@@ -358,26 +319,6 @@
 		"requiredBuilding": "Walls",
 		"requiredTech": "Chivalry",
 		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
-		"name": "The Ark of Baron Auletphant",
-		"culture": 1,
-		"greatPersonPoints": {"Great Artist": 1},
-		"isWonder": true,
-		"percentStatBonus": {"culture": 20},
-		"uniques": ["All newly-trained [relevant] units [in this city] receive the [Drill I] promotion",
-			"Gain a free [Castle] [in this city]"],
-		"requiredTech": "Chivalry",
-		"quote": "The Ark of Baron Auletphant was an interstellar barge. It was golden and was inlaid with rose and azure mytag crystals. Commissioned more than ten thousand years prior to 520 BBY, the Ark of Baron Auletphant traveled for a century between far-flung worlds. There, the vessel collected specimens of aquatic life."
-	},
-	{
-		"name": "Primary Droid Foundry",
-		"cost": 125,
-		"production": 8,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Only available <if [Workshop] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
-		"requiredTech": "Machinery"
 	},
 	{
 		"name": "Halls of Knowledge",
@@ -434,6 +375,15 @@
 		"hurryCostModifier": 15,
 		"percentStatBonus": {"gold": 25},
 		"requiredBuilding": "Market",
+		"requiredTech": "Banking"
+	},
+	{
+		"name": "Main Vault",
+		"cost": 125,
+		"gold": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Bank] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Banking"
 	},
 	{
@@ -568,6 +518,28 @@
 		"quote": "'This is the largest weapons factory in the galaxy, one that runs nonstop, day and night. All fully automated.' - Aggadeen, the Overseer of Weapons Factory Alpha"
 	},
 	{
+		"name": "Great Temple",
+		"cost": 125,
+		"culture": 1,
+		"faith": 8,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"uniques": ["Only available <if [Temple] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city",
+			"[+100]% Natural religion spread [in this city]", "Only available <when religion is enabled>"],
+		"requiredTech": "Lightsaber",
+		"isNationalWonder": true
+		"quote": "'The most famous of the Jedi temples, located on Coruscant, served as the home of the Jedi High Council and the vast library of data known as the Jedi Archives.' - Luke Skywalker"
+	},
+	{
+		"name": "Massassi Temple",
+		"culture": 1,
+		"faith": 5,
+		"greatPersonPoints": {"Great Prophet": 1},
+		"isWonder": true,
+		"uniques": ["All newly-trained [Force user] units [in this city] receive the [Morale] promotion", "Gain a free [Temple] [in this city]","[+50]% Natural religion spread [in this city]", "[+50]% Golden Age length", "Only available <when religion is enabled>"],
+		"requiredTech": "Lightsaber",
+		"quote": "'These temples were built by the Massassi race thousands of years ago, and they're still standing. Hard to believe.' - Leia Organa"
+	},
+	{
 		"name": "Fortress Inquisitorius",
 		"culture": 1,
 		"gold": 4,
@@ -654,7 +626,7 @@
         "uniques": ["Only available <when espionage is enabled>",
             "New spies start with [1] level(s)",
             "Promotes all spies [1] time(s)",
-            "Gain an extra spy", // Order is significant here
+            "Gain an extra spy",
 			"[-15]% enemy spy effectiveness [in this city]",
 			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"],
@@ -720,9 +692,20 @@
 		"uniques": ["[25]% Food is carried over after population increases [in this city]", "Will not be displayed in Civilopedia"]
 	},
 	{
+		"name": "Primary Droid Foundry",
+		"cost": 125,
+		"production": 8,
+		"culture": 1,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["Only available <if [Droid factory] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Standardization"
+	},
+	{
 		"name": "Tarkin Initiative",
 		"cost": 750,
 		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
 		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion", "Cannot be hurried"],
 		"requiredTech": "Heavy Weaponry"
 		"quote": "'My contacts have uncovered a source of Data Fragments abandoned by the Empire's old Advanced Weapons Research division, once directed by Orson Krennic.' - Kada Jahr"
@@ -731,7 +714,7 @@
 		"name": "Echo Base",
 		"isWonder": true,
 		"culture": 3,
-		"greatPersonPoints": {"Great Engineer": 2},
+		"greatPersonPoints": {"Great Admiral": 2},
 		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
 		"requiredTech": "Combined Arms",
 		"quote": "'Now let's get you warmer and then to work. It never gets comfortable here, and you don't quite get used to it, but there are ways to make it livable.' - General Philap Bygar"
