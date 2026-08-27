@@ -35,7 +35,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Must be next to [{non-[Natural Wonder]} {Mountain}]", "[+1 Food, +1 Production, +1 Gold] from [{non-[Natural Wonder]} {Mountain}] tiles", "[+6 Gold] [in this city] <after discovering [Navigation]>"],
+		"uniques": ["Must be next to [Mountain]", "[+1 Food, +1 Production, +1 Gold] from [Hill] tiles", "[+6 Gold] [in this city] <after discovering [Navigation]>"],
 		"requiredTech": "Mining",
 		"quote": "'As it happens, Calius is one of the few places in Imperial space where I'm perfectly safe. The Berchestian governor and I have known each other for several years. More to the point, there are certain items important to him which only I can supply.' - Talon Karrde"
 	},
@@ -86,7 +86,7 @@
 		"culture": 6,
 		"isWonder": true,
 		"greatPersonPoints": {"Great General": 1},
-		"uniques": ["Enemy [Land] units must spend [1] extra movement points when [in this city]"],
+		"uniques": ["Enemy [Land] units must spend [1] extra movement points when inside your territory"],
 		"requiredTech": "Bronze Working",
 		"quote": "The Brass Soldiers of Axum were a mysterious collection of thirty-five thousand statues of soldiers. They were cast in solid brass and depicted the soldiers with expressions of pain and terror. According to legend, the statues originated as an actual pre-Republic army that was transmuted into brass via magic."
 	},
