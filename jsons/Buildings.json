@@ -406,6 +406,17 @@
 		"requiredTech": "Navigation"
 	},
 	{
+		"name": "Takodana Castle",
+		"culture": 2,
+		"happiness": 4,
+		"gold": 6,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"isWonder": true,
+		"uniques": ["Must be next to [Lakes]", "[+1 Culture, +2 Happiness, +3 Gold] from every [Lakes]", "Gain a free [Castle] [in this city]"],
+		"requiredTech": "Architecture",
+		"quote": "'She's run this watering hole for a thousand years. Maz is a bit of an acquired taste, so let me do the talking. And whatever you do, don't stare.' - Han Solo"
+	},
+	{
 		"name": "Arsenal",
 		"cost": 300,
 		"cityStrength": 9,
@@ -439,15 +450,6 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
-		"name": "The Archive",
-		"culture": 4,
-		"greatPersonPoints": {"Great Artist": 2},
-		"isWonder": true,
-		"uniques": ["[2] free [Great Artist] units appear"],
-		"requiredTech": "Archaeology",
-		"quote": "'There is more knowledge here than anywhere else in the galaxy.' - Jocasta Nu"
-	},
-	{
 		"name": "Eternal Throne",
 		"culture": 1,
 		"isWonder": true,
@@ -467,16 +469,6 @@
 		"hurryCostModifier": 0,
 		"requiredResource": "Coal",
 		"requiredTech": "Industrialization"
-	},
-	{
-		"name": "Weapons Factory Alpha",
-		"culture": 1,
-		"gold": 4,
-		"greatPersonPoints": {"Great Merchant": 2},
-		"isWonder": true,
-		"uniques": ["[Gold] cost of purchasing items in cities [-15]%"],
-		"requiredTech": "Industrialization",
-		"quote": "'This is the largest weapons factory in the galaxy, one that runs nonstop, day and night. All fully automated.' - Aggadeen, the Overseer of Weapons Factory Alpha"
 	},
 	{
 		"name": "Great Temple",
@@ -499,16 +491,6 @@
 		"uniques": ["All newly-trained [Force user] units [in this city] receive the [Morale] promotion", "Gain a free [Temple] [in this city]","[+50]% Natural religion spread [in this city]", "[+50]% Golden Age length", "Only available <when religion is enabled>"],
 		"requiredTech": "Lightsaber",
 		"quote": "'These temples were built by the Massassi race thousands of years ago, and they're still standing. Hard to believe.' - Leia Organa"
-	},
-	{
-		"name": "Fortress Inquisitorius",
-		"culture": 1,
-		"gold": 4,
-		"greatPersonPoints": {"Great Merchant": 2},
-		"isWonder": true,
-		"uniques": ["[Gold] cost of purchasing items in cities [-15]%"],
-		"requiredTech": "Industrialization",
-		"quote": "'There's a fortress. Where they take Jedi. Where the Inquisitors come from. It's a place of torture. It's the place I escaped.' - Cere Junda"
 	},
 	{
 		"name": "Military Academy",
@@ -537,6 +519,17 @@
 		"requiredTech": "Biology"
 	},
 	{
+		"name": "The Archive",
+		"science": 2,
+		"culture": 2,
+		"faith": 2,
+		"greatPersonPoints": {"Great Scientist": 2},
+		"isWonder": true,
+		"uniques": ["[2] free [Great Scientist] units appear"],
+		"requiredTech": "Biology",
+		"quote": "'There is more knowledge here than anywhere else in the galaxy.' - Jocasta Nu"
+	},
+	{
 		"name": "Stock Exchange",
 		"gold": 3,
 		"percentStatBonus": {"gold": 33},
@@ -558,19 +551,6 @@
 
 	// Column 11
 	{
-		"name": "Podracing Circuit",
-		"happiness": 4,
-		"maintenance": 2,
-		"requiredTech": "Refrigeration"
-	},
-	{
-		"name": "Boonta Eve Classic",
-		"happiness": 4,
-		"maintenance": 2,
-		"isWonder": true,
-		"requiredTech": "Refrigeration"
-	},
-	{
 		"name": "HoloNet Relay",
 		"culture": 3,
 		"percentStatBonus": {"culture": 33},
@@ -578,16 +558,6 @@
 		"maintenance": 3,
 		"requiredTech": "Radio",
 		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
-		"name": "Citadel Tower",
-		"culture": 1,
-		"happiness": 5,
-		"greatPersonPoints": {"Great Merchant": 2},
-		"isWonder": true,
-		"uniques": ["[+1 Happiness] per [2] social policies adopted"],
-		"requiredTech": "Radio",
-		"quote": "'Main building down there, what is it?' 'That's the Citadel Tower. They keep all the Imperial structural archives up there.' - Cassian Andor and Bodhi Rook"
 	},
     {
         "name": "Imperial Security Bureau Central Office",
@@ -601,7 +571,8 @@
 			"[-15]% enemy spy effectiveness [in this city]",
 			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
 			"Cost increases by [30] per owned city"],
-        "requiredTech": "Radio"
+        "requiredTech": "Radio",
+		"quote": ""
     },
 	{
 		"name": "Military Base",
@@ -611,18 +582,6 @@
 		"requiredBuilding": "Arsenal",
 		"requiredTech": "Decentralized Law Enforcement",
 		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
-		"name": "Takodana Castle",
-		"happiness": 2,
-		"culture": 4,
-		"gold": 6,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"isWonder": true,
-		"uniques": ["[+1 Happiness, +2 Culture, +3 Gold] from every [Castle]",
-			"Must have an owned [{non-[Natural Wonder]} {Mountain}] within [2] tiles"],
-		"requiredTech": "Railroads",
-		"quote": "'She's run this watering hole for a thousand years. Maz is a bit of an acquired taste, so let me do the talking. And whatever you do, don't stare.' - Han Solo"
 	},
 	{
 		"name": "Theed Royal Palace",
@@ -653,6 +612,24 @@
 		"specialistSlots": {"Scientist": 1},
 		"maintenance": 3,
 		"requiredTech": "Plastics"
+	},
+	{
+		"name": "Podracing Circuit",
+		"happiness": 4,
+		"maintenance": 2,
+		"requiredTech": "Combustion"
+	},
+	{
+		"name": "Boonta Eve Classic",
+		"gold": 1,
+		"culture": 1,
+		"happiness": 7,
+		"maintenance": 2,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Podracing Circuit] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Combustion",
+		"quote": "'The Boonta is far more dangerous than any amateur race I've flown!' - Ben Quadinaros"
 	},
 
 	// Clone Wars era
@@ -746,6 +723,17 @@
 		"quote": "'And it is because Republic HoloNet News goes into the homes of families like these that today nearly three hundred and twelve trillion citizens listen to our broadcast.' - Rule Davenbay"
 	},
 	{
+		"name": "Citadel Tower",
+		"culture": 1,
+		"science": 5,
+		"isWonder": true,
+		"cityStrength": 3,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"uniques": ["[+1 Science] per [2] social policies adopted", "[+10]% [Science] [in all cities]", "[-25]% enemy spy effectiveness [in this city]"],
+		"requiredTech": "Telecommunications",
+		"quote": "'Main building down there, what is it?' 'That's the Citadel Tower. They keep all the Imperial structural archives up there.' - Cassian Andor and Bodhi Rook"
+	},
+	{
 		"name": "Fortress Vader",
 		"culture": 1,
 		"science": 1,
@@ -765,6 +753,17 @@
 		"uniques": ["Population loss from nuclear attacks [-75]% [in this city]",
 			"Damage to garrison from nuclear attacks [-75]% [in this city]",
 			"Only available <when nuclear weapons are enabled> <hidden from users>"]
+	},
+	{
+		"name": "Fortress Inquisitorius",
+		"culture": 1,
+		"gold": 4,
+		"greatPersonPoints": {"Great General": 2},
+		"isWonder": true,
+		"cityStrength": 5,
+		"uniques": ["All newly-trained [Land] units [in this city] receive the [Morale] promotion"],
+		"requiredTech": "Mass Propaganda",
+		"quote": "'There's a fortress. Where they take Jedi. Where the Inquisitors come from. It's a place of torture. It's the place I escaped.' - Cere Junda"
 	},
 	{
 		"name": "II-0810 Satellite Station",
@@ -795,6 +794,16 @@
 		"requiredTech": "Globalization",
 		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
 		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+	},
+	{
+		"name": "Weapons Factory Alpha",
+		"culture": 1,
+		"production": 8,
+		"greatPersonPoints": {"Great Engineer": 2},
+		"isNationalWonder": true,
+		"uniques": ["Only available <if [Factory] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city", "[+20]% Production when constructing [Heavy vehicle] units [in this city]", "[+20]% Production when constructing [Air] units [in this city]"],
+		"requiredTech": "Nuclear Fusion",
+		"quote": "'This is the largest weapons factory in the galaxy, one that runs nonstop, day and night. All fully automated.' - Aggadeen, the Overseer of Weapons Factory Alpha"
 	},
 	// Column 17
 	{
