@@ -549,7 +549,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Artist": 2},
 		"uniques": ["Must be next to [River]","[-10]% Unhappiness from [Population] [in all non-occupied cities]", "[+1 Culture, +1 Happiness] from [River] tiles"],
-		"requiredTech": "Railroad",
+		"requiredTech": "Railroads",
 		"quote": "'The first time I saw the Capital, I was very young… I'd never seen a waterfall before. I thought they were so beautiful… I never dreamed one day I'd live in the palace.' - Padmé Amidala"
 	},
 	{
@@ -559,7 +559,7 @@
 		"isWonder": true,
 		"greatPersonPoints": {"Great Engineer": 2},
 		"uniques": ["Must be next to [Desert]","[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>", "Gain a free [Castle] [in this city]"],
-		"requiredTech": "Railroad",
+		"requiredTech": "Railroads",
 		"quote": "'I have never seen a more sinister and depraved crowd. One would think the rest of the galaxy safe, what with every thug, debaucher, and scofflaw having gathered here.' - C3PO"
 	},
 	// Column 12
