@@ -209,24 +209,6 @@
 		"uniques": ["Only available <when religion is enabled>", "Destroyed when the city is captured"]
 	},
 	{
-		"name": "National College",
-		"cost": 125,
-		"science": 3,
-		"culture": 1,
-		"isNationalWonder": true,
-		"percentStatBonus": {"science": 50},
-		"uniques": ["Only available <if [Library] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
-		"requiredTech": "Philosophy"
-	},
-	{
-		"name": "National Epic",
-		"cost": 125,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Only available <if [Monument] is constructed in all [non-[Puppeted]] cities>", "[+25]% Great Person generation [in this city]", "Cost increases by [30] per owned city"],
-		"requiredTech": "Drama and Poetry"
-	},
-	{
 		"name": "Cathedral of Winds",
 		"culture": 5,
         "greatPersonPoints": {"Great Artist": 1},
@@ -251,15 +233,6 @@
 		"uniques": ["Free [Great Artist] appears"],
 		"requiredTech": "Engineering",
 		"quote": "The Shawken Spire was a skyscraper located on the planet Shawken. Construction of the Spire took over nine millennia to complete, by which time the skyscraper had reached a low-orbit altitude. The Spire became a popular Core Worlds tourist attraction before its destruction in 18,780 BBY."
-	},
-	{
-		"name": "Heroic Epic",
-		"cost": 125,
-		"culture": 1,
-		"isNationalWonder": true,
-		"uniques": ["Only available <if [Barracks] is constructed in all [non-[Puppeted]] cities>", "All newly-trained [non-[Air]] units [in this city] receive the [Morale] promotion",
-			"Cost increases by [30] per owned city"],
-		"requiredTech": "Iron Working"
 	},
 	{
 		"name": "Caliginous Automaton of Tomo-Reth",
@@ -559,21 +532,6 @@
 		"requiredTech": "Radio",
 		"uniques": ["Destroyed when the city is captured"]
 	},
-    {
-        "name": "Imperial Security Bureau Central Office",
-        "cost": 120,
-        "culture": 1,
-        "isNationalWonder": true,
-        "uniques": ["Only available <when espionage is enabled>",
-            "New spies start with [1] level(s)",
-            "Promotes all spies [1] time(s)",
-            "Gain an extra spy",
-			"[-15]% enemy spy effectiveness [in this city]",
-			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
-			"Cost increases by [30] per owned city"],
-        "requiredTech": "Radio",
-		"quote": ""
-    },
 	{
 		"name": "Military Base",
 		"cityStrength": 12,
@@ -612,6 +570,18 @@
 		"specialistSlots": {"Scientist": 1},
 		"maintenance": 3,
 		"requiredTech": "Plastics"
+	},
+	{
+		"name": "Outbound Flight Project",
+		"cost": 750,
+		"isNationalWonder": true,
+		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion", 
+			"Only available <when [Scientific] Victory is enabled>", "Cannot be hurried"],
+		"requiredTech": "Electronics",
+		"quote": "'Ultimately, their destination was indeed another galaxy. But before that particular expedition began, it was decided to send them and their ship on a, shall we say, shakedown cruise: a great circle through part of the vast Unknown Regions of our own galaxy. A route, as it turned out, that was to bring it across the edge of territory controlled by the Chiss.' - Admiral Voss Parck",
+        "civilopediaText": [
+            { "text": "Once you have completed the Outbound Flight Project, you can start constructing spaceship parts in your cities (with the relevant technologies) to win a Scientific Victory!" }
+        ]
 	},
 	{
 		"name": "Podracing Circuit",
@@ -670,24 +640,6 @@
 		"uniques": ["Only available <if [Droid factory] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
 		"requiredTech": "Standardization"
 	},
-	{
-		"name": "Tarkin Initiative",
-		"cost": 750,
-		"isNationalWonder": true,
-		"greatPersonPoints": {"Great Engineer": 1},
-		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion", "Cannot be hurried"],
-		"requiredTech": "Heavy Weaponry"
-		"quote": "'My contacts have uncovered a source of Data Fragments abandoned by the Empire's old Advanced Weapons Research division, once directed by Orson Krennic.' - Kada Jahr"
-	},
-	{
-		"name": "Echo Base",
-		"isWonder": true,
-		"culture": 3,
-		"greatPersonPoints": {"Great Admiral": 2},
-		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>"],
-		"requiredTech": "Combined Arms",
-		"quote": "'Now let's get you warmer and then to work. It never gets comfortable here, and you don't quite get used to it, but there are ways to make it livable.' - General Philap Bygar"
-	},
 	// Column 14
 	{
 		"name": "Power Generator",
@@ -698,17 +650,6 @@
 		"requiredResource": "Uranium",
 		"requiredTech": "Nuclear Fission",
 		"uniques": ["Only available <in cities without a [Solar Plant]>"]
-	},
-	{
-		"name": "Outbound Flight Project",
-		"cost": 750,
-		"isNationalWonder": true,
-		"uniques": ["Enables construction of Spaceship parts", "Triggers a global alert upon completion", 
-			"Only available <when [Scientific] Victory is enabled>", "Cannot be hurried"],
-		"requiredTech": "Rocketry",
-        "civilopediaText": [
-            { "text": "Once you have completed the Apollo Program, you can start constructing spaceship parts in your cities (with the relevant technologies) to win a Scientific Victory!" }
-        ]
 	},
 
 	// Imperial era
@@ -733,6 +674,21 @@
 		"requiredTech": "Telecommunications",
 		"quote": "'Main building down there, what is it?' 'That's the Citadel Tower. They keep all the Imperial structural archives up there.' - Cassian Andor and Bodhi Rook"
 	},
+	{
+        "name": "Imperial Security Bureau Central Office",
+        "cost": 120,
+        "culture": 1,
+        "isNationalWonder": true,
+        "uniques": ["Only available <when espionage is enabled>",
+            "New spies start with [1] level(s)",
+            "Promotes all spies [1] time(s)",
+            "Gain an extra spy",
+			"[-15]% enemy spy effectiveness [in all cities]",
+			"Only available <if [Police Station] is constructed in all [non-[Puppeted]] cities>",
+			"Cost increases by [30] per owned city"],
+        "requiredTech": "Telecommunications",
+		"quote": "'Security is an illusion. You want security? Call the Navy. Launch a regiment of troopers. We are healthcare providers. We treat sickness. We identify symptoms. We locate germs whether they arise from within or have come from the outside. The longer we wait to identify a disorder, the harder it is to treat the disease.' - ISB Major Lio Partagaz"
+    },
 	{
 		"name": "Fortress Vader",
 		"culture": 1,
@@ -766,12 +722,19 @@
 		"quote": "'There's a fortress. Where they take Jedi. Where the Inquisitors come from. It's a place of torture. It's the place I escaped.' - Cere Junda"
 	},
 	{
+		"name": "Tarkin Initiative",
+		"cost": 750,
+		"isNationalWonder": true,
+		"greatPersonPoints": {"Great Engineer": 1},
+		"uniques": ["Enables nuclear weapon", "Triggers a global alert upon completion", "Cannot be hurried"],
+		"requiredTech": "Advanced Ballistics"
+		"quote": "'My contacts have uncovered a source of Data Fragments abandoned by the Empire's old Advanced Weapons Research division, once directed by Orson Krennic.' - Kada Jahr"
+	},
+	{
 		"name": "II-0810 Satellite Station",
 		"isWonder": true,
 		"greatPersonPoints": {"Great Scientist": 1},
-		"uniques": ["[2] free [Great Scientist] units appear",
-			"[+25]% Production when constructing [Spaceship part] units [in this city]",
-			"Gain a free [Spaceship Factory] [in this city]"],
+		"uniques": ["Gain an extra spy","[-25]% enemy spy effectiveness [in this city]"],
 		"requiredTech": "Satellites",
 		"quote": "'This base's location is well-hidden. These asteroids are natural scanners blockers. And the base itself is highly-defensible.' - ISB Officer"
 	},
@@ -787,13 +750,14 @@
 	},
 	// Column 16
 	{
-		"name": "Galactic Alliance",
-		"isWonder": true,
+		"name": "Echo Base",
 		"culture": 2,
-		"greatPersonPoints": {"Great Merchant": 2},
+		"isWonder": true,
+		"greatPersonPoints": {"Great General": 2},
+		"cityStrength": 6,
+		"uniques": ["[-33]% Gold cost of upgrading <for [Military] units>", "Gain a free [Military Base] [in this city]"],
 		"requiredTech": "Globalization",
-		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
-		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
+		"quote": "'Now let's get you warmer and then to work. It never gets comfortable here, and you don't quite get used to it, but there are ways to make it livable.' - General Philap Bygar"
 	},
 	{
 		"name": "Weapons Factory Alpha",
@@ -817,6 +781,15 @@
 		"uniques": ["[+15]% Strength <for [Force User] units>"],
 		"requiredTech": "Future Tech"
 		"quote": "'I never wanted you dead. I wanted you here, Empress Palpatine. You will take the throne. It is your birthright to rule here. It is in your blood, our blood....' - Darth Sidious"
+	},
+	{
+		"name": "Galactic Alliance",
+		"isWonder": true,
+		"culture": 2,
+		"greatPersonPoints": {"Great Merchant": 2},
+		"requiredTech": "Future Tech",
+		"uniques": ["Triggers voting for the Diplomatic Victory", "Only available <when [Diplomatic] Victory is enabled>", "Triggers a global alert upon completion"],
+		"quote": "'More than ever before in human history, we share a common destiny. We can master it only if we face it together. And that is why we have the United Nations.' - Kofi Annan"
 	},
 
 	// All Eras
