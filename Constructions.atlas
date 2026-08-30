@@ -431,58 +431,51 @@ BuildingIcons/Stone Works
   orig: 100, 100
   offset: 0, 0
   index: -1
-BuildingIcons/Tarkin Initiative
-  rotate: false
-  xy: 1300, 830
-  size: 100, 100
-  orig: 100, 100
-  offset: 0, 0
-  index: -1
 BuildingIcons/Temple
   rotate: false
-  xy: 1516, 1046
+  xy: 1408, 938
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Theatre
   rotate: false
-  xy: 1732, 1262
+  xy: 1624, 1154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Turbolaser Defense System
   rotate: false
-  xy: 1084, 506
+  xy: 976, 398
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/University
   rotate: false
-  xy: 1408, 830
+  xy: 1300, 722
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Utopia Project
   rotate: false
-  xy: 1624, 1046
+  xy: 1516, 938
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Walls
   rotate: false
-  xy: 1300, 614
+  xy: 1192, 506
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Wat
   rotate: false
-  xy: 1732, 1046
+  xy: 1624, 938
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
@@ -496,21 +489,21 @@ BuildingIcons/Water Mill
   index: -1
 BuildingIcons/Windmill
   rotate: false
-  xy: 1192, 398
+  xy: 1732, 1046
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Workshop
   rotate: false
-  xy: 1516, 722
+  xy: 1408, 614
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/74-Z Speeder Bike
   rotate: false
-  xy: 1516, 634
+  xy: 1408, 526
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
@@ -741,7 +734,7 @@ UnitIcons/Berserker
   index: -1
 UnitIcons/Biker Advanced Recon Commando Speeder
   rotate: false
-  xy: 1624, 742
+  xy: 1516, 634
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
@@ -1308,7 +1301,7 @@ UnitIcons/Marine
   index: -1
 UnitIcons/Marksman
   rotate: false
-  xy: 1300, 399
+  xy: 1732, 939
   size: 99, 99
   orig: 99, 99
   offset: 0, 0
@@ -1560,7 +1553,7 @@ UnitIcons/Scout
   index: -1
 UnitIcons/Scout Trooper
   rotate: false
-  xy: 1408, 511
+  xy: 1300, 403
   size: 95, 95
   orig: 95, 95
   offset: 0, 0
@@ -1581,7 +1574,7 @@ UnitIcons/Self-Propelled Heavy Artillery
   index: -1
 UnitIcons/Seraph-class Urban Landspeeder
   rotate: false
-  xy: 1732, 850
+  xy: 1624, 742
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
@@ -1602,7 +1595,7 @@ UnitIcons/Ship of the Line
   index: -1
 UnitIcons/Single Trooper Aerial Platform
   rotate: false
-  xy: 1840, 1606
+  xy: 1732, 851
   size: 80, 80
   orig: 80, 80
   offset: 0, 0
@@ -1784,126 +1777,126 @@ UnitIcons/TX-130 Saber-class Fighter Tank
   index: -1
 UnitIcons/Tauntaun Rider
   rotate: false
-  xy: 1408, 938
+  xy: 1300, 830
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Tercio
   rotate: false
-  xy: 1624, 1154
+  xy: 1516, 1046
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Trebuchet
   rotate: false
-  xy: 868, 291
+  xy: 1732, 1262
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Trident-class Assault Ship
   rotate: false
-  xy: 976, 398
+  xy: 868, 291
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/UT-60D U-wing Troop Transport
   rotate: false
-  xy: 1192, 614
+  xy: 1084, 506
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Undicur-class Jumpspeeder
   rotate: false
-  xy: 1300, 722
+  xy: 1192, 614
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Unstable Terrain Artillery Transport
   rotate: false
-  xy: 1516, 938
+  xy: 1408, 830
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Varactyl Rider
   rotate: false
-  xy: 1732, 1154
+  xy: 1624, 1046
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Venator-class Star Destroyer
   rotate: false
-  xy: 1084, 398
+  xy: 1732, 1154
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Vulture-class Droid Starfighter CIS
   rotate: false
-  xy: 1192, 506
+  xy: 1084, 398
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Vulture-class Droid Starfighter Trade Federation
   rotate: false
-  xy: 1192, 506
+  xy: 1084, 398
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/War Chariot
   rotate: false
-  xy: 1408, 722
+  xy: 1300, 614
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/War Elephant
   rotate: false
-  xy: 1516, 830
+  xy: 1408, 722
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/War-Robot
   rotate: false
-  xy: 1624, 938
+  xy: 1516, 830
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Work Boats
   rotate: false
-  xy: 1300, 506
+  xy: 1192, 398
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Worker
   rotate: false
-  xy: 1408, 614
+  xy: 1300, 506
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Z-95 Headhunter
   rotate: false
-  xy: 1624, 830
+  xy: 1516, 722
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Zero
   rotate: false
-  xy: 1732, 938
+  xy: 1624, 830
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
