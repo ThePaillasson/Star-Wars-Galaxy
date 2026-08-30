@@ -331,6 +331,25 @@
 		"uniques": ["Destroyed when the city is captured"]
 	},
 	{
+		"name": "HoloNet Relay",
+		"culture": 3,
+		"percentStatBonus": {"culture": 33},
+		"requiredBuilding": "Museum",
+		"maintenance": 3,
+		"requiredTech": "Radio",
+		"uniques": ["Destroyed when the city is captured"]
+	},
+	{
+		"name": "HoloNet News",
+		"isNationalWonder": true,
+		"culture": 1,
+		"happiness": 8,
+		"greatPersonPoints": {"Great Merchant": 1},
+		"uniques": ["[-10]% Unhappiness from [population] [in all non-occupied cities]", "[-15]% unhappiness from the number of cities", "Only available <if [HoloNet Relay] is constructed in all [non-[Puppeted]] cities>", "Cost increases by [30] per owned city"],
+		"requiredTech": "Radio",
+		"quote": "'And it is because Republic HoloNet News goes into the homes of families like these that today nearly three hundred and twelve trillion citizens listen to our broadcast.' - Rule Davenbay"
+	},
+	{
 		"name": "Bank",
 		"gold": 2,
 		"specialistSlots": {"Merchant": 1},
@@ -504,15 +523,6 @@
 
 	// Column 11
 	{
-		"name": "HoloNet Relay",
-		"culture": 3,
-		"percentStatBonus": {"culture": 33},
-		"requiredBuilding": "Museum",
-		"maintenance": 3,
-		"requiredTech": "Radio",
-		"uniques": ["Destroyed when the city is captured"]
-	},
-	{
 		"name": "Military Base",
 		"cityStrength": 12,
 		"cityHealth": 25,
@@ -635,14 +645,6 @@
 	// Imperial era
 
 	// Column 15
-	{
-		"name": "HoloNet News",
-		"isWonder": true,
-		"greatPersonPoints": {"Great Merchant": 1},
-		"uniques": ["[+1] population [in all cities]", "[+1 Happiness] [in all cities]", "Gain a free [HoloNet Relay] [in all cities]"],
-		"requiredTech": "Telecommunications",
-		"quote": "'And it is because Republic HoloNet News goes into the homes of families like these that today nearly three hundred and twelve trillion citizens listen to our broadcast.' - Rule Davenbay"
-	},
 	{
 		"name": "Citadel Tower",
 		"culture": 1,
